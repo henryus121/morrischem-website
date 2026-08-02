@@ -7,7 +7,7 @@ on:
 
 jobs:
   web-deploy:
-    name: Sync files to Hetzner Server
+    name: Sync Files to Hetzner Server
     runs-on: ubuntu-latest
     steps:
     - name: Check out repository code
@@ -19,6 +19,7 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /public_html/wp-content/plugins/code-snippets/
+        local-dir: ./morrischem-industrial-clean/
+        server-dir: /public_html/Morrischem/wp-content/themes/morrischem-industrial-clean/
         protocol: ftps
         security: loose
