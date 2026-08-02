@@ -1,7 +1,7 @@
 <?php
 
 function morrischem_enqueue_styles() {
-    wp_enqueue_style('morrischem-style', get_stylesheet_uri());
+    wp_enqueue_style('morrischem-style', get_stylesheet_uri(), array(), time());
 }
 add_action('wp_enqueue_scripts', 'morrischem_enqueue_styles');
 
@@ -15,7 +15,7 @@ function morrischem_theme_setup() {
 }
 add_action('after_setup_theme', 'morrischem_theme_setup');
 
-// Disable Elementor dynamic footer locations completely for this theme
+// Suppress legacy plugin footer actions
 add_action('init', function() {
     remove_all_actions('elementor/theme/before_do_footer');
     remove_all_actions('elementor/theme/do_footer');
