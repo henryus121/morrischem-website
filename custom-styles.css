@@ -1,5 +1,39 @@
+/* Morrischem Global Theme Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Montserrat:wght@700;800&display=swap');
 
-/* Morrischem Custom Styles */
+:root {
+  --morris-navy: #0A192F;
+  --morris-blue: #1E3A8A;
+  --morris-gold: #D97706;
+  --morris-light: #F8FAFC;
+  --morris-text: #334155;
+}
+
 body {
-    /* Custom design edits will go here */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  color: var(--morris-text) !important;
+  background-color: var(--morris-light) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Inter', sans-serif !important;
+  color: var(--morris-navy) !important;
+  font-weight: 700 !important;
+}
+
+/* Primary Button Styling */
+.button, button, input[type="submit"], a.wp-block-button__link {
+  background-color: var(--morris-gold) !important;
+  color: #FFFFFF !important;
+  border-radius: 4px !important;
+  padding: 12px 28px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  border: none !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+.button:hover, button:hover, input[type="submit"]:hover, a.wp-block-button__link:hover {
+  background-color: #B45309 !important;
 }
