@@ -14,7 +14,22 @@
         <?php else : ?>
             <section class="hero-section">
                 <h2>Industrial Chemical Supply & Technical Solutions</h2>
-                <p>Welcome to Morrischem. We deliver specialty chemical solutions, raw materials, and industrial supply logistics tailored for modern manufacturing and processing operations.</p>
+                <p>Morrischem provides specialty chemical distribution, raw material sourcing, and supply logistics engineered for oil & gas, petrochemical, and industrial operations.</p>
+            </section>
+
+            <section class="services-grid">
+                <div class="service-card">
+                    <h3>Specialty Chemicals</h3>
+                    <p>High-grade chemical compounds, specialty formulations, and compliant industrial raw materials.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Supply Chain Logistics</h3>
+                    <p>Streamlined international distribution workflows, bulk logistics, and secure material delivery.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Technical Compliance</h3>
+                    <p>Rigorous Quality Control, safety compliance standards, and technical application support.</p>
+                </div>
             </section>
         <?php endif; ?>
     </div>
