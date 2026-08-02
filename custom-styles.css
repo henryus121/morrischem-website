@@ -1,4 +1,10 @@
-/* Morrischem Global Theme Styles */
+/*
+Theme Name: Morrischem Industrial Clean
+Author: Henry Morris / Morris Chem
+Version: 1.0.0
+Description: High-performance bespoke corporate theme for Morrischem LLC.
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Montserrat:wght@700;800&display=swap');
 
 :root {
@@ -7,12 +13,20 @@
   --morris-gold: #D97706;
   --morris-light: #F8FAFC;
   --morris-text: #334155;
+  --morris-border: #E2E8F0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
   color: var(--morris-text) !important;
   background-color: var(--morris-light) !important;
+  line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,19 +35,45 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700 !important;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* Primary Button Styling */
-.button, button, input[type="submit"], a.wp-block-button__link {
+.btn-primary {
   background-color: var(--morris-gold) !important;
   color: #FFFFFF !important;
   border-radius: 4px !important;
-  padding: 12px 28px !important;
+  padding: 14px 32px !important;
   font-weight: 600 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.5px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
   border: none !important;
-  transition: background-color 0.2s ease-in-out !important;
+  transition: all 0.2s ease-in-out !important;
 }
 
-.button:hover, button:hover, input[type="submit"]:hover, a.wp-block-button__link:hover {
+.btn-primary:hover {
   background-color: #B45309 !important;
+}
+
+.btn-secondary {
+  background-color: transparent !important;
+  color: #FFFFFF !important;
+  border: 2px solid #FFFFFF !important;
+  border-radius: 4px !important;
+  padding: 12px 30px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }
