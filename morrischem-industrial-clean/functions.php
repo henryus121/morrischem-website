@@ -15,7 +15,9 @@ function morrischem_theme_setup() {
 }
 add_action('after_setup_theme', 'morrischem_theme_setup');
 
-// Suppress legacy plugin footer injections
-add_action('wp_footer', function() {
-    unset($GLOBALS['wp_widget_factory']);
-}, 0);
+// Disable Elementor dynamic footer locations completely for this theme
+add_action('init', function() {
+    remove_all_actions('elementor/theme/before_do_footer');
+    remove_all_actions('elementor/theme/do_footer');
+    remove_all_actions('elementor/theme/after_do_footer');
+}, 999);
