@@ -1,0 +1,118 @@
+/* ==========================================================================
+   MORRISCHEM DIGITAL FLAGSHIP - MASTER DESIGN SYSTEM TOKENS
+   Theme: Precision Control-Room / Boutique Engineering
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --bg-dark-primary: #050607;       /* Pure Matte Black */
+  --bg-dark-secondary: #0D0F12;     /* Deep Charcoal */
+  --bg-card-surface: #14181C;       /* Surface Dark Gray */
+  --accent-emerald: #00C853;        /* Emerald Control Glow */
+  --accent-emerald-glow: rgba(0, 200, 83, 0.15);
+  
+  /* Borders & Structure */
+  --border-steel: #334155;
+  --border-light: rgba(255, 255, 255, 0.08);
+  
+  /* Typography Stacks */
+  --font-serif: "Playfair Display", "Georgia", serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Text Colors */
+  --text-main: #FFFFFF;
+  --text-muted: #94A3B8;
+  
+  /* UI Tokens */
+  --radius-crisp: 2px;
+  --radius-interactive: 6px;
+  --transition-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Global Reset & Base Rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-dark-primary);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Hierarchy */
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.1; }
+h2 { font-size: clamp(28px, 3.5vw, 44px); line-height: 1.2; }
+h3 { font-size: 22px; line-height: 1.3; }
+
+p {
+  color: var(--text-muted);
+}
+
+/* Base Component: Buttons */
+.btn-primary {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #050607;
+  background-color: var(--accent-emerald);
+  padding: 16px 32px;
+  border-radius: var(--radius-crisp);
+  text-decoration: none;
+  transition: all 0.3s var(--transition-smooth);
+}
+
+.btn-primary:hover {
+  background-color: #00E65C;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px var(--accent-emerald-glow);
+}
+
+.btn-secondary {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-main);
+  background-color: transparent;
+  padding: 16px 32px;
+  border: 1px solid var(--border-steel);
+  border-radius: var(--radius-crisp);
+  text-decoration: none;
+  transition: all 0.3s var(--transition-smooth);
+}
+
+.btn-secondary:hover {
+  border-color: var(--text-main);
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+/* Base Component: Card Containers */
+.card-surface {
+  background-color: var(--bg-card-surface);
+  border: 1px solid var(--border-steel);
+  border-radius: var(--radius-interactive);
+  padding: 32px;
+  transition: all 0.3s var(--transition-smooth);
+}
+
+.card-surface:hover {
+  border-color: var(--accent-emerald);
+}
