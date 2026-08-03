@@ -107,6 +107,20 @@ p {
   color: var(--accent-cyan);
 }
 
+/* Back Link Styling */
+.back-link {
+  color: var(--accent-cyan);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
 /* ==========================================================================
    PAGE HEADER & WHITE SECTION CONTRAST FIXES
    ========================================================================== */
