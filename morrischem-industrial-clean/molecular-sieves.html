@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Molecular Sieves & Adsorbent Technologies — Morrischem LLC</title>
+  <title>Molecular Sieves & Adsorbents — Morrischem LLC</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,10 +37,16 @@
       gap: 48px;
     }
 
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
     .kicker {
       font-size: 12px;
       font-weight: 600;
-      color: var(--accent-emerald);
+      color: var(--accent-cyan);
       letter-spacing: 0.25em;
       text-transform: uppercase;
       margin-bottom: 16px;
@@ -70,7 +76,7 @@
     }
 
     .back-link {
-      color: var(--accent-emerald);
+      color: var(--accent-cyan);
       text-decoration: none;
       font-size: 13px;
       font-weight: 600;
@@ -78,8 +84,18 @@
       margin-bottom: 24px;
     }
 
+    .spec-card {
+      background-color: var(--bg-card-surface);
+      border: 1px solid var(--border-steel);
+      border-radius: var(--radius-interactive);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
     .footer-wrapper {
-      background-color: #030405;
+      background-color: #03060D;
       padding: 60px 0 40px 0;
     }
   </style>
@@ -89,83 +105,85 @@
   <!-- Header Banner -->
   <header class="page-header">
     <div class="container">
-      <a href="index.html" class="back-link">← Back to Main Flagship</a>
+      <a href="index.php" class="back-link">← Back to Main Flagship</a>
       <div class="kicker">Capability Vertical 01</div>
-      <h1>Molecular Sieves &amp; Adsorbent Technologies</h1>
+      <h1>Molecular Sieves &amp; Adsorbent Media</h1>
       <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">
-        Synthetic zeolites and activated aluminas engineered for selective adsorption based on molecular size, polarity, and pore geometry.
+        Synthetic zeolites, activated aluminas, and silica gels engineered for deep dehydration, mercaptan removal, and gas stream purification.
       </p>
     </div>
   </header>
 
-  <!-- Technical Overview & Applications -->
+  <!-- Technical Overview -->
   <section class="section-padding">
     <div class="container grid-2">
       <div>
         <div class="kicker">Process Physics</div>
-        <h2>Primary Industrial Applications</h2>
+        <h2>Pore Size Precision &amp; Selectivity</h2>
         <p style="margin-top: 16px;">
-          Molecular sieves provide high-capacity dehydration and contaminant removal for critical process streams where water slip leads to freezing or catalyst poisoning.
+          Molecular sieves utilize precise crystalline pore structures to adsorb molecules based on kinetic diameter and polarity. Selecting the proper pore size (3A, 4A, 5A, or 13X) prevents co-adsorption of hydrocarbons while maximizing water capacity.
         </p>
       </div>
 
       <div class="card-surface">
-        <h3 style="margin-bottom: 16px;">Target Applications</h3>
+        <h3 style="margin-bottom: 16px;">Core Adsorbent Grades</h3>
         <ul style="list-style: none; color: var(--text-muted); font-size: 15px; line-height: 2;">
-          <li>• <strong>Natural Gas Dehydration:</strong> Moisture removal to &lt; 0.1 ppmv upstream of cryogenic recovery.</li>
-          <li>• <strong>Liquid Hydrocarbon Drying:</strong> Dehydration of propane, butane, and alkylation feedstocks.</li>
-          <li>• <strong>Hydrogen Purification:</strong> Pressure Swing Adsorption (PSA) polishing beds.</li>
-          <li>• <strong>Contaminant Control:</strong> Co-adsorption control for trace H2S, CO2, and mercaptans.</li>
+          <li>• <strong>Type 3A:</strong> Cracked gas, ethanol, and unsaturated hydrocarbon dehydration.</li>
+          <li>• <strong>Type 4A:</strong> Natural gas dehydration, air drying, and refrigerant loops.</li>
+          <li>• <strong>Type 5A:</strong> Iso/normal paraffin separation and natural gas sweetening.</li>
+          <li>• <strong>Type 13X:</strong> APG sweetening, CO2 removal from air feeds, and H2S/mercaptan traps.</li>
         </ul>
       </div>
     </div>
   </section>
 
-  <!-- Operational Failures & Selection Matrix -->
+  <!-- Technical Specification Downloads -->
   <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
     <div class="container">
-      <div class="kicker">Troubleshooting &amp; Selection</div>
-      <h2>Process Challenges Solved</h2>
+      <div class="kicker">Technical Documentation</div>
+      <h2>Engineered Grade Specifications</h2>
       <p style="max-width: 640px; margin-bottom: 32px;">
-        Proper selection prevents common operating failures in adsorption beds through precise pore sizing and binder strength selection.
+        Review technical parameters and operational guidelines for standard adsorbent media inventory.
       </p>
 
-      <table class="data-table">
-        <thead>
-          <tr>
-            <th>Process Failure Mode</th>
-            <th>Root Cause</th>
-            <th>Engineering Selection Resolution</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Hydrate freezing in cryogenic exchangers</td>
-            <td>Water slip from bed breakthrough</td>
-            <td>Select high-kinetic 3A or 4A synthetic zeolites with optimized mass transfer zones.</td>
-          </tr>
-          <tr>
-            <td>Bed coking &amp; hydrothermal degradation</td>
-            <td>Improper thermal regeneration cycles</td>
-            <td>Specify thermal-shock resistant binders and custom regeneration temperature profiles.</td>
-          </tr>
-          <tr>
-            <td>Capacity loss / rapid pressure drop</td>
-            <td>Liquid hydrocarbon co-adsorption</td>
-            <td>Utilize size-selective pore openings (3A) to exclude heavier hydrocarbons.</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="grid-3">
+        <div class="spec-card">
+          <div>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Grade 3A / Dehydration</div>
+            <h3 style="margin: 8px 0;">3A Zeolite Spheres</h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~3 Å. Optimized for selective water uptake without unsaturated hydrocarbon co-adsorption.</p>
+          </div>
+          <a href="contact.html" class="btn-secondary" style="text-align: center; font-size: 11px; padding: 10px 16px;">Request Technical Data Sheet (TDS)</a>
+        </div>
+
+        <div class="spec-card">
+          <div>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Grade 4A / Gas Processing</div>
+            <h3 style="margin: 8px 0;">4A Zeolite Extrudates</h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~4 Å. Standard choice for static and dynamic natural gas drying beds.</p>
+          </div>
+          <a href="contact.html" class="btn-secondary" style="text-align: center; font-size: 11px; padding: 10px 16px;">Request Technical Data Sheet (TDS)</a>
+        </div>
+
+        <div class="spec-card">
+          <div>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Grade 13X / Purification</div>
+            <h3 style="margin: 8px 0;">13X High Capacity</h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~10 Å. High surface area for deep CO2, H2S, and sulfur compound removal.</p>
+          </div>
+          <a href="contact.html" class="btn-secondary" style="text-align: center; font-size: 11px; padding: 10px 16px;">Request Technical Data Sheet (TDS)</a>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- CTA Gateway -->
   <section class="section-padding" style="text-align: center;">
     <div class="container" style="max-width: 700px;">
-      <div class="kicker">Technical Consultation</div>
-      <h2>Discuss Your Bed Specification</h2>
-      <p style="margin: 16px 0 32px 0;">Our team evaluates feed composition, operating pressure, and cycle times to recommend the precise adsorbent media.</p>
-      <a href="index.html#contact" class="btn-primary">Request Selection Support</a>
+      <div class="kicker">Engineering Support</div>
+      <h2>Request Bed Sizing &amp; Design Analysis</h2>
+      <p style="margin: 16px 0 32px 0;">Submit your gas flow rate, inlet pressure, temperature, and target dew point for custom bed volume calculation.</p>
+      <a href="contact.html" class="btn-primary">Inquire with Engineering Team</a>
     </div>
   </section>
 
