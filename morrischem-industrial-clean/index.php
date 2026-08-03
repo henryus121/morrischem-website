@@ -232,7 +232,7 @@
       <div class="section-kicker">ENGINEERING SOLUTIONS WITHOUT BORDERS</div>
       <h2 class="section-title">Reliable Technologies. Trusted Partnerships. Lasting Performance.</h2>
       <p style="margin-bottom: 40px;">Let's discuss your specific process challenges and technical requirements.</p>
-      <a href="mailto:info@morrischem.com" class="btn-primary">Start the Conversation</a>
+<a href="<?php echo get_template_directory_uri(); ?>/contact.html" class="btn-primary">Start the Conversation</a>
     </div>
   </section>
 
