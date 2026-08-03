@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Treatment Chemistries — Morrischem LLC</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  
+  <!-- Master Design System CSS -->
+  <link rel="stylesheet" href="style-guide.css">
+  
+  <style>
+    .page-header {
+      padding: 120px 0 60px 0;
+      border-bottom: 1px solid var(--border-steel);
+      background-color: var(--bg-dark-secondary);
+    }
+
+    .container {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    .section-padding {
+      padding: 80px 0;
+      border-bottom: 1px solid var(--border-steel);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    .kicker {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 24px;
+      text-align: left;
+    }
+
+    .data-table th, .data-table td {
+      padding: 16px;
+      border-bottom: 1px solid var(--border-steel);
+      font-size: 14px;
+    }
+
+    .data-table th {
+      color: var(--text-main);
+      font-weight: 600;
+      background-color: var(--bg-card-surface);
+    }
+
+    .data-table td {
+      color: var(--text-muted);
+    }
+
+    .back-link {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 24px;
+    }
+
+    .footer-wrapper {
+      background-color: #03060D;
+      padding: 60px 0 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Banner -->
+  <header class="page-header">
+    <div class="container">
+      <a href="index.php" class="back-link">← Back to Main Flagship</a>
+      <div class="kicker">Capability Vertical 02</div>
+      <h1>Industrial Water Treatment Chemistries</h1>
+      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">
+        Specialized chemical formulations engineered for scale inhibition, corrosion mitigation, and bio-fouling control in heavy utility circuits.
+      </p>
+    </div>
+  </header>
+
+  <!-- Technical Overview & Applications -->
+  <section class="section-padding">
+    <div class="container grid-2">
+      <div>
+        <div class="kicker">Process Physics</div>
+        <h2>Primary Industrial Applications</h2>
+        <p style="margin-top: 16px;">
+          Industrial cooling loops and boiler systems require tailored chemical regimes to prevent thermal efficiency losses, unscheduled downtime, and premature equipment replacement.
+        </p>
+      </div>
+
+      <div class="card-surface">
+        <h3 style="margin-bottom: 16px;">Target Applications</h3>
+        <ul style="list-style: none; color: var(--text-muted); font-size: 15px; line-height: 2;">
+          <li>• <strong>Cooling Water Circuits:</strong> High-efficiency scale and corrosion inhibitors for recirculating towers.</li>
+          <li>• <strong>Boiler Feedwater Treatment:</strong> Oxygen scavengers, alkalinity builders, and condensate line protection.</li>
+          <li>• <strong>Membrane Protection:</strong> Reverse Osmosis (RO) antiscalants and bio-dispersants.</li>
+          <li>• <strong>Effluent Clarification:</strong> High-molecular-weight coagulants and flocculants for industrial wastewater.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Operational Failures & Selection Matrix -->
+  <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
+    <div class="container">
+      <div class="kicker">Troubleshooting &amp; Selection</div>
+      <h2>Process Challenges Solved</h2>
+      <p style="max-width: 640px; margin-bottom: 32px;">
+        Proper chemical selection matches water metallurgy, cycles of concentration, and temperature thresholds to protect process assets.
+      </p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Process Failure Mode</th>
+            <th>Root Cause</th>
+            <th>Engineering Selection Resolution</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Exchanger tube scaling (CaCO3 / Silica)</td>
+            <td>High mineral saturation &amp; elevated skin temperatures</td>
+            <td>Formulate threshold polymer dispersants and phosphonate scale control blends.</td>
+          </tr>
+          <tr>
+            <td>Under-deposit corrosion &amp; pitting</td>
+            <td>Uncontrolled microbiological growth &amp; bio-slimes</td>
+            <td>Deploy dual oxidative/non-oxidative biocide programs with targeted dispersants.</td>
+          </tr>
+          <tr>
+            <td>Condensate line wall-thinning</td>
+            <td>Dissolved CO2 carbonic acid formation</td>
+            <td>Introduce neutralizing and filming amine chemistry combinations.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- CTA Gateway -->
+  <section class="section-padding" style="text-align: center;">
+    <div class="container" style="max-width: 700px;">
+      <div class="kicker">Technical Consultation</div>
+      <h2>Discuss Your Water Quality Profile</h2>
+      <p style="margin: 16px 0 32px 0;">Our engineering team analyzes water chemistry and system design to specify the optimal treatment regime.</p>
+      <a href="index.php#contact" class="btn-primary">Request Chemical Selection Support</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div style="font-family: var(--font-serif); font-size: 20px; color: var(--text-main);">MORRISCHEM LLC</div>
+      <p style="font-size: 13px; margin-top: 8px;">&copy; 2026 Morrischem LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
