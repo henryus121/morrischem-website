@@ -52,29 +52,6 @@
       margin-bottom: 16px;
     }
 
-    .data-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 24px;
-      text-align: left;
-    }
-
-    .data-table th, .data-table td {
-      padding: 16px;
-      border-bottom: 1px solid var(--border-steel);
-      font-size: 14px;
-    }
-
-    .data-table th {
-      color: var(--text-main);
-      font-weight: 600;
-      background-color: var(--bg-card-surface);
-    }
-
-    .data-table td {
-      color: var(--text-muted);
-    }
-
     .back-link {
       color: var(--accent-cyan);
       text-decoration: none;
@@ -82,6 +59,10 @@
       font-weight: 600;
       display: inline-block;
       margin-bottom: 24px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
     }
 
     .spec-card {
@@ -92,6 +73,13 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+    }
+
+    .compliance-box {
+      background-color: var(--bg-card-surface);
+      border-left: 3px solid var(--accent-cyan);
+      padding: 24px;
+      margin-top: 32px;
     }
 
     .footer-wrapper {
@@ -105,7 +93,7 @@
   <!-- Header Banner -->
   <header class="page-header">
     <div class="container">
-      <a href="index.php" class="back-link">← Back to Main Flagship</a>
+      <a href="/" class="back-link">&larr; Back to Main Flagship</a>
       <div class="kicker">Capability Vertical 02</div>
       <h1>Industrial Water Treatment Chemistries</h1>
       <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">
@@ -123,6 +111,11 @@
         <p style="margin-top: 16px;">
           Industrial cooling loops and boiler systems require tailored chemical regimes to prevent thermal efficiency losses, unscheduled downtime, and premature equipment replacement.
         </p>
+
+        <div class="compliance-box">
+          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">Environmental &amp; Regulatory Compliance</h4>
+          <p style="font-size: 14px; margin-bottom: 0;">Formulated in compliance with international environmental guidelines, supporting zero-discharge initiatives, safe biological toxicity thresholds, and EU REACH compliance standards.</p>
+        </div>
       </div>
 
       <div class="card-surface">
