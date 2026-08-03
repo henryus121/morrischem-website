@@ -172,3 +172,21 @@ p {
 [style*="background-color: var(--bg-dark-secondary)"] .card-surface p {
   color: #64748B !important;
 }
+
+/* Isolated Mobile Spec Grid Fix */
+@media screen and (max-width: 768px) {
+  .spec-grid, 
+  .products-grid, 
+  .grid, 
+  div[class*="grid"] {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .card, 
+  div[class*="card"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
