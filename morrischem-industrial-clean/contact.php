@@ -118,7 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       <div class="card-surface" style="background-color: #1C2541; border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; padding: 32px;">
         <?php $status = isset($_GET['status']) ? $_GET['status'] : ''; $message = isset($_GET['message']) ? htmlspecialchars($_GET['message'], ENT_QUOTES, 'UTF-8') : ''; if ($status === 'success') { echo '<div class="alert alert-success">Thank you. Your inquiry has been submitted successfully.</div>'; } elseif ($status === 'error') { echo '<div class="alert alert-error">' . $message . '</div>'; } ?>
-        <form action="contact.php" method="post">
+        <form id="contact-form" action="contact.php" method="post">
           <div class="form-group">
             <label for="full_name">Full Name / Title</label>
             <input type="text" id="full_name" name="full_name" class="form-control" placeholder="e.g. John Doe, Lead Process Engineer" required>
@@ -179,6 +179,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else if (status === 'error' && message) {
       alert(decodeURIComponent(message));
     }
+
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const form = event.currentTarget;
+      const formData = new FormData(form);
+
+      fetch('contact.php', {
+        method: 'POST',
+        body: formData
+      })
+        .then(function (response) {
+          return response.text();
+        })
+        .then(function () {
+          const alertBox = document.createElement('div');
+          alertBox.className = 'alert alert-success';
+          alertBox.textContent = 'Thank you. Your technical inquiry has been transmitted successfully.';
+
+          const formWrapper = form.parentNode;
+          formWrapper.insertBefore(alertBox, form);
+          form.reset();
+        })
+        .catch(function () {
+          const alertBox = document.createElement('div');
+          alertBox.className = 'alert alert-error';
+          alertBox.textContent = 'Unable to submit your inquiry right now. Please try again later.';
+
+          const formWrapper = form.parentNode;
+          formWrapper.insertBefore(alertBox, form);
+        });
+    });
   </script>
 </body>
 </html>
