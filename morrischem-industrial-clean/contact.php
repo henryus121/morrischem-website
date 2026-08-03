@@ -33,19 +33,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $sanitized[$key] = htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
         }
 
-        $subject = 'New technical inquiry from ' . $sanitized['full_name'];
+        $displayValues = [];
+        foreach ($sanitized as $key => $value) {
+            $displayValues[$key] = html_entity_decode($value, ENT_QUOTES, 'UTF-8');
+        }
+
+        $subject = 'New technical inquiry from ' . $displayValues['full_name'];
         $body = "New technical inquiry received via Morrischem contact form\n\n";
-        $body .= "Full Name: {$sanitized['full_name']}\n";
-        $body .= "Company: {$sanitized['company']}\n";
-        $body .= "Email: {$sanitized['email']}\n";
-        $body .= "Request Type: " . ($sanitized['request_type'] !== '' ? $sanitized['request_type'] : 'Not specified') . "\n";
-        $body .= "Product Name: " . ($sanitized['product_name'] !== '' ? $sanitized['product_name'] : 'Not specified') . "\n";
-        $body .= "Engineering Focus: {$sanitized['engineering_focus']}\n";
-        $body .= "Requirements:\n{$sanitized['requirements']}\n";
+        $body .= "Full Name: {$displayValues['full_name']}\n";
+        $body .= "Company: {$displayValues['company']}\n";
+        $body .= "Email: {$displayValues['email']}\n";
+        $body .= "Request Type: " . ($displayValues['request_type'] !== '' ? $displayValues['request_type'] : 'Not specified') . "\n";
+        $body .= "Product Name: " . ($displayValues['product_name'] !== '' ? $displayValues['product_name'] : 'Not specified') . "\n";
+        $body .= "Engineering Focus: {$displayValues['engineering_focus']}\n";
+        $body .= "Requirements:\n{$displayValues['requirements']}\n";
 
         $headers = [
             'From: no-reply@morrischem.com',
-            'Reply-To: ' . $sanitized['email'],
+            'Reply-To: ' . $displayValues['email'],
             'X-Mailer: PHP/' . phpversion(),
             'Content-Type: text/plain; charset=UTF-8'
         ];
