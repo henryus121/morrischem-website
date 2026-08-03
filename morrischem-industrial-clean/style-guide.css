@@ -1,34 +1,30 @@
 /* ==========================================================================
-   MORRISCHEM DIGITAL FLAGSHIP - REFINERY BLUE DESIGN SYSTEM
+   MORRISCHEM LLC — Master Design System & Style Guide
+   Test Variant: High-Contrast White Alternating Sections
    ========================================================================== */
 
 :root {
-  /* Color Palette - Extracted from Refinery Image */
-  --bg-dark-primary: #060B18;       /* Deep Navy Black */
-  --bg-dark-secondary: #0B132B;     /* Deep Twilight Navy */
-  --bg-card-surface: #1C2541;       /* Control Panel Slate */
-  --accent-cyan: #00D2FF;           /* Electric Cyan Glow */
-  --accent-cyan-glow: rgba(0, 210, 255, 0.2);
+  /* Color Palette */
+  --bg-dark-primary: #060B18;
+  --bg-dark-secondary: #FFFFFF; /* White Section Test */
+  --bg-card-surface: #111C30;
   
-  /* Borders & Structure */
-  --border-steel: #2A385B;
-  --border-light: rgba(0, 210, 255, 0.15);
-  
-  /* Typography Stacks */
-  --font-serif: "Playfair Display", "Georgia", serif;
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-  
-  /* Text Colors */
   --text-main: #FFFFFF;
-  --text-muted: #8D99AE;
-  
-  /* UI Tokens */
+  --text-muted: #94A3B8;
+  --accent-cyan: #00D2FF;
+  --accent-navy: #0A1120;
+  --border-steel: rgba(255, 255, 255, 0.08);
+
+  /* Typography */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Layout & Geometry */
   --radius-crisp: 2px;
-  --radius-interactive: 6px;
-  --transition-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --radius-interactive: 4px;
 }
 
-/* Global Reset & Base Rules */
+/* Reset & Base Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -37,7 +33,7 @@
 
 body {
   background-color: var(--bg-dark-primary);
-  color: var(--text-main);
+  color: var(--text-muted);
   font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.6;
@@ -46,74 +42,109 @@ body {
 
 /* Typography Hierarchy */
 h1, h2, h3, h4 {
-  font-family: var(--font-serif);
   color: var(--text-main);
+  font-family: var(--font-serif);
   font-weight: 500;
+  line-height: 1.25;
 }
 
-h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.1; }
-h2 { font-size: clamp(28px, 3.5vw, 44px); line-height: 1.2; }
-h3 { font-size: 22px; line-height: 1.3; }
+h1 { font-size: clamp(32px, 4vw, 56px); }
+h2 { font-size: clamp(28px, 3vw, 40px); }
+h3 { font-size: clamp(20px, 2vw, 24px); }
+h4 { font-size: clamp(16px, 1.5vw, 18px); }
 
 p {
-  color: var(--text-muted);
+  margin-bottom: 1rem;
 }
 
-/* Base Component: Buttons */
-.btn-primary {
-  display: inline-block;
-  font-family: var(--font-sans);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #060B18;
-  background-color: var(--accent-cyan);
-  padding: 16px 32px;
-  border-radius: var(--radius-crisp);
-  text-decoration: none;
-  transition: all 0.3s var(--transition-smooth);
-  box-shadow: 0 0 15px var(--accent-cyan-glow);
-}
-
-.btn-primary:hover {
-  background-color: #33E0FF;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(0, 210, 255, 0.4);
-}
-
-.btn-secondary {
-  display: inline-block;
-  font-family: var(--font-sans);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-main);
-  background-color: transparent;
-  padding: 16px 32px;
-  border: 1px solid var(--border-steel);
-  border-radius: var(--radius-crisp);
-  text-decoration: none;
-  transition: all 0.3s var(--transition-smooth);
-}
-
-.btn-secondary:hover {
-  border-color: var(--accent-cyan);
-  background-color: rgba(0, 210, 255, 0.05);
-  transform: translateY(-2px);
-}
-
-/* Base Component: Card Containers */
+/* Base Surfaces & Cards */
 .card-surface {
   background-color: var(--bg-card-surface);
   border: 1px solid var(--border-steel);
   border-radius: var(--radius-interactive);
   padding: 32px;
-  transition: all 0.3s var(--transition-smooth);
 }
 
-.card-surface:hover {
+/* Primary Button Styling */
+.btn-primary {
+  display: inline-block;
+  background-color: var(--accent-cyan);
+  color: var(--accent-navy);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: var(--radius-crisp);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #33E0FF;
+  box-shadow: 0 0 15px rgba(0, 210, 255, 0.4);
+}
+
+/* Secondary Button Styling */
+.btn-secondary {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--border-steel);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: var(--radius-crisp);
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
   border-color: var(--accent-cyan);
-  box-shadow: 0 4px 20px var(--accent-cyan-glow);
+  color: var(--accent-cyan);
+}
+
+/* ==========================================================================
+   WHITE SECTION CONTRAST OVERRIDES
+   ========================================================================== */
+
+/* Target sections using background-color: var(--bg-dark-secondary) */
+[style*="background-color: var(--bg-dark-secondary)"] {
+  background-color: #FFFFFF !important;
+  color: #334155 !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+[style*="background-color: var(--bg-dark-secondary)"] h1,
+[style*="background-color: var(--bg-dark-secondary)"] h2,
+[style*="background-color: var(--bg-dark-secondary)"] h3,
+[style*="background-color: var(--bg-dark-secondary)"] h4 {
+  color: #0F172A !important;
+}
+
+[style*="background-color: var(--bg-dark-secondary)"] p {
+  color: #475569 !important;
+}
+
+[style*="background-color: var(--bg-dark-secondary)"] .section-kicker {
+  color: #0284C7 !important; /* Darker cyan/blue for readability on white */
+}
+
+[style*="background-color: var(--bg-dark-secondary)"] .card-surface {
+  background-color: #F8FAFC !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+[style*="background-color: var(--bg-dark-secondary)"] .card-surface h3,
+[style*="background-color: var(--bg-dark-secondary)"] .card-surface h4 {
+  color: #0F172A !important;
+}
+
+[style*="background-color: var(--bg-dark-secondary)"] .card-surface p {
+  color: #64748B !important;
 }
