@@ -1,12 +1,11 @@
 /* ==========================================================================
    MORRISCHEM LLC — Master Design System & Style Guide
-   Test Variant: High-Contrast White Alternating Sections
    ========================================================================== */
 
 :root {
   /* Color Palette */
   --bg-dark-primary: #060B18;
-  --bg-dark-secondary: #FFFFFF; /* White Section Test */
+  --bg-dark-secondary: #FFFFFF; /* High-Contrast White Sections */
   --bg-card-surface: #111C30;
   
   --text-main: #FFFFFF;
@@ -109,10 +108,20 @@ p {
 }
 
 /* ==========================================================================
-   WHITE SECTION CONTRAST OVERRIDES
+   PAGE HEADER & WHITE SECTION CONTRAST FIXES
    ========================================================================== */
 
-/* Target sections using background-color: var(--bg-dark-secondary) */
+/* Keep page headers dark so white title text remains visible */
+.page-header {
+  background-color: #0A1120 !important;
+  color: #FFFFFF !important;
+}
+
+.page-header h1, .page-header p {
+  color: #FFFFFF !important;
+}
+
+/* White Alternating Section Rules */
 [style*="background-color: var(--bg-dark-secondary)"] {
   background-color: #FFFFFF !important;
   color: #334155 !important;
@@ -130,8 +139,9 @@ p {
   color: #475569 !important;
 }
 
-[style*="background-color: var(--bg-dark-secondary)"] .section-kicker {
-  color: #0284C7 !important; /* Darker cyan/blue for readability on white */
+[style*="background-color: var(--bg-dark-secondary)"] .section-kicker,
+[style*="background-color: var(--bg-dark-secondary)"] .kicker {
+  color: #0284C7 !important;
 }
 
 [style*="background-color: var(--bg-dark-secondary)"] .card-surface {
