@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
   
   <!-- Master Design System CSS -->
-  <link rel="stylesheet" href="style-guide.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-guide.css">
   
   <style>
     /* Homepage Specific Layout Rules */
