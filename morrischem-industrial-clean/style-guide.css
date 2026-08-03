@@ -1,19 +1,18 @@
 /* ==========================================================================
-   MORRISCHEM DIGITAL FLAGSHIP - MASTER DESIGN SYSTEM TOKENS
-   Theme: Precision Control-Room / Boutique Engineering
+   MORRISCHEM DIGITAL FLAGSHIP - REFINERY BLUE DESIGN SYSTEM
    ========================================================================== */
 
 :root {
-  /* Color Palette */
-  --bg-dark-primary: #050607;       /* Pure Matte Black */
-  --bg-dark-secondary: #0D0F12;     /* Deep Charcoal */
-  --bg-card-surface: #14181C;       /* Surface Dark Gray */
-  --accent-emerald: #00C853;        /* Emerald Control Glow */
-  --accent-emerald-glow: rgba(0, 200, 83, 0.15);
+  /* Color Palette - Extracted from Refinery Image */
+  --bg-dark-primary: #060B18;       /* Deep Navy Black */
+  --bg-dark-secondary: #0B132B;     /* Deep Twilight Navy */
+  --bg-card-surface: #1C2541;       /* Control Panel Slate */
+  --accent-cyan: #00D2FF;           /* Electric Cyan Glow */
+  --accent-cyan-glow: rgba(0, 210, 255, 0.2);
   
   /* Borders & Structure */
-  --border-steel: #334155;
-  --border-light: rgba(255, 255, 255, 0.08);
+  --border-steel: #2A385B;
+  --border-light: rgba(0, 210, 255, 0.15);
   
   /* Typography Stacks */
   --font-serif: "Playfair Display", "Georgia", serif;
@@ -21,7 +20,7 @@
   
   /* Text Colors */
   --text-main: #FFFFFF;
-  --text-muted: #94A3B8;
+  --text-muted: #8D99AE;
   
   /* UI Tokens */
   --radius-crisp: 2px;
@@ -68,18 +67,19 @@ p {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #050607;
-  background-color: var(--accent-emerald);
+  color: #060B18;
+  background-color: var(--accent-cyan);
   padding: 16px 32px;
   border-radius: var(--radius-crisp);
   text-decoration: none;
   transition: all 0.3s var(--transition-smooth);
+  box-shadow: 0 0 15px var(--accent-cyan-glow);
 }
 
 .btn-primary:hover {
-  background-color: #00E65C;
+  background-color: #33E0FF;
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px var(--accent-emerald-glow);
+  box-shadow: 0 6px 24px rgba(0, 210, 255, 0.4);
 }
 
 .btn-secondary {
@@ -99,8 +99,8 @@ p {
 }
 
 .btn-secondary:hover {
-  border-color: var(--text-main);
-  background-color: rgba(255, 255, 255, 0.05);
+  border-color: var(--accent-cyan);
+  background-color: rgba(0, 210, 255, 0.05);
   transform: translateY(-2px);
 }
 
@@ -114,5 +114,6 @@ p {
 }
 
 .card-surface:hover {
-  border-color: var(--accent-emerald);
+  border-color: var(--accent-cyan);
+  box-shadow: 0 4px 20px var(--accent-cyan-glow);
 }
