@@ -11,10 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
   
   <!-- Master Design System CSS -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-guide.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-guide.css">
   
   <style>
-    /* Homepage Specific Layout Rules */
+    /* Hero Header with Custom Image */
     .hero-viewport {
       position: relative;
       width: 100%;
@@ -26,6 +26,10 @@
       text-align: center;
       padding: 0 24px;
       border-bottom: 1px solid var(--border-steel);
+      background-image: linear-gradient(180deg, rgba(6, 11, 24, 0.4) 0%, rgba(6, 11, 24, 0.9) 100%), 
+                        url('<?php echo get_template_directory_uri(); ?>/refinery_imge.png');
+      background-size: cover;
+      background-position: center;
     }
 
     .hero-content {
@@ -36,7 +40,7 @@
     .hero-kicker {
       font-size: 12px;
       font-weight: 600;
-      color: var(--accent-emerald);
+      color: var(--accent-cyan);
       letter-spacing: 0.25em;
       text-transform: uppercase;
       margin-bottom: 24px;
@@ -86,7 +90,7 @@
     .section-kicker {
       font-size: 12px;
       font-weight: 600;
-      color: var(--accent-emerald);
+      color: var(--accent-cyan);
       letter-spacing: 0.25em;
       text-transform: uppercase;
       margin-bottom: 16px;
@@ -108,12 +112,12 @@
       top: 8px;
       bottom: 8px;
       width: 2px;
-      background: linear-gradient(180deg, var(--accent-emerald) 0%, rgba(0, 200, 83, 0.1) 100%);
+      background: linear-gradient(180deg, var(--accent-cyan) 0%, rgba(0, 210, 255, 0.1) 100%);
       border-radius: 1px;
     }
 
     .footer-wrapper {
-      background-color: #030405;
+      background-color: #03060D;
       padding: 80px 0 40px 0;
     }
 
@@ -147,8 +151,7 @@
   <!-- Act II: The Philosophy -->
   <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
     <div class="container grid-2">
-      <div class="card-surface" style="height: 400px; display: flex; align-items: center; justify-content: center;">
-        <span style="color: var(--text-muted); font-size: 14px;">[ Process Control Visual ]</span>
+      <div class="card-surface" style="height: 350px; display: flex; align-items: center; justify-content: center; background-image: url('<?php echo get_template_directory_uri(); ?>/refinery_imge.png'); background-size: cover; background-position: center;">
       </div>
       <div class="conduit-border">
         <div class="section-kicker">Operational Focus</div>
@@ -157,7 +160,7 @@
           Every refinery, gas plant, and industrial facility operates under distinct thermal, chemical, and pressure parameters. Reliable performance begins with selecting technology engineered for your specific operating environment.
         </p>
         <div class="card-surface">
-          <h4 style="color: var(--accent-emerald); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">The Morrischem Approach</h4>
+          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">The Morrischem Approach</h4>
           <p style="font-size: 14px;">We evaluate operating conditions first, then align and source precise molecular sieves, catalysts, water treatment chemistries, and performance additives.</p>
         </div>
       </div>
@@ -199,22 +202,22 @@
       
       <div class="grid-3" style="margin-top: 48px;">
         <div class="card-surface">
-          <div style="color: var(--accent-emerald); font-size: 12px; font-weight: 600; margin-bottom: 16px;">01 / ADSORPTION</div>
+          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">01 / ADSORPTION</div>
           <h3>Molecular Sieves &amp; Adsorbents</h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;">Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.</p>
-          <a href="#" style="color: var(--accent-emerald); font-size: 12px; text-decoration: none; font-weight: 600; uppercase">Explore Adsorbents →</a>
+          <a href="<?php echo get_template_directory_uri(); ?>/molecular-sieves.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Adsorbents →</a>
         </div>
         <div class="card-surface">
-          <div style="color: var(--accent-emerald); font-size: 12px; font-weight: 600; margin-bottom: 16px;">02 / REACTION</div>
+          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">02 / REACTION</div>
           <h3>Catalysts &amp; Process Tech</h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;">Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.</p>
-          <a href="#" style="color: var(--accent-emerald); font-size: 12px; text-decoration: none; font-weight: 600; uppercase">Explore Catalysts →</a>
+          <a href="#" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Catalysts →</a>
         </div>
         <div class="card-surface">
-          <div style="color: var(--accent-emerald); font-size: 12px; font-weight: 600; margin-bottom: 16px;">03 / UTILITIES</div>
+          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">03 / UTILITIES</div>
           <h3>Water Treatment Chemicals</h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;">Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.</p>
-          <a href="#" style="color: var(--accent-emerald); font-size: 12px; text-decoration: none; font-weight: 600; uppercase">Explore Water Treatment →</a>
+          <a href="#" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Water Treatment →</a>
         </div>
       </div>
     </div>
