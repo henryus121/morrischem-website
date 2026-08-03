@@ -77,3 +77,40 @@ h1, h2, h3, h4, h5, h6 {
 .btn-secondary:hover {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
+
+@media (max-width: 768px) {
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  .product-card,
+  .spec-card,
+  .card-surface {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .spec-table,
+  table {
+    display: block !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .spec-table th,
+  .spec-table td,
+  table th,
+  table td {
+    white-space: nowrap;
+  }
+
+  .btn-secondary {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+  }
+}

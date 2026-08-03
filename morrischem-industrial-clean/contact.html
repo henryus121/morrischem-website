@@ -203,7 +203,7 @@
   <script>
     (function () {
       const params = new URLSearchParams(window.location.search);
-      const doc = params.get('doc');
+      const doc = params.get('doc') || params.get('req');
       const product = params.get('product');
 
       const requestTypeField = document.getElementById('request-type');
