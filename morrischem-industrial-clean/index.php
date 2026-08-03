@@ -148,7 +148,7 @@
     </div>
   </header>
 
-  <!-- Act II: The Philosophy -->
+  <!-- Act II: Operational Focus -->
   <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
     <div class="container grid-2">
       <div class="card-surface" style="height: 350px; display: flex; align-items: center; justify-content: center; background-image: url('<?php echo get_template_directory_uri(); ?>/refinery_imge.png'); background-size: cover; background-position: center;">
@@ -194,30 +194,33 @@
     </div>
   </section>
 
-  <!-- Act IV: Capability Divisions -->
+  <!-- Act IV: Core Divisions (Harmonized Paths) -->
   <section class="section-padding" id="solutions" style="background-color: var(--bg-dark-secondary);">
     <div class="container">
       <div class="section-kicker">Core Divisions</div>
       <h2 class="section-title">Industrial Capabilities</h2>
       
       <div class="grid-3" style="margin-top: 48px;">
+        <!-- Vertical 01 -->
         <div class="card-surface">
           <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">01 / ADSORPTION</div>
           <h3>Molecular Sieves &amp; Adsorbents</h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;">Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.</p>
           <a href="<?php echo get_template_directory_uri(); ?>/molecular-sieves.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Adsorbents →</a>
         </div>
+        <!-- Vertical 02 -->
         <div class="card-surface">
-          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">02 / REACTION</div>
-          <h3>Catalysts &amp; Process Tech</h3>
-          <p style="font-size: 14px; margin: 12px 0 24px 0;">Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.</p>
-          <a href="#" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Catalysts →</a>
-        </div>
-        <div class="card-surface">
-          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">03 / UTILITIES</div>
+          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">02 / UTILITIES</div>
           <h3>Water Treatment Chemicals</h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;">Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.</p>
-          <a href="#" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Water Treatment →</a>
+          <a href="<?php echo get_template_directory_uri(); ?>/water-treatment.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Water Treatment →</a>
+        </div>
+        <!-- Vertical 03 -->
+        <div class="card-surface">
+          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">03 / REACTION</div>
+          <h3>Catalysts &amp; Process Tech</h3>
+          <p style="font-size: 14px; margin: 12px 0 24px 0;">Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.</p>
+          <a href="<?php echo get_template_directory_uri(); ?>/catalysts-process-tech.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Catalysts →</a>
         </div>
       </div>
     </div>
@@ -229,7 +232,7 @@
       <div class="section-kicker">ENGINEERING SOLUTIONS WITHOUT BORDERS</div>
       <h2 class="section-title">Reliable Technologies. Trusted Partnerships. Lasting Performance.</h2>
       <p style="margin-bottom: 40px;">Let's discuss your specific process challenges and technical requirements.</p>
-      <a href="#" class="btn-primary">Start the Conversation</a>
+      <a href="mailto:info@morrischem.com" class="btn-primary">Start the Conversation</a>
     </div>
   </section>
 
