@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Morrischem LLC — Engineering Industrial Performance</title>
   
+  <!-- Technical SEO & Open Graph Metadata -->
+  <meta name="description" content="Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.">
+  <meta property="og:title" content="Morrischem LLC — Critical Infrastructure. Uncompromising Precision.">
+  <meta property="og:description" content="Engineering solutions for critical industrial processes, refining, and gas processing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://morrischem.com">
+  <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/refinery_imge.png">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -232,7 +240,7 @@
       <div class="section-kicker">ENGINEERING SOLUTIONS WITHOUT BORDERS</div>
       <h2 class="section-title">Reliable Technologies. Trusted Partnerships. Lasting Performance.</h2>
       <p style="margin-bottom: 40px;">Let's discuss your specific process challenges and technical requirements.</p>
-<a href="<?php echo get_template_directory_uri(); ?>/contact.html" class="btn-primary">Start the Conversation</a>
+      <a href="<?php echo get_template_directory_uri(); ?>/contact.html" class="btn-primary">Start the Conversation</a>
     </div>
   </section>
 
