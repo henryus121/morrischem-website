@@ -142,7 +142,7 @@
       <h1 class="hero-title">One Partner. Unlimited Technical Capability.</h1>
       <p class="hero-subtitle">Engineering Solutions for Critical Industrial Processes.</p>
       <div class="hero-cta-group">
-        <a href="#contact" class="btn-primary">Discuss Your Requirements</a>
+        <a href="<?php echo get_template_directory_uri(); ?>/contact.html" class="btn-primary">Discuss Your Requirements</a>
         <a href="#solutions" class="btn-secondary">Explore Solutions</a>
       </div>
     </div>
