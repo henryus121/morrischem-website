@@ -5,242 +5,201 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Morrischem LLC — Engineering Industrial Performance</title>
   
-  <!-- Fonts -->
+  <!-- Fonts: Oswald (Condensed Heading) & Inter (Body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
   
   <!-- Master Design System CSS -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-guide.css">
   
   <style>
-    /* Hero Header with Custom Image */
+    /* Hero Header Layout */
     .hero-viewport {
       position: relative;
       width: 100%;
-      height: 100vh;
-      min-height: 720px;
+      min-height: 85vh;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 0 24px;
-      border-bottom: 1px solid var(--border-steel);
-      background-image: linear-gradient(180deg, rgba(6, 11, 24, 0.4) 0%, rgba(6, 11, 24, 0.9) 100%), 
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px 64px 0 64px;
+      background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.3) 0%, rgba(15, 23, 42, 0.85) 100%), 
                         url('<?php echo get_template_directory_uri(); ?>/refinery_imge.png');
       background-size: cover;
       background-position: center;
     }
 
-    .hero-content {
-      max-width: 900px;
-      z-index: 10;
+    .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
     }
 
-    .hero-kicker {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--accent-cyan);
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
+    .logo-badge {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 10px 24px;
+      border-radius: var(--radius-pill);
+      color: var(--text-dark-main);
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .logo-icon {
+      width: 32px;
+      height: 32px;
+      background-color: var(--text-dark-main);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 16px;
+    }
+
+    .hero-body {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin: 60px 0;
+    }
+
+    .hero-text-block {
+      max-width: 650px;
     }
 
     .hero-title {
+      color: var(--text-white);
       margin-bottom: 20px;
     }
 
     .hero-subtitle {
-      font-size: clamp(16px, 1.8vw, 20px);
-      max-width: 640px;
-      margin: 0 auto 40px auto;
+      font-size: 18px;
+      color: var(--text-light-muted);
+      margin-bottom: 32px;
+      line-height: 1.5;
     }
 
-    .hero-cta-group {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    .section-padding {
-      padding: 120px 0;
-      border-bottom: 1px solid var(--border-steel);
-    }
-
-    .container {
-      max-width: 1320px;
+    /* Floating Feature Bar */
+    .floating-card-wrapper {
+      max-width: 1280px;
       margin: 0 auto;
-      padding: 0 32px;
-    }
-
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 64px;
-      align-items: center;
+      transform: translateY(50px);
     }
 
     .grid-3 {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
+      gap: 32px;
     }
 
-    .section-kicker {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--accent-cyan);
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      margin-bottom: 16px;
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
     }
 
-    .section-title {
-      margin-bottom: 24px;
+    .feature-icon-circle {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: #E2E8F0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 20px;
     }
 
-    .conduit-border {
-      position: relative;
-      padding-left: 32px;
+    .section-padding {
+      padding: 140px 0 80px 0;
+      border-bottom: 1px solid var(--border-steel);
     }
 
-    .conduit-border::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 8px;
-      bottom: 8px;
-      width: 2px;
-      background: linear-gradient(180deg, var(--accent-cyan) 0%, rgba(0, 210, 255, 0.1) 100%);
-      border-radius: 1px;
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 32px;
     }
 
     .footer-wrapper {
-      background-color: #03060D;
-      padding: 80px 0 40px 0;
-    }
-
-    .footer-flex {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-top: 1px solid rgba(255, 255, 255, 0.05);
-      padding-top: 32px;
-      margin-top: 64px;
-      font-size: 13px;
-      color: var(--text-muted);
+      background-color: #0B1120;
+      padding: 60px 0 40px 0;
+      margin-top: 80px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Act I: Hero Viewport -->
+  <!-- Hero Viewport -->
   <header class="hero-viewport">
-    <div class="hero-content">
-      <div class="hero-kicker">Global Industrial Process Solutions</div>
-      <h1 class="hero-title">One Partner. Unlimited Technical Capability.</h1>
-      <p class="hero-subtitle">Engineering Solutions for Critical Industrial Processes.</p>
-      <div class="hero-cta-group">
-        <a href="#contact" class="btn-primary">Discuss Your Requirements</a>
-        <a href="#solutions" class="btn-secondary">Explore Solutions</a>
+    <!-- Top Navigation -->
+    <div class="nav-bar">
+      <div class="logo-badge">
+        <div class="logo-icon">M</div>
+        <span>Morrischem</span>
+      </div>
+    </div>
+
+    <!-- Right-Aligned Hero Text -->
+    <div class="hero-body">
+      <div class="hero-text-block">
+        <h1 class="hero-title">Critical Infrastructure.<br>Uncompromising Precision.</h1>
+        <p class="hero-subtitle">
+          Morrischem delivers high-performance chemical materials, catalysts, and mechanical components that drive global energy and refinery operations.
+        </p>
+        <a href="#contact" class="btn-pill">Request Technical Specifications</a>
+      </div>
+    </div>
+
+    <!-- Floating Bottom Feature Cards -->
+    <div class="floating-card-wrapper">
+      <div class="card-light grid-3">
+        <div class="feature-item">
+          <div class="feature-icon-circle">🧪</div>
+          <div>
+            <h3 style="color: var(--text-dark-main); margin-bottom: 6px;">Chemical &amp; Process Materials</h3>
+            <p style="color: var(--text-dark-muted); font-size: 14px;">Molecular sieves, adsorbents, and high-purity process chemistries.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon-circle">⚙️</div>
+          <div>
+            <h3 style="color: var(--text-dark-main); margin-bottom: 6px;">Mechanical &amp; Mass Transfer Systems</h3>
+            <p style="color: var(--text-dark-muted); font-size: 14px;">High-performance internal components and reactor solutions.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon-circle">⚡</div>
+          <div>
+            <h3 style="color: var(--text-dark-main); margin-bottom: 6px;">Power &amp; Energy Infrastructure</h3>
+            <p style="color: var(--text-dark-muted); font-size: 14px;">Utility treatment chemistries and continuous power support.</p>
+          </div>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- Act II: The Philosophy -->
-  <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
-    <div class="container grid-2">
-      <div class="card-surface" style="height: 350px; display: flex; align-items: center; justify-content: center; background-image: url('<?php echo get_template_directory_uri(); ?>/refinery_imge.png'); background-size: cover; background-position: center;">
-      </div>
-      <div class="conduit-border">
-        <div class="section-kicker">Operational Focus</div>
-        <h2 class="section-title">Built Around Your Process.</h2>
-        <p style="margin-bottom: 32px;">
-          Every refinery, gas plant, and industrial facility operates under distinct thermal, chemical, and pressure parameters. Reliable performance begins with selecting technology engineered for your specific operating environment.
-        </p>
-        <div class="card-surface">
-          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">The Morrischem Approach</h4>
-          <p style="font-size: 14px;">We evaluate operating conditions first, then align and source precise molecular sieves, catalysts, water treatment chemistries, and performance additives.</p>
-        </div>
-      </div>
+  <!-- Capability Details Section -->
+  <section class="section-padding" id="contact">
+    <div class="container" style="text-align: center;">
+      <h2 style="margin-bottom: 16px;">Engineering Solutions Without Borders</h2>
+      <p style="max-width: 600px; margin: 0 auto 32px auto;">Reliable Technologies. Trusted Partnerships. Lasting Performance.</p>
+      <a href="mailto:info@morrischem.com" class="btn-pill">Contact Our Engineering Team</a>
     </div>
   </section>
 
-  <!-- Act III: Interactive Plant Map -->
-  <section class="section-padding">
-    <div class="container">
-      <div class="section-kicker">Interactive Plant Map</div>
-      <h2 class="section-title">Inside an Industrial Process</h2>
-      <p style="max-width: 600px; margin-bottom: 48px;">Explore how specialized chemistries and adsorbent media integrate across critical operating units.</p>
-      
-      <div class="grid-3">
-        <div class="card-surface">
-          <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;">Unit: Gas Dehydration Train</div>
-          <h3>Molecular Sieves</h3>
-          <p style="font-size: 14px; margin-top: 12px;">Deep moisture removal down to &lt; 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.</p>
-        </div>
-        <div class="card-surface">
-          <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;">Unit: Cooling Tower Loop</div>
-          <h3>Water Treatment Chemicals</h3>
-          <p style="font-size: 14px; margin-top: 12px;">Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.</p>
-        </div>
-        <div class="card-surface">
-          <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;">Unit: Hydrotreating Reactor</div>
-          <h3>Catalysts &amp; Guard Beds</h3>
-          <p style="font-size: 14px; margin-top: 12px;">High-activity catalyst media and contaminant traps designed for maximum cycle length.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Act IV: Capability Divisions -->
-  <section class="section-padding" id="solutions" style="background-color: var(--bg-dark-secondary);">
-    <div class="container">
-      <div class="section-kicker">Core Divisions</div>
-      <h2 class="section-title">Industrial Capabilities</h2>
-      
-      <div class="grid-3" style="margin-top: 48px;">
-        <div class="card-surface">
-          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">01 / ADSORPTION</div>
-          <h3>Molecular Sieves &amp; Adsorbents</h3>
-          <p style="font-size: 14px; margin: 12px 0 24px 0;">Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.</p>
-          <a href="<?php echo get_template_directory_uri(); ?>/molecular-sieves.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Adsorbents →</a>
-        </div>
-        <div class="card-surface">
-          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">02 / REACTION</div>
-          <h3>Catalysts &amp; Process Tech</h3>
-          <p style="font-size: 14px; margin: 12px 0 24px 0;">Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.</p>
-          <a href="#" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Catalysts →</a>
-        </div>
-        <div class="card-surface">
-          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;">03 / UTILITIES</div>
-          <h3>Water Treatment Chemicals</h3>
-          <p style="font-size: 14px; margin: 12px 0 24px 0;">Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.</p>
-          <a href="#" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;">Explore Water Treatment →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Act VII: Conversion Gateway & Footer -->
-  <section class="section-padding" id="contact" style="text-align: center;">
-    <div class="container" style="max-width: 800px;">
-      <div class="section-kicker">ENGINEERING SOLUTIONS WITHOUT BORDERS</div>
-      <h2 class="section-title">Reliable Technologies. Trusted Partnerships. Lasting Performance.</h2>
-      <p style="margin-bottom: 40px;">Let's discuss your specific process challenges and technical requirements.</p>
-      <a href="#" class="btn-primary">Start the Conversation</a>
-    </div>
-  </section>
-
+  <!-- Footer -->
   <footer class="footer-wrapper">
-    <div class="container">
-      <div style="font-family: var(--font-serif); font-size: 24px; color: var(--text-main);">MORRISCHEM LLC</div>
-      <p style="font-size: 14px; margin-top: 8px;">Engineering Industrial Performance.</p>
-      <div class="footer-flex">
-        <div>&copy; 2026 Morrischem LLC. All rights reserved.</div>
-        <div>Registered Office: Georgia. International Business Operations.</div>
-      </div>
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; font-size: 14px; color: var(--text-light-muted);">
+      <div>&copy; 2026 Morrischem LLC. All rights reserved.</div>
+      <div>Registered Office: Georgia. International Business Operations.</div>
     </div>
   </footer>
 
