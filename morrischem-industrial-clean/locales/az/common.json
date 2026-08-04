@@ -23,24 +23,24 @@
   },
   "hero": {
     "title": {
-      "val": "Sənaye Kimyəvi Həlləri və Texnologiya",
+      "val": "Bir Tərəfdaş. Limitsiz Texniki İmkan.",
       "reviewed": true
     },
     "subtitle": {
-      "val": "Qabaqcıl sənaye prosesləri üçün qlobal paylanma və texniki təcrübə.",
+      "val": "Kritik Sənaye Prosesləri üçün Mühəndislik Həlləri.",
       "reviewed": true
     },
     "kicker": {
-      "val": "Global Industrial Process Solutions",
-      "reviewed": false
+      "val": "Qlobal Sənaye Proses Həlləri",
+      "reviewed": true
     },
     "cta_primary": {
-      "val": "Discuss Your Requirements",
-      "reviewed": false
+      "val": "Tələblərinizi Müzakirə Edin",
+      "reviewed": true
     },
     "cta_secondary": {
-      "val": "Explore Solutions",
-      "reviewed": false
+      "val": "Həlləri Kəşf Edin",
+      "reviewed": true
     }
   },
   "footer": {
@@ -50,181 +50,181 @@
     },
     "name": {
       "val": "MORRISCHEM LLC",
-      "reviewed": false
+      "reviewed": true
     },
     "tagline": {
-      "val": "Engineering Industrial Performance.",
-      "reviewed": false
+      "val": "Sənaye Performansı Mühəndisliyi.",
+      "reviewed": true
     },
     "office": {
-      "val": "Registered Office: Georgia. International Business Operations.",
-      "reviewed": false
+      "val": "Qeydiyyatlı Ofis: Gürcüstan. Beynəlxalq Biznes Əməliyyatları.",
+      "reviewed": true
     }
   },
   "meta": {
     "title": {
-      "val": "Morrischem LLC — Engineering Industrial Performance",
-      "reviewed": false
+      "val": "Morrischem LLC — Sənaye Performansı Mühəndisliyi",
+      "reviewed": true
     },
     "description": {
-      "val": "Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.",
-      "reviewed": false
+      "val": "Morrischem qlobal enerji və neft emalı əməliyyatları üçün yüksək performanslı molekulyar ələklər, proses katalizatorları və sənaye su təmizləmə texnologiyaları təchiz edir.",
+      "reviewed": true
     },
     "og_title": {
-      "val": "Morrischem LLC — Critical Infrastructure. Uncompromising Precision.",
-      "reviewed": false
+      "val": "Morrischem LLC — Kritik İnfrastruktur. Güzəştsiz Dəqiqlik.",
+      "reviewed": true
     },
     "og_description": {
-      "val": "Engineering solutions for critical industrial processes, refining, and gas processing.",
-      "reviewed": false
+      "val": "Kritik sənaye prosesləri, neft emalı və qaz emalı üçün mühəndislik həlləri.",
+      "reviewed": true
     }
   },
   "focus": {
     "kicker": {
-      "val": "Operational Focus",
-      "reviewed": false
+      "val": "Əməliyyat Diqqəti",
+      "reviewed": true
     },
     "title": {
-      "val": "Built Around Your Process.",
-      "reviewed": false
+      "val": "Prosesinizə Uyğun Hazırlanıb.",
+      "reviewed": true
     },
     "body": {
-      "val": "Every refinery, gas plant, and industrial facility operates under distinct thermal, chemical, and pressure parameters. Reliable performance begins with selecting technology engineered for your specific operating environment.",
-      "reviewed": false
+      "val": "Hər bir neft emalı zavodu, qaz zavodu və sənaye müəssisəsi fərqli termik, kimyəvi və təzyiq parametrləri altında işləyir. Etibarlı performans sizin xüsusi istismar mühitiniz üçün hazırlanmış texnologiyanın seçilməsi ilə başlayır.",
+      "reviewed": true
     },
     "approach_title": {
-      "val": "The Morrischem Approach",
-      "reviewed": false
+      "val": "Morrischem Yanaşması",
+      "reviewed": true
     },
     "approach_body": {
-      "val": "We evaluate operating conditions first, then align and source precise molecular sieves, catalysts, water treatment chemistries, and performance additives.",
-      "reviewed": false
+      "val": "Biz əvvəlcə istismar şərtlərini qiymətləndirir, sonra dəqiq molekulyar ələklər, katalizatorlar, su təmizləmə kimyəvi maddələri və performans əlavələrini uyğunlaşdırıb təchiz edirik.",
+      "reviewed": true
     }
   },
   "plant_map": {
     "kicker": {
-      "val": "Interactive Plant Map",
-      "reviewed": false
+      "val": "İnteraktiv Zavod Xəritəsi",
+      "reviewed": true
     },
     "title": {
-      "val": "Inside an Industrial Process",
-      "reviewed": false
+      "val": "Sənaye Prosesinin İçində",
+      "reviewed": true
     },
     "body": {
-      "val": "Explore how specialized chemistries and adsorbent media integrate across critical operating units.",
-      "reviewed": false
+      "val": "İxtisaslaşmış kimyəvi maddələrin və adsorbent mühitlərin kritik istismar bölmələrinə necə inteqrasiya olunduğunu kəşf edin.",
+      "reviewed": true
     },
     "unit1_label": {
-      "val": "Unit: Gas Dehydration Train",
-      "reviewed": false
+      "val": "Bölmə: Qaz Qurutma Xətti",
+      "reviewed": true
     },
     "unit1_title": {
-      "val": "Molecular Sieves",
-      "reviewed": false
+      "val": "Molekulyar Ələklər",
+      "reviewed": true
     },
     "unit1_body": {
-      "val": "Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.",
-      "reviewed": false
+      "val": "Kriogen istilik dəyişdiricilərində hidrat əmələ gəlməsinin qarşısını almaq üçün &lt; 0,1 ppmv-ə qədər dərin nəmlik təmizlənməsi.",
+      "reviewed": true
     },
     "unit2_label": {
-      "val": "Unit: Cooling Tower Loop",
-      "reviewed": false
+      "val": "Bölmə: Soyutma Qülləsi Konturu",
+      "reviewed": true
     },
     "unit2_title": {
-      "val": "Water Treatment Chemicals",
-      "reviewed": false
+      "val": "Su Təmizləmə Kimyəvi Maddələri",
+      "reviewed": true
     },
     "unit2_body": {
-      "val": "Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.",
-      "reviewed": false
+      "val": "Optimal istilik ötürülməsini qorumaq üçün qabıqlanma, korroziya və bioloji nəzarət üzrə qabaqcıl tərkiblər.",
+      "reviewed": true
     },
     "unit3_label": {
-      "val": "Unit: Hydrotreating Reactor",
-      "reviewed": false
+      "val": "Bölmə: Hidrotəmizləmə Reaktoru",
+      "reviewed": true
     },
     "unit3_title": {
-      "val": "Catalysts & Guard Beds",
-      "reviewed": false
+      "val": "Katalizatorlar və Qoruyucu Yataqlar",
+      "reviewed": true
     },
     "unit3_body": {
-      "val": "High-activity catalyst media and contaminant traps designed for maximum cycle length.",
-      "reviewed": false
+      "val": "Maksimum tsikl müddəti üçün nəzərdə tutulmuş yüksək aktivlikli katalizator mühitləri və çirkləndirici tələləri.",
+      "reviewed": true
     }
   },
   "divisions": {
     "kicker": {
-      "val": "Core Divisions",
-      "reviewed": false
+      "val": "Əsas Bölmələr",
+      "reviewed": true
     },
     "title": {
-      "val": "Industrial Capabilities",
-      "reviewed": false
+      "val": "Sənaye İmkanları",
+      "reviewed": true
     },
     "v1_label": {
-      "val": "01 / ADSORPTION",
-      "reviewed": false
+      "val": "01 / ADSORBSİYA",
+      "reviewed": true
     },
     "v1_title": {
-      "val": "Molecular Sieves & Adsorbents",
-      "reviewed": false
+      "val": "Molekulyar Ələklər və Adsorbentlər",
+      "reviewed": true
     },
     "v1_body": {
-      "val": "Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.",
-      "reviewed": false
+      "val": "Qaz qurutma, LNG emalı və təmizləmə üçün sintetik zeolitlər və aktivləşdirilmiş alüminatlar.",
+      "reviewed": true
     },
     "v1_link": {
-      "val": "Explore Adsorbents",
-      "reviewed": false
+      "val": "Adsorbentləri Kəşf Edin",
+      "reviewed": true
     },
     "v2_label": {
-      "val": "02 / UTILITIES",
-      "reviewed": false
+      "val": "02 / KOMMUNAL XİDMƏTLƏR",
+      "reviewed": true
     },
     "v2_title": {
-      "val": "Water Treatment Chemicals",
-      "reviewed": false
+      "val": "Su Təmizləmə Kimyəvi Maddələri",
+      "reviewed": true
     },
     "v2_body": {
-      "val": "Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.",
-      "reviewed": false
+      "val": "Sənaye soyutması üçün qabıqlanma inhibitorları, korroziyaya nəzarət, bioсidlər və membran kimyəvi maddələri.",
+      "reviewed": true
     },
     "v2_link": {
-      "val": "Explore Water Treatment",
-      "reviewed": false
+      "val": "Su Təmizləməni Kəşf Edin",
+      "reviewed": true
     },
     "v3_label": {
-      "val": "03 / REACTION",
-      "reviewed": false
+      "val": "03 / REAKSİYA",
+      "reviewed": true
     },
     "v3_title": {
-      "val": "Catalysts & Process Tech",
-      "reviewed": false
+      "val": "Katalizatorlar və Proses Texnologiyası",
+      "reviewed": true
     },
     "v3_body": {
-      "val": "Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.",
-      "reviewed": false
+      "val": "Məhsuldarlığı artırmaq və tsikl müddətini uzatmaq üçün hazırlanmış emal və sintez katalizatorları.",
+      "reviewed": true
     },
     "v3_link": {
-      "val": "Explore Catalysts",
-      "reviewed": false
+      "val": "Katalizatorları Kəşf Edin",
+      "reviewed": true
     }
   },
   "contact_cta": {
     "kicker": {
-      "val": "Engineering Solutions Without Borders",
-      "reviewed": false
+      "val": "Sərhədsiz Mühəndislik Həlləri",
+      "reviewed": true
     },
     "title": {
-      "val": "Reliable Technologies. Trusted Partnerships. Lasting Performance.",
-      "reviewed": false
+      "val": "Etibarlı Texnologiyalar. Etibarlı Tərəfdaşlıq. Davamlı Performans.",
+      "reviewed": true
     },
     "body": {
-      "val": "Let's discuss your specific process challenges and technical requirements.",
-      "reviewed": false
+      "val": "Gəlin sizin xüsusi proses çətinliklərinizi və texniki tələblərinizi müzakirə edək.",
+      "reviewed": true
     },
     "cta": {
-      "val": "Start the Conversation",
-      "reviewed": false
+      "val": "Söhbətə Başlayın",
+      "reviewed": true
     }
   }
 }
