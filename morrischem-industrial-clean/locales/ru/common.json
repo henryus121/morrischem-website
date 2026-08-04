@@ -9,11 +9,11 @@
       "reviewed": true
     },
     "molecular_sieves": {
-      "val": "Молекулярные сита",
+      "val": "Молекулярные Сита",
       "reviewed": true
     },
     "water_treatment": {
-      "val": "Очистка воды",
+      "val": "Водоочистка",
       "reviewed": true
     },
     "contact": {
@@ -23,24 +23,24 @@
   },
   "hero": {
     "title": {
-      "val": "Промышленные химические решения и технологии",
+      "val": "Один Партнёр. Неограниченные Технические Возможности.",
       "reviewed": true
     },
     "subtitle": {
-      "val": "Глобальные поставки и технический опыт для передовых промышленных процессов.",
+      "val": "Инженерные Решения для Критически Важных Промышленных Процессов.",
       "reviewed": true
     },
     "kicker": {
-      "val": "Global Industrial Process Solutions",
-      "reviewed": false
+      "val": "Глобальные Промышленные Технологические Решения",
+      "reviewed": true
     },
     "cta_primary": {
-      "val": "Discuss Your Requirements",
-      "reviewed": false
+      "val": "Обсудить Ваши Требования",
+      "reviewed": true
     },
     "cta_secondary": {
-      "val": "Explore Solutions",
-      "reviewed": false
+      "val": "Изучить Решения",
+      "reviewed": true
     }
   },
   "footer": {
@@ -50,181 +50,181 @@
     },
     "name": {
       "val": "MORRISCHEM LLC",
-      "reviewed": false
+      "reviewed": true
     },
     "tagline": {
-      "val": "Engineering Industrial Performance.",
-      "reviewed": false
+      "val": "Инжиниринг Промышленной Эффективности.",
+      "reviewed": true
     },
     "office": {
-      "val": "Registered Office: Georgia. International Business Operations.",
-      "reviewed": false
+      "val": "Юридический Адрес: Грузия. Международные Деловые Операции.",
+      "reviewed": true
     }
   },
   "meta": {
     "title": {
-      "val": "Morrischem LLC — Engineering Industrial Performance",
-      "reviewed": false
+      "val": "Morrischem LLC — Инжиниринг Промышленной Эффективности",
+      "reviewed": true
     },
     "description": {
-      "val": "Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.",
-      "reviewed": false
+      "val": "Morrischem поставляет высокоэффективные молекулярные сита, технологические катализаторы и технологии промышленной водоочистки для глобальных энергетических и нефтеперерабатывающих предприятий.",
+      "reviewed": true
     },
     "og_title": {
-      "val": "Morrischem LLC — Critical Infrastructure. Uncompromising Precision.",
-      "reviewed": false
+      "val": "Morrischem LLC — Критическая Инфраструктура. Бескомпромиссная Точность.",
+      "reviewed": true
     },
     "og_description": {
-      "val": "Engineering solutions for critical industrial processes, refining, and gas processing.",
-      "reviewed": false
+      "val": "Инженерные решения для критически важных промышленных процессов, переработки и газопереработки.",
+      "reviewed": true
     }
   },
   "focus": {
     "kicker": {
-      "val": "Operational Focus",
-      "reviewed": false
+      "val": "Операционный Фокус",
+      "reviewed": true
     },
     "title": {
-      "val": "Built Around Your Process.",
-      "reviewed": false
+      "val": "Разработано Под Ваш Процесс.",
+      "reviewed": true
     },
     "body": {
-      "val": "Every refinery, gas plant, and industrial facility operates under distinct thermal, chemical, and pressure parameters. Reliable performance begins with selecting technology engineered for your specific operating environment.",
-      "reviewed": false
+      "val": "Каждый нефтеперерабатывающий завод, газовое предприятие и промышленный объект работает при уникальных термических, химических и барических параметрах. Надёжная работа начинается с выбора технологии, разработанной для вашей конкретной эксплуатационной среды.",
+      "reviewed": true
     },
     "approach_title": {
-      "val": "The Morrischem Approach",
-      "reviewed": false
+      "val": "Подход Morrischem",
+      "reviewed": true
     },
     "approach_body": {
-      "val": "We evaluate operating conditions first, then align and source precise molecular sieves, catalysts, water treatment chemistries, and performance additives.",
-      "reviewed": false
+      "val": "Мы сначала оцениваем условия эксплуатации, затем подбираем и поставляем точные молекулярные сита, катализаторы, химикаты для водоочистки и функциональные присадки.",
+      "reviewed": true
     }
   },
   "plant_map": {
     "kicker": {
-      "val": "Interactive Plant Map",
-      "reviewed": false
+      "val": "Интерактивная Карта Завода",
+      "reviewed": true
     },
     "title": {
-      "val": "Inside an Industrial Process",
-      "reviewed": false
+      "val": "Внутри Промышленного Процесса",
+      "reviewed": true
     },
     "body": {
-      "val": "Explore how specialized chemistries and adsorbent media integrate across critical operating units.",
-      "reviewed": false
+      "val": "Узнайте, как специализированные химикаты и адсорбенты интегрируются в критически важные технологические узлы.",
+      "reviewed": true
     },
     "unit1_label": {
-      "val": "Unit: Gas Dehydration Train",
-      "reviewed": false
+      "val": "Узел: Линия Осушки Газа",
+      "reviewed": true
     },
     "unit1_title": {
-      "val": "Molecular Sieves",
-      "reviewed": false
+      "val": "Молекулярные Сита",
+      "reviewed": true
     },
     "unit1_body": {
-      "val": "Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.",
-      "reviewed": false
+      "val": "Глубокое удаление влаги до &lt; 0,1 ppmv для предотвращения образования гидратов в криогенных теплообменниках.",
+      "reviewed": true
     },
     "unit2_label": {
-      "val": "Unit: Cooling Tower Loop",
-      "reviewed": false
+      "val": "Узел: Контур Градирни",
+      "reviewed": true
     },
     "unit2_title": {
-      "val": "Water Treatment Chemicals",
-      "reviewed": false
+      "val": "Химикаты для Водоочистки",
+      "reviewed": true
     },
     "unit2_body": {
-      "val": "Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.",
-      "reviewed": false
+      "val": "Передовые составы для контроля отложений, коррозии и биологической активности для оптимальной теплопередачи.",
+      "reviewed": true
     },
     "unit3_label": {
-      "val": "Unit: Hydrotreating Reactor",
-      "reviewed": false
+      "val": "Узел: Реактор Гидроочистки",
+      "reviewed": true
     },
     "unit3_title": {
-      "val": "Catalysts & Guard Beds",
-      "reviewed": false
+      "val": "Катализаторы и Защитные Слои",
+      "reviewed": true
     },
     "unit3_body": {
-      "val": "High-activity catalyst media and contaminant traps designed for maximum cycle length.",
-      "reviewed": false
+      "val": "Высокоактивные каталитические среды и ловушки загрязнений для максимальной продолжительности цикла.",
+      "reviewed": true
     }
   },
   "divisions": {
     "kicker": {
-      "val": "Core Divisions",
-      "reviewed": false
+      "val": "Основные Направления",
+      "reviewed": true
     },
     "title": {
-      "val": "Industrial Capabilities",
-      "reviewed": false
+      "val": "Промышленные Возможности",
+      "reviewed": true
     },
     "v1_label": {
-      "val": "01 / ADSORPTION",
-      "reviewed": false
+      "val": "01 / АДСОРБЦИЯ",
+      "reviewed": true
     },
     "v1_title": {
-      "val": "Molecular Sieves & Adsorbents",
-      "reviewed": false
+      "val": "Молекулярные Сита и Адсорбенты",
+      "reviewed": true
     },
     "v1_body": {
-      "val": "Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.",
-      "reviewed": false
+      "val": "Синтетические цеолиты и активированные глинозёмы для осушки газа, переработки СПГ и очистки.",
+      "reviewed": true
     },
     "v1_link": {
-      "val": "Explore Adsorbents",
-      "reviewed": false
+      "val": "Изучить Адсорбенты",
+      "reviewed": true
     },
     "v2_label": {
-      "val": "02 / UTILITIES",
-      "reviewed": false
+      "val": "02 / КОММУНАЛЬНЫЕ УСЛУГИ",
+      "reviewed": true
     },
     "v2_title": {
-      "val": "Water Treatment Chemicals",
-      "reviewed": false
+      "val": "Химикаты для Водоочистки",
+      "reviewed": true
     },
     "v2_body": {
-      "val": "Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.",
-      "reviewed": false
+      "val": "Ингибиторы отложений, средства защиты от коррозии, биоциды и мембранные химикаты для промышленного охлаждения.",
+      "reviewed": true
     },
     "v2_link": {
-      "val": "Explore Water Treatment",
-      "reviewed": false
+      "val": "Изучить Водоочистку",
+      "reviewed": true
     },
     "v3_label": {
-      "val": "03 / REACTION",
-      "reviewed": false
+      "val": "03 / РЕАКЦИЯ",
+      "reviewed": true
     },
     "v3_title": {
-      "val": "Catalysts & Process Tech",
-      "reviewed": false
+      "val": "Катализаторы и Технология Процессов",
+      "reviewed": true
     },
     "v3_body": {
-      "val": "Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.",
-      "reviewed": false
+      "val": "Катализаторы переработки и синтеза, разработанные для максимизации выхода и увеличения продолжительности цикла.",
+      "reviewed": true
     },
     "v3_link": {
-      "val": "Explore Catalysts",
-      "reviewed": false
+      "val": "Изучить Катализаторы",
+      "reviewed": true
     }
   },
   "contact_cta": {
     "kicker": {
-      "val": "Engineering Solutions Without Borders",
-      "reviewed": false
+      "val": "Инженерные Решения Без Границ",
+      "reviewed": true
     },
     "title": {
-      "val": "Reliable Technologies. Trusted Partnerships. Lasting Performance.",
-      "reviewed": false
+      "val": "Надёжные Технологии. Доверительное Партнёрство. Долговечная Эффективность.",
+      "reviewed": true
     },
     "body": {
-      "val": "Let's discuss your specific process challenges and technical requirements.",
-      "reviewed": false
+      "val": "Давайте обсудим ваши конкретные технологические задачи и технические требования.",
+      "reviewed": true
     },
     "cta": {
-      "val": "Start the Conversation",
-      "reviewed": false
+      "val": "Начать Диалог",
+      "reviewed": true
     }
   }
 }
