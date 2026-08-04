@@ -23,24 +23,24 @@
   },
   "hero": {
     "title": {
-      "val": "Un Partenaire. Une Capacité Technique Illimitée.",
+      "val": "Solutions et Technologie Chimique Industrielle",
       "reviewed": true
     },
     "subtitle": {
-      "val": "Solutions d'Ingénierie pour les Processus Industriels Critiques.",
+      "val": "Distribution mondiale et expertise technique pour les processus industriels avancés.",
       "reviewed": true
     },
     "kicker": {
-      "val": "Solutions Mondiales de Procédés Industriels",
-      "reviewed": true
+      "val": "Global Industrial Process Solutions",
+      "reviewed": false
     },
     "cta_primary": {
-      "val": "Discuter de vos Besoins",
-      "reviewed": true
+      "val": "Discuss Your Requirements",
+      "reviewed": false
     },
     "cta_secondary": {
-      "val": "Explorer les Solutions",
-      "reviewed": true
+      "val": "Explore Solutions",
+      "reviewed": false
     }
   },
   "footer": {
@@ -50,181 +50,181 @@
     },
     "name": {
       "val": "MORRISCHEM LLC",
-      "reviewed": true
+      "reviewed": false
     },
     "tagline": {
-      "val": "Ingénierie de la Performance Industrielle.",
-      "reviewed": true
+      "val": "Engineering Industrial Performance.",
+      "reviewed": false
     },
     "office": {
-      "val": "Siège Social: Géorgie. Opérations Commerciales Internationales.",
-      "reviewed": true
+      "val": "Registered Office: Georgia. International Business Operations.",
+      "reviewed": false
     }
   },
   "meta": {
     "title": {
-      "val": "Morrischem LLC — Ingénierie de la Performance Industrielle",
-      "reviewed": true
+      "val": "Morrischem LLC — Engineering Industrial Performance",
+      "reviewed": false
     },
     "description": {
-      "val": "Morrischem fournit des tamis moléculaires haute performance, des catalyseurs de procédé et des technologies de traitement d'eau industrielle pour les opérations mondiales d'énergie et de raffinage.",
-      "reviewed": true
+      "val": "Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.",
+      "reviewed": false
     },
     "og_title": {
-      "val": "Morrischem LLC — Infrastructure Critique. Précision Sans Compromis.",
-      "reviewed": true
+      "val": "Morrischem LLC — Critical Infrastructure. Uncompromising Precision.",
+      "reviewed": false
     },
     "og_description": {
-      "val": "Solutions d'ingénierie pour les processus industriels critiques, le raffinage et le traitement du gaz.",
-      "reviewed": true
+      "val": "Engineering solutions for critical industrial processes, refining, and gas processing.",
+      "reviewed": false
     }
   },
   "focus": {
     "kicker": {
-      "val": "Approche Opérationnelle",
-      "reviewed": true
+      "val": "Operational Focus",
+      "reviewed": false
     },
     "title": {
-      "val": "Conçu pour votre Procédé.",
-      "reviewed": true
+      "val": "Built Around Your Process.",
+      "reviewed": false
     },
     "body": {
-      "val": "Chaque raffinerie, usine de gaz et installation industrielle fonctionne selon des paramètres thermiques, chimiques et de pression distincts. Une performance fiable commence par le choix d'une technologie conçue pour votre environnement d'exploitation spécifique.",
-      "reviewed": true
+      "val": "Every refinery, gas plant, and industrial facility operates under distinct thermal, chemical, and pressure parameters. Reliable performance begins with selecting technology engineered for your specific operating environment.",
+      "reviewed": false
     },
     "approach_title": {
-      "val": "L'Approche Morrischem",
-      "reviewed": true
+      "val": "The Morrischem Approach",
+      "reviewed": false
     },
     "approach_body": {
-      "val": "Nous évaluons d'abord les conditions d'exploitation, puis alignons et fournissons des tamis moléculaires, catalyseurs, produits de traitement d'eau et additifs de performance précis.",
-      "reviewed": true
+      "val": "We evaluate operating conditions first, then align and source precise molecular sieves, catalysts, water treatment chemistries, and performance additives.",
+      "reviewed": false
     }
   },
   "plant_map": {
     "kicker": {
-      "val": "Carte Interactive de l'Usine",
-      "reviewed": true
+      "val": "Interactive Plant Map",
+      "reviewed": false
     },
     "title": {
-      "val": "À l'Intérieur d'un Procédé Industriel",
-      "reviewed": true
+      "val": "Inside an Industrial Process",
+      "reviewed": false
     },
     "body": {
-      "val": "Découvrez comment les produits chimiques spécialisés et les milieux adsorbants s'intègrent dans les unités opérationnelles critiques.",
-      "reviewed": true
+      "val": "Explore how specialized chemistries and adsorbent media integrate across critical operating units.",
+      "reviewed": false
     },
     "unit1_label": {
-      "val": "Unité: Train de Déshydratation du Gaz",
-      "reviewed": true
+      "val": "Unit: Gas Dehydration Train",
+      "reviewed": false
     },
     "unit1_title": {
-      "val": "Tamis Moléculaires",
-      "reviewed": true
+      "val": "Molecular Sieves",
+      "reviewed": false
     },
     "unit1_body": {
-      "val": "Élimination profonde de l'humidité jusqu'à &lt; 0,1 ppmv pour prévenir la formation d'hydrates dans les échangeurs cryogéniques.",
-      "reviewed": true
+      "val": "Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.",
+      "reviewed": false
     },
     "unit2_label": {
-      "val": "Unité: Boucle de la Tour de Refroidissement",
-      "reviewed": true
+      "val": "Unit: Cooling Tower Loop",
+      "reviewed": false
     },
     "unit2_title": {
-      "val": "Produits de Traitement de l'Eau",
-      "reviewed": true
+      "val": "Water Treatment Chemicals",
+      "reviewed": false
     },
     "unit2_body": {
-      "val": "Formulations avancées de contrôle du tartre, de la corrosion et biologique pour maintenir un transfert de chaleur optimal.",
-      "reviewed": true
+      "val": "Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.",
+      "reviewed": false
     },
     "unit3_label": {
-      "val": "Unité: Réacteur d'Hydrotraitement",
-      "reviewed": true
+      "val": "Unit: Hydrotreating Reactor",
+      "reviewed": false
     },
     "unit3_title": {
-      "val": "Catalyseurs et Lits de Garde",
-      "reviewed": true
+      "val": "Catalysts & Guard Beds",
+      "reviewed": false
     },
     "unit3_body": {
-      "val": "Milieux catalytiques haute activité et pièges à contaminants conçus pour maximiser la durée du cycle.",
-      "reviewed": true
+      "val": "High-activity catalyst media and contaminant traps designed for maximum cycle length.",
+      "reviewed": false
     }
   },
   "divisions": {
     "kicker": {
-      "val": "Divisions Principales",
-      "reviewed": true
+      "val": "Core Divisions",
+      "reviewed": false
     },
     "title": {
-      "val": "Capacités Industrielles",
-      "reviewed": true
+      "val": "Industrial Capabilities",
+      "reviewed": false
     },
     "v1_label": {
       "val": "01 / ADSORPTION",
-      "reviewed": true
+      "reviewed": false
     },
     "v1_title": {
-      "val": "Tamis Moléculaires et Adsorbants",
-      "reviewed": true
+      "val": "Molecular Sieves & Adsorbents",
+      "reviewed": false
     },
     "v1_body": {
-      "val": "Zéolithes synthétiques et alumines activées pour la déshydratation du gaz, le traitement du GNL et la purification.",
-      "reviewed": true
+      "val": "Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.",
+      "reviewed": false
     },
     "v1_link": {
-      "val": "Explorer les Adsorbants",
-      "reviewed": true
+      "val": "Explore Adsorbents",
+      "reviewed": false
     },
     "v2_label": {
-      "val": "02 / SERVICES",
-      "reviewed": true
+      "val": "02 / UTILITIES",
+      "reviewed": false
     },
     "v2_title": {
-      "val": "Produits de Traitement de l'Eau",
-      "reviewed": true
+      "val": "Water Treatment Chemicals",
+      "reviewed": false
     },
     "v2_body": {
-      "val": "Inhibiteurs de tartre, contrôle de la corrosion, biocides et produits chimiques membranaires pour le refroidissement industriel.",
-      "reviewed": true
+      "val": "Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.",
+      "reviewed": false
     },
     "v2_link": {
-      "val": "Explorer le Traitement de l'Eau",
-      "reviewed": true
+      "val": "Explore Water Treatment",
+      "reviewed": false
     },
     "v3_label": {
-      "val": "03 / RÉACTION",
-      "reviewed": true
+      "val": "03 / REACTION",
+      "reviewed": false
     },
     "v3_title": {
-      "val": "Catalyseurs et Technologie de Procédé",
-      "reviewed": true
+      "val": "Catalysts & Process Tech",
+      "reviewed": false
     },
     "v3_body": {
-      "val": "Catalyseurs de raffinage et de synthèse conçus pour maximiser le rendement et prolonger la durée du cycle.",
-      "reviewed": true
+      "val": "Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.",
+      "reviewed": false
     },
     "v3_link": {
-      "val": "Explorer les Catalyseurs",
-      "reviewed": true
+      "val": "Explore Catalysts",
+      "reviewed": false
     }
   },
   "contact_cta": {
     "kicker": {
-      "val": "Solutions d'Ingénierie Sans Frontières",
-      "reviewed": true
+      "val": "Engineering Solutions Without Borders",
+      "reviewed": false
     },
     "title": {
-      "val": "Technologies Fiables. Partenariats de Confiance. Performance Durable.",
-      "reviewed": true
+      "val": "Reliable Technologies. Trusted Partnerships. Lasting Performance.",
+      "reviewed": false
     },
     "body": {
-      "val": "Discutons de vos défis de procédé spécifiques et de vos besoins techniques.",
-      "reviewed": true
+      "val": "Let's discuss your specific process challenges and technical requirements.",
+      "reviewed": false
     },
     "cta": {
-      "val": "Démarrer la Conversation",
-      "reviewed": true
+      "val": "Start the Conversation",
+      "reviewed": false
     }
   }
 }

@@ -5,11 +5,11 @@
       "reviewed": true
     },
     "catalysts": {
-      "val": "المحفزات",
+      "val": "محفزات",
       "reviewed": true
     },
     "molecular_sieves": {
-      "val": "المناخل الجزيئية",
+      "val": "مناخل جزيئية",
       "reviewed": true
     },
     "water_treatment": {
@@ -17,214 +17,214 @@
       "reviewed": true
     },
     "contact": {
-      "val": "اتصل بنا",
+      "val": "اتصال",
       "reviewed": true
     }
   },
   "hero": {
     "title": {
-      "val": "شريك واحد. قدرة تقنية غير محدودة.",
+      "val": "الحلول الكيميائية والتكنولوجيا الصناعية",
       "reviewed": true
     },
     "subtitle": {
-      "val": "حلول هندسية للعمليات الصناعية الحرجة.",
+      "val": "توزيع عالمي وخبرة فنية للعمليات الصناعية المتقدمة.",
       "reviewed": true
     },
     "kicker": {
-      "val": "حلول عمليات صناعية عالمية",
-      "reviewed": true
+      "val": "Global Industrial Process Solutions",
+      "reviewed": false
     },
     "cta_primary": {
-      "val": "ناقش متطلباتك",
-      "reviewed": true
+      "val": "Discuss Your Requirements",
+      "reviewed": false
     },
     "cta_secondary": {
-      "val": "استكشف الحلول",
-      "reviewed": true
+      "val": "Explore Solutions",
+      "reviewed": false
     }
   },
   "footer": {
     "rights": {
-      "val": "جميع الحقوق محفوظة.",
+      "val": "كل الحقوق محفوظة.",
       "reviewed": true
     },
     "name": {
       "val": "MORRISCHEM LLC",
-      "reviewed": true
+      "reviewed": false
     },
     "tagline": {
-      "val": "هندسة الأداء الصناعي.",
-      "reviewed": true
+      "val": "Engineering Industrial Performance.",
+      "reviewed": false
     },
     "office": {
-      "val": "المكتب المسجل: جورجيا. عمليات تجارية دولية.",
-      "reviewed": true
+      "val": "Registered Office: Georgia. International Business Operations.",
+      "reviewed": false
     }
   },
   "meta": {
     "title": {
-      "val": "Morrischem LLC — هندسة الأداء الصناعي",
-      "reviewed": true
+      "val": "Morrischem LLC — Engineering Industrial Performance",
+      "reviewed": false
     },
     "description": {
-      "val": "توفر Morrischem مناخل جزيئية عالية الأداء ومحفزات عمليات وتقنيات معالجة مياه صناعية للعمليات العالمية للطاقة والتكرير.",
-      "reviewed": true
+      "val": "Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.",
+      "reviewed": false
     },
     "og_title": {
-      "val": "Morrischem LLC — بنية تحتية حرجة. دقة بلا تنازلات.",
-      "reviewed": true
+      "val": "Morrischem LLC — Critical Infrastructure. Uncompromising Precision.",
+      "reviewed": false
     },
     "og_description": {
-      "val": "حلول هندسية للعمليات الصناعية الحرجة والتكرير ومعالجة الغاز.",
-      "reviewed": true
+      "val": "Engineering solutions for critical industrial processes, refining, and gas processing.",
+      "reviewed": false
     }
   },
   "focus": {
     "kicker": {
-      "val": "التركيز التشغيلي",
-      "reviewed": true
+      "val": "Operational Focus",
+      "reviewed": false
     },
     "title": {
-      "val": "مصمم حول عمليتك.",
-      "reviewed": true
+      "val": "Built Around Your Process.",
+      "reviewed": false
     },
     "body": {
-      "val": "تعمل كل منشأة تكرير ومصنع غاز ومنشأة صناعية وفق معايير حرارية وكيميائية وضغط مختلفة. يبدأ الأداء الموثوق باختيار التقنية المصممة لبيئة التشغيل الخاصة بك.",
-      "reviewed": true
+      "val": "Every refinery, gas plant, and industrial facility operates under distinct thermal, chemical, and pressure parameters. Reliable performance begins with selecting technology engineered for your specific operating environment.",
+      "reviewed": false
     },
     "approach_title": {
-      "val": "نهج Morrischem",
-      "reviewed": true
+      "val": "The Morrischem Approach",
+      "reviewed": false
     },
     "approach_body": {
-      "val": "نقيّم ظروف التشغيل أولاً، ثم نوائم ونورّد المناخل الجزيئية والمحفزات ومواد معالجة المياه والإضافات الدقيقة.",
-      "reviewed": true
+      "val": "We evaluate operating conditions first, then align and source precise molecular sieves, catalysts, water treatment chemistries, and performance additives.",
+      "reviewed": false
     }
   },
   "plant_map": {
     "kicker": {
-      "val": "خريطة المصنع التفاعلية",
-      "reviewed": true
+      "val": "Interactive Plant Map",
+      "reviewed": false
     },
     "title": {
-      "val": "داخل عملية صناعية",
-      "reviewed": true
+      "val": "Inside an Industrial Process",
+      "reviewed": false
     },
     "body": {
-      "val": "اكتشف كيف تتكامل المواد الكيميائية المتخصصة والوسائط الماصة عبر وحدات التشغيل الحرجة.",
-      "reviewed": true
+      "val": "Explore how specialized chemistries and adsorbent media integrate across critical operating units.",
+      "reviewed": false
     },
     "unit1_label": {
-      "val": "الوحدة: خط تجفيف الغاز",
-      "reviewed": true
+      "val": "Unit: Gas Dehydration Train",
+      "reviewed": false
     },
     "unit1_title": {
-      "val": "المناخل الجزيئية",
-      "reviewed": true
+      "val": "Molecular Sieves",
+      "reviewed": false
     },
     "unit1_body": {
-      "val": "إزالة عميقة للرطوبة تصل إلى أقل من 0.1 جزء في المليون لمنع تكوّن الهيدرات في المبادلات الحرارية المبردة.",
-      "reviewed": true
+      "val": "Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.",
+      "reviewed": false
     },
     "unit2_label": {
-      "val": "الوحدة: دائرة برج التبريد",
-      "reviewed": true
+      "val": "Unit: Cooling Tower Loop",
+      "reviewed": false
     },
     "unit2_title": {
-      "val": "مواد معالجة المياه الكيميائية",
-      "reviewed": true
+      "val": "Water Treatment Chemicals",
+      "reviewed": false
     },
     "unit2_body": {
-      "val": "تركيبات متقدمة للتحكم في الترسبات والتآكل والنشاط البيولوجي للحفاظ على نقل حراري مثالي.",
-      "reviewed": true
+      "val": "Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.",
+      "reviewed": false
     },
     "unit3_label": {
-      "val": "الوحدة: مفاعل المعالجة الهيدروجينية",
-      "reviewed": true
+      "val": "Unit: Hydrotreating Reactor",
+      "reviewed": false
     },
     "unit3_title": {
-      "val": "المحفزات وأسرّة الحماية",
-      "reviewed": true
+      "val": "Catalysts & Guard Beds",
+      "reviewed": false
     },
     "unit3_body": {
-      "val": "وسائط محفزة عالية النشاط ومصائد ملوثات مصممة لأقصى مدة دورة تشغيل.",
-      "reviewed": true
+      "val": "High-activity catalyst media and contaminant traps designed for maximum cycle length.",
+      "reviewed": false
     }
   },
   "divisions": {
     "kicker": {
-      "val": "الأقسام الرئيسية",
-      "reviewed": true
+      "val": "Core Divisions",
+      "reviewed": false
     },
     "title": {
-      "val": "القدرات الصناعية",
-      "reviewed": true
+      "val": "Industrial Capabilities",
+      "reviewed": false
     },
     "v1_label": {
-      "val": "01 / الامتزاز",
-      "reviewed": true
+      "val": "01 / ADSORPTION",
+      "reviewed": false
     },
     "v1_title": {
-      "val": "المناخل الجزيئية والمواد الماصة",
-      "reviewed": true
+      "val": "Molecular Sieves & Adsorbents",
+      "reviewed": false
     },
     "v1_body": {
-      "val": "زيوليتات اصطناعية وألومينا منشّطة لتجفيف الغاز ومعالجة الغاز الطبيعي المسال والتنقية.",
-      "reviewed": true
+      "val": "Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.",
+      "reviewed": false
     },
     "v1_link": {
-      "val": "استكشف المواد الماصة",
-      "reviewed": true
+      "val": "Explore Adsorbents",
+      "reviewed": false
     },
     "v2_label": {
-      "val": "02 / المرافق",
-      "reviewed": true
+      "val": "02 / UTILITIES",
+      "reviewed": false
     },
     "v2_title": {
-      "val": "مواد معالجة المياه الكيميائية",
-      "reviewed": true
+      "val": "Water Treatment Chemicals",
+      "reviewed": false
     },
     "v2_body": {
-      "val": "مثبطات الترسبات والتحكم في التآكل ومبيدات حيوية ومواد كيميائية غشائية للتبريد الصناعي.",
-      "reviewed": true
+      "val": "Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.",
+      "reviewed": false
     },
     "v2_link": {
-      "val": "استكشف معالجة المياه",
-      "reviewed": true
+      "val": "Explore Water Treatment",
+      "reviewed": false
     },
     "v3_label": {
-      "val": "03 / التفاعل",
-      "reviewed": true
+      "val": "03 / REACTION",
+      "reviewed": false
     },
     "v3_title": {
-      "val": "المحفزات وتقنية العمليات",
-      "reviewed": true
+      "val": "Catalysts & Process Tech",
+      "reviewed": false
     },
     "v3_body": {
-      "val": "محفزات تكرير وتصنيع مصممة لتعظيم العائد وإطالة مدة الدورة.",
-      "reviewed": true
+      "val": "Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.",
+      "reviewed": false
     },
     "v3_link": {
-      "val": "استكشف المحفزات",
-      "reviewed": true
+      "val": "Explore Catalysts",
+      "reviewed": false
     }
   },
   "contact_cta": {
     "kicker": {
-      "val": "حلول هندسية بلا حدود",
-      "reviewed": true
+      "val": "Engineering Solutions Without Borders",
+      "reviewed": false
     },
     "title": {
-      "val": "تقنيات موثوقة. شراكات موثوقة. أداء دائم.",
-      "reviewed": true
+      "val": "Reliable Technologies. Trusted Partnerships. Lasting Performance.",
+      "reviewed": false
     },
     "body": {
-      "val": "لنناقش تحديات العملية الخاصة بك ومتطلباتك التقنية.",
-      "reviewed": true
+      "val": "Let's discuss your specific process challenges and technical requirements.",
+      "reviewed": false
     },
     "cta": {
-      "val": "ابدأ المحادثة",
-      "reviewed": true
+      "val": "Start the Conversation",
+      "reviewed": false
     }
   }
 }
