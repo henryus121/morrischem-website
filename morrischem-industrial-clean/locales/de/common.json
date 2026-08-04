@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": {
+      "val": "Startseite",
+      "reviewed": true
+    },
+    "catalysts": {
+      "val": "Katalysatoren",
+      "reviewed": true
+    },
+    "molecular_sieves": {
+      "val": "Molekularsiebe",
+      "reviewed": true
+    },
+    "water_treatment": {
+      "val": "Wasseraufbereitung",
+      "reviewed": true
+    },
+    "contact": {
+      "val": "Kontakt",
+      "reviewed": true
+    }
+  },
+  "hero": {
+    "title": {
+      "val": "Industrielle Chemielösungen & Technologie",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Globale Distribution und technische Expertise für fortgeschrittene industrielle Prozesse.",
+      "reviewed": true
+    }
+  },
+  "footer": {
+    "rights": {
+      "val": "Alle Rechte vorbehalten.",
+      "reviewed": true
+    }
+  }
+}

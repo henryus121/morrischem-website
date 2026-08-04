@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": { "val": "الرئيسية", "reviewed": true },
+    "catalysts": { "val": "محفزات", "reviewed": true },
+    "molecular_sieves": { "val": "مناخل جزيئية", "reviewed": true },
+    "water_treatment": { "val": "معالجة المياه", "reviewed": true },
+    "contact": { "val": "اتصال", "reviewed": true }
+  },
+  "hero": {
+    "title": { "val": "الحلول الكيميائية والتكنولوجيا الصناعية", "reviewed": true },
+    "subtitle": { "val": "توزيع عالمي وخبرة فنية للعمليات الصناعية المتقدمة.", "reviewed": true }
+  },
+  "footer": {
+    "rights": { "val": "كل الحقوق محفوظة.", "reviewed": true }
+  }
+}

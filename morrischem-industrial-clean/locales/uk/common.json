@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": { "val": "Головна", "reviewed": true },
+    "catalysts": { "val": "Каталізатори", "reviewed": true },
+    "molecular_sieves": { "val": "Молекулярні сита", "reviewed": true },
+    "water_treatment": { "val": "Очищення води", "reviewed": true },
+    "contact": { "val": "Контакти", "reviewed": true }
+  },
+  "hero": {
+    "title": { "val": "Промислові хімічні рішення та технології", "reviewed": true },
+    "subtitle": { "val": "Глобальне постачання та технічний досвід для передових промислових процесів.", "reviewed": true }
+  },
+  "footer": {
+    "rights": { "val": "Всі права захищені.", "reviewed": true }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": { "val": "Ana Səhifə", "reviewed": true },
+    "catalysts": { "val": "Katalizatorlar", "reviewed": true },
+    "molecular_sieves": { "val": "Molekulyar Ələklər", "reviewed": true },
+    "water_treatment": { "val": "Su Təmizləmə", "reviewed": true },
+    "contact": { "val": "Əlaqə", "reviewed": true }
+  },
+  "hero": {
+    "title": { "val": "Sənaye Kimyəvi Həlləri və Texnologiya", "reviewed": true },
+    "subtitle": { "val": "Qabaqcıl sənaye prosesləri üçün qlobal paylanma və texniki təcrübə.", "reviewed": true }
+  },
+  "footer": {
+    "rights": { "val": "Bütün hüquqlar qorunur.", "reviewed": true }
+  }
+}

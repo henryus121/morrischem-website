@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": {
+      "val": "Главная",
+      "reviewed": true
+    },
+    "catalysts": {
+      "val": "Катализаторы",
+      "reviewed": true
+    },
+    "molecular_sieves": {
+      "val": "Молекулярные сита",
+      "reviewed": true
+    },
+    "water_treatment": {
+      "val": "Очистка воды",
+      "reviewed": true
+    },
+    "contact": {
+      "val": "Контакты",
+      "reviewed": true
+    }
+  },
+  "hero": {
+    "title": {
+      "val": "Промышленные химические решения и технологии",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Глобальные поставки и технический опыт для передовых промышленных процессов.",
+      "reviewed": true
+    }
+  },
+  "footer": {
+    "rights": {
+      "val": "Все права защищены.",
+      "reviewed": true
+    }
+  }
+}

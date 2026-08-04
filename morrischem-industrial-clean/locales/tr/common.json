@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": { "val": "Ana Sayfa", "reviewed": true },
+    "catalysts": { "val": "Katalizörler", "reviewed": true },
+    "molecular_sieves": { "val": "Moleküler Elekler", "reviewed": true },
+    "water_treatment": { "val": "Su Arıtma", "reviewed": true },
+    "contact": { "val": "İletişim", "reviewed": true }
+  },
+  "hero": {
+    "title": { "val": "Endüstriyel Kimyasal Çözümler ve Teknoloji", "reviewed": true },
+    "subtitle": { "val": "Gelişmiş endüstriyel süreçler için küresel dağıtım ve teknik uzmanlık.", "reviewed": true }
+  },
+  "footer": {
+    "rights": { "val": "Tüm hakları saklıdır.", "reviewed": true }
+  }
+}

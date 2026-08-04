@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "catalysts": "Catalysts",
+    "molecular_sieves": "Molecular Sieves",
+    "water_treatment": "Water Treatment",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Industrial Chemical Solutions & Technology",
+    "subtitle": "Global distribution and technical expertise for advanced industrial processes."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

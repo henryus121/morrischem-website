@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": {
+      "val": "Accueil",
+      "reviewed": true
+    },
+    "catalysts": {
+      "val": "Catalyseurs",
+      "reviewed": true
+    },
+    "molecular_sieves": {
+      "val": "Tamis Moléculaires",
+      "reviewed": true
+    },
+    "water_treatment": {
+      "val": "Traitement de l'Eau",
+      "reviewed": true
+    },
+    "contact": {
+      "val": "Contact",
+      "reviewed": true
+    }
+  },
+  "hero": {
+    "title": {
+      "val": "Solutions et Technologie Chimique Industrielle",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Distribution mondiale et expertise technique pour les processus industriels avancés.",
+      "reviewed": true
+    }
+  },
+  "footer": {
+    "rights": {
+      "val": "Tous droits réservés.",
+      "reviewed": true
+    }
+  }
+}
