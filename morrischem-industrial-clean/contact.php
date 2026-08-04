@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/includes/i18n.php'; ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $requiredFields = [
@@ -75,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Technical Inquiry &amp; Consultation — Morrischem LLC</title>
+  <title><?php echo htmlspecialchars(__t('contact_page.meta_title', 'common', 'Technical Inquiry & Consultation — Morrischem LLC')); ?></title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
@@ -100,69 +101,89 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </style>
 </head>
 <body>
+<div style="position: fixed; top: 16px; right: 16px; z-index: 999;">
+  <form action="" method="GET" style="margin:0;">
+    <select name="lang" onchange="this.form.submit()" style="padding: 6px 10px; border-radius: 4px; font-weight: bold; cursor: pointer;">
+      <?php
+      global $allowed_langs, $lang;
+      $lang_names = [
+          "en" => "EN", "es" => "ES", "fr" => "FR",
+          "de" => "DE", "ru" => "RU", "tr" => "TR",
+          "uk" => "UK", "ar" => "AR", "az" => "AZ"
+      ];
+      foreach ($allowed_langs as $code) {
+          $selected = ($lang === $code) ? "selected" : "";
+          $name = $lang_names[$code] ?? strtoupper($code);
+          echo '<option value="' . $code . '" ' . $selected . '>' . $name . '</option>';
+      }
+      ?>
+    </select>
+  </form>
+</div>
+
   <header class="page-header">
     <div class="container">
-      <a href="/" class="back-link">&larr; Back to Main Flagship</a>
-      <div class="kicker">Consultation Gateway</div>
-      <h1>Engineering Technical Inquiry</h1>
-      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.</p>
+      <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
+      <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.kicker', 'common', 'Consultation Gateway')); ?></div>
+      <h1><?php echo htmlspecialchars(__t('contact_page.h1', 'common', 'Engineering Technical Inquiry')); ?></h1>
+      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;"><?php echo htmlspecialchars(__t('contact_page.intro', 'common', 'Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.')); ?></p>
     </div>
   </header>
 
   <section class="section-padding">
     <div class="container grid-2">
       <div>
-        <div class="kicker">Direct Response Protocol</div>
-        <h2>Engineering Support</h2>
-        <p style="margin: 16px 0 32px 0;">We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.</p>
+        <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.support_kicker', 'common', 'Direct Response Protocol')); ?></div>
+        <h2><?php echo htmlspecialchars(__t('contact_page.support_h2', 'common', 'Engineering Support')); ?></h2>
+        <p style="margin: 16px 0 32px 0;"><?php echo htmlspecialchars(__t('contact_page.support_body', 'common', 'We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.')); ?></p>
         <div class="card-surface" style="margin-bottom: 24px; background-color: #1C2541; border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; padding: 32px;">
-          <h4 style="color: #00D2FF; font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">Response Commitment</h4>
-          <p style="font-size: 14px; color: #8D99AE;">All inquiries receive a preliminary engineering assessment within 24 business hours.</p>
+          <h4 style="color: #00D2FF; font-size: 13px; text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('contact_page.commitment_title', 'common', 'Response Commitment')); ?></h4>
+          <p style="font-size: 14px; color: #8D99AE;"><?php echo htmlspecialchars(__t('contact_page.commitment_body', 'common', 'All inquiries receive a preliminary engineering assessment within 24 business hours.')); ?></p>
         </div>
       </div>
 
       <div class="card-surface" style="background-color: #1C2541; border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; padding: 32px;">
-        <?php $status = isset($_GET['status']) ? $_GET['status'] : ''; $message = isset($_GET['message']) ? htmlspecialchars($_GET['message'], ENT_QUOTES, 'UTF-8') : ''; if ($status === 'success') { echo '<div class="alert alert-success">Thank you. Your inquiry has been submitted successfully.</div>'; } elseif ($status === 'error') { echo '<div class="alert alert-error">' . $message . '</div>'; } ?>
+        <?php $status = isset($_GET['status']) ? $_GET['status'] : ''; $message = isset($_GET['message']) ? htmlspecialchars($_GET['message'], ENT_QUOTES, 'UTF-8') : ''; if ($status === 'success') { echo '<div class="alert alert-success">' . htmlspecialchars(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')) . '</div>'; } elseif ($status === 'error') { echo '<div class="alert alert-error">' . $message . '</div>'; } ?>
         <form id="contact-form" action="contact.php" method="post">
           <div class="form-group">
-            <label for="full_name">Full Name / Title</label>
-            <input type="text" id="full_name" name="full_name" class="form-control" placeholder="e.g. John Doe, Lead Process Engineer" required>
+            <label for="full_name"><?php echo htmlspecialchars(__t('contact_page.label_full_name', 'common', 'Full Name / Title')); ?></label>
+            <input type="text" id="full_name" name="full_name" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_full_name', 'common', 'e.g. John Doe, Lead Process Engineer')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="company">Company / Operating Facility</label>
-            <input type="text" id="company" name="company" class="form-control" placeholder="e.g. Petrochemical Refinery Complex" required>
+            <label for="company"><?php echo htmlspecialchars(__t('contact_page.label_company', 'common', 'Company / Operating Facility')); ?></label>
+            <input type="text" id="company" name="company" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_company', 'common', 'e.g. Petrochemical Refinery Complex')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="email">Corporate Email</label>
+            <label for="email"><?php echo htmlspecialchars(__t('contact_page.label_email', 'common', 'Corporate Email')); ?></label>
             <input type="email" id="email" name="email" class="form-control" placeholder="name@company.com" required>
           </div>
           <div class="form-group">
-            <label for="request_type">Request Type</label>
+            <label for="request_type"><?php echo htmlspecialchars(__t('contact_page.label_request_type', 'common', 'Request Type')); ?></label>
             <select id="request_type" name="request_type" class="form-control">
-              <option value="">Select document request...</option>
-              <option value="TDS">TDS Request</option>
-              <option value="SDS">SDS Request</option>
+              <option value=""><?php echo htmlspecialchars(__t('contact_page.option_select_document', 'common', 'Select document request...')); ?></option>
+              <option value="TDS"><?php echo htmlspecialchars(__t('contact_page.option_tds', 'common', 'TDS Request')); ?></option>
+              <option value="SDS"><?php echo htmlspecialchars(__t('contact_page.option_sds', 'common', 'SDS Request')); ?></option>
             </select>
           </div>
           <div class="form-group">
-            <label for="product_name">Product / Specification Name</label>
-            <input type="text" id="product_name" name="product_name" class="form-control" placeholder="e.g. 3A Zeolite Spheres">
+            <label for="product_name"><?php echo htmlspecialchars(__t('contact_page.label_product_name', 'common', 'Product / Specification Name')); ?></label>
+            <input type="text" id="product_name" name="product_name" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_product_name', 'common', 'e.g. 3A Zeolite Spheres')); ?>">
           </div>
           <div class="form-group">
-            <label for="engineering_focus">Primary Engineering Focus</label>
+            <label for="engineering_focus"><?php echo htmlspecialchars(__t('contact_page.label_engineering_focus', 'common', 'Primary Engineering Focus')); ?></label>
             <select id="engineering_focus" name="engineering_focus" class="form-control" required>
-              <option value="" disabled selected>Select process area...</option>
+              <option value="" disabled selected><?php echo htmlspecialchars(__t('contact_page.option_select_process', 'common', 'Select process area...')); ?></option>
               <option value="Molecular Sieves & Adsorbents">Molecular Sieves &amp; Adsorbents</option>
-              <option value="Water Treatment Chemistries">Water Treatment Chemistries</option>
+              <option value="Water Treatment Chemistries"><?php echo htmlspecialchars(__t('contact_page.option_water_treatment', 'common', 'Water Treatment Chemistries')); ?></option>
               <option value="Catalysts & Process Tech">Catalysts &amp; Process Tech</option>
-              <option value="Other Specialty Chemical Inquiry">Other Specialty Chemical Inquiry</option>
+              <option value="Other Specialty Chemical Inquiry"><?php echo htmlspecialchars(__t('contact_page.option_other', 'common', 'Other Specialty Chemical Inquiry')); ?></option>
             </select>
           </div>
           <div class="form-group">
-            <label for="requirements">Technical Requirements / Stream Parameters</label>
-            <textarea id="requirements" name="requirements" class="form-control" rows="5" placeholder="Specify operating temperatures, flow rates, contaminants, or targeted product specs..." required></textarea>
+            <label for="requirements"><?php echo htmlspecialchars(__t('contact_page.label_requirements', 'common', 'Technical Requirements / Stream Parameters')); ?></label>
+            <textarea id="requirements" name="requirements" class="form-control" rows="5" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_requirements', 'common', 'Specify operating temperatures, flow rates, contaminants, or targeted product specs...')); ?>" required></textarea>
           </div>
-          <button type="submit" class="btn-primary" style="width: 100%; text-align: center; cursor: pointer; border: none;">Submit Inquiry</button>
+          <button type="submit" class="btn-primary" style="width: 100%; text-align: center; cursor: pointer; border: none;"><?php echo htmlspecialchars(__t('contact_page.submit_button', 'common', 'Submit Inquiry')); ?></button>
         </form>
       </div>
     </div>
@@ -171,7 +192,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <footer class="footer-wrapper">
     <div class="container">
       <div style="font-family: var(--font-serif); font-size: 20px; color: #FFFFFF;">MORRISCHEM LLC</div>
-      <p style="font-size: 13px; margin-top: 8px; color: #8D99AE;">&copy; 2026 Morrischem LLC. All rights reserved.</p>
+      <p style="font-size: 13px; margin-top: 8px; color: #8D99AE;">&copy; 2026 Morrischem LLC. <?php echo htmlspecialchars(__t('contact_page.footer_rights', 'common', 'All rights reserved.')); ?></p>
     </div>
   </footer>
 

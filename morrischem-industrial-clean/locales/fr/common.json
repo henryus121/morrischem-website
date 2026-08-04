@@ -226,5 +226,135 @@
       "val": "Démarrer la Conversation",
       "reviewed": true
     }
+  },
+  "contact_page": {
+    "meta_title": {
+      "val": "Technical Inquiry & Consultation — Morrischem LLC",
+      "reviewed": false
+    },
+    "back_link": {
+      "val": "Back to Main Flagship",
+      "reviewed": false
+    },
+    "kicker": {
+      "val": "Consultation Gateway",
+      "reviewed": false
+    },
+    "h1": {
+      "val": "Engineering Technical Inquiry",
+      "reviewed": false
+    },
+    "intro": {
+      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
+      "reviewed": false
+    },
+    "support_kicker": {
+      "val": "Direct Response Protocol",
+      "reviewed": false
+    },
+    "support_h2": {
+      "val": "Engineering Support",
+      "reviewed": false
+    },
+    "support_body": {
+      "val": "We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.",
+      "reviewed": false
+    },
+    "commitment_title": {
+      "val": "Response Commitment",
+      "reviewed": false
+    },
+    "commitment_body": {
+      "val": "All inquiries receive a preliminary engineering assessment within 24 business hours.",
+      "reviewed": false
+    },
+    "success_message": {
+      "val": "Thank you. Your inquiry has been submitted successfully.",
+      "reviewed": false
+    },
+    "label_full_name": {
+      "val": "Full Name / Title",
+      "reviewed": false
+    },
+    "placeholder_full_name": {
+      "val": "e.g. John Doe, Lead Process Engineer",
+      "reviewed": false
+    },
+    "label_company": {
+      "val": "Company / Operating Facility",
+      "reviewed": false
+    },
+    "placeholder_company": {
+      "val": "e.g. Petrochemical Refinery Complex",
+      "reviewed": false
+    },
+    "label_email": {
+      "val": "Corporate Email",
+      "reviewed": false
+    },
+    "label_request_type": {
+      "val": "Request Type",
+      "reviewed": false
+    },
+    "option_select_document": {
+      "val": "Select document request...",
+      "reviewed": false
+    },
+    "option_tds": {
+      "val": "TDS Request",
+      "reviewed": false
+    },
+    "option_sds": {
+      "val": "SDS Request",
+      "reviewed": false
+    },
+    "label_product_name": {
+      "val": "Product / Specification Name",
+      "reviewed": false
+    },
+    "placeholder_product_name": {
+      "val": "e.g. 3A Zeolite Spheres",
+      "reviewed": false
+    },
+    "label_engineering_focus": {
+      "val": "Primary Engineering Focus",
+      "reviewed": false
+    },
+    "option_select_process": {
+      "val": "Select process area...",
+      "reviewed": false
+    },
+    "option_molecular_sieves": {
+      "val": "Molecular Sieves & Adsorbents",
+      "reviewed": false
+    },
+    "option_water_treatment": {
+      "val": "Water Treatment Chemistries",
+      "reviewed": false
+    },
+    "option_catalysts": {
+      "val": "Catalysts & Process Tech",
+      "reviewed": false
+    },
+    "option_other": {
+      "val": "Other Specialty Chemical Inquiry",
+      "reviewed": false
+    },
+    "label_requirements": {
+      "val": "Technical Requirements / Stream Parameters",
+      "reviewed": false
+    },
+    "placeholder_requirements": {
+      "val": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
+      "reviewed": false
+    },
+    "submit_button": {
+      "val": "Submit Inquiry",
+      "reviewed": false
+    },
+    "footer_rights": {
+      "val": "All rights reserved.",
+      "reviewed": false
+    }
   }
 }
