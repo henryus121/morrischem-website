@@ -1,4 +1,5 @@
 
+<?php require_once __DIR__ . '/includes/i18n.php'; ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -8,6 +9,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php echo render_language_selector(); ?>
 
 <header class="site-header">
     <div class="header-container">

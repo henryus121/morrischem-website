@@ -1,3 +1,4 @@
+<?php if (function_exists('add_action') === false) { require_once __DIR__ . '/wp-stubs.php'; } ?>
 <?php require_once __DIR__ . '/includes/i18n.php'; ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -40,14 +41,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         $subject = 'New technical inquiry from ' . $displayValues['full_name'];
-        $body = "New technical inquiry received via Morrischem contact form\n\n";
-        $body .= "Full Name: {$displayValues['full_name']}\n";
-        $body .= "Company: {$displayValues['company']}\n";
-        $body .= "Email: {$displayValues['email']}\n";
-        $body .= "Request Type: " . ($displayValues['request_type'] !== '' ? $displayValues['request_type'] : 'Not specified') . "\n";
-        $body .= "Product Name: " . ($displayValues['product_name'] !== '' ? $displayValues['product_name'] : 'Not specified') . "\n";
-        $body .= "Engineering Focus: {$displayValues['engineering_focus']}\n";
-        $body .= "Requirements:\n{$displayValues['requirements']}\n";
+        $body = "New technical inquiry received via Morrischem contact form
+
+";
+        $body .= "Full Name: {$displayValues['full_name']}
+";
+        $body .= "Company: {$displayValues['company']}
+";
+        $body .= "Email: {$displayValues['email']}
+";
+        $body .= "Request Type: " . ($displayValues['request_type'] !== '' ? $displayValues['request_type'] : 'Not specified') . "
+";
+        $body .= "Product Name: " . ($displayValues['product_name'] !== '' ? $displayValues['product_name'] : 'Not specified') . "
+";
+        $body .= "Engineering Focus: {$displayValues['engineering_focus']}
+";
+        $body .= "Requirements:
+{$displayValues['requirements']}
+";
 
         $headers = [
             'From: no-reply@morrischem.com',
@@ -56,7 +67,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'Content-Type: text/plain; charset=UTF-8'
         ];
 
-        $mailSent = mail('info@morrischem.com', $subject, $body, implode("\r\n", $headers));
+        $mailSent = mail('info@morrischem.com', $subject, $body, implode("
+", $headers));
 
         if ($mailSent) {
             header('Location: contact.php?status=success');
@@ -71,8 +83,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Location: contact.php?status=error&message=' . $message);
     exit;
 }
-?><!DOCTYPE html>
-<html lang="en">
+?>
+<!DOCTYPE html>
+<html lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" dir="<?php echo htmlspecialchars($dir, ENT_QUOTES, 'UTF-8'); ?>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -94,42 +107,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     .form-control:focus { outline: none; border-color: #00D2FF; }
     .back-link { color: #00D2FF; text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 24px; }
     .back-link:hover { text-decoration: underline; }
-    .footer-wrapper { background-color: #03060D; padding: 60px 0 40px; }
+    .footer-wrapper { background-color: #03060D; padding: 60px 0 40px 0; }
     .alert { margin-bottom: 24px; padding: 12px 16px; border-radius: 2px; font-size: 14px; }
     .alert-success { background-color: rgba(0, 210, 255, 0.1); color: #FFFFFF; border: 1px solid rgba(0, 210, 255, 0.25); }
     .alert-error { background-color: rgba(255, 87, 87, 0.14); color: #FFFFFF; border: 1px solid rgba(255, 87, 87, 0.25); }
   </style>
 </head>
 <body>
-<div style="position: fixed; top: 16px; right: 16px; z-index: 999;">
-  <form action="" method="GET" style="margin:0;">
-    <select name="lang" onchange="this.form.submit()" style="padding: 6px 10px; border-radius: 4px; font-weight: bold; cursor: pointer;">
-      <?php
-      global $allowed_langs, $lang;
-      $lang_names = [
-          "en" => "EN", "es" => "ES", "fr" => "FR",
-          "de" => "DE", "ru" => "RU", "tr" => "TR",
-          "uk" => "UK", "ar" => "AR", "az" => "AZ"
-      ];
-      foreach ($allowed_langs as $code) {
-          $selected = ($lang === $code) ? "selected" : "";
-          $name = $lang_names[$code] ?? strtoupper($code);
-          echo '<option value="' . $code . '" ' . $selected . '>' . $name . '</option>';
-      }
-      ?>
-    </select>
-  </form>
-</div>
-
+<?php echo render_language_selector(); ?>
   <header class="page-header">
     <div class="container">
-      <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
+      <a href="index.php" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
       <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.kicker', 'common', 'Consultation Gateway')); ?></div>
       <h1><?php echo htmlspecialchars(__t('contact_page.h1', 'common', 'Engineering Technical Inquiry')); ?></h1>
       <p style="font-size: 18px; max-width: 720px; margin-top: 16px;"><?php echo htmlspecialchars(__t('contact_page.intro', 'common', 'Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.')); ?></p>
     </div>
   </header>
-
   <section class="section-padding">
     <div class="container grid-2">
       <div>
@@ -141,9 +134,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <p style="font-size: 14px; color: #8D99AE;"><?php echo htmlspecialchars(__t('contact_page.commitment_body', 'common', 'All inquiries receive a preliminary engineering assessment within 24 business hours.')); ?></p>
         </div>
       </div>
-
       <div class="card-surface" style="background-color: #1C2541; border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; padding: 32px;">
-        <?php $status = isset($_GET['status']) ? $_GET['status'] : ''; $message = isset($_GET['message']) ? htmlspecialchars($_GET['message'], ENT_QUOTES, 'UTF-8') : ''; if ($status === 'success') { echo '<div class="alert alert-success">' . htmlspecialchars(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')) . '</div>'; } elseif ($status === 'error') { echo '<div class="alert alert-error">' . $message . '</div>'; } ?>
+        <?php
+            $status = isset($_GET['status']) ? $_GET['status'] : '';
+            $message = isset($_GET['message']) ? htmlspecialchars($_GET['message'], ENT_QUOTES, 'UTF-8') : '';
+            if ($status === 'success') {
+                echo '<div class="alert alert-success">' . htmlspecialchars(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')) . '</div>';
+            } elseif ($status === 'error') {
+                echo '<div class="alert alert-error">' . $message . '</div>';
+            }
+        ?>
         <form id="contact-form" action="contact.php" method="post">
           <div class="form-group">
             <label for="full_name"><?php echo htmlspecialchars(__t('contact_page.label_full_name', 'common', 'Full Name / Title')); ?></label>
@@ -173,9 +173,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <label for="engineering_focus"><?php echo htmlspecialchars(__t('contact_page.label_engineering_focus', 'common', 'Primary Engineering Focus')); ?></label>
             <select id="engineering_focus" name="engineering_focus" class="form-control" required>
               <option value="" disabled selected><?php echo htmlspecialchars(__t('contact_page.option_select_process', 'common', 'Select process area...')); ?></option>
-              <option value="Molecular Sieves & Adsorbents">Molecular Sieves &amp; Adsorbents</option>
+              <option value="Molecular Sieves & Adsorbents"><?php echo htmlspecialchars(__t('contact_page.option_molecular_sieves', 'common', 'Molecular Sieves & Adsorbents')); ?></option>
               <option value="Water Treatment Chemistries"><?php echo htmlspecialchars(__t('contact_page.option_water_treatment', 'common', 'Water Treatment Chemistries')); ?></option>
-              <option value="Catalysts & Process Tech">Catalysts &amp; Process Tech</option>
+              <option value="Catalysts & Process Tech"><?php echo htmlspecialchars(__t('contact_page.option_catalysts', 'common', 'Catalysts & Process Tech')); ?></option>
               <option value="Other Specialty Chemical Inquiry"><?php echo htmlspecialchars(__t('contact_page.option_other', 'common', 'Other Specialty Chemical Inquiry')); ?></option>
             </select>
           </div>
@@ -188,42 +188,34 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </div>
     </div>
   </section>
-
   <footer class="footer-wrapper">
     <div class="container">
-      <div style="font-family: var(--font-serif); font-size: 20px; color: #FFFFFF;">MORRISCHEM LLC</div>
+      <div style="font-family: var(--font-serif); font-size: 20px; color: #FFFFFF;"><?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?></div>
       <p style="font-size: 13px; margin-top: 8px; color: #8D99AE;">&copy; 2026 Morrischem LLC. <?php echo htmlspecialchars(__t('contact_page.footer_rights', 'common', 'All rights reserved.')); ?></p>
     </div>
   </footer>
-
   <script>
     const params = new URLSearchParams(window.location.search);
     const status = params.get('status');
     const message = params.get('message');
     if (status === 'success') {
-      alert('Thank you. Your inquiry has been submitted successfully.');
+      alert('<?php echo addslashes(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')); ?>');
     } else if (status === 'error' && message) {
       alert(decodeURIComponent(message));
     }
 
     document.getElementById('contact-form').addEventListener('submit', function (event) {
       event.preventDefault();
-
       const form = event.currentTarget;
       const formData = new FormData(form);
-
       fetch('contact.php', {
         method: 'POST',
         body: formData
       })
-        .then(function (response) {
-          return response.text();
-        })
         .then(function () {
           const alertBox = document.createElement('div');
           alertBox.className = 'alert alert-success';
-          alertBox.textContent = 'Thank you. Your technical inquiry has been transmitted successfully.';
-
+          alertBox.textContent = '<?php echo addslashes(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')); ?>';
           const formWrapper = form.parentNode;
           formWrapper.insertBefore(alertBox, form);
           form.reset();
@@ -231,8 +223,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .catch(function () {
           const alertBox = document.createElement('div');
           alertBox.className = 'alert alert-error';
-          alertBox.textContent = 'Unable to submit your inquiry right now. Please try again later.';
-
+          alertBox.textContent = '<?php echo addslashes(__t('contact_page.failure_message', 'common', 'Unable to submit your inquiry right now. Please try again later.')); ?>';
           const formWrapper = form.parentNode;
           formWrapper.insertBefore(alertBox, form);
         });

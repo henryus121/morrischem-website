@@ -98,3 +98,32 @@ function __t($key, $namespace = 'common', $default = '') {
     // C. Hard Fallback (If missing in both Target and Master English)
     return $default ?: $key;
 }
+
+/**
+ * Render the persistent language selector UI.
+ */
+function render_language_selector() {
+    global $allowed_langs, $lang;
+
+    $lang_names = [
+        'en' => 'EN', 'es' => 'ES', 'fr' => 'FR',
+        'de' => 'DE', 'ru' => 'RU', 'tr' => 'TR',
+        'uk' => 'UK', 'ar' => 'AR', 'az' => 'AZ'
+    ];
+
+    $html = '<div class="language-switcher" style="position: fixed; top: 16px; right: 16px; z-index: 999;">';
+    $html .= '<form action="" method="GET" style="margin:0;">';
+    $html .= '<select name="lang" onchange="this.form.submit()" style="padding: 6px 10px; border-radius: 4px; font-weight: bold; cursor: pointer;">';
+
+    foreach ($allowed_langs as $code) {
+        $selected = ($lang === $code) ? 'selected' : '';
+        $name = $lang_names[$code] ?? strtoupper($code);
+        $html .= '<option value="' . htmlspecialchars($code, ENT_QUOTES, 'UTF-8') . '" ' . $selected . '>' . htmlspecialchars($name, ENT_QUOTES, 'UTF-8') . '</option>';
+    }
+
+    $html .= '</select>';
+    $html .= '</form>';
+    $html .= '</div>';
+
+    return $html;
+}

@@ -1,12 +1,12 @@
-<?php if (function_exists("add_action") === false) { require_once __DIR__ . "/wp-stubs.php"; } ?>
+<?php if (function_exists('add_action') === false) { require_once __DIR__ . '/wp-stubs.php'; } ?>
 <?php require_once __DIR__ . '/includes/i18n.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" dir="<?php echo htmlspecialchars($dir, ENT_QUOTES, 'UTF-8'); ?>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo htmlspecialchars(__t('meta.title', 'common', 'Morrischem LLC — Engineering Industrial Performance')); ?></title>
-  
+
   <!-- Technical SEO & Open Graph Metadata -->
   <meta name="description" content="<?php echo htmlspecialchars(__t('meta.description', 'common', 'Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.')); ?>">
   <meta property="og:title" content="<?php echo htmlspecialchars(__t('meta.og_title', 'common', 'Morrischem LLC — Critical Infrastructure. Uncompromising Precision.')); ?>">
@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-  
+
   <!-- Master Design System CSS -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-guide.css">
   
@@ -144,26 +144,7 @@
   </style>
 </head>
 <body>
-<div style="position: fixed; top: 16px; right: 16px; z-index: 999;">
-  <form action="" method="GET" style="margin:0;">
-    <select name="lang" onchange="this.form.submit()" style="padding: 6px 10px; border-radius: 4px; font-weight: bold; cursor: pointer;">
-      <?php
-      global $allowed_langs, $lang;
-      $lang_names = [
-          "en" => "EN", "es" => "ES", "fr" => "FR",
-          "de" => "DE", "ru" => "RU", "tr" => "TR",
-          "uk" => "UK", "ar" => "AR", "az" => "AZ"
-      ];
-      foreach ($allowed_langs as $code) {
-          $selected = ($lang === $code) ? "selected" : "";
-          $name = $lang_names[$code] ?? strtoupper($code);
-          echo '<option value="' . $code . '" ' . $selected . '>' . $name . '</option>';
-      }
-      ?>
-    </select>
-  </form>
-</div>
-
+<?php echo render_language_selector(); ?>
 
   <!-- Act I: Hero Viewport -->
   <header class="hero-viewport">
@@ -172,7 +153,7 @@
       <h1 class="hero-title"><?php echo htmlspecialchars(__t('hero.title', 'common', 'One Partner. Unlimited Technical Capability.')); ?></h1>
       <p class="hero-subtitle"><?php echo htmlspecialchars(__t('hero.subtitle', 'common', 'Engineering Solutions for Critical Industrial Processes.')); ?></p>
       <div class="hero-cta-group">
-        <a href="<?php echo get_template_directory_uri(); ?>/contact.html" class="btn-primary"><?php echo htmlspecialchars(__t('hero.cta_primary', 'common', 'Discuss Your Requirements')); ?></a>
+        <a href="contact.php" class="btn-primary"><?php echo htmlspecialchars(__t('hero.cta_primary', 'common', 'Discuss Your Requirements')); ?></a>
         <a href="#solutions" class="btn-secondary"><?php echo htmlspecialchars(__t('hero.cta_secondary', 'common', 'Explore Solutions')); ?></a>
       </div>
     </div>
@@ -236,21 +217,21 @@
           <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
           <h3><?php echo htmlspecialchars(__t('divisions.v1_title', 'common', 'Molecular Sieves & Adsorbents')); ?></h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v1_body', 'common', 'Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.')); ?></p>
-          <a href="<?php echo get_template_directory_uri(); ?>/molecular-sieves.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?> &rarr;</a>
+          <a href="molecular-sieves.php" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?> &rarr;</a>
         </div>
         <!-- Vertical 02 -->
         <div class="card-surface">
           <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v2_label', 'common', '02 / UTILITIES')); ?></div>
           <h3><?php echo htmlspecialchars(__t('divisions.v2_title', 'common', 'Water Treatment Chemicals')); ?></h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v2_body', 'common', 'Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.')); ?></p>
-          <a href="<?php echo get_template_directory_uri(); ?>/water-treatment.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v2_link', 'common', 'Explore Water Treatment')); ?> &rarr;</a>
+          <a href="water-treatment.php" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v2_link', 'common', 'Explore Water Treatment')); ?> &rarr;</a>
         </div>
         <!-- Vertical 03 -->
         <div class="card-surface">
           <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
           <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalysts & Process Tech')); ?></h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
-          <a href="<?php echo get_template_directory_uri(); ?>/catalysts-process-tech.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?> &rarr;</a>
+          <a href="catalysts-process-tech.php" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?> &rarr;</a>
         </div>
       </div>
     </div>
@@ -262,7 +243,7 @@
       <div class="section-kicker"><?php echo htmlspecialchars(__t('contact_cta.kicker', 'common', 'Engineering Solutions Without Borders')); ?></div>
       <h2 class="section-title"><?php echo htmlspecialchars(__t('contact_cta.title', 'common', 'Reliable Technologies. Trusted Partnerships. Lasting Performance.')); ?></h2>
       <p style="margin-bottom: 40px;"><?php echo htmlspecialchars(__t('contact_cta.body', 'common', 'Let\'s discuss your specific process challenges and technical requirements.')); ?></p>
-      <a href="<?php echo get_template_directory_uri(); ?>/contact.html" class="btn-primary"><?php echo htmlspecialchars(__t('contact_cta.cta', 'common', 'Start the Conversation')); ?></a>
+      <a href="contact.php" class="btn-primary"><?php echo htmlspecialchars(__t('contact_cta.cta', 'common', 'Start the Conversation')); ?></a>
     </div>
   </section>
 
