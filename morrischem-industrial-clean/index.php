@@ -1,3 +1,4 @@
+<?php if (function_exists("add_action") === false) { require_once __DIR__ . "/wp-stubs.php"; } ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
