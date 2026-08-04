@@ -1,16 +1,230 @@
 {
   "nav": {
-    "home": { "val": "Ana Sayfa", "reviewed": true },
-    "catalysts": { "val": "Katalizörler", "reviewed": true },
-    "molecular_sieves": { "val": "Moleküler Elekler", "reviewed": true },
-    "water_treatment": { "val": "Su Arıtma", "reviewed": true },
-    "contact": { "val": "İletişim", "reviewed": true }
+    "home": {
+      "val": "Ana Sayfa",
+      "reviewed": true
+    },
+    "catalysts": {
+      "val": "Katalizörler",
+      "reviewed": true
+    },
+    "molecular_sieves": {
+      "val": "Moleküler Elekler",
+      "reviewed": true
+    },
+    "water_treatment": {
+      "val": "Su Arıtma",
+      "reviewed": true
+    },
+    "contact": {
+      "val": "İletişim",
+      "reviewed": true
+    }
   },
   "hero": {
-    "title": { "val": "Endüstriyel Kimyasal Çözümler ve Teknoloji", "reviewed": true },
-    "subtitle": { "val": "Gelişmiş endüstriyel süreçler için küresel dağıtım ve teknik uzmanlık.", "reviewed": true }
+    "title": {
+      "val": "Endüstriyel Kimyasal Çözümler ve Teknoloji",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Gelişmiş endüstriyel süreçler için küresel dağıtım ve teknik uzmanlık.",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Global Industrial Process Solutions",
+      "reviewed": false
+    },
+    "cta_primary": {
+      "val": "Discuss Your Requirements",
+      "reviewed": false
+    },
+    "cta_secondary": {
+      "val": "Explore Solutions",
+      "reviewed": false
+    }
   },
   "footer": {
-    "rights": { "val": "Tüm hakları saklıdır.", "reviewed": true }
+    "rights": {
+      "val": "Tüm hakları saklıdır.",
+      "reviewed": true
+    },
+    "name": {
+      "val": "MORRISCHEM LLC",
+      "reviewed": false
+    },
+    "tagline": {
+      "val": "Engineering Industrial Performance.",
+      "reviewed": false
+    },
+    "office": {
+      "val": "Registered Office: Georgia. International Business Operations.",
+      "reviewed": false
+    }
+  },
+  "meta": {
+    "title": {
+      "val": "Morrischem LLC — Engineering Industrial Performance",
+      "reviewed": false
+    },
+    "description": {
+      "val": "Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.",
+      "reviewed": false
+    },
+    "og_title": {
+      "val": "Morrischem LLC — Critical Infrastructure. Uncompromising Precision.",
+      "reviewed": false
+    },
+    "og_description": {
+      "val": "Engineering solutions for critical industrial processes, refining, and gas processing.",
+      "reviewed": false
+    }
+  },
+  "focus": {
+    "kicker": {
+      "val": "Operational Focus",
+      "reviewed": false
+    },
+    "title": {
+      "val": "Built Around Your Process.",
+      "reviewed": false
+    },
+    "body": {
+      "val": "Every refinery, gas plant, and industrial facility operates under distinct thermal, chemical, and pressure parameters. Reliable performance begins with selecting technology engineered for your specific operating environment.",
+      "reviewed": false
+    },
+    "approach_title": {
+      "val": "The Morrischem Approach",
+      "reviewed": false
+    },
+    "approach_body": {
+      "val": "We evaluate operating conditions first, then align and source precise molecular sieves, catalysts, water treatment chemistries, and performance additives.",
+      "reviewed": false
+    }
+  },
+  "plant_map": {
+    "kicker": {
+      "val": "Interactive Plant Map",
+      "reviewed": false
+    },
+    "title": {
+      "val": "Inside an Industrial Process",
+      "reviewed": false
+    },
+    "body": {
+      "val": "Explore how specialized chemistries and adsorbent media integrate across critical operating units.",
+      "reviewed": false
+    },
+    "unit1_label": {
+      "val": "Unit: Gas Dehydration Train",
+      "reviewed": false
+    },
+    "unit1_title": {
+      "val": "Molecular Sieves",
+      "reviewed": false
+    },
+    "unit1_body": {
+      "val": "Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.",
+      "reviewed": false
+    },
+    "unit2_label": {
+      "val": "Unit: Cooling Tower Loop",
+      "reviewed": false
+    },
+    "unit2_title": {
+      "val": "Water Treatment Chemicals",
+      "reviewed": false
+    },
+    "unit2_body": {
+      "val": "Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.",
+      "reviewed": false
+    },
+    "unit3_label": {
+      "val": "Unit: Hydrotreating Reactor",
+      "reviewed": false
+    },
+    "unit3_title": {
+      "val": "Catalysts & Guard Beds",
+      "reviewed": false
+    },
+    "unit3_body": {
+      "val": "High-activity catalyst media and contaminant traps designed for maximum cycle length.",
+      "reviewed": false
+    }
+  },
+  "divisions": {
+    "kicker": {
+      "val": "Core Divisions",
+      "reviewed": false
+    },
+    "title": {
+      "val": "Industrial Capabilities",
+      "reviewed": false
+    },
+    "v1_label": {
+      "val": "01 / ADSORPTION",
+      "reviewed": false
+    },
+    "v1_title": {
+      "val": "Molecular Sieves & Adsorbents",
+      "reviewed": false
+    },
+    "v1_body": {
+      "val": "Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.",
+      "reviewed": false
+    },
+    "v1_link": {
+      "val": "Explore Adsorbents",
+      "reviewed": false
+    },
+    "v2_label": {
+      "val": "02 / UTILITIES",
+      "reviewed": false
+    },
+    "v2_title": {
+      "val": "Water Treatment Chemicals",
+      "reviewed": false
+    },
+    "v2_body": {
+      "val": "Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.",
+      "reviewed": false
+    },
+    "v2_link": {
+      "val": "Explore Water Treatment",
+      "reviewed": false
+    },
+    "v3_label": {
+      "val": "03 / REACTION",
+      "reviewed": false
+    },
+    "v3_title": {
+      "val": "Catalysts & Process Tech",
+      "reviewed": false
+    },
+    "v3_body": {
+      "val": "Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.",
+      "reviewed": false
+    },
+    "v3_link": {
+      "val": "Explore Catalysts",
+      "reviewed": false
+    }
+  },
+  "contact_cta": {
+    "kicker": {
+      "val": "Engineering Solutions Without Borders",
+      "reviewed": false
+    },
+    "title": {
+      "val": "Reliable Technologies. Trusted Partnerships. Lasting Performance.",
+      "reviewed": false
+    },
+    "body": {
+      "val": "Let's discuss your specific process challenges and technical requirements.",
+      "reviewed": false
+    },
+    "cta": {
+      "val": "Start the Conversation",
+      "reviewed": false
+    }
   }
 }

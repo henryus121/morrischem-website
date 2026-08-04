@@ -8,9 +8,64 @@
   },
   "hero": {
     "title": "Industrial Chemical Solutions & Technology",
-    "subtitle": "Global distribution and technical expertise for advanced industrial processes."
+    "subtitle": "Global distribution and technical expertise for advanced industrial processes.",
+    "kicker": "Global Industrial Process Solutions",
+    "cta_primary": "Discuss Your Requirements",
+    "cta_secondary": "Explore Solutions"
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "name": "MORRISCHEM LLC",
+    "tagline": "Engineering Industrial Performance.",
+    "office": "Registered Office: Georgia. International Business Operations."
+  },
+  "meta": {
+    "title": "Morrischem LLC — Engineering Industrial Performance",
+    "description": "Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.",
+    "og_title": "Morrischem LLC — Critical Infrastructure. Uncompromising Precision.",
+    "og_description": "Engineering solutions for critical industrial processes, refining, and gas processing."
+  },
+  "focus": {
+    "kicker": "Operational Focus",
+    "title": "Built Around Your Process.",
+    "body": "Every refinery, gas plant, and industrial facility operates under distinct thermal, chemical, and pressure parameters. Reliable performance begins with selecting technology engineered for your specific operating environment.",
+    "approach_title": "The Morrischem Approach",
+    "approach_body": "We evaluate operating conditions first, then align and source precise molecular sieves, catalysts, water treatment chemistries, and performance additives."
+  },
+  "plant_map": {
+    "kicker": "Interactive Plant Map",
+    "title": "Inside an Industrial Process",
+    "body": "Explore how specialized chemistries and adsorbent media integrate across critical operating units.",
+    "unit1_label": "Unit: Gas Dehydration Train",
+    "unit1_title": "Molecular Sieves",
+    "unit1_body": "Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.",
+    "unit2_label": "Unit: Cooling Tower Loop",
+    "unit2_title": "Water Treatment Chemicals",
+    "unit2_body": "Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.",
+    "unit3_label": "Unit: Hydrotreating Reactor",
+    "unit3_title": "Catalysts & Guard Beds",
+    "unit3_body": "High-activity catalyst media and contaminant traps designed for maximum cycle length."
+  },
+  "divisions": {
+    "kicker": "Core Divisions",
+    "title": "Industrial Capabilities",
+    "v1_label": "01 / ADSORPTION",
+    "v1_title": "Molecular Sieves & Adsorbents",
+    "v1_body": "Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.",
+    "v1_link": "Explore Adsorbents",
+    "v2_label": "02 / UTILITIES",
+    "v2_title": "Water Treatment Chemicals",
+    "v2_body": "Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.",
+    "v2_link": "Explore Water Treatment",
+    "v3_label": "03 / REACTION",
+    "v3_title": "Catalysts & Process Tech",
+    "v3_body": "Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.",
+    "v3_link": "Explore Catalysts"
+  },
+  "contact_cta": {
+    "kicker": "Engineering Solutions Without Borders",
+    "title": "Reliable Technologies. Trusted Partnerships. Lasting Performance.",
+    "body": "Let's discuss your specific process challenges and technical requirements.",
+    "cta": "Start the Conversation"
   }
 }
