@@ -196,7 +196,7 @@ Template Name: Catalysts Process Tech Page
       <div class="kicker">Technical Consultation</div>
       <h2>Evaluate Your Catalyst Bed Cycle</h2>
       <p style="margin: 16px 0 32px 0;">Our specialists review feed characterization, space velocity, and temperature profiles to optimize bed performance.</p>
-      <a href="/contact/?subject=Support-Request" class="btn-primary">Request Catalyst Evaluation</a>
+      <a href="/contact/?subject=Consultation" class="btn-primary">Request Catalyst Evaluation</a>
     </div>
   </section>
 

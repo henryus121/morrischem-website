@@ -172,7 +172,7 @@
       <h1 class="hero-title"><?php echo htmlspecialchars(__t('hero.title', 'common', 'One Partner. Unlimited Technical Capability.')); ?></h1>
       <p class="hero-subtitle"><?php echo htmlspecialchars(__t('hero.subtitle', 'common', 'Engineering Solutions for Critical Industrial Processes.')); ?></p>
       <div class="hero-cta-group">
-        <a href="<?php echo get_template_directory_uri(); ?>/contact.html" class="btn-primary"><?php echo htmlspecialchars(__t('hero.cta_primary', 'common', 'Discuss Your Requirements')); ?></a>
+        <a href="/contact/?subject=Inquiry" class="btn-primary"><?php echo htmlspecialchars(__t('hero.cta_primary', 'common', 'Discuss Your Requirements')); ?></a>
         <a href="#solutions" class="btn-secondary"><?php echo htmlspecialchars(__t('hero.cta_secondary', 'common', 'Explore Solutions')); ?></a>
       </div>
     </div>
@@ -262,7 +262,7 @@
       <div class="section-kicker"><?php echo htmlspecialchars(__t('contact_cta.kicker', 'common', 'Engineering Solutions Without Borders')); ?></div>
       <h2 class="section-title"><?php echo htmlspecialchars(__t('contact_cta.title', 'common', 'Reliable Technologies. Trusted Partnerships. Lasting Performance.')); ?></h2>
       <p style="margin-bottom: 40px;"><?php echo htmlspecialchars(__t('contact_cta.body', 'common', 'Let\'s discuss your specific process challenges and technical requirements.')); ?></p>
-      <a href="<?php echo get_template_directory_uri(); ?>/contact.html" class="btn-primary"><?php echo htmlspecialchars(__t('contact_cta.cta', 'common', 'Start the Conversation')); ?></a>
+      <a href="/contact/?subject=Inquiry" class="btn-primary"><?php echo htmlspecialchars(__t('contact_cta.cta', 'common', 'Start the Conversation')); ?></a>
     </div>
   </section>
 

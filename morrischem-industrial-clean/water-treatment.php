@@ -196,7 +196,7 @@ Template Name: Water Treatment Page
       <div class="kicker">Technical Consultation</div>
       <h2>Discuss Your Water Quality Profile</h2>
       <p style="margin: 16px 0 32px 0;">Our engineering team analyzes water chemistry and system design to specify the optimal treatment regime.</p>
-      <a href="/contact/?subject=Support-Request" class="btn-primary">Request Chemical Selection Support</a>
+      <a href="/contact/?subject=Consultation" class="btn-primary">Request Chemical Selection Support</a>
     </div>
   </section>
 

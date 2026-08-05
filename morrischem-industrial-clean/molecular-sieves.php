@@ -234,7 +234,7 @@ Template Name: Molecular Sieves Page
       <div class="kicker">Engineering Support</div>
       <h2>Request Bed Sizing &amp; Design Analysis</h2>
       <p style="margin: 16px 0 32px 0;">Submit your gas flow rate, inlet pressure, temperature, and target dew point for custom bed volume calculation.</p>
-      <a href="/contact/?subject=Support-Request" class="btn-primary">Inquire with Engineering Team</a>
+      <a href="/contact/?subject=Consultation" class="btn-primary">Inquire with Engineering Team</a>
     </div>
   </section>
 
