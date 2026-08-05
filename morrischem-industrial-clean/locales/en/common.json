@@ -108,7 +108,14 @@
     "label_requirements": "Technical Requirements / Stream Parameters",
     "placeholder_requirements": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
     "submit_button": "Submit Inquiry",
-    "footer_rights": "All rights reserved."
+    "footer_rights": "All rights reserved.",
+    "title": "Engineering Technical Inquiry",
+    "subtitle": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
+    "name_label": "Full Name / Title",
+    "email_label": "Corporate Email",
+    "subject_label": "Request Type",
+    "message_label": "Technical Requirements / Stream Parameters",
+    "button_text": "Submit Inquiry"
   },
   "sections": {
     "technical_documentation": "Technical Documentation",

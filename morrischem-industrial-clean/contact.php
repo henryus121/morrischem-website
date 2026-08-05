@@ -130,8 +130,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="container">
       <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
       <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.kicker', 'common', 'Consultation Gateway')); ?></div>
-      <h1><?php echo htmlspecialchars(__t('contact_page.h1', 'common', 'Engineering Technical Inquiry')); ?></h1>
-      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;"><?php echo htmlspecialchars(__t('contact_page.intro', 'common', 'Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.')); ?></p>
+      <h1><?php echo htmlspecialchars(__t('contact_page.title', 'common', 'Engineering Technical Inquiry')); ?></h1>
+      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;"><?php echo htmlspecialchars(__t('contact_page.subtitle', 'common', 'Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.')); ?></p>
     </div>
   </header>
 
@@ -151,7 +151,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php $status = isset($_GET['status']) ? $_GET['status'] : ''; $message = isset($_GET['message']) ? htmlspecialchars($_GET['message'], ENT_QUOTES, 'UTF-8') : ''; if ($status === 'success') { echo '<div class="alert alert-success">' . htmlspecialchars(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')) . '</div>'; } elseif ($status === 'error') { echo '<div class="alert alert-error">' . $message . '</div>'; } ?>
         <form id="contact-form" action="contact.php" method="post">
           <div class="form-group">
-            <label for="full_name"><?php echo htmlspecialchars(__t('contact_page.label_full_name', 'common', 'Full Name / Title')); ?></label>
+            <label for="full_name"><?php echo htmlspecialchars(__t('contact_page.name_label', 'common', 'Full Name / Title')); ?></label>
             <input type="text" id="full_name" name="full_name" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_full_name', 'common', 'e.g. John Doe, Lead Process Engineer')); ?>" required>
           </div>
           <div class="form-group">
@@ -159,11 +159,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="text" id="company" name="company" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_company', 'common', 'e.g. Petrochemical Refinery Complex')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="email"><?php echo htmlspecialchars(__t('contact_page.label_email', 'common', 'Corporate Email')); ?></label>
+            <label for="email"><?php echo htmlspecialchars(__t('contact_page.email_label', 'common', 'Corporate Email')); ?></label>
             <input type="email" id="email" name="email" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_email', 'common', 'name@company.com')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="request_type"><?php echo htmlspecialchars(__t('contact_page.label_request_type', 'common', 'Request Type')); ?></label>
+            <label for="request_type"><?php echo htmlspecialchars(__t('contact_page.subject_label', 'common', 'Request Type')); ?></label>
             <select id="request_type" name="request_type" class="form-control">
               <option value=""><?php echo htmlspecialchars(__t('contact_page.option_select_document', 'common', 'Select document request...')); ?></option>
               <option value="TDS"><?php echo htmlspecialchars(__t('contact_page.option_tds', 'common', 'TDS Request')); ?></option>
@@ -185,10 +185,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </select>
           </div>
           <div class="form-group">
-            <label for="requirements"><?php echo htmlspecialchars(__t('contact_page.label_requirements', 'common', 'Technical Requirements / Stream Parameters')); ?></label>
+            <label for="requirements"><?php echo htmlspecialchars(__t('contact_page.message_label', 'common', 'Technical Requirements / Stream Parameters')); ?></label>
             <textarea id="requirements" name="requirements" class="form-control" rows="5" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_requirements', 'common', 'Specify operating temperatures, flow rates, contaminants, or targeted product specs...')); ?>" required></textarea>
           </div>
-          <button type="submit" class="btn-primary" style="width: 100%; text-align: center; cursor: pointer; border: none;"><?php echo htmlspecialchars(__t('contact_page.submit_button', 'common', 'Submit Inquiry')); ?></button>
+          <button type="submit" class="btn-primary" style="width: 100%; text-align: center; cursor: pointer; border: none;"><?php echo htmlspecialchars(__t('contact_page.button_text', 'common', 'Submit Inquiry')); ?></button>
         </form>
       </div>
     </div>

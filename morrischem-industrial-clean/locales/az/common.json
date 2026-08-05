@@ -355,6 +355,42 @@
     "footer_rights": {
       "val": "All rights reserved.",
       "reviewed": false
+    },
+    "title": {
+      "val": "Engineering Technical Inquiry",
+      "reviewed": false
+    },
+    "subtitle": {
+      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
+      "reviewed": false
+    },
+    "name_label": {
+      "val": "Full Name / Title",
+      "reviewed": false
+    },
+    "email_label": {
+      "val": "Corporate Email",
+      "reviewed": false
+    },
+    "subject_label": {
+      "val": "Request Type",
+      "reviewed": false
+    },
+    "message_label": {
+      "val": "Technical Requirements / Stream Parameters",
+      "reviewed": false
+    },
+    "button_text": {
+      "val": "Submit Inquiry",
+      "reviewed": false
+    },
+    "placeholder_email": {
+      "val": "name@company.com",
+      "reviewed": false
+    },
+    "error_message": {
+      "val": "Unable to submit your inquiry right now. Please try again later.",
+      "reviewed": false
     }
   },
   "actions": {
