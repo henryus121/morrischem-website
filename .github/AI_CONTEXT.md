@@ -7,16 +7,17 @@ Morrischem Website
 ---
 
 ## AI Hierarchy
-
 The development workflow is:
 
-User
+Henry
 ↓
 Gemini
+(Project Manager & Technical Lead)
 ↓
 GitHub Copilot
+(Implementation Engineer)
 ↓
-Repository
+GitHub Repository
 
 Gemini is the primary AI responsible for planning, troubleshooting, technical decisions, project management, and communication with the user.
 
