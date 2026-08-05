@@ -4,8 +4,9 @@ Template Name: Water Treatment Page
 */
 ?>
 <?php require_once __DIR__ . '/includes/i18n.php'; ?>
+<?php $lang_query = $lang === DEFAULT_LANG ? '' : '?lang=' . rawurlencode($lang); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" dir="<?php echo htmlspecialchars($dir, ENT_QUOTES, 'UTF-8'); ?>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -130,7 +131,7 @@ Template Name: Water Treatment Page
   <!-- Header Banner -->
   <header class="page-header">
     <div class="container">
-      <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
+      <a href="<?php echo htmlspecialchars('/' . $lang_query, ENT_QUOTES, 'UTF-8'); ?>" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
       <div class="kicker"><?php echo htmlspecialchars(__t('water.kicker', 'products', 'Capability Vertical 02')); ?></div>
       <h1><?php echo htmlspecialchars(__t('water.title', 'products', 'Industrial Water Treatment Chemistries')); ?></h1>
       <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">

@@ -228,170 +228,47 @@
     }
   },
   "contact_page": {
-    "meta_title": {
-      "val": "Technical Inquiry & Consultation — Morrischem LLC",
-      "reviewed": false
-    },
-    "back_link": {
-      "val": "العودة إلى الصفحة الرئيسية",
-      "reviewed": true
-    },
-    "kicker": {
-      "val": "Consultation Gateway",
-      "reviewed": false
-    },
-    "h1": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
-    },
-    "intro": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
-    },
-    "support_kicker": {
-      "val": "Direct Response Protocol",
-      "reviewed": false
-    },
-    "support_h2": {
-      "val": "Engineering Support",
-      "reviewed": false
-    },
-    "support_body": {
-      "val": "We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.",
-      "reviewed": false
-    },
-    "commitment_title": {
-      "val": "Response Commitment",
-      "reviewed": false
-    },
-    "commitment_body": {
-      "val": "All inquiries receive a preliminary engineering assessment within 24 business hours.",
-      "reviewed": false
-    },
-    "success_message": {
-      "val": "Thank you. Your inquiry has been submitted successfully.",
-      "reviewed": false
-    },
-    "label_full_name": {
-      "val": "Full Name / Title",
-      "reviewed": false
-    },
-    "placeholder_full_name": {
-      "val": "e.g. John Doe, Lead Process Engineer",
-      "reviewed": false
-    },
-    "label_company": {
-      "val": "Company / Operating Facility",
-      "reviewed": false
-    },
-    "placeholder_company": {
-      "val": "e.g. Petrochemical Refinery Complex",
-      "reviewed": false
-    },
-    "label_email": {
-      "val": "Corporate Email",
-      "reviewed": false
-    },
-    "label_request_type": {
-      "val": "Request Type",
-      "reviewed": false
-    },
-    "option_select_document": {
-      "val": "Select document request...",
-      "reviewed": false
-    },
-    "option_tds": {
-      "val": "TDS Request",
-      "reviewed": false
-    },
-    "option_sds": {
-      "val": "SDS Request",
-      "reviewed": false
-    },
-    "label_product_name": {
-      "val": "Product / Specification Name",
-      "reviewed": false
-    },
-    "placeholder_product_name": {
-      "val": "e.g. 3A Zeolite Spheres",
-      "reviewed": false
-    },
-    "label_engineering_focus": {
-      "val": "Primary Engineering Focus",
-      "reviewed": false
-    },
-    "option_select_process": {
-      "val": "Select process area...",
-      "reviewed": false
-    },
-    "option_molecular_sieves": {
-      "val": "Molecular Sieves & Adsorbents",
-      "reviewed": false
-    },
-    "option_water_treatment": {
-      "val": "Water Treatment Chemistries",
-      "reviewed": false
-    },
-    "option_catalysts": {
-      "val": "Catalysts & Process Tech",
-      "reviewed": false
-    },
-    "option_other": {
-      "val": "Other Specialty Chemical Inquiry",
-      "reviewed": false
-    },
-    "label_requirements": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
-    },
-    "placeholder_requirements": {
-      "val": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
-      "reviewed": false
-    },
-    "submit_button": {
-      "val": "Submit Inquiry",
-      "reviewed": false
-    },
-    "footer_rights": {
-      "val": "All rights reserved.",
-      "reviewed": false
-    },
-    "title": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
-    },
-    "subtitle": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
-    },
-    "name_label": {
-      "val": "Full Name / Title",
-      "reviewed": false
-    },
-    "email_label": {
-      "val": "Corporate Email",
-      "reviewed": false
-    },
-    "subject_label": {
-      "val": "Request Type",
-      "reviewed": false
-    },
-    "message_label": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
-    },
-    "button_text": {
-      "val": "Submit Inquiry",
-      "reviewed": false
-    },
-    "placeholder_email": {
-      "val": "name@company.com",
-      "reviewed": false
-    },
-    "error_message": {
-      "val": "Unable to submit your inquiry right now. Please try again later.",
-      "reviewed": false
-    }
+    "meta_title": { "val": "استفسار فني واستشارة — Morrischem LLC", "reviewed": true },
+    "back_link": { "val": "العودة إلى الصفحة الرئيسية", "reviewed": true },
+    "kicker": { "val": "بوابة الاستشارة", "reviewed": true },
+    "h1": { "val": "استفسار هندسي فني", "reviewed": true },
+    "intro": { "val": "أرسل معلمات تيار العملية أو المواصفات الكيميائية مباشرة إلى فريقنا الفني للمراجعة.", "reviewed": true },
+    "support_kicker": { "val": "بروتوكول الاستجابة المباشرة", "reviewed": true },
+    "support_h2": { "val": "الدعم الهندسي", "reviewed": true },
+    "support_body": { "val": "نقيّم ظروف التشغيل وتركيبات التغذية ومنحنيات الضغط قبل التوصية بوسائط الامتزاز أو تكوينات المحفزات أو أنظمة معالجة المياه.", "reviewed": true },
+    "commitment_title": { "val": "التزام بالرد", "reviewed": true },
+    "commitment_body": { "val": "تتلقى جميع الاستفسارات تقييماً هندسياً أولياً خلال 24 ساعة عمل.", "reviewed": true },
+    "success_message": { "val": "شكراً لك. تم إرسال استفسارك بنجاح.", "reviewed": true },
+    "label_full_name": { "val": "الاسم الكامل / المسمى الوظيفي", "reviewed": true },
+    "placeholder_full_name": { "val": "مثال: أحمد علي، مهندس عمليات أول", "reviewed": true },
+    "label_company": { "val": "الشركة / المنشأة التشغيلية", "reviewed": true },
+    "placeholder_company": { "val": "مثال: مجمع تكرير بتروكيميائي", "reviewed": true },
+    "label_email": { "val": "البريد الإلكتروني للشركة", "reviewed": true },
+    "placeholder_email": { "val": "name@company.com", "reviewed": true },
+    "label_request_type": { "val": "نوع الطلب", "reviewed": true },
+    "option_select_document": { "val": "اختر طلب المستند...", "reviewed": true },
+    "option_tds": { "val": "طلب TDS", "reviewed": true },
+    "option_sds": { "val": "طلب SDS", "reviewed": true },
+    "label_product_name": { "val": "اسم المنتج / المواصفة", "reviewed": true },
+    "placeholder_product_name": { "val": "مثال: حبيبات زيوليت 3A", "reviewed": true },
+    "label_engineering_focus": { "val": "التركيز الهندسي الرئيسي", "reviewed": true },
+    "option_select_process": { "val": "اختر مجال العملية...", "reviewed": true },
+    "option_molecular_sieves": { "val": "المناخل الجزيئية ووسائط الامتزاز", "reviewed": true },
+    "option_water_treatment": { "val": "كيميائيات معالجة المياه", "reviewed": true },
+    "option_catalysts": { "val": "المحفزات وتقنيات العمليات", "reviewed": true },
+    "option_other": { "val": "استفسار كيميائي متخصص آخر", "reviewed": true },
+    "label_requirements": { "val": "المتطلبات التقنية / معلمات التيار", "reviewed": true },
+    "placeholder_requirements": { "val": "حدد درجات حرارة التشغيل ومعدلات التدفق والملوثات أو المواصفات المستهدفة...", "reviewed": true },
+    "submit_button": { "val": "إرسال الاستفسار", "reviewed": true },
+    "footer_rights": { "val": "جميع الحقوق محفوظة.", "reviewed": true },
+    "title": { "val": "استفسار هندسي فني", "reviewed": true },
+    "subtitle": { "val": "أرسل معلمات تيار العملية أو المواصفات الكيميائية مباشرة إلى فريقنا الفني للمراجعة.", "reviewed": true },
+    "name_label": { "val": "الاسم الكامل / المسمى الوظيفي", "reviewed": true },
+    "email_label": { "val": "البريد الإلكتروني للشركة", "reviewed": true },
+    "subject_label": { "val": "نوع الطلب", "reviewed": true },
+    "message_label": { "val": "المتطلبات التقنية / معلمات التيار", "reviewed": true },
+    "button_text": { "val": "إرسال الاستفسار", "reviewed": true },
+    "error_message": { "val": "يتعذر إرسال استفسارك حالياً. يرجى المحاولة مرة أخرى لاحقاً.", "reviewed": true }
   },
   "actions": {
     "request_tds": {
@@ -400,6 +277,14 @@
     },
     "request_sds": {
       "val": "طلب SDS",
+      "reviewed": true
+    },
+    "discuss_inquiry": {
+      "val": "ناقش متطلباتك",
+      "reviewed": true
+    },
+    "start_conversation": {
+      "val": "ابدأ المحادثة",
       "reviewed": true
     }
   },
@@ -422,6 +307,10 @@
     },
     "target_applications": {
       "val": "التطبيقات المستهدفة",
+      "reviewed": true
+    },
+    "technical_consultation": {
+      "val": "الاستشارة التقنية",
       "reviewed": true
     }
   }

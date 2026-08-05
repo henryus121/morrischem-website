@@ -229,168 +229,168 @@
   },
   "contact_page": {
     "meta_title": {
-      "val": "Technical Inquiry & Consultation — Morrischem LLC",
-      "reviewed": false
+      "val": "Технічний запит і консультація — Morrischem LLC",
+      "reviewed": true
     },
     "back_link": {
       "val": "Повернутися на Головну Сторінку",
       "reviewed": true
     },
     "kicker": {
-      "val": "Consultation Gateway",
-      "reviewed": false
+      "val": "Консультаційний портал",
+      "reviewed": true
     },
     "h1": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
+      "val": "Технічний інженерний запит",
+      "reviewed": true
     },
     "intro": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
+      "val": "Надішліть параметри вашого технологічного потоку або хімічні специфікації безпосередньо нашій технічній команді для оцінки.",
+      "reviewed": true
     },
     "support_kicker": {
-      "val": "Direct Response Protocol",
-      "reviewed": false
+      "val": "Протокол прямої відповіді",
+      "reviewed": true
     },
     "support_h2": {
-      "val": "Engineering Support",
-      "reviewed": false
+      "val": "Інженерна підтримка",
+      "reviewed": true
     },
     "support_body": {
-      "val": "We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.",
-      "reviewed": false
+      "val": "Ми оцінюємо умови експлуатації, склад подачі та профілі тиску, перш ніж рекомендувати адсорбційні середовища, конфігурації каталізаторів або режими водопідготовки.",
+      "reviewed": true
     },
     "commitment_title": {
-      "val": "Response Commitment",
-      "reviewed": false
+      "val": "Зобов'язання щодо відповіді",
+      "reviewed": true
     },
     "commitment_body": {
-      "val": "All inquiries receive a preliminary engineering assessment within 24 business hours.",
-      "reviewed": false
+      "val": "Усі запити отримують попередню інженерну оцінку протягом 24 робочих годин.",
+      "reviewed": true
     },
     "success_message": {
-      "val": "Thank you. Your inquiry has been submitted successfully.",
-      "reviewed": false
+      "val": "Дякуємо. Ваш запит успішно надіслано.",
+      "reviewed": true
     },
     "label_full_name": {
-      "val": "Full Name / Title",
-      "reviewed": false
+      "val": "Повне ім'я / посада",
+      "reviewed": true
     },
     "placeholder_full_name": {
-      "val": "e.g. John Doe, Lead Process Engineer",
-      "reviewed": false
+      "val": "наприклад, Іван Іваненко, провідний інженер-технолог",
+      "reviewed": true
     },
     "label_company": {
-      "val": "Company / Operating Facility",
-      "reviewed": false
+      "val": "Компанія / виробничий майданчик",
+      "reviewed": true
     },
     "placeholder_company": {
-      "val": "e.g. Petrochemical Refinery Complex",
-      "reviewed": false
+      "val": "наприклад, нафтохімічний переробний комплекс",
+      "reviewed": true
     },
     "label_email": {
-      "val": "Corporate Email",
-      "reviewed": false
+      "val": "Корпоративна електронна пошта",
+      "reviewed": true
     },
     "label_request_type": {
-      "val": "Request Type",
-      "reviewed": false
+      "val": "Тип запиту",
+      "reviewed": true
     },
     "option_select_document": {
-      "val": "Select document request...",
-      "reviewed": false
+      "val": "Виберіть запит на документ...",
+      "reviewed": true
     },
     "option_tds": {
-      "val": "TDS Request",
-      "reviewed": false
+      "val": "Запит TDS",
+      "reviewed": true
     },
     "option_sds": {
-      "val": "SDS Request",
-      "reviewed": false
+      "val": "Запит SDS",
+      "reviewed": true
     },
     "label_product_name": {
-      "val": "Product / Specification Name",
-      "reviewed": false
+      "val": "Назва продукту / специфікації",
+      "reviewed": true
     },
     "placeholder_product_name": {
-      "val": "e.g. 3A Zeolite Spheres",
-      "reviewed": false
+      "val": "наприклад, цеолітові кульки 3A",
+      "reviewed": true
     },
     "label_engineering_focus": {
-      "val": "Primary Engineering Focus",
-      "reviewed": false
+      "val": "Основний інженерний напрям",
+      "reviewed": true
     },
     "option_select_process": {
-      "val": "Select process area...",
-      "reviewed": false
+      "val": "Виберіть напрям процесу...",
+      "reviewed": true
     },
     "option_molecular_sieves": {
-      "val": "Molecular Sieves & Adsorbents",
-      "reviewed": false
+      "val": "Молекулярні сита та адсорбенти",
+      "reviewed": true
     },
     "option_water_treatment": {
-      "val": "Water Treatment Chemistries",
-      "reviewed": false
+      "val": "Хімія водоочищення",
+      "reviewed": true
     },
     "option_catalysts": {
-      "val": "Catalysts & Process Tech",
-      "reviewed": false
+      "val": "Каталізатори та технології процесів",
+      "reviewed": true
     },
     "option_other": {
-      "val": "Other Specialty Chemical Inquiry",
-      "reviewed": false
+      "val": "Інший запит щодо спеціальної хімії",
+      "reviewed": true
     },
     "label_requirements": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
+      "val": "Технічні вимоги / параметри потоку",
+      "reviewed": true
     },
     "placeholder_requirements": {
-      "val": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
-      "reviewed": false
+      "val": "Укажіть робочі температури, витрати, забруднювачі або цільові специфікації продукту...",
+      "reviewed": true
     },
     "submit_button": {
-      "val": "Submit Inquiry",
-      "reviewed": false
+      "val": "Надіслати запит",
+      "reviewed": true
     },
     "footer_rights": {
-      "val": "All rights reserved.",
-      "reviewed": false
+      "val": "Усі права захищено.",
+      "reviewed": true
     },
     "title": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
+      "val": "Технічний інженерний запит",
+      "reviewed": true
     },
     "subtitle": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
+      "val": "Надішліть параметри вашого технологічного потоку або хімічні специфікації безпосередньо нашій технічній команді для оцінки.",
+      "reviewed": true
     },
     "name_label": {
-      "val": "Full Name / Title",
-      "reviewed": false
+      "val": "Повне ім'я / посада",
+      "reviewed": true
     },
     "email_label": {
-      "val": "Corporate Email",
-      "reviewed": false
+      "val": "Корпоративна електронна пошта",
+      "reviewed": true
     },
     "subject_label": {
-      "val": "Request Type",
-      "reviewed": false
+      "val": "Тип запиту",
+      "reviewed": true
     },
     "message_label": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
+      "val": "Технічні вимоги / параметри потоку",
+      "reviewed": true
     },
     "button_text": {
-      "val": "Submit Inquiry",
-      "reviewed": false
+      "val": "Надіслати запит",
+      "reviewed": true
     },
     "placeholder_email": {
       "val": "name@company.com",
-      "reviewed": false
+      "reviewed": true
     },
     "error_message": {
-      "val": "Unable to submit your inquiry right now. Please try again later.",
-      "reviewed": false
+      "val": "Наразі не вдається надіслати ваш запит. Спробуйте ще раз пізніше.",
+      "reviewed": true
     }
   },
   "actions": {

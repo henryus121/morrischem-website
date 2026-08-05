@@ -229,168 +229,168 @@
   },
   "contact_page": {
     "meta_title": {
-      "val": "Technical Inquiry & Consultation — Morrischem LLC",
-      "reviewed": false
+      "val": "Texniki Sorğu və Məsləhət — Morrischem LLC",
+      "reviewed": true
     },
     "back_link": {
       "val": "Əsas Səhifəyə Qayıt",
       "reviewed": true
     },
     "kicker": {
-      "val": "Consultation Gateway",
-      "reviewed": false
+      "val": "Məsləhət Girişi",
+      "reviewed": true
     },
     "h1": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
+      "val": "Mühəndislik Texniki Sorğusu",
+      "reviewed": true
     },
     "intro": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
+      "val": "Proses axını parametrlərinizi və ya kimyəvi spesifikasiyaları birbaşa texniki komandamıza qiymətləndirmə üçün göndərin.",
+      "reviewed": true
     },
     "support_kicker": {
-      "val": "Direct Response Protocol",
-      "reviewed": false
+      "val": "Birbaşa Cavab Protokolu",
+      "reviewed": true
     },
     "support_h2": {
-      "val": "Engineering Support",
-      "reviewed": false
+      "val": "Mühəndislik Dəstəyi",
+      "reviewed": true
     },
     "support_body": {
-      "val": "We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.",
-      "reviewed": false
+      "val": "Adsorbent mühitlər, katalizator konfiqurasiyaları və ya su təmizləmə rejimləri tövsiyə etməzdən əvvəl iş şəraitini, qida tərkibini və təzyiq profillərini qiymətləndiririk.",
+      "reviewed": true
     },
     "commitment_title": {
-      "val": "Response Commitment",
-      "reviewed": false
+      "val": "Cavab Öhdəliyi",
+      "reviewed": true
     },
     "commitment_body": {
-      "val": "All inquiries receive a preliminary engineering assessment within 24 business hours.",
-      "reviewed": false
+      "val": "Bütün sorğulara 24 iş saatı ərzində ilkin mühəndislik qiymətləndirməsi verilir.",
+      "reviewed": true
     },
     "success_message": {
-      "val": "Thank you. Your inquiry has been submitted successfully.",
-      "reviewed": false
+      "val": "Təşəkkür edirik. Sorğunuz uğurla göndərildi.",
+      "reviewed": true
     },
     "label_full_name": {
-      "val": "Full Name / Title",
-      "reviewed": false
+      "val": "Tam ad / vəzifə",
+      "reviewed": true
     },
     "placeholder_full_name": {
-      "val": "e.g. John Doe, Lead Process Engineer",
-      "reviewed": false
+      "val": "məs., John Doe, aparıcı proses mühəndisi",
+      "reviewed": true
     },
     "label_company": {
-      "val": "Company / Operating Facility",
-      "reviewed": false
+      "val": "Şirkət / əməliyyat obyekti",
+      "reviewed": true
     },
     "placeholder_company": {
-      "val": "e.g. Petrochemical Refinery Complex",
-      "reviewed": false
+      "val": "məs., neft-kimya emalı kompleksi",
+      "reviewed": true
     },
     "label_email": {
-      "val": "Corporate Email",
-      "reviewed": false
-    },
-    "label_request_type": {
-      "val": "Request Type",
-      "reviewed": false
-    },
-    "option_select_document": {
-      "val": "Select document request...",
-      "reviewed": false
-    },
-    "option_tds": {
-      "val": "TDS Request",
-      "reviewed": false
-    },
-    "option_sds": {
-      "val": "SDS Request",
-      "reviewed": false
-    },
-    "label_product_name": {
-      "val": "Product / Specification Name",
-      "reviewed": false
-    },
-    "placeholder_product_name": {
-      "val": "e.g. 3A Zeolite Spheres",
-      "reviewed": false
-    },
-    "label_engineering_focus": {
-      "val": "Primary Engineering Focus",
-      "reviewed": false
-    },
-    "option_select_process": {
-      "val": "Select process area...",
-      "reviewed": false
-    },
-    "option_molecular_sieves": {
-      "val": "Molecular Sieves & Adsorbents",
-      "reviewed": false
-    },
-    "option_water_treatment": {
-      "val": "Water Treatment Chemistries",
-      "reviewed": false
-    },
-    "option_catalysts": {
-      "val": "Catalysts & Process Tech",
-      "reviewed": false
-    },
-    "option_other": {
-      "val": "Other Specialty Chemical Inquiry",
-      "reviewed": false
-    },
-    "label_requirements": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
-    },
-    "placeholder_requirements": {
-      "val": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
-      "reviewed": false
-    },
-    "submit_button": {
-      "val": "Submit Inquiry",
-      "reviewed": false
-    },
-    "footer_rights": {
-      "val": "All rights reserved.",
-      "reviewed": false
-    },
-    "title": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
-    },
-    "subtitle": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
-    },
-    "name_label": {
-      "val": "Full Name / Title",
-      "reviewed": false
-    },
-    "email_label": {
-      "val": "Corporate Email",
-      "reviewed": false
-    },
-    "subject_label": {
-      "val": "Request Type",
-      "reviewed": false
-    },
-    "message_label": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
-    },
-    "button_text": {
-      "val": "Submit Inquiry",
-      "reviewed": false
+      "val": "Korporativ e-poçt",
+      "reviewed": true
     },
     "placeholder_email": {
       "val": "name@company.com",
-      "reviewed": false
+      "reviewed": true
+    },
+    "label_request_type": {
+      "val": "Sorğu növü",
+      "reviewed": true
+    },
+    "option_select_document": {
+      "val": "Sənəd sorğusunu seçin...",
+      "reviewed": true
+    },
+    "option_tds": {
+      "val": "TDS sorğusu",
+      "reviewed": true
+    },
+    "option_sds": {
+      "val": "SDS sorğusu",
+      "reviewed": true
+    },
+    "label_product_name": {
+      "val": "Məhsul / spesifikasiya adı",
+      "reviewed": true
+    },
+    "placeholder_product_name": {
+      "val": "məs., 3A zeolit topları",
+      "reviewed": true
+    },
+    "label_engineering_focus": {
+      "val": "Əsas mühəndislik sahəsi",
+      "reviewed": true
+    },
+    "option_select_process": {
+      "val": "Proses sahəsini seçin...",
+      "reviewed": true
+    },
+    "option_molecular_sieves": {
+      "val": "Molekulyar ələk və adsorbentlər",
+      "reviewed": true
+    },
+    "option_water_treatment": {
+      "val": "Su təmizləmə kimyəviləri",
+      "reviewed": true
+    },
+    "option_catalysts": {
+      "val": "Katalizatorlar və proses texnologiyası",
+      "reviewed": true
+    },
+    "option_other": {
+      "val": "Digər xüsusi kimyəvi sorğu",
+      "reviewed": true
+    },
+    "label_requirements": {
+      "val": "Texniki tələblər / axın parametrləri",
+      "reviewed": true
+    },
+    "placeholder_requirements": {
+      "val": "İş temperaturunu, axın sürətlərini, çirkləndiriciləri və ya hədəf spesifikasiyaları göstərin...",
+      "reviewed": true
+    },
+    "submit_button": {
+      "val": "Sorğunu göndər",
+      "reviewed": true
+    },
+    "footer_rights": {
+      "val": "Bütün hüquqlar qorunur.",
+      "reviewed": true
+    },
+    "title": {
+      "val": "Mühəndislik Texniki Sorğusu",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Proses axını parametrlərinizi və ya kimyəvi spesifikasiyaları birbaşa texniki komandamıza qiymətləndirmə üçün göndərin.",
+      "reviewed": true
+    },
+    "name_label": {
+      "val": "Tam ad / vəzifə",
+      "reviewed": true
+    },
+    "email_label": {
+      "val": "Korporativ e-poçt",
+      "reviewed": true
+    },
+    "subject_label": {
+      "val": "Sorğu növü",
+      "reviewed": true
+    },
+    "message_label": {
+      "val": "Texniki tələblər / axın parametrləri",
+      "reviewed": true
+    },
+    "button_text": {
+      "val": "Sorğunu göndər",
+      "reviewed": true
     },
     "error_message": {
-      "val": "Unable to submit your inquiry right now. Please try again later.",
-      "reviewed": false
+      "val": "Sorğunuzu indi göndərmək mümkün deyil. Zəhmət olmasa sonra yenidən cəhd edin.",
+      "reviewed": true
     }
   },
   "actions": {
@@ -400,6 +400,14 @@
     },
     "request_sds": {
       "val": "SDS Əldə Et",
+      "reviewed": true
+    },
+    "discuss_inquiry": {
+      "val": "Sorğunu müzakirə edin",
+      "reviewed": true
+    },
+    "start_conversation": {
+      "val": "Söhbətə başlayın",
       "reviewed": true
     }
   },
@@ -422,6 +430,10 @@
     },
     "target_applications": {
       "val": "Hədəf Tətbiqlər",
+      "reviewed": true
+    },
+    "technical_consultation": {
+      "val": "Texniki məsləhət",
       "reviewed": true
     }
   }

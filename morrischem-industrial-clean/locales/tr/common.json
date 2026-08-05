@@ -67,330 +67,182 @@
       "reviewed": true
     },
     "description": {
-      "val": "Morrischem, küresel enerji ve rafineri operasyonları için yüksek performanslı moleküler elekler, proses katalizörleri ve endüstriyel su arıtma teknolojileri sağlar.",
+      "val": "Morrischem, küresel enerji ve rafineri operasyonları için yüksek performanslı moleküler elekler, proses katalizörleri ve endüstriyel su arıtma kimyasalları tedarik eder.",
       "reviewed": true
     },
     "og_title": {
-      "val": "Morrischem LLC — Kritik Altyapı. Taviz Vermeyen Hassasiyet.",
+      "val": "Morrischem LLC — Kritik Altyapı. Tavizsiz Hassasiyet.",
       "reviewed": true
     },
     "og_description": {
-      "val": "Kritik endüstriyel süreçler, rafinaj ve gaz işleme için mühendislik çözümleri.",
-      "reviewed": true
-    }
-  },
-  "focus": {
-    "kicker": {
-      "val": "Operasyonel Odak",
-      "reviewed": true
-    },
-    "title": {
-      "val": "Sürecinize Göre Tasarlandı.",
-      "reviewed": true
-    },
-    "body": {
-      "val": "Her rafineri, gaz tesisi ve endüstriyel tesis farklı termal, kimyasal ve basınç parametreleri altında çalışır. Güvenilir performans, kendi işletme ortamınız için tasarlanmış teknolojiyi seçmekle başlar.",
-      "reviewed": true
-    },
-    "approach_title": {
-      "val": "Morrischem Yaklaşımı",
-      "reviewed": true
-    },
-    "approach_body": {
-      "val": "Önce işletme koşullarını değerlendiriyor, ardından hassas moleküler elekler, katalizörler, su arıtma kimyasalları ve performans katkı maddelerini uyumlaştırıp tedarik ediyoruz.",
-      "reviewed": true
-    }
-  },
-  "plant_map": {
-    "kicker": {
-      "val": "Etkileşimli Tesis Haritası",
-      "reviewed": true
-    },
-    "title": {
-      "val": "Bir Endüstriyel Sürecin İçinde",
-      "reviewed": true
-    },
-    "body": {
-      "val": "Özel kimyasalların ve adsorban ortamların kritik işletme birimlerine nasıl entegre olduğunu keşfedin.",
-      "reviewed": true
-    },
-    "unit1_label": {
-      "val": "Birim: Gaz Kurutma Hattı",
-      "reviewed": true
-    },
-    "unit1_title": {
-      "val": "Moleküler Elekler",
-      "reviewed": true
-    },
-    "unit1_body": {
-      "val": "Kriyojenik eşanjörlerde hidrat oluşumunu önlemek için &lt; 0,1 ppmv'ye kadar derin nem giderimi.",
-      "reviewed": true
-    },
-    "unit2_label": {
-      "val": "Birim: Soğutma Kulesi Devresi",
-      "reviewed": true
-    },
-    "unit2_title": {
-      "val": "Su Arıtma Kimyasalları",
-      "reviewed": true
-    },
-    "unit2_body": {
-      "val": "Optimal ısı transferini korumak için gelişmiş kireçlenme, korozyon ve biyolojik kontrol formülasyonları.",
-      "reviewed": true
-    },
-    "unit3_label": {
-      "val": "Birim: Hidrotretman Reaktörü",
-      "reviewed": true
-    },
-    "unit3_title": {
-      "val": "Katalizörler ve Koruma Yatakları",
-      "reviewed": true
-    },
-    "unit3_body": {
-      "val": "Maksimum çevrim ömrü için tasarlanmış yüksek aktiviteli katalizör ortamları ve kirletici tuzakları.",
-      "reviewed": true
-    }
-  },
-  "divisions": {
-    "kicker": {
-      "val": "Ana Bölümler",
-      "reviewed": true
-    },
-    "title": {
-      "val": "Endüstriyel Yetenekler",
-      "reviewed": true
-    },
-    "v1_label": {
-      "val": "01 / ADSORPSİYON",
-      "reviewed": true
-    },
-    "v1_title": {
-      "val": "Moleküler Elekler ve Adsorbanlar",
-      "reviewed": true
-    },
-    "v1_body": {
-      "val": "Gaz kurutma, LNG işleme ve arıtma için sentetik zeolitler ve aktive edilmiş alüminalar.",
-      "reviewed": true
-    },
-    "v1_link": {
-      "val": "Adsorbanları Keşfedin",
-      "reviewed": true
-    },
-    "v2_label": {
-      "val": "02 / ALTYAPI HİZMETLERİ",
-      "reviewed": true
-    },
-    "v2_title": {
-      "val": "Su Arıtma Kimyasalları",
-      "reviewed": true
-    },
-    "v2_body": {
-      "val": "Endüstriyel soğutma için kireçlenme önleyiciler, korozyon kontrolü, biyositler ve membran kimyasalları.",
-      "reviewed": true
-    },
-    "v2_link": {
-      "val": "Su Arıtmayı Keşfedin",
-      "reviewed": true
-    },
-    "v3_label": {
-      "val": "03 / REAKSİYON",
-      "reviewed": true
-    },
-    "v3_title": {
-      "val": "Katalizörler ve Proses Teknolojisi",
-      "reviewed": true
-    },
-    "v3_body": {
-      "val": "Verimi en üst düzeye çıkarmak ve çevrim ömrünü uzatmak için tasarlanmış rafinaj ve sentez katalizörleri.",
-      "reviewed": true
-    },
-    "v3_link": {
-      "val": "Katalizörleri Keşfedin",
-      "reviewed": true
-    }
-  },
-  "contact_cta": {
-    "kicker": {
-      "val": "Sınır Tanımayan Mühendislik Çözümleri",
-      "reviewed": true
-    },
-    "title": {
-      "val": "Güvenilir Teknolojiler. Güvenilir Ortaklıklar. Kalıcı Performans.",
-      "reviewed": true
-    },
-    "body": {
-      "val": "Özel süreç zorluklarınızı ve teknik gereksinimlerinizi görüşelim.",
-      "reviewed": true
-    },
-    "cta": {
-      "val": "Görüşmeyi Başlatın",
+      "val": "Kritik endüstriyel prosesler, rafinasyon ve gaz işleme için mühendislik çözümleri.",
       "reviewed": true
     }
   },
   "contact_page": {
     "meta_title": {
-      "val": "Technical Inquiry & Consultation — Morrischem LLC",
-      "reviewed": false
+      "val": "Teknik Talep ve Danışmanlık — Morrischem LLC",
+      "reviewed": true
     },
     "back_link": {
       "val": "Ana Sayfaya Geri Dön",
       "reviewed": true
     },
     "kicker": {
-      "val": "Consultation Gateway",
-      "reviewed": false
+      "val": "Danışmanlık Portalı",
+      "reviewed": true
     },
     "h1": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
+      "val": "Mühendislik Teknik Talebi",
+      "reviewed": true
     },
     "intro": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
+      "val": "Proses akış parametrelerinizi veya kimyasal spesifikasyonlarınızı değerlendirme için doğrudan teknik ekibimize gönderin.",
+      "reviewed": true
     },
     "support_kicker": {
-      "val": "Direct Response Protocol",
-      "reviewed": false
+      "val": "Doğrudan Yanıt Protokolü",
+      "reviewed": true
     },
     "support_h2": {
-      "val": "Engineering Support",
-      "reviewed": false
+      "val": "Mühendislik Desteği",
+      "reviewed": true
     },
     "support_body": {
-      "val": "We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.",
-      "reviewed": false
+      "val": "Adsorban ortamlar, katalizör konfigürasyonları veya su arıtma rejimleri önermeden önce işletme koşullarını, besleme bileşimlerini ve basınç profillerini değerlendiriyoruz.",
+      "reviewed": true
     },
     "commitment_title": {
-      "val": "Response Commitment",
-      "reviewed": false
+      "val": "Yanıt Taahhüdü",
+      "reviewed": true
     },
     "commitment_body": {
-      "val": "All inquiries receive a preliminary engineering assessment within 24 business hours.",
-      "reviewed": false
+      "val": "Tüm talepler 24 iş saati içinde ön mühendislik değerlendirmesi alır.",
+      "reviewed": true
     },
     "success_message": {
-      "val": "Thank you. Your inquiry has been submitted successfully.",
-      "reviewed": false
+      "val": "Teşekkür ederiz. Talebiniz başarıyla gönderildi.",
+      "reviewed": true
     },
     "label_full_name": {
-      "val": "Full Name / Title",
-      "reviewed": false
+      "val": "Ad Soyad / Unvan",
+      "reviewed": true
     },
     "placeholder_full_name": {
-      "val": "e.g. John Doe, Lead Process Engineer",
-      "reviewed": false
+      "val": "ör. Ahmet Yılmaz, kıdemli proses mühendisi",
+      "reviewed": true
     },
     "label_company": {
-      "val": "Company / Operating Facility",
-      "reviewed": false
+      "val": "Şirket / işletme tesisi",
+      "reviewed": true
     },
     "placeholder_company": {
-      "val": "e.g. Petrochemical Refinery Complex",
-      "reviewed": false
+      "val": "ör. petrokimya rafineri kompleksi",
+      "reviewed": true
     },
     "label_email": {
-      "val": "Corporate Email",
-      "reviewed": false
-    },
-    "label_request_type": {
-      "val": "Request Type",
-      "reviewed": false
-    },
-    "option_select_document": {
-      "val": "Select document request...",
-      "reviewed": false
-    },
-    "option_tds": {
-      "val": "TDS Request",
-      "reviewed": false
-    },
-    "option_sds": {
-      "val": "SDS Request",
-      "reviewed": false
-    },
-    "label_product_name": {
-      "val": "Product / Specification Name",
-      "reviewed": false
-    },
-    "placeholder_product_name": {
-      "val": "e.g. 3A Zeolite Spheres",
-      "reviewed": false
-    },
-    "label_engineering_focus": {
-      "val": "Primary Engineering Focus",
-      "reviewed": false
-    },
-    "option_select_process": {
-      "val": "Select process area...",
-      "reviewed": false
-    },
-    "option_molecular_sieves": {
-      "val": "Molecular Sieves & Adsorbents",
-      "reviewed": false
-    },
-    "option_water_treatment": {
-      "val": "Water Treatment Chemistries",
-      "reviewed": false
-    },
-    "option_catalysts": {
-      "val": "Catalysts & Process Tech",
-      "reviewed": false
-    },
-    "option_other": {
-      "val": "Other Specialty Chemical Inquiry",
-      "reviewed": false
-    },
-    "label_requirements": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
-    },
-    "placeholder_requirements": {
-      "val": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
-      "reviewed": false
-    },
-    "submit_button": {
-      "val": "Submit Inquiry",
-      "reviewed": false
-    },
-    "footer_rights": {
-      "val": "All rights reserved.",
-      "reviewed": false
-    },
-    "title": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
-    },
-    "subtitle": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
-    },
-    "name_label": {
-      "val": "Full Name / Title",
-      "reviewed": false
-    },
-    "email_label": {
-      "val": "Corporate Email",
-      "reviewed": false
-    },
-    "subject_label": {
-      "val": "Request Type",
-      "reviewed": false
-    },
-    "message_label": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
-    },
-    "button_text": {
-      "val": "Submit Inquiry",
-      "reviewed": false
+      "val": "Kurumsal e-posta",
+      "reviewed": true
     },
     "placeholder_email": {
       "val": "name@company.com",
-      "reviewed": false
+      "reviewed": true
+    },
+    "label_request_type": {
+      "val": "Talep türü",
+      "reviewed": true
+    },
+    "option_select_document": {
+      "val": "Belge talebini seçin...",
+      "reviewed": true
+    },
+    "option_tds": {
+      "val": "TDS talebi",
+      "reviewed": true
+    },
+    "option_sds": {
+      "val": "SDS talebi",
+      "reviewed": true
+    },
+    "label_product_name": {
+      "val": "Ürün / spesifikasyon adı",
+      "reviewed": true
+    },
+    "placeholder_product_name": {
+      "val": "ör. 3A zeolit küreler",
+      "reviewed": true
+    },
+    "label_engineering_focus": {
+      "val": "Birincil mühendislik odağı",
+      "reviewed": true
+    },
+    "option_select_process": {
+      "val": "Proses alanını seçin...",
+      "reviewed": true
+    },
+    "option_molecular_sieves": {
+      "val": "Moleküler elekler ve adsorbanlar",
+      "reviewed": true
+    },
+    "option_water_treatment": {
+      "val": "Su arıtma kimyasalları",
+      "reviewed": true
+    },
+    "option_catalysts": {
+      "val": "Katalizörler ve proses teknolojisi",
+      "reviewed": true
+    },
+    "option_other": {
+      "val": "Diğer özel kimyasal talepleri",
+      "reviewed": true
+    },
+    "label_requirements": {
+      "val": "Teknik gereksinimler / akış parametreleri",
+      "reviewed": true
+    },
+    "placeholder_requirements": {
+      "val": "İşletme sıcaklıklarını, debileri, kirleticileri veya hedef ürün spesifikasyonlarını belirtin...",
+      "reviewed": true
+    },
+    "submit_button": {
+      "val": "Talebi gönder",
+      "reviewed": true
+    },
+    "footer_rights": {
+      "val": "Tüm hakları saklıdır.",
+      "reviewed": true
+    },
+    "title": {
+      "val": "Mühendislik Teknik Talebi",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Proses akış parametrelerinizi veya kimyasal spesifikasyonlarınızı değerlendirme için doğrudan teknik ekibimize gönderin.",
+      "reviewed": true
+    },
+    "name_label": {
+      "val": "Ad Soyad / Unvan",
+      "reviewed": true
+    },
+    "email_label": {
+      "val": "Kurumsal e-posta",
+      "reviewed": true
+    },
+    "subject_label": {
+      "val": "Talep türü",
+      "reviewed": true
+    },
+    "message_label": {
+      "val": "Teknik gereksinimler / akış parametreleri",
+      "reviewed": true
+    },
+    "button_text": {
+      "val": "Talebi gönder",
+      "reviewed": true
     },
     "error_message": {
-      "val": "Unable to submit your inquiry right now. Please try again later.",
-      "reviewed": false
+      "val": "Talebiniz şu anda gönderilemiyor. Lütfen daha sonra tekrar deneyin.",
+      "reviewed": true
     }
   },
   "actions": {
@@ -400,6 +252,14 @@
     },
     "request_sds": {
       "val": "SDS Talep Et",
+      "reviewed": true
+    },
+    "discuss_inquiry": {
+      "val": "Talebinizi görüşün",
+      "reviewed": true
+    },
+    "start_conversation": {
+      "val": "Görüşmeye başlayın",
       "reviewed": true
     }
   },
@@ -422,6 +282,10 @@
     },
     "target_applications": {
       "val": "Hedef Uygulamalar",
+      "reviewed": true
+    },
+    "technical_consultation": {
+      "val": "Teknik danışmanlık",
       "reviewed": true
     }
   }

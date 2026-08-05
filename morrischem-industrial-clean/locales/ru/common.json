@@ -229,168 +229,168 @@
   },
   "contact_page": {
     "meta_title": {
-      "val": "Technical Inquiry & Consultation — Morrischem LLC",
-      "reviewed": false
+      "val": "Технический запрос и консультация — Morrischem LLC",
+      "reviewed": true
     },
     "back_link": {
       "val": "Назад на Главную",
       "reviewed": true
     },
     "kicker": {
-      "val": "Consultation Gateway",
-      "reviewed": false
+      "val": "Консультационный портал",
+      "reviewed": true
     },
     "h1": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
+      "val": "Технический инженерный запрос",
+      "reviewed": true
     },
     "intro": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
+      "val": "Направьте параметры технологического потока или химические спецификации напрямую нашей технической команде для оценки.",
+      "reviewed": true
     },
     "support_kicker": {
-      "val": "Direct Response Protocol",
-      "reviewed": false
+      "val": "Протокол прямого ответа",
+      "reviewed": true
     },
     "support_h2": {
-      "val": "Engineering Support",
-      "reviewed": false
+      "val": "Инженерная поддержка",
+      "reviewed": true
     },
     "support_body": {
-      "val": "We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.",
-      "reviewed": false
+      "val": "Мы оцениваем условия эксплуатации, состав сырья и профили давления, прежде чем рекомендовать адсорбционные материалы, конфигурации катализаторов или режимы водоподготовки.",
+      "reviewed": true
     },
     "commitment_title": {
-      "val": "Response Commitment",
-      "reviewed": false
+      "val": "Обязательство по ответу",
+      "reviewed": true
     },
     "commitment_body": {
-      "val": "All inquiries receive a preliminary engineering assessment within 24 business hours.",
-      "reviewed": false
+      "val": "Все запросы получают предварительную инженерную оценку в течение 24 рабочих часов.",
+      "reviewed": true
     },
     "success_message": {
-      "val": "Thank you. Your inquiry has been submitted successfully.",
-      "reviewed": false
+      "val": "Спасибо. Ваш запрос успешно отправлен.",
+      "reviewed": true
     },
     "label_full_name": {
-      "val": "Full Name / Title",
-      "reviewed": false
+      "val": "Полное имя / должность",
+      "reviewed": true
     },
     "placeholder_full_name": {
-      "val": "e.g. John Doe, Lead Process Engineer",
-      "reviewed": false
+      "val": "например, Иван Иванов, ведущий инженер-технолог",
+      "reviewed": true
     },
     "label_company": {
-      "val": "Company / Operating Facility",
-      "reviewed": false
+      "val": "Компания / производственная площадка",
+      "reviewed": true
     },
     "placeholder_company": {
-      "val": "e.g. Petrochemical Refinery Complex",
-      "reviewed": false
+      "val": "например, нефтехимический перерабатывающий комплекс",
+      "reviewed": true
     },
     "label_email": {
-      "val": "Corporate Email",
-      "reviewed": false
+      "val": "Корпоративный e-mail",
+      "reviewed": true
     },
     "label_request_type": {
-      "val": "Request Type",
-      "reviewed": false
+      "val": "Тип запроса",
+      "reviewed": true
     },
     "option_select_document": {
-      "val": "Select document request...",
-      "reviewed": false
+      "val": "Выберите запрос на документ...",
+      "reviewed": true
     },
     "option_tds": {
-      "val": "TDS Request",
-      "reviewed": false
+      "val": "Запрос TDS",
+      "reviewed": true
     },
     "option_sds": {
-      "val": "SDS Request",
-      "reviewed": false
+      "val": "Запрос SDS",
+      "reviewed": true
     },
     "label_product_name": {
-      "val": "Product / Specification Name",
-      "reviewed": false
+      "val": "Наименование продукта / спецификации",
+      "reviewed": true
     },
     "placeholder_product_name": {
-      "val": "e.g. 3A Zeolite Spheres",
-      "reviewed": false
+      "val": "например, цеолитовые сферы 3A",
+      "reviewed": true
     },
     "label_engineering_focus": {
-      "val": "Primary Engineering Focus",
-      "reviewed": false
+      "val": "Основное инженерное направление",
+      "reviewed": true
     },
     "option_select_process": {
-      "val": "Select process area...",
-      "reviewed": false
+      "val": "Выберите область процесса...",
+      "reviewed": true
     },
     "option_molecular_sieves": {
-      "val": "Molecular Sieves & Adsorbents",
-      "reviewed": false
+      "val": "Молекулярные сита и адсорбенты",
+      "reviewed": true
     },
     "option_water_treatment": {
-      "val": "Water Treatment Chemistries",
-      "reviewed": false
+      "val": "Химия водоподготовки",
+      "reviewed": true
     },
     "option_catalysts": {
-      "val": "Catalysts & Process Tech",
-      "reviewed": false
+      "val": "Катализаторы и технологические решения",
+      "reviewed": true
     },
     "option_other": {
-      "val": "Other Specialty Chemical Inquiry",
-      "reviewed": false
+      "val": "Другой запрос по специальной химии",
+      "reviewed": true
     },
     "label_requirements": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
+      "val": "Технические требования / параметры потока",
+      "reviewed": true
     },
     "placeholder_requirements": {
-      "val": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
-      "reviewed": false
+      "val": "Укажите рабочие температуры, расход, загрязнения или целевые спецификации продукта...",
+      "reviewed": true
     },
     "submit_button": {
-      "val": "Submit Inquiry",
-      "reviewed": false
+      "val": "Отправить запрос",
+      "reviewed": true
     },
     "footer_rights": {
-      "val": "All rights reserved.",
-      "reviewed": false
+      "val": "Все права защищены.",
+      "reviewed": true
     },
     "title": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
+      "val": "Технический инженерный запрос",
+      "reviewed": true
     },
     "subtitle": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
+      "val": "Направьте параметры технологического потока или химические спецификации напрямую нашей технической команде для оценки.",
+      "reviewed": true
     },
     "name_label": {
-      "val": "Full Name / Title",
-      "reviewed": false
+      "val": "Полное имя / должность",
+      "reviewed": true
     },
     "email_label": {
-      "val": "Corporate Email",
-      "reviewed": false
+      "val": "Корпоративный e-mail",
+      "reviewed": true
     },
     "subject_label": {
-      "val": "Request Type",
-      "reviewed": false
+      "val": "Тип запроса",
+      "reviewed": true
     },
     "message_label": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
+      "val": "Технические требования / параметры потока",
+      "reviewed": true
     },
     "button_text": {
-      "val": "Submit Inquiry",
-      "reviewed": false
+      "val": "Отправить запрос",
+      "reviewed": true
     },
     "placeholder_email": {
       "val": "name@company.com",
-      "reviewed": false
+      "reviewed": true
     },
     "error_message": {
-      "val": "Unable to submit your inquiry right now. Please try again later.",
-      "reviewed": false
+      "val": "Сейчас не удается отправить ваш запрос. Повторите попытку позже.",
+      "reviewed": true
     }
   },
   "actions": {

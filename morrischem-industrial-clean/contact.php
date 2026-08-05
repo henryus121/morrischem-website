@@ -4,6 +4,7 @@ Template Name: Contact Page
 */
 ?>
 <?php require_once __DIR__ . '/includes/i18n.php'; ?>
+<?php $lang_query = $lang === DEFAULT_LANG ? '' : '?lang=' . rawurlencode($lang); ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $requiredFields = [
@@ -64,16 +65,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mailSent = mail('info@morrischem.com', $subject, $body, implode("\r\n", $headers));
 
         if ($mailSent) {
-            header('Location: contact.php?status=success');
+          $successParams = ['status' => 'success'];
+          if ($lang !== DEFAULT_LANG) {
+            $successParams['lang'] = $lang;
+          }
+          header('Location: contact.php?' . http_build_query($successParams));
             exit;
         }
 
-        header('Location: contact.php?status=error&message=' . urlencode('Unable to send message right now. Please try again later.'));
+        $errorParams = ['status' => 'error', 'message' => 'Unable to send message right now. Please try again later.'];
+        if ($lang !== DEFAULT_LANG) {
+          $errorParams['lang'] = $lang;
+        }
+        header('Location: contact.php?' . http_build_query($errorParams));
         exit;
     }
 
     $message = urlencode(implode(' ', $errors));
-    header('Location: contact.php?status=error&message=' . $message);
+      $errorParams = ['status' => 'error', 'message' => $message];
+      if ($lang !== DEFAULT_LANG) {
+        $errorParams['lang'] = $lang;
+      }
+      header('Location: contact.php?' . http_build_query($errorParams));
     exit;
 }
 ?><!DOCTYPE html>
@@ -128,10 +141,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   <header class="page-header">
     <div class="container">
-      <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common')); ?></a>
+      <a href="<?php echo htmlspecialchars('/' . $lang_query, ENT_QUOTES, 'UTF-8'); ?>" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common')); ?></a>
       <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.kicker', 'common')); ?></div>
-      <h1><?php echo htmlspecialchars(__t('contact_page.title', 'common')); ?></h1>
-      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;"><?php echo htmlspecialchars(__t('contact_page.subtitle', 'common')); ?></p>
+      <h1><?php echo htmlspecialchars(__t('contact_page.h1', 'common')); ?></h1>
+      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;"><?php echo htmlspecialchars(__t('contact_page.intro', 'common')); ?></p>
     </div>
   </header>
 
@@ -149,9 +162,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       <div class="card-surface" style="background-color: #1C2541; border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; padding: 32px;">
         <?php $status = isset($_GET['status']) ? $_GET['status'] : ''; if ($status === 'success') { echo '<div class="alert alert-success">' . htmlspecialchars(__t('contact_page.success_message', 'common')) . '</div>'; } elseif ($status === 'error') { echo '<div class="alert alert-error">' . htmlspecialchars(__t('contact_page.error_message', 'common')) . '</div>'; } ?>
-        <form id="contact-form" action="contact.php" method="post">
+        <form id="contact-form" action="<?php echo htmlspecialchars('contact.php' . $lang_query, ENT_QUOTES, 'UTF-8'); ?>" method="post">
           <div class="form-group">
-            <label for="full_name"><?php echo htmlspecialchars(__t('contact_page.name_label', 'common')); ?></label>
+            <label for="full_name"><?php echo htmlspecialchars(__t('contact_page.label_full_name', 'common')); ?></label>
             <input type="text" id="full_name" name="full_name" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_full_name', 'common')); ?>" required>
           </div>
           <div class="form-group">
@@ -159,11 +172,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="text" id="company" name="company" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_company', 'common')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="email"><?php echo htmlspecialchars(__t('contact_page.email_label', 'common')); ?></label>
+            <label for="email"><?php echo htmlspecialchars(__t('contact_page.label_email', 'common')); ?></label>
             <input type="email" id="email" name="email" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_email', 'common')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="request_type"><?php echo htmlspecialchars(__t('contact_page.subject_label', 'common')); ?></label>
+            <label for="request_type"><?php echo htmlspecialchars(__t('contact_page.label_request_type', 'common')); ?></label>
             <select id="request_type" name="request_type" class="form-control">
               <option value=""><?php echo htmlspecialchars(__t('contact_page.option_select_document', 'common')); ?></option>
               <option value="TDS"><?php echo htmlspecialchars(__t('contact_page.option_tds', 'common')); ?></option>
@@ -185,10 +198,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </select>
           </div>
           <div class="form-group">
-            <label for="requirements"><?php echo htmlspecialchars(__t('contact_page.message_label', 'common')); ?></label>
+            <label for="requirements"><?php echo htmlspecialchars(__t('contact_page.label_requirements', 'common')); ?></label>
             <textarea id="requirements" name="requirements" class="form-control" rows="5" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_requirements', 'common')); ?>" required></textarea>
           </div>
-          <button type="submit" class="btn-primary" style="width: 100%; text-align: center; cursor: pointer; border: none;"><?php echo htmlspecialchars(__t('contact_page.button_text', 'common')); ?></button>
+          <button type="submit" class="btn-primary" style="width: 100%; text-align: center; cursor: pointer; border: none;"><?php echo htmlspecialchars(__t('contact_page.submit_button', 'common')); ?></button>
         </form>
       </div>
     </div>
@@ -204,6 +217,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <script>
     const alertSuccessText = <?php echo json_encode(__t('contact_page.success_message', 'common')); ?>;
     const alertErrorText = <?php echo json_encode(__t('contact_page.error_message', 'common')); ?>;
+    const formAction = <?php echo json_encode('contact.php' . $lang_query); ?>;
     const params = new URLSearchParams(window.location.search);
     const status = params.get('status');
     if (status === 'success') {
@@ -218,7 +232,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       const form = event.currentTarget;
       const formData = new FormData(form);
 
-      fetch('contact.php', {
+      fetch(formAction, {
         method: 'POST',
         body: formData
       })

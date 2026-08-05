@@ -4,8 +4,9 @@ Template Name: Molecular Sieves Page
 */
 ?>
 <?php require_once __DIR__ . '/includes/i18n.php'; ?>
+<?php $lang_query = $lang === DEFAULT_LANG ? '' : '?lang=' . rawurlencode($lang); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" dir="<?php echo htmlspecialchars($dir, ENT_QUOTES, 'UTF-8'); ?>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -134,7 +135,7 @@ Template Name: Molecular Sieves Page
   <header class="page-header">
     <div class="container">
 
-      <a href="/" class="back-link">&larr; <?php echo __t('contact_page.back_link', 'common'); ?></a>
+      <a href="<?php echo htmlspecialchars('/' . $lang_query, ENT_QUOTES, 'UTF-8'); ?>" class="back-link">&larr; <?php echo __t('contact_page.back_link', 'common'); ?></a>
 
       <div class="kicker">
         <?php echo htmlspecialchars(__t('molecular.kicker', 'products', 'Capability Vertical 01')); ?>

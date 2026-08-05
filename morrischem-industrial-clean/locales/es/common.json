@@ -229,168 +229,168 @@
   },
   "contact_page": {
     "meta_title": {
-      "val": "Technical Inquiry & Consultation — Morrischem LLC",
-      "reviewed": false
+      "val": "Consulta técnica y asesoramiento — Morrischem LLC",
+      "reviewed": true
     },
     "back_link": {
       "val": "Volver a la Página Principal",
       "reviewed": true
     },
     "kicker": {
-      "val": "Consultation Gateway",
-      "reviewed": false
+      "val": "Portal de Consulta",
+      "reviewed": true
     },
     "h1": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
+      "val": "Consulta Técnica de Ingeniería",
+      "reviewed": true
     },
     "intro": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
+      "val": "Envíe los parámetros de su corriente de proceso o las especificaciones químicas directamente a nuestro equipo técnico para su evaluación.",
+      "reviewed": true
     },
     "support_kicker": {
-      "val": "Direct Response Protocol",
-      "reviewed": false
+      "val": "Protocolo de Respuesta Directa",
+      "reviewed": true
     },
     "support_h2": {
-      "val": "Engineering Support",
-      "reviewed": false
+      "val": "Soporte de Ingeniería",
+      "reviewed": true
     },
     "support_body": {
-      "val": "We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.",
-      "reviewed": false
+      "val": "Evaluamos las condiciones de operación, las composiciones de alimentación y los perfiles de presión antes de recomendar medios adsorbentes, configuraciones de catalizadores o programas de tratamiento de agua.",
+      "reviewed": true
     },
     "commitment_title": {
-      "val": "Response Commitment",
-      "reviewed": false
+      "val": "Compromiso de Respuesta",
+      "reviewed": true
     },
     "commitment_body": {
-      "val": "All inquiries receive a preliminary engineering assessment within 24 business hours.",
-      "reviewed": false
+      "val": "Todas las consultas reciben una evaluación preliminar de ingeniería en un plazo de 24 horas hábiles.",
+      "reviewed": true
     },
     "success_message": {
-      "val": "Thank you. Your inquiry has been submitted successfully.",
-      "reviewed": false
+      "val": "Gracias. Su consulta se ha enviado correctamente.",
+      "reviewed": true
     },
     "label_full_name": {
-      "val": "Full Name / Title",
-      "reviewed": false
+      "val": "Nombre completo / Cargo",
+      "reviewed": true
     },
     "placeholder_full_name": {
-      "val": "e.g. John Doe, Lead Process Engineer",
-      "reviewed": false
+      "val": "p. ej., Juan Pérez, ingeniero principal de procesos",
+      "reviewed": true
     },
     "label_company": {
-      "val": "Company / Operating Facility",
-      "reviewed": false
+      "val": "Empresa / Instalación operativa",
+      "reviewed": true
     },
     "placeholder_company": {
-      "val": "e.g. Petrochemical Refinery Complex",
-      "reviewed": false
+      "val": "p. ej., complejo de refinería petroquímica",
+      "reviewed": true
     },
     "label_email": {
-      "val": "Corporate Email",
-      "reviewed": false
+      "val": "Correo corporativo",
+      "reviewed": true
     },
     "label_request_type": {
-      "val": "Request Type",
-      "reviewed": false
+      "val": "Tipo de solicitud",
+      "reviewed": true
     },
     "option_select_document": {
-      "val": "Select document request...",
-      "reviewed": false
+      "val": "Seleccione la solicitud de documento...",
+      "reviewed": true
     },
     "option_tds": {
-      "val": "TDS Request",
-      "reviewed": false
+      "val": "Solicitud de TDS",
+      "reviewed": true
     },
     "option_sds": {
-      "val": "SDS Request",
-      "reviewed": false
+      "val": "Solicitud de SDS",
+      "reviewed": true
     },
     "label_product_name": {
-      "val": "Product / Specification Name",
-      "reviewed": false
+      "val": "Nombre del producto / especificación",
+      "reviewed": true
     },
     "placeholder_product_name": {
-      "val": "e.g. 3A Zeolite Spheres",
-      "reviewed": false
+      "val": "p. ej., esferas de zeolita 3A",
+      "reviewed": true
     },
     "label_engineering_focus": {
-      "val": "Primary Engineering Focus",
-      "reviewed": false
+      "val": "Enfoque principal de ingeniería",
+      "reviewed": true
     },
     "option_select_process": {
-      "val": "Select process area...",
-      "reviewed": false
+      "val": "Seleccione el área del proceso...",
+      "reviewed": true
     },
     "option_molecular_sieves": {
-      "val": "Molecular Sieves & Adsorbents",
-      "reviewed": false
+      "val": "Tamices moleculares y adsorbentes",
+      "reviewed": true
     },
     "option_water_treatment": {
-      "val": "Water Treatment Chemistries",
-      "reviewed": false
+      "val": "Químicos para tratamiento de agua",
+      "reviewed": true
     },
     "option_catalysts": {
-      "val": "Catalysts & Process Tech",
-      "reviewed": false
+      "val": "Catalizadores y tecnología de procesos",
+      "reviewed": true
     },
     "option_other": {
-      "val": "Other Specialty Chemical Inquiry",
-      "reviewed": false
+      "val": "Otra consulta sobre productos químicos especiales",
+      "reviewed": true
     },
     "label_requirements": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
+      "val": "Requisitos técnicos / Parámetros de corriente",
+      "reviewed": true
     },
     "placeholder_requirements": {
-      "val": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
-      "reviewed": false
+      "val": "Especifique temperaturas de operación, caudales, contaminantes o especificaciones objetivo del producto...",
+      "reviewed": true
     },
     "submit_button": {
-      "val": "Submit Inquiry",
-      "reviewed": false
+      "val": "Enviar consulta",
+      "reviewed": true
     },
     "footer_rights": {
-      "val": "All rights reserved.",
-      "reviewed": false
+      "val": "Todos los derechos reservados.",
+      "reviewed": true
     },
     "title": {
-      "val": "Engineering Technical Inquiry",
-      "reviewed": false
+      "val": "Consulta Técnica de Ingeniería",
+      "reviewed": true
     },
     "subtitle": {
-      "val": "Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.",
-      "reviewed": false
+      "val": "Envíe los parámetros de su corriente de proceso o las especificaciones químicas directamente a nuestro equipo técnico para su evaluación.",
+      "reviewed": true
     },
     "name_label": {
-      "val": "Full Name / Title",
-      "reviewed": false
+      "val": "Nombre completo / Cargo",
+      "reviewed": true
     },
     "email_label": {
-      "val": "Corporate Email",
-      "reviewed": false
+      "val": "Correo corporativo",
+      "reviewed": true
     },
     "subject_label": {
-      "val": "Request Type",
-      "reviewed": false
+      "val": "Tipo de solicitud",
+      "reviewed": true
     },
     "message_label": {
-      "val": "Technical Requirements / Stream Parameters",
-      "reviewed": false
+      "val": "Requisitos técnicos / Parámetros de corriente",
+      "reviewed": true
     },
     "button_text": {
-      "val": "Submit Inquiry",
-      "reviewed": false
+      "val": "Enviar consulta",
+      "reviewed": true
     },
     "placeholder_email": {
       "val": "name@company.com",
-      "reviewed": false
+      "reviewed": true
     },
     "error_message": {
-      "val": "Unable to submit your inquiry right now. Please try again later.",
-      "reviewed": false
+      "val": "No se puede enviar su consulta en este momento. Inténtelo de nuevo más tarde.",
+      "reviewed": true
     }
   },
   "actions": {
