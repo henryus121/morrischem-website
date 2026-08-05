@@ -232,7 +232,10 @@
       "val": "Technical Inquiry & Consultation — Morrischem LLC",
       "reviewed": false
     },
-    "back_link": "Əsas Səhifəyə Qayıt",
+    "back_link": {
+      "val": "Əsas Səhifəyə Qayıt",
+      "reviewed": true
+    },
     "kicker": {
       "val": "Consultation Gateway",
       "reviewed": false
@@ -355,14 +358,35 @@
     }
   },
   "actions": {
-    "request_tds": "TDS Əldə Et",
-    "request_sds": "SDS Əldə Et"
+    "request_tds": {
+      "val": "TDS Əldə Et",
+      "reviewed": true
+    },
+    "request_sds": {
+      "val": "SDS Əldə Et",
+      "reviewed": true
+    }
   },
   "sections": {
-    "technical_documentation": "Texniki Sənədləşmə",
-    "engineered_grade_specifications": "Mühəndislik Dərəcələri Spesifikasiyaları",
-    "chemical_formulation_matrices": "Kimyəvi Formulasiya Matrisi",
-    "catalyst_support_specifications": "Katalizator və Dəstək Materialı Spesifikasiyaları",
-    "target_applications": "Hədəf Tətbiqlər"
+    "technical_documentation": {
+      "val": "Texniki Sənədləşmə",
+      "reviewed": true
+    },
+    "engineered_grade_specifications": {
+      "val": "Mühəndislik Dərəcələri Spesifikasiyaları",
+      "reviewed": true
+    },
+    "chemical_formulation_matrices": {
+      "val": "Kimyəvi Formulasiya Matrisi",
+      "reviewed": true
+    },
+    "catalyst_support_specifications": {
+      "val": "Katalizator və Dəstək Materialı Spesifikasiyaları",
+      "reviewed": true
+    },
+    "target_applications": {
+      "val": "Hədəf Tətbiqlər",
+      "reviewed": true
+    }
   }
 }

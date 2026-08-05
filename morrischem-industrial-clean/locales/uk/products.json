@@ -76,6 +76,10 @@
       "list_13x": {
         "val": "Тип 13X: збагачення APG, видалення CO2 з повітряних потоків та пастки H2S/меркаптанів.",
         "reviewed": true
+      },
+      "5a_title": {
+        "val": "Type 5A",
+        "reviewed": true
       }
     },
     "compliance_title": {

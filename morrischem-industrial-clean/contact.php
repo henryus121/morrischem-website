@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 ?><!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" dir="<?php echo htmlspecialchars($dir, ENT_QUOTES, 'UTF-8'); ?>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -160,7 +160,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </div>
           <div class="form-group">
             <label for="email"><?php echo htmlspecialchars(__t('contact_page.label_email', 'common', 'Corporate Email')); ?></label>
-            <input type="email" id="email" name="email" class="form-control" placeholder="name@company.com" required>
+            <input type="email" id="email" name="email" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_email', 'common', 'name@company.com')); ?>" required>
           </div>
           <div class="form-group">
             <label for="request_type"><?php echo htmlspecialchars(__t('contact_page.label_request_type', 'common', 'Request Type')); ?></label>
@@ -178,9 +178,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <label for="engineering_focus"><?php echo htmlspecialchars(__t('contact_page.label_engineering_focus', 'common', 'Primary Engineering Focus')); ?></label>
             <select id="engineering_focus" name="engineering_focus" class="form-control" required>
               <option value="" disabled selected><?php echo htmlspecialchars(__t('contact_page.option_select_process', 'common', 'Select process area...')); ?></option>
-              <option value="Molecular Sieves & Adsorbents">Molecular Sieves &amp; Adsorbents</option>
+              <option value="Molecular Sieves & Adsorbents"><?php echo htmlspecialchars(__t('contact_page.option_molecular_sieves', 'common', 'Molecular Sieves & Adsorbents')); ?></option>
               <option value="Water Treatment Chemistries"><?php echo htmlspecialchars(__t('contact_page.option_water_treatment', 'common', 'Water Treatment Chemistries')); ?></option>
-              <option value="Catalysts & Process Tech">Catalysts &amp; Process Tech</option>
+              <option value="Catalysts & Process Tech"><?php echo htmlspecialchars(__t('contact_page.option_catalysts', 'common', 'Catalysts & Process Tech')); ?></option>
               <option value="Other Specialty Chemical Inquiry"><?php echo htmlspecialchars(__t('contact_page.option_other', 'common', 'Other Specialty Chemical Inquiry')); ?></option>
             </select>
           </div>
@@ -196,17 +196,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   <footer class="footer-wrapper">
     <div class="container">
-      <div style="font-family: var(--font-serif); font-size: 20px; color: #FFFFFF;">MORRISCHEM LLC</div>
-      <p style="font-size: 13px; margin-top: 8px; color: #8D99AE;">&copy; 2026 Morrischem LLC. <?php echo htmlspecialchars(__t('contact_page.footer_rights', 'common', 'All rights reserved.')); ?></p>
+      <div style="font-family: var(--font-serif); font-size: 20px; color: #FFFFFF;"><?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?></div>
+      <p style="font-size: 13px; margin-top: 8px; color: #8D99AE;">&copy; 2026 <?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?>. <?php echo htmlspecialchars(__t('contact_page.footer_rights', 'common', 'All rights reserved.')); ?></p>
     </div>
   </footer>
 
   <script>
+    const alertSuccessText = <?php echo json_encode(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')); ?>;
+    const alertErrorText = <?php echo json_encode(__t('contact_page.error_message', 'common', 'Unable to submit your inquiry right now. Please try again later.')); ?>;
     const params = new URLSearchParams(window.location.search);
     const status = params.get('status');
     const message = params.get('message');
     if (status === 'success') {
-      alert('Thank you. Your inquiry has been submitted successfully.');
+      alert(alertSuccessText);
     } else if (status === 'error' && message) {
       alert(decodeURIComponent(message));
     }
@@ -227,7 +229,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .then(function () {
           const alertBox = document.createElement('div');
           alertBox.className = 'alert alert-success';
-          alertBox.textContent = 'Thank you. Your technical inquiry has been transmitted successfully.';
+          alertBox.textContent = alertSuccessText;
 
           const formWrapper = form.parentNode;
           formWrapper.insertBefore(alertBox, form);
@@ -236,7 +238,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .catch(function () {
           const alertBox = document.createElement('div');
           alertBox.className = 'alert alert-error';
-          alertBox.textContent = 'Unable to submit your inquiry right now. Please try again later.';
+          alertBox.textContent = alertErrorText;
 
           const formWrapper = form.parentNode;
           formWrapper.insertBefore(alertBox, form);

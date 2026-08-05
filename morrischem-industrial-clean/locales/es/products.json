@@ -76,6 +76,10 @@
       "list_13x": {
         "val": "Tipo 13X: endulzamiento de APG, eliminación de CO2 de corrientes de aire y trampas de H2S/mercaptanos.",
         "reviewed": true
+      },
+      "5a_title": {
+        "val": "Type 5A",
+        "reviewed": true
       }
     },
     "compliance_title": {

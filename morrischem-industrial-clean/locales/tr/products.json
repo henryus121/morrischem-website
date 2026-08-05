@@ -1,65 +1,222 @@
 {
   "molecular": {
-    "title": "Moleküler Elekler ve Adsorbent Medyalar",
-    "subtitle": "Derin kurutma, merkaptan giderimi ve gaz akışı arıtımı için tasarlanmış sentetik zeolitler, aktif aluminalar ve silika jeller.",
-    "kicker": "Capability Vertical 01",
-    "process_title": "Gözenek Boyutu Hassasiyeti ve Seçicilik",
-    "process_text": "Moleküler elekler kinetik çap ve polariteye göre molekülleri adsorbe etmek için hassas kristal gözenek yapıları kullanır.",
-    "grades_title": "Temel Adsorbent Dereceleri",
-    "grades": {
-      "3a_label": "3A Derece / Kurutma",
-      "3a_title": "3A Zeolit Küreleri",
-      "3a_desc": "Gözenek Boyutu: ~3 Å. Doymamış hidrokarbon eş-adsorpsiyonu olmadan seçici su alımı için optimize edilmiştir.",
-      "4a_label": "4A Derece / Gaz İşleme",
-      "4a_title": "4A Zeolit Ekstrüzyonları",
-      "4a_desc": "Gözenek Boyutu: ~4 Å. Statik ve dinamik doğal gaz kurutma yatakları için standart seçimdir.",
-      "13x_label": "13X Derece / Arıtma",
-      "13x_title": "13X Yüksek Kapasite",
-      "13x_desc": "Gözenek Boyutu: ~10 Å. Derin CO2, H2S ve kükürt bileşiği giderimi için yüksek yüzey alanı.",
-      "list_3a": "Tip 3A: çatlak gazı, etanol ve doymamış hidrokarbon kurutma.",
-      "list_4a": "Tip 4A: doğal gaz kurutma, hava kurutma ve soğutucu döngüler.",
-      "list_5a": "Tip 5A: iso/normal parafin ayırma ve doğal gazı tatlandırma.",
-      "list_13x": "Tip 13X: APG tatlandırma, hava akışlarından CO2 giderimi ve H2S/merkaptan tuzakları."
+    "title": {
+      "val": "Moleküler Elekler ve Adsorbent Medyalar",
+      "reviewed": true
     },
-    "compliance_title": "Kalite Güvencesi ve Uyumluluk",
-    "compliance_text": "Tedarik edilen tüm adsorbent medyalar, endüstriyel kimyasal kullanım için ISO 9001 üretim izlenebilirliği ve AB REACH uyumluluk gereksinimlerini karşılayarak sıkı uluslararası kalite standartlarına uygundur.",
-    "support_kicker": "Mühendislik Desteği",
-    "bed_title": "Yatak Boyutlandırma ve Tasarım Analizi Talebi",
-    "bed_desc": "Özel yatak hacmi hesaplaması için gaz akış hızınızı, giriş basıncınızı, sıcaklığınızı ve hedef çiğ noktanızı gönderin.",
-    "cta_inquire": "Mühendislik Ekibi ile İletişime Geçin"
+    "subtitle": {
+      "val": "Derin kurutma, merkaptan giderimi ve gaz akışı arıtımı için tasarlanmış sentetik zeolitler, aktif aluminalar ve silika jeller.",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Capability Vertical 01",
+      "reviewed": true
+    },
+    "process_title": {
+      "val": "Gözenek Boyutu Hassasiyeti ve Seçicilik",
+      "reviewed": true
+    },
+    "process_text": {
+      "val": "Moleküler elekler kinetik çap ve polariteye göre molekülleri adsorbe etmek için hassas kristal gözenek yapıları kullanır.",
+      "reviewed": true
+    },
+    "grades_title": {
+      "val": "Temel Adsorbent Dereceleri",
+      "reviewed": true
+    },
+    "grades": {
+      "3a_label": {
+        "val": "3A Derece / Kurutma",
+        "reviewed": true
+      },
+      "3a_title": {
+        "val": "3A Zeolit Küreleri",
+        "reviewed": true
+      },
+      "3a_desc": {
+        "val": "Gözenek Boyutu: ~3 Å. Doymamış hidrokarbon eş-adsorpsiyonu olmadan seçici su alımı için optimize edilmiştir.",
+        "reviewed": true
+      },
+      "4a_label": {
+        "val": "4A Derece / Gaz İşleme",
+        "reviewed": true
+      },
+      "4a_title": {
+        "val": "4A Zeolit Ekstrüzyonları",
+        "reviewed": true
+      },
+      "4a_desc": {
+        "val": "Gözenek Boyutu: ~4 Å. Statik ve dinamik doğal gaz kurutma yatakları için standart seçimdir.",
+        "reviewed": true
+      },
+      "13x_label": {
+        "val": "13X Derece / Arıtma",
+        "reviewed": true
+      },
+      "13x_title": {
+        "val": "13X Yüksek Kapasite",
+        "reviewed": true
+      },
+      "13x_desc": {
+        "val": "Gözenek Boyutu: ~10 Å. Derin CO2, H2S ve kükürt bileşiği giderimi için yüksek yüzey alanı.",
+        "reviewed": true
+      },
+      "list_3a": {
+        "val": "Tip 3A: çatlak gazı, etanol ve doymamış hidrokarbon kurutma.",
+        "reviewed": true
+      },
+      "list_4a": {
+        "val": "Tip 4A: doğal gaz kurutma, hava kurutma ve soğutucu döngüler.",
+        "reviewed": true
+      },
+      "list_5a": {
+        "val": "Tip 5A: iso/normal parafin ayırma ve doğal gazı tatlandırma.",
+        "reviewed": true
+      },
+      "list_13x": {
+        "val": "Tip 13X: APG tatlandırma, hava akışlarından CO2 giderimi ve H2S/merkaptan tuzakları.",
+        "reviewed": true
+      },
+      "5a_title": {
+        "val": "Type 5A",
+        "reviewed": true
+      }
+    },
+    "compliance_title": {
+      "val": "Kalite Güvencesi ve Uyumluluk",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Tedarik edilen tüm adsorbent medyalar, endüstriyel kimyasal kullanım için ISO 9001 üretim izlenebilirliği ve AB REACH uyumluluk gereksinimlerini karşılayarak sıkı uluslararası kalite standartlarına uygundur.",
+      "reviewed": true
+    },
+    "support_kicker": {
+      "val": "Mühendislik Desteği",
+      "reviewed": true
+    },
+    "bed_title": {
+      "val": "Yatak Boyutlandırma ve Tasarım Analizi Talebi",
+      "reviewed": true
+    },
+    "bed_desc": {
+      "val": "Özel yatak hacmi hesaplaması için gaz akış hızınızı, giriş basıncınızı, sıcaklığınızı ve hedef çiğ noktanızı gönderin.",
+      "reviewed": true
+    },
+    "cta_inquire": {
+      "val": "Mühendislik Ekibi ile İletişime Geçin",
+      "reviewed": true
+    }
   },
   "water": {
-    "title": "Su Arıtma Kimyasalları",
-    "kicker": "Capability Vertical 02",
-    "subtitle": "Ağır yardımcı devrelerde kireç kontrolü, korozyon koruması ve biyolojik kirlenme kontrolü için tasarlanmış özel kimyasal formülasyonlar.",
-    "compliance_title": "Çevresel ve Düzenleyici Uyumluluk",
-    "compliance_text": "Uluslararası çevresel yönergelere uygun olarak formüle edilmiştir; sıfır deşarj girişimlerini, güvenli biyolojik toksisite eşiklerini ve AB REACH uyumluluk standartlarını destekler.",
-    "specs": {
-      "cooling_title": "Kireç ve Korozyon İnhibitörleri",
-      "cooling_desc": "Yüksek yüzey sıcaklığı ısı değiştiricileri için tasarlanmış fosfonat ve organik polimer karışımları.",
-      "boiler_title": "Oksijen Gidericiler ve Aminler",
-      "boiler_desc": "Kondensat sistemi pasifleştirmesi için DEHA ve film oluşturan amin kimya kombinasyonları.",
-      "membrane_title": "Yüksek Kurtarımlı RO Antikalklar",
-      "membrane_desc": "Yüksek kurtarma ile çalışan ters osmoz üniteleri için geniş spektrumlu silika ve sülfat ölçek kontrolü."
+    "title": {
+      "val": "Su Arıtma Kimyasalları",
+      "reviewed": true
     },
-    "cta_support": "Kimyasal Seçim Desteği İste"
+    "kicker": {
+      "val": "Capability Vertical 02",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Ağır yardımcı devrelerde kireç kontrolü, korozyon koruması ve biyolojik kirlenme kontrolü için tasarlanmış özel kimyasal formülasyonlar.",
+      "reviewed": true
+    },
+    "compliance_title": {
+      "val": "Çevresel ve Düzenleyici Uyumluluk",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Uluslararası çevresel yönergelere uygun olarak formüle edilmiştir; sıfır deşarj girişimlerini, güvenli biyolojik toksisite eşiklerini ve AB REACH uyumluluk standartlarını destekler.",
+      "reviewed": true
+    },
+    "specs": {
+      "cooling_title": {
+        "val": "Kireç ve Korozyon İnhibitörleri",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "Yüksek yüzey sıcaklığı ısı değiştiricileri için tasarlanmış fosfonat ve organik polimer karışımları.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "Oksijen Gidericiler ve Aminler",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "Kondensat sistemi pasifleştirmesi için DEHA ve film oluşturan amin kimya kombinasyonları.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "Yüksek Kurtarımlı RO Antikalklar",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "Yüksek kurtarma ile çalışan ters osmoz üniteleri için geniş spektrumlu silika ve sülfat ölçek kontrolü.",
+        "reviewed": true
+      }
+    },
+    "cta_support": {
+      "val": "Kimyasal Seçim Desteği İste",
+      "reviewed": true
+    }
   },
   "catalysts": {
-    "title": "Katalizörler ve Proses Teknolojileri",
-    "kicker": "Capability Vertical 03",
-    "subtitle": "Ünite verimini, seçiciliğini ve çalışma süresini maksimize etmek için yüksek aktivite katalizör sistemleri, destek ortamları ve koruyucu yataklar.",
-    "compliance_title": "Takip ve Güvenlik Uyumluluğu",
-    "compliance_text": "Tam metal lot takip, güvenli taşıma protokolleri ve küresel kimyasal uyumluluk düzenlemelerine uygun eksiksiz dokümantasyonla sıkı ISO kalite sistemleri altında üretilir.",
-    "specs": {
-      "hydro_title": "CoMo / NiMo Hidroproses",
-      "hydro_desc": "Derin HDS/HDN besleme işleme için tasarlanmış yüksek aktivite alümina destekli katalizörler.",
-      "guard_title": "Koruyucu Yataklar",
-      "guard_desc": "Ana reaktörlerden önce arsenik, silika ve demir giderimi için makroporlu alümina koruyucu ortamları.",
-      "support_title": "İnert Seramik Destek Küreleri",
-      "support_desc": "Eşit akış dağılımı için tasarlanmış yüksek saflıkta, termal şok dirençli destek topları."
+    "title": {
+      "val": "Katalizörler ve Proses Teknolojileri",
+      "reviewed": true
     },
-    "cta_title": "Katalizör Yatak Döngünüzü Değerlendirin",
-    "cta_desc": "Uzmanlarımız, yatak performansını optimize etmek için besleme karakterizasyonunu, uzaysal hızı ve sıcaklık profillerini inceler.",
-    "cta_evaluate": "Katalizör Değerlendirmesi Talep Et"
+    "kicker": {
+      "val": "Capability Vertical 03",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Ünite verimini, seçiciliğini ve çalışma süresini maksimize etmek için yüksek aktivite katalizör sistemleri, destek ortamları ve koruyucu yataklar.",
+      "reviewed": true
+    },
+    "compliance_title": {
+      "val": "Takip ve Güvenlik Uyumluluğu",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Tam metal lot takip, güvenli taşıma protokolleri ve küresel kimyasal uyumluluk düzenlemelerine uygun eksiksiz dokümantasyonla sıkı ISO kalite sistemleri altında üretilir.",
+      "reviewed": true
+    },
+    "specs": {
+      "hydro_title": {
+        "val": "CoMo / NiMo Hidroproses",
+        "reviewed": true
+      },
+      "hydro_desc": {
+        "val": "Derin HDS/HDN besleme işleme için tasarlanmış yüksek aktivite alümina destekli katalizörler.",
+        "reviewed": true
+      },
+      "guard_title": {
+        "val": "Koruyucu Yataklar",
+        "reviewed": true
+      },
+      "guard_desc": {
+        "val": "Ana reaktörlerden önce arsenik, silika ve demir giderimi için makroporlu alümina koruyucu ortamları.",
+        "reviewed": true
+      },
+      "support_title": {
+        "val": "İnert Seramik Destek Küreleri",
+        "reviewed": true
+      },
+      "support_desc": {
+        "val": "Eşit akış dağılımı için tasarlanmış yüksek saflıkta, termal şok dirençli destek topları.",
+        "reviewed": true
+      }
+    },
+    "cta_title": {
+      "val": "Katalizör Yatak Döngünüzü Değerlendirin",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "Uzmanlarımız, yatak performansını optimize etmek için besleme karakterizasyonunu, uzaysal hızı ve sıcaklık profillerini inceler.",
+      "reviewed": true
+    },
+    "cta_evaluate": {
+      "val": "Katalizör Değerlendirmesi Talep Et",
+      "reviewed": true
+    }
   }
 }

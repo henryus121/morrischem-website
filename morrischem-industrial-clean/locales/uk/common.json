@@ -232,7 +232,10 @@
       "val": "Technical Inquiry & Consultation — Morrischem LLC",
       "reviewed": false
     },
-    "back_link": "Повернутися на Головну Сторінку",
+    "back_link": {
+      "val": "Повернутися на Головну Сторінку",
+      "reviewed": true
+    },
     "kicker": {
       "val": "Consultation Gateway",
       "reviewed": false
@@ -355,14 +358,35 @@
     }
   },
   "actions": {
-    "request_tds": "Запросити TDS",
-    "request_sds": "Запросити SDS"
+    "request_tds": {
+      "val": "Запросити TDS",
+      "reviewed": true
+    },
+    "request_sds": {
+      "val": "Запросити SDS",
+      "reviewed": true
+    }
   },
   "sections": {
-    "technical_documentation": "Технічна Документація",
-    "engineered_grade_specifications": "Специфікації Інженерних Градів",
-    "chemical_formulation_matrices": "Матриці Хімічних Формул",
-    "catalyst_support_specifications": "Специфікації Каталізатора та Носія",
-    "target_applications": "Цільові Застосування"
+    "technical_documentation": {
+      "val": "Технічна Документація",
+      "reviewed": true
+    },
+    "engineered_grade_specifications": {
+      "val": "Специфікації Інженерних Градів",
+      "reviewed": true
+    },
+    "chemical_formulation_matrices": {
+      "val": "Матриці Хімічних Формул",
+      "reviewed": true
+    },
+    "catalyst_support_specifications": {
+      "val": "Специфікації Каталізатора та Носія",
+      "reviewed": true
+    },
+    "target_applications": {
+      "val": "Цільові Застосування",
+      "reviewed": true
+    }
   }
 }

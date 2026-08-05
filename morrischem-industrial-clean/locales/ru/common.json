@@ -232,7 +232,10 @@
       "val": "Technical Inquiry & Consultation — Morrischem LLC",
       "reviewed": false
     },
-    "back_link": "Назад на Главную",
+    "back_link": {
+      "val": "Назад на Главную",
+      "reviewed": true
+    },
     "kicker": {
       "val": "Consultation Gateway",
       "reviewed": false
@@ -355,14 +358,35 @@
     }
   },
   "actions": {
-    "request_tds": "Запросить TDS",
-    "request_sds": "Запросить SDS"
+    "request_tds": {
+      "val": "Запросить TDS",
+      "reviewed": true
+    },
+    "request_sds": {
+      "val": "Запросить SDS",
+      "reviewed": true
+    }
   },
   "sections": {
-    "technical_documentation": "Техническая Документация",
-    "engineered_grade_specifications": "Спецификации Инженерных Грейдов",
-    "chemical_formulation_matrices": "Матрицы Химических Формул",
-    "catalyst_support_specifications": "Спецификации Каталитического и Носительного Материала",
-    "target_applications": "Целевые Применения"
+    "technical_documentation": {
+      "val": "Техническая Документация",
+      "reviewed": true
+    },
+    "engineered_grade_specifications": {
+      "val": "Спецификации Инженерных Грейдов",
+      "reviewed": true
+    },
+    "chemical_formulation_matrices": {
+      "val": "Матрицы Химических Формул",
+      "reviewed": true
+    },
+    "catalyst_support_specifications": {
+      "val": "Спецификации Каталитического и Носительного Материала",
+      "reviewed": true
+    },
+    "target_applications": {
+      "val": "Целевые Применения",
+      "reviewed": true
+    }
   }
 }

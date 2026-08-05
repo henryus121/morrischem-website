@@ -76,6 +76,10 @@
       "list_13x": {
         "val": "Type 13X : adoucissement APG, élimination du CO2 des flux d'air et pièges à H2S/mercaptans.",
         "reviewed": true
+      },
+      "5a_title": {
+        "val": "Type 5A",
+        "reviewed": true
       }
     },
     "compliance_title": {

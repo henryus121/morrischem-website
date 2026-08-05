@@ -76,6 +76,10 @@
       "list_13x": {
         "val": "Typ 13X: APG-Entschwefelung, CO2-Entfernung aus Luftzufuhren und H2S/Mercaptan-Fallen.",
         "reviewed": true
+      },
+      "5a_title": {
+        "val": "Type 5A",
+        "reviewed": true
       }
     },
     "compliance_title": {

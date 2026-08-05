@@ -1,65 +1,222 @@
 {
   "molecular": {
-    "title": "Molekulyar Ələklər və Adsorbent Materiallar",
-    "subtitle": "Dərin quruma, merkaptan çıxarılması və qaz axınının təmizlənməsi üçün hazırlanmış sintetik zeolitlər, aktivləşdirilmiş alümina və silika jelləri.",
-    "kicker": "Capability Vertical 01",
-    "process_title": "Gözenək Ölçüsü Dəqiqliyi və Selektivlik",
-    "process_text": "Molekulyar ələklər kinetik diametr və polaritəyə əsasən molekulları adsorbsiyalayacaq dəqiq kristal gözenək strukturlarından istifadə edir.",
-    "grades_title": "Əsas Adsorbent Dərəcələri",
-    "grades": {
-      "3a_label": "3A Dərəcəsi / Qurutma",
-      "3a_title": "3A Zeolit Kürələri",
-      "3a_desc": "Gözenək ölçüsü: ~3 Å. Bərkidilmiş hidrokarbonların yanaşı adsorbsiyası olmadan su tutumunu seçici şəkildə optimallaşdırır.",
-      "4a_label": "4A Dərəcəsi / Qaz Emalı",
-      "4a_title": "4A Zeolit Ekstrudatları",
-      "4a_desc": "Gözenək ölçüsü: ~4 Å. Statik və dinamik təbii qaz quruducu yataqları üçün standart seçimdir.",
-      "13x_label": "13X Dərəcəsi / Təmizləmə",
-      "13x_title": "13X Yüksək Tutum",
-      "13x_desc": "Gözenək ölçüsü: ~10 Å. CO2, H2S və kükürd birləşmələrinin dərindən çıxarılması üçün yüksək səth sahəsi.",
-      "list_3a": "Tip 3A: krak qazı, etanol və doyulmayan hidrokarbonların qurudulması.",
-      "list_4a": "Tip 4A: təbii qaz qurudulması, havanın qurudulması və soyuducu dövranları.",
-      "list_5a": "Tip 5A: izo/norm parafin ayrılması və təbii qazın şirinləşdirilməsi.",
-      "list_13x": "Tip 13X: APG şirinləşdirilməsi, hava axınlarından CO2 çıxarılması və H2S/merkaptan tələləri."
+    "title": {
+      "val": "Molekulyar Ələklər və Adsorbent Materiallar",
+      "reviewed": true
     },
-    "compliance_title": "Keyfiyyət Zəmanəti və Uyğunluq",
-    "compliance_text": "Bütün təchiz edilmiş adsorbent materiallar ISO 9001 istehsal izlənməsi və sənaye kimyəvi maddələrin işlənməsi üçün AB REACH uyğunluğu tələbləri ilə ciddi beynəlxalq keyfiyyət standartlarına cavab verir.",
-    "support_kicker": "Mühəndis Dəstəyi",
-    "bed_title": "Yataq Ölçüsü və Dizayn Analizi Tələbi",
-    "bed_desc": "Fərdi yataq həcmi hesablaması üçün qaz axını sürətinizi, giriş təzyiqinizi, temperaturu və hədəf sululuq nöqtənizi göndərin.",
-    "cta_inquire": "Mühəndislik Komandası ilə Müraciət Edin"
+    "subtitle": {
+      "val": "Dərin quruma, merkaptan çıxarılması və qaz axınının təmizlənməsi üçün hazırlanmış sintetik zeolitlər, aktivləşdirilmiş alümina və silika jelləri.",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Capability Vertical 01",
+      "reviewed": true
+    },
+    "process_title": {
+      "val": "Gözenək Ölçüsü Dəqiqliyi və Selektivlik",
+      "reviewed": true
+    },
+    "process_text": {
+      "val": "Molekulyar ələklər kinetik diametr və polaritəyə əsasən molekulları adsorbsiyalayacaq dəqiq kristal gözenək strukturlarından istifadə edir.",
+      "reviewed": true
+    },
+    "grades_title": {
+      "val": "Əsas Adsorbent Dərəcələri",
+      "reviewed": true
+    },
+    "grades": {
+      "3a_label": {
+        "val": "3A Dərəcəsi / Qurutma",
+        "reviewed": true
+      },
+      "3a_title": {
+        "val": "3A Zeolit Kürələri",
+        "reviewed": true
+      },
+      "3a_desc": {
+        "val": "Gözenək ölçüsü: ~3 Å. Bərkidilmiş hidrokarbonların yanaşı adsorbsiyası olmadan su tutumunu seçici şəkildə optimallaşdırır.",
+        "reviewed": true
+      },
+      "4a_label": {
+        "val": "4A Dərəcəsi / Qaz Emalı",
+        "reviewed": true
+      },
+      "4a_title": {
+        "val": "4A Zeolit Ekstrudatları",
+        "reviewed": true
+      },
+      "4a_desc": {
+        "val": "Gözenək ölçüsü: ~4 Å. Statik və dinamik təbii qaz quruducu yataqları üçün standart seçimdir.",
+        "reviewed": true
+      },
+      "13x_label": {
+        "val": "13X Dərəcəsi / Təmizləmə",
+        "reviewed": true
+      },
+      "13x_title": {
+        "val": "13X Yüksək Tutum",
+        "reviewed": true
+      },
+      "13x_desc": {
+        "val": "Gözenək ölçüsü: ~10 Å. CO2, H2S və kükürd birləşmələrinin dərindən çıxarılması üçün yüksək səth sahəsi.",
+        "reviewed": true
+      },
+      "list_3a": {
+        "val": "Tip 3A: krak qazı, etanol və doyulmayan hidrokarbonların qurudulması.",
+        "reviewed": true
+      },
+      "list_4a": {
+        "val": "Tip 4A: təbii qaz qurudulması, havanın qurudulması və soyuducu dövranları.",
+        "reviewed": true
+      },
+      "list_5a": {
+        "val": "Tip 5A: izo/norm parafin ayrılması və təbii qazın şirinləşdirilməsi.",
+        "reviewed": true
+      },
+      "list_13x": {
+        "val": "Tip 13X: APG şirinləşdirilməsi, hava axınlarından CO2 çıxarılması və H2S/merkaptan tələləri.",
+        "reviewed": true
+      },
+      "5a_title": {
+        "val": "Type 5A",
+        "reviewed": true
+      }
+    },
+    "compliance_title": {
+      "val": "Keyfiyyət Zəmanəti və Uyğunluq",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Bütün təchiz edilmiş adsorbent materiallar ISO 9001 istehsal izlənməsi və sənaye kimyəvi maddələrin işlənməsi üçün AB REACH uyğunluğu tələbləri ilə ciddi beynəlxalq keyfiyyət standartlarına cavab verir.",
+      "reviewed": true
+    },
+    "support_kicker": {
+      "val": "Mühəndis Dəstəyi",
+      "reviewed": true
+    },
+    "bed_title": {
+      "val": "Yataq Ölçüsü və Dizayn Analizi Tələbi",
+      "reviewed": true
+    },
+    "bed_desc": {
+      "val": "Fərdi yataq həcmi hesablaması üçün qaz axını sürətinizi, giriş təzyiqinizi, temperaturu və hədəf sululuq nöqtənizi göndərin.",
+      "reviewed": true
+    },
+    "cta_inquire": {
+      "val": "Mühəndislik Komandası ilə Müraciət Edin",
+      "reviewed": true
+    }
   },
   "water": {
-    "title": "Su Təmizləmə Kimyəvi Maddələri",
-    "kicker": "Capability Vertical 02",
-    "subtitle": "Ağır kommunal dövrlərdə çöküntünün qarşısının alınması, korroziyanın azaldılması və bioloji ifşanı nəzarətdə saxlamaq üçün ixtisaslaşdırılmış kimyəvi formulalar.",
-    "compliance_title": "Ətraf Mühit və Tənzimləmə Uyğunluğu",
-    "compliance_text": "Beynəlxalq ekoloji qaydalara uyğun hazırlanmışdır, sıfır atılma təşəbbüslərini, təhlükəsiz bioloji toksiklik səviyyələrini və AB REACH uyğunluğu standartlarını dəstəkləyir.",
-    "specs": {
-      "cooling_title": "Çöküntü və Korroziya İnhibitorları",
-      "cooling_desc": "Yüksək səth temperaturu istilik dəyişdiriciləri üçün hazırlanmış fosfonat və üzvi polimer qarışıqları.",
-      "boiler_title": "Oksigen Tutucular və Aminlər",
-      "boiler_desc": "Kondensat sistemi passivasiyası üçün DEHA və film əmələ gətirən amin kimyəvi kombinasiyaları.",
-      "membrane_title": "Yüksək Bərpa RO Antikalklar",
-      "membrane_desc": "Yüksək bərpa ilə işləyən tərs osmoz vahidləri üçün silika və sulfat ölçülü geniş spektrli nəzarət."
+    "title": {
+      "val": "Su Təmizləmə Kimyəvi Maddələri",
+      "reviewed": true
     },
-    "cta_support": "Kimyəvi Seçim Dəstəyi Tələb Edin"
+    "kicker": {
+      "val": "Capability Vertical 02",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Ağır kommunal dövrlərdə çöküntünün qarşısının alınması, korroziyanın azaldılması və bioloji ifşanı nəzarətdə saxlamaq üçün ixtisaslaşdırılmış kimyəvi formulalar.",
+      "reviewed": true
+    },
+    "compliance_title": {
+      "val": "Ətraf Mühit və Tənzimləmə Uyğunluğu",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Beynəlxalq ekoloji qaydalara uyğun hazırlanmışdır, sıfır atılma təşəbbüslərini, təhlükəsiz bioloji toksiklik səviyyələrini və AB REACH uyğunluğu standartlarını dəstəkləyir.",
+      "reviewed": true
+    },
+    "specs": {
+      "cooling_title": {
+        "val": "Çöküntü və Korroziya İnhibitorları",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "Yüksək səth temperaturu istilik dəyişdiriciləri üçün hazırlanmış fosfonat və üzvi polimer qarışıqları.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "Oksigen Tutucular və Aminlər",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "Kondensat sistemi passivasiyası üçün DEHA və film əmələ gətirən amin kimyəvi kombinasiyaları.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "Yüksək Bərpa RO Antikalklar",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "Yüksək bərpa ilə işləyən tərs osmoz vahidləri üçün silika və sulfat ölçülü geniş spektrli nəzarət.",
+        "reviewed": true
+      }
+    },
+    "cta_support": {
+      "val": "Kimyəvi Seçim Dəstəyi Tələb Edin",
+      "reviewed": true
+    }
   },
   "catalysts": {
-    "title": "Katalizatorlar və Proses Texnologiyaları",
-    "kicker": "Capability Vertical 03",
-    "subtitle": "Maksimum verim, seçicilik və çalışma müddəti üçün yüksək aktivlik katalizator sistemləri, dəstək materialları və qoruyucu yataqlar.",
-    "compliance_title": "İzləniləbilərlik və Təhlükəsizlik Uyğunluğu",
-    "compliance_text": "Tam metal lot izlənməsi, təhlükəsiz işləmə protokolları və qlobal kimyəvi uyğunluq qaydalarına uyğun geniş sənədləmə ilə sərt ISO keyfiyyət sistemləri altında istehsal olunur.",
-    "specs": {
-      "hydro_title": "CoMo / NiMo Hidroproses",
-      "hydro_desc": "Dərin HDS/HDN qidalanma emalı üçün hazırlanmış yüksək aktivlik alumina dəstəklənmiş katalizatorlar.",
-      "guard_title": "Qoruyucu Yataqlar",
-      "guard_desc": "Əsas reaktorların əvvəlində arsen, silika və dəmirin çıxarılması üçün makroporous alumina qoruyucu materialları.",
-      "support_title": "İnert Keramika Dəstək Sferaları",
-      "support_desc": "Bərabər axın paylanması üçün termik şokə dayanıqlı yüksək təmizlik dəstək topları."
+    "title": {
+      "val": "Katalizatorlar və Proses Texnologiyaları",
+      "reviewed": true
     },
-    "cta_title": "Katalizator Yataq Dövrünü Qiymətləndirin",
-    "cta_desc": "Mütəxəssislərimiz yataq performansını optimallaşdırmaq üçün qidalanmanın xarakterizasiyasını, məkan sürətini və temperatur profillərini nəzərdən keçirir.",
-    "cta_evaluate": "Katalizator Qiymətləndirilməsi Tələb Edin"
+    "kicker": {
+      "val": "Capability Vertical 03",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Maksimum verim, seçicilik və çalışma müddəti üçün yüksək aktivlik katalizator sistemləri, dəstək materialları və qoruyucu yataqlar.",
+      "reviewed": true
+    },
+    "compliance_title": {
+      "val": "İzləniləbilərlik və Təhlükəsizlik Uyğunluğu",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Tam metal lot izlənməsi, təhlükəsiz işləmə protokolları və qlobal kimyəvi uyğunluq qaydalarına uyğun geniş sənədləmə ilə sərt ISO keyfiyyət sistemləri altında istehsal olunur.",
+      "reviewed": true
+    },
+    "specs": {
+      "hydro_title": {
+        "val": "CoMo / NiMo Hidroproses",
+        "reviewed": true
+      },
+      "hydro_desc": {
+        "val": "Dərin HDS/HDN qidalanma emalı üçün hazırlanmış yüksək aktivlik alumina dəstəklənmiş katalizatorlar.",
+        "reviewed": true
+      },
+      "guard_title": {
+        "val": "Qoruyucu Yataqlar",
+        "reviewed": true
+      },
+      "guard_desc": {
+        "val": "Əsas reaktorların əvvəlində arsen, silika və dəmirin çıxarılması üçün makroporous alumina qoruyucu materialları.",
+        "reviewed": true
+      },
+      "support_title": {
+        "val": "İnert Keramika Dəstək Sferaları",
+        "reviewed": true
+      },
+      "support_desc": {
+        "val": "Bərabər axın paylanması üçün termik şokə dayanıqlı yüksək təmizlik dəstək topları.",
+        "reviewed": true
+      }
+    },
+    "cta_title": {
+      "val": "Katalizator Yataq Dövrünü Qiymətləndirin",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "Mütəxəssislərimiz yataq performansını optimallaşdırmaq üçün qidalanmanın xarakterizasiyasını, məkan sürətini və temperatur profillərini nəzərdən keçirir.",
+      "reviewed": true
+    },
+    "cta_evaluate": {
+      "val": "Katalizator Qiymətləndirilməsi Tələb Edin",
+      "reviewed": true
+    }
   }
 }
