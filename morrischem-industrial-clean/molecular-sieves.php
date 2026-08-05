@@ -196,8 +196,8 @@ Template Name: Molecular Sieves Page
             <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~3 Å. Optimized for selective water uptake without unsaturated hydrocarbon co-adsorption.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=3A%20Zeolite%20Spheres" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=3A%20Zeolite%20Spheres" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
 
@@ -208,8 +208,8 @@ Template Name: Molecular Sieves Page
             <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~4 Å. Standard choice for static and dynamic natural gas drying beds.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=4A%20Zeolite%20Extrudates" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=4A%20Zeolite%20Extrudates" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
 
@@ -220,8 +220,8 @@ Template Name: Molecular Sieves Page
             <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~10 Å. High surface area for deep CO2, H2S, and sulfur compound removal.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=13X%20High%20Capacity" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=13X%20High%20Capacity" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
       </div>
@@ -234,7 +234,7 @@ Template Name: Molecular Sieves Page
       <div class="kicker">Engineering Support</div>
       <h2>Request Bed Sizing &amp; Design Analysis</h2>
       <p style="margin: 16px 0 32px 0;">Submit your gas flow rate, inlet pressure, temperature, and target dew point for custom bed volume calculation.</p>
-      <a href="contact.html" class="btn-primary">Inquire with Engineering Team</a>
+      <a href="/contact/?subject=Support-Request" class="btn-primary">Inquire with Engineering Team</a>
     </div>
   </section>
 

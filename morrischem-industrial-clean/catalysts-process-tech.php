@@ -158,8 +158,8 @@ Template Name: Catalysts Process Tech Page
             <p style="font-size: 13px; margin-bottom: 16px;">High-activity alumina-supported catalysts engineered for deep HDS/HDN feed processing.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=CoMo%20%2F%20NiMo%20Hydroprocessing" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=CoMo%20%2F%20NiMo%20Hydroprocessing" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
 
@@ -170,8 +170,8 @@ Template Name: Catalysts Process Tech Page
             <p style="font-size: 13px; margin-bottom: 16px;">Macroporous alumina guard media for arsenic, silica, and iron removal upstream of main reactors.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=Contaminant%20%26%20Metal%20Traps" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=Contaminant%20%26%20Metal%20Traps" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
 
@@ -182,8 +182,8 @@ Template Name: Catalysts Process Tech Page
             <p style="font-size: 13px; margin-bottom: 16px;">High-purity, thermal-shock resistant support balls designed for uniform flow distribution.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=Inert%20Ceramic%20Media%20Spheres" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=Inert%20Ceramic%20Media%20Spheres" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
       </div>
@@ -196,7 +196,7 @@ Template Name: Catalysts Process Tech Page
       <div class="kicker">Technical Consultation</div>
       <h2>Evaluate Your Catalyst Bed Cycle</h2>
       <p style="margin: 16px 0 32px 0;">Our specialists review feed characterization, space velocity, and temperature profiles to optimize bed performance.</p>
-      <a href="contact.html" class="btn-primary">Request Catalyst Evaluation</a>
+      <a href="/contact/?subject=Support-Request" class="btn-primary">Request Catalyst Evaluation</a>
     </div>
   </section>
 

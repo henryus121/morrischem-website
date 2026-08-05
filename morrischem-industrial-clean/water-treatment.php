@@ -158,8 +158,8 @@ Template Name: Water Treatment Page
             <p style="font-size: 13px; margin-bottom: 16px;">Phosphonate and organic polymer blends engineered for high-skin-temperature heat exchangers.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=Scale%20%26%20Corrosion%20Inhibitors" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=Scale%20%26%20Corrosion%20Inhibitors" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
 
@@ -170,8 +170,8 @@ Template Name: Water Treatment Page
             <p style="font-size: 13px; margin-bottom: 16px;">DEHA and filming amine chemistry combinations for complete condensate system passivation.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=Oxygen%20Scavengers%20%26%20Amines" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=Oxygen%20Scavengers%20%26%20Amines" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
 
@@ -182,8 +182,8 @@ Template Name: Water Treatment Page
             <p style="font-size: 13px; margin-bottom: 16px;">Broad-spectrum silica and sulfate scale control for reverse osmosis units operating under high recovery rates.</p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="contact.html?doc=TDS&product=High-Recovery%20RO%20Antiscalants" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="contact.html?doc=SDS&product=High-Recovery%20RO%20Antiscalants" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
           </div>
         </div>
       </div>
@@ -196,7 +196,7 @@ Template Name: Water Treatment Page
       <div class="kicker">Technical Consultation</div>
       <h2>Discuss Your Water Quality Profile</h2>
       <p style="margin: 16px 0 32px 0;">Our engineering team analyzes water chemistry and system design to specify the optimal treatment regime.</p>
-      <a href="contact.html" class="btn-primary">Request Chemical Selection Support</a>
+      <a href="/contact/?subject=Support-Request" class="btn-primary">Request Chemical Selection Support</a>
     </div>
   </section>
 
