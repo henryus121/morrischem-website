@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php echo htmlspecialchars(__t('contact_page.meta_title', 'common', 'Technical Inquiry & Consultation — Morrischem LLC')); ?></title>
+  <title><?php echo htmlspecialchars(__t('contact_page.meta_title', 'common')); ?></title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
@@ -128,67 +128,67 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   <header class="page-header">
     <div class="container">
-      <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
-      <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.kicker', 'common', 'Consultation Gateway')); ?></div>
-      <h1><?php echo htmlspecialchars(__t('contact_page.title', 'common', 'Engineering Technical Inquiry')); ?></h1>
-      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;"><?php echo htmlspecialchars(__t('contact_page.subtitle', 'common', 'Submit your process stream parameters or chemical specifications directly to our technical team for evaluation.')); ?></p>
+      <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common')); ?></a>
+      <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.kicker', 'common')); ?></div>
+      <h1><?php echo htmlspecialchars(__t('contact_page.title', 'common')); ?></h1>
+      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;"><?php echo htmlspecialchars(__t('contact_page.subtitle', 'common')); ?></p>
     </div>
   </header>
 
   <section class="section-padding">
     <div class="container grid-2">
       <div>
-        <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.support_kicker', 'common', 'Direct Response Protocol')); ?></div>
-        <h2><?php echo htmlspecialchars(__t('contact_page.support_h2', 'common', 'Engineering Support')); ?></h2>
-        <p style="margin: 16px 0 32px 0;"><?php echo htmlspecialchars(__t('contact_page.support_body', 'common', 'We evaluate operating conditions, feed compositions, and pressure profiles before recommending adsorbent media, catalyst configurations, or water treatment regimes.')); ?></p>
+        <div class="kicker"><?php echo htmlspecialchars(__t('contact_page.support_kicker', 'common')); ?></div>
+        <h2><?php echo htmlspecialchars(__t('contact_page.support_h2', 'common')); ?></h2>
+        <p style="margin: 16px 0 32px 0;"><?php echo htmlspecialchars(__t('contact_page.support_body', 'common')); ?></p>
         <div class="card-surface" style="margin-bottom: 24px; background-color: #1C2541; border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; padding: 32px;">
-          <h4 style="color: #00D2FF; font-size: 13px; text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('contact_page.commitment_title', 'common', 'Response Commitment')); ?></h4>
-          <p style="font-size: 14px; color: #8D99AE;"><?php echo htmlspecialchars(__t('contact_page.commitment_body', 'common', 'All inquiries receive a preliminary engineering assessment within 24 business hours.')); ?></p>
+          <h4 style="color: #00D2FF; font-size: 13px; text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('contact_page.commitment_title', 'common')); ?></h4>
+          <p style="font-size: 14px; color: #8D99AE;"><?php echo htmlspecialchars(__t('contact_page.commitment_body', 'common')); ?></p>
         </div>
       </div>
 
       <div class="card-surface" style="background-color: #1C2541; border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; padding: 32px;">
-        <?php $status = isset($_GET['status']) ? $_GET['status'] : ''; $message = isset($_GET['message']) ? htmlspecialchars($_GET['message'], ENT_QUOTES, 'UTF-8') : ''; if ($status === 'success') { echo '<div class="alert alert-success">' . htmlspecialchars(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')) . '</div>'; } elseif ($status === 'error') { echo '<div class="alert alert-error">' . $message . '</div>'; } ?>
+        <?php $status = isset($_GET['status']) ? $_GET['status'] : ''; if ($status === 'success') { echo '<div class="alert alert-success">' . htmlspecialchars(__t('contact_page.success_message', 'common')) . '</div>'; } elseif ($status === 'error') { echo '<div class="alert alert-error">' . htmlspecialchars(__t('contact_page.error_message', 'common')) . '</div>'; } ?>
         <form id="contact-form" action="contact.php" method="post">
           <div class="form-group">
-            <label for="full_name"><?php echo htmlspecialchars(__t('contact_page.name_label', 'common', 'Full Name / Title')); ?></label>
-            <input type="text" id="full_name" name="full_name" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_full_name', 'common', 'e.g. John Doe, Lead Process Engineer')); ?>" required>
+            <label for="full_name"><?php echo htmlspecialchars(__t('contact_page.name_label', 'common')); ?></label>
+            <input type="text" id="full_name" name="full_name" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_full_name', 'common')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="company"><?php echo htmlspecialchars(__t('contact_page.label_company', 'common', 'Company / Operating Facility')); ?></label>
-            <input type="text" id="company" name="company" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_company', 'common', 'e.g. Petrochemical Refinery Complex')); ?>" required>
+            <label for="company"><?php echo htmlspecialchars(__t('contact_page.label_company', 'common')); ?></label>
+            <input type="text" id="company" name="company" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_company', 'common')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="email"><?php echo htmlspecialchars(__t('contact_page.email_label', 'common', 'Corporate Email')); ?></label>
-            <input type="email" id="email" name="email" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_email', 'common', 'name@company.com')); ?>" required>
+            <label for="email"><?php echo htmlspecialchars(__t('contact_page.email_label', 'common')); ?></label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_email', 'common')); ?>" required>
           </div>
           <div class="form-group">
-            <label for="request_type"><?php echo htmlspecialchars(__t('contact_page.subject_label', 'common', 'Request Type')); ?></label>
+            <label for="request_type"><?php echo htmlspecialchars(__t('contact_page.subject_label', 'common')); ?></label>
             <select id="request_type" name="request_type" class="form-control">
-              <option value=""><?php echo htmlspecialchars(__t('contact_page.option_select_document', 'common', 'Select document request...')); ?></option>
-              <option value="TDS"><?php echo htmlspecialchars(__t('contact_page.option_tds', 'common', 'TDS Request')); ?></option>
-              <option value="SDS"><?php echo htmlspecialchars(__t('contact_page.option_sds', 'common', 'SDS Request')); ?></option>
+              <option value=""><?php echo htmlspecialchars(__t('contact_page.option_select_document', 'common')); ?></option>
+              <option value="TDS"><?php echo htmlspecialchars(__t('contact_page.option_tds', 'common')); ?></option>
+              <option value="SDS"><?php echo htmlspecialchars(__t('contact_page.option_sds', 'common')); ?></option>
             </select>
           </div>
           <div class="form-group">
-            <label for="product_name"><?php echo htmlspecialchars(__t('contact_page.label_product_name', 'common', 'Product / Specification Name')); ?></label>
-            <input type="text" id="product_name" name="product_name" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_product_name', 'common', 'e.g. 3A Zeolite Spheres')); ?>">
+            <label for="product_name"><?php echo htmlspecialchars(__t('contact_page.label_product_name', 'common')); ?></label>
+            <input type="text" id="product_name" name="product_name" class="form-control" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_product_name', 'common')); ?>">
           </div>
           <div class="form-group">
-            <label for="engineering_focus"><?php echo htmlspecialchars(__t('contact_page.label_engineering_focus', 'common', 'Primary Engineering Focus')); ?></label>
+            <label for="engineering_focus"><?php echo htmlspecialchars(__t('contact_page.label_engineering_focus', 'common')); ?></label>
             <select id="engineering_focus" name="engineering_focus" class="form-control" required>
-              <option value="" disabled selected><?php echo htmlspecialchars(__t('contact_page.option_select_process', 'common', 'Select process area...')); ?></option>
-              <option value="Molecular Sieves & Adsorbents"><?php echo htmlspecialchars(__t('contact_page.option_molecular_sieves', 'common', 'Molecular Sieves & Adsorbents')); ?></option>
-              <option value="Water Treatment Chemistries"><?php echo htmlspecialchars(__t('contact_page.option_water_treatment', 'common', 'Water Treatment Chemistries')); ?></option>
-              <option value="Catalysts & Process Tech"><?php echo htmlspecialchars(__t('contact_page.option_catalysts', 'common', 'Catalysts & Process Tech')); ?></option>
-              <option value="Other Specialty Chemical Inquiry"><?php echo htmlspecialchars(__t('contact_page.option_other', 'common', 'Other Specialty Chemical Inquiry')); ?></option>
+              <option value="" disabled selected><?php echo htmlspecialchars(__t('contact_page.option_select_process', 'common')); ?></option>
+              <option value="Molecular Sieves & Adsorbents"><?php echo htmlspecialchars(__t('contact_page.option_molecular_sieves', 'common')); ?></option>
+              <option value="Water Treatment Chemistries"><?php echo htmlspecialchars(__t('contact_page.option_water_treatment', 'common')); ?></option>
+              <option value="Catalysts & Process Tech"><?php echo htmlspecialchars(__t('contact_page.option_catalysts', 'common')); ?></option>
+              <option value="Other Specialty Chemical Inquiry"><?php echo htmlspecialchars(__t('contact_page.option_other', 'common')); ?></option>
             </select>
           </div>
           <div class="form-group">
-            <label for="requirements"><?php echo htmlspecialchars(__t('contact_page.message_label', 'common', 'Technical Requirements / Stream Parameters')); ?></label>
-            <textarea id="requirements" name="requirements" class="form-control" rows="5" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_requirements', 'common', 'Specify operating temperatures, flow rates, contaminants, or targeted product specs...')); ?>" required></textarea>
+            <label for="requirements"><?php echo htmlspecialchars(__t('contact_page.message_label', 'common')); ?></label>
+            <textarea id="requirements" name="requirements" class="form-control" rows="5" placeholder="<?php echo htmlspecialchars(__t('contact_page.placeholder_requirements', 'common')); ?>" required></textarea>
           </div>
-          <button type="submit" class="btn-primary" style="width: 100%; text-align: center; cursor: pointer; border: none;"><?php echo htmlspecialchars(__t('contact_page.button_text', 'common', 'Submit Inquiry')); ?></button>
+          <button type="submit" class="btn-primary" style="width: 100%; text-align: center; cursor: pointer; border: none;"><?php echo htmlspecialchars(__t('contact_page.button_text', 'common')); ?></button>
         </form>
       </div>
     </div>
@@ -196,21 +196,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   <footer class="footer-wrapper">
     <div class="container">
-      <div style="font-family: var(--font-serif); font-size: 20px; color: #FFFFFF;"><?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?></div>
-      <p style="font-size: 13px; margin-top: 8px; color: #8D99AE;">&copy; 2026 <?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?>. <?php echo htmlspecialchars(__t('contact_page.footer_rights', 'common', 'All rights reserved.')); ?></p>
+      <div style="font-family: var(--font-serif); font-size: 20px; color: #FFFFFF;"><?php echo htmlspecialchars(__t('footer.name', 'common')); ?></div>
+      <p style="font-size: 13px; margin-top: 8px; color: #8D99AE;">&copy; 2026 <?php echo htmlspecialchars(__t('footer.name', 'common')); ?>. <?php echo htmlspecialchars(__t('contact_page.footer_rights', 'common')); ?></p>
     </div>
   </footer>
 
   <script>
-    const alertSuccessText = <?php echo json_encode(__t('contact_page.success_message', 'common', 'Thank you. Your inquiry has been submitted successfully.')); ?>;
-    const alertErrorText = <?php echo json_encode(__t('contact_page.error_message', 'common', 'Unable to submit your inquiry right now. Please try again later.')); ?>;
+    const alertSuccessText = <?php echo json_encode(__t('contact_page.success_message', 'common')); ?>;
+    const alertErrorText = <?php echo json_encode(__t('contact_page.error_message', 'common')); ?>;
     const params = new URLSearchParams(window.location.search);
     const status = params.get('status');
-    const message = params.get('message');
     if (status === 'success') {
       alert(alertSuccessText);
-    } else if (status === 'error' && message) {
-      alert(decodeURIComponent(message));
+    } else if (status === 'error') {
+      alert(alertErrorText);
     }
 
     document.getElementById('contact-form').addEventListener('submit', function (event) {
