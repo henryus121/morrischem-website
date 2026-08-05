@@ -128,14 +128,23 @@
   <!-- Header Banner -->
   <header class="page-header">
     <div class="container">
-      <a href="/" class="back-link">&larr; Back to Main Flagship</a>
-      <div class="kicker">Capability Vertical 01</div>
-      <h1>Molecular Sieves &amp; Adsorbent Media</h1>
+
+      <a href="/" class="back-link">&larr; <?php echo __t('contact_page.back_link', 'common'); ?></a>
+
+      <div class="kicker">
+        Capability Vertical 01
+      </div>
+
+      <h1>
+        <?php echo __t('molecular.title', 'products'); ?>
+      </h1>
+
       <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">
-        Synthetic zeolites, activated aluminas, and silica gels engineered for deep dehydration, mercaptan removal, and gas stream purification.
+        <?php echo __t('molecular.subtitle', 'products'); ?>
       </p>
+
     </div>
-  </header>
+</header>
 
   <!-- Technical Overview -->
   <section class="section-padding">
