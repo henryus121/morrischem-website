@@ -232,10 +232,7 @@
       "val": "Technical Inquiry & Consultation — Morrischem LLC",
       "reviewed": false
     },
-    "back_link": {
-      "val": "Back to Main Flagship",
-      "reviewed": false
-    },
+    "back_link": "Zurück zur Hauptseite",
     "kicker": {
       "val": "Consultation Gateway",
       "reviewed": false
@@ -356,5 +353,16 @@
       "val": "All rights reserved.",
       "reviewed": false
     }
+  },
+  "actions": {
+    "request_tds": "TDS anfordern",
+    "request_sds": "SDS anfordern"
+  },
+  "sections": {
+    "technical_documentation": "Technische Dokumentation",
+    "engineered_grade_specifications": "Spezifikationen der Ingenieurgrade",
+    "chemical_formulation_matrices": "Chemische Formulierungsmatrizen",
+    "catalyst_support_specifications": "Katalysator- und Trägermedien-Spezifikationen",
+    "target_applications": "Zielanwendungen"
   }
 }

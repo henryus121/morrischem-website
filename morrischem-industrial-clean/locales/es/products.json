@@ -1,0 +1,218 @@
+{
+  "molecular": {
+    "title": {
+      "val": "Tamices Moleculares y Materiales Adsorbentes",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Zeolitas sintéticas, alúminas activadas y geles de sílice diseñados para deshidratación profunda, eliminación de mercaptanos y purificación de corrientes de gas.",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Capacidad Vertical 01",
+      "reviewed": true
+    },
+    "process_title": {
+      "val": "Precisión en el Tamaño de Poros y Selectividad",
+      "reviewed": true
+    },
+    "process_text": {
+      "val": "Los tamices moleculares emplean estructuras cristalinas de poros precisas para adsorber moléculas según su diámetro cinético y polaridad.",
+      "reviewed": true
+    },
+    "grades_title": {
+      "val": "Grados Principales de Adsorbentes",
+      "reviewed": true
+    },
+    "grades": {
+      "3a_label": {
+        "val": "Grado 3A / Deshidratación",
+        "reviewed": true
+      },
+      "3a_title": {
+        "val": "Esferas de Zeolita 3A",
+        "reviewed": true
+      },
+      "3a_desc": {
+        "val": "Tamaño de poro: ~3 Å. Optimizado para la captura selectiva de agua sin coadsorción de hidrocarburos insaturados.",
+        "reviewed": true
+      },
+      "4a_label": {
+        "val": "Grado 4A / Procesamiento de Gas",
+        "reviewed": true
+      },
+      "4a_title": {
+        "val": "Extrusados de Zeolita 4A",
+        "reviewed": true
+      },
+      "4a_desc": {
+        "val": "Tamaño de poro: ~4 Å. Elección estándar para camas de secado de gas natural estáticas y dinámicas.",
+        "reviewed": true
+      },
+      "13x_label": {
+        "val": "Grado 13X / Purificación",
+        "reviewed": true
+      },
+      "13x_title": {
+        "val": "13X Alta Capacidad",
+        "reviewed": true
+      },
+      "13x_desc": {
+        "val": "Tamaño de poro: ~10 Å. Alta área superficial para eliminación profunda de CO2, H2S y compuestos de azufre.",
+        "reviewed": true
+      },
+      "list_3a": {
+        "val": "Tipo 3A: deshidratación de gas craqueado, etanol e hidrocarburos insaturados.",
+        "reviewed": true
+      },
+      "list_4a": {
+        "val": "Tipo 4A: deshidratación de gas natural, secado de aire y circuitos de refrigerante.",
+        "reviewed": true
+      },
+      "list_5a": {
+        "val": "Tipo 5A: separación iso/normal de parafinas y endulzamiento de gas natural.",
+        "reviewed": true
+      },
+      "list_13x": {
+        "val": "Tipo 13X: endulzamiento de APG, eliminación de CO2 de corrientes de aire y trampas de H2S/mercaptanos.",
+        "reviewed": true
+      }
+    },
+    "compliance_title": {
+      "val": "Garantía de Calidad y Cumplimiento",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Todos los medios adsorbentes suministrados cumplen con estrictos estándares internacionales de calidad, con trazabilidad de fabricación ISO 9001 y requisitos de cumplimiento REACH de la UE para el manejo de productos químicos industriales.",
+      "reviewed": true
+    },
+    "support_kicker": {
+      "val": "Soporte de Ingeniería",
+      "reviewed": true
+    },
+    "bed_title": {
+      "val": "Solicitar Dimensionamiento y Diseño de Lechos",
+      "reviewed": true
+    },
+    "bed_desc": {
+      "val": "Envíe su caudal de gas, presión de entrada, temperatura y punto de rocío objetivo para el cálculo personalizado del volumen de lecho.",
+      "reviewed": true
+    },
+    "cta_inquire": {
+      "val": "Consultar con el Equipo de Ingeniería",
+      "reviewed": true
+    }
+  },
+  "water": {
+    "title": {
+      "val": "Productos Químicos de Tratamiento de Agua",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Capacidad Vertical 02",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Formulaciones químicas especializadas diseñadas para inhibición de incrustaciones, mitigación de corrosión y control de biopolución en circuitos industriales pesados.",
+      "reviewed": true
+    },
+    "compliance_title": {
+      "val": "Cumplimiento Ambiental y Regulatorio",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Formulado en cumplimiento con directrices ambientales internacionales, apoyando iniciativas de descarga cero, umbrales seguros de toxicidad biológica y normas de cumplimiento REACH de la UE.",
+      "reviewed": true
+    },
+    "specs": {
+      "cooling_title": {
+        "val": "Inhibidores de Incrustaciones y Corrosión",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "Mezclas de fosfonato y polímero orgánico desarrolladas para intercambiadores de calor de alta temperatura de pared.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "Escavadores de Oxígeno y Aminas",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "Combinaciones de química DEHA y aminas de película para la pasivación completa del sistema de condensado.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "Antiincrustantes RO de Alta Recuperación",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "Control de incrustaciones amplio contra sílice y sulfato para unidades de ósmosis inversa que operan a alta recuperación.",
+        "reviewed": true
+      }
+    },
+    "cta_support": {
+      "val": "Solicitar Soporte de Selección Química",
+      "reviewed": true
+    }
+  },
+  "catalysts": {
+    "title": {
+      "val": "Catalizadores y Tecnologías de Proceso",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Capacidad Vertical 03",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Sistemas catalíticos de alta actividad, medios de soporte y lechos de guarda diseñados para maximizar el rendimiento, la selectividad y la duración de la unidad.",
+      "reviewed": true
+    },
+    "compliance_title": {
+      "val": "Trazabilidad y Cumplimiento de Seguridad",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Fabricado bajo estrictos sistemas de calidad ISO con completa trazabilidad de lotes de metales, protocolos de manejo seguro y documentación integral alineada con regulaciones globales de cumplimiento químico.",
+      "reviewed": true
+    },
+    "specs": {
+      "hydro_title": {
+        "val": "Procesamiento Hidro",
+        "reviewed": true
+      },
+      "hydro_desc": {
+        "val": "Catalizadores soportados en alúmina de alta actividad diseñados para procesamiento profundo de alimentación HDS/HDN.",
+        "reviewed": true
+      },
+      "guard_title": {
+        "val": "Lechos de Guarda",
+        "reviewed": true
+      },
+      "guard_desc": {
+        "val": "Medios de alúmina macroporosa para arsenico, sílice e hierro removidos antes de los reactores principales.",
+        "reviewed": true
+      },
+      "support_title": {
+        "val": "Medios Cerámicos Inertes",
+        "reviewed": true
+      },
+      "support_desc": {
+        "val": "Esferas de soporte de alta pureza resistentes al choque térmico diseñadas para una distribución de flujo uniforme.",
+        "reviewed": true
+      }
+    },
+    "cta_title": {
+      "val": "Evaluar su Ciclo de Lecho Catalítico",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "Nuestros especialistas revisan la caracterización de alimentación, la velocidad espacial y los perfiles de temperatura para optimizar el rendimiento del lecho.",
+      "reviewed": true
+    },
+    "cta_evaluate": {
+      "val": "Solicitar Evaluación de Catalizador",
+      "reviewed": true
+    }
+  }
+}

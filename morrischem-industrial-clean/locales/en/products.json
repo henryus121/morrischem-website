@@ -19,7 +19,8 @@
       "list_3a": "Type 3A: Cracked gas, ethanol, and unsaturated hydrocarbon dehydration.",
       "list_4a": "Type 4A: Natural gas dehydration, air drying, and refrigerant loops.",
       "list_5a": "Type 5A: Iso/normal paraffin separation and natural gas sweetening.",
-      "list_13x": "Type 13X: APG sweetening, CO2 removal from air feeds, and H2S/mercaptan traps."
+      "list_13x": "Type 13X: APG sweetening, CO2 removal from air feeds, and H2S/mercaptan traps.",
+      "5a_title": "Type 5A"
     },
     "compliance_title": "Quality Assurance & Compliance",
     "compliance_text": "All supplied adsorbent media comply with strict international quality standards, meeting ISO 9001 manufacturing traceability and EU REACH compliance requirements for industrial chemical handling.",

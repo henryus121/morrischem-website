@@ -232,10 +232,7 @@
       "val": "Technical Inquiry & Consultation — Morrischem LLC",
       "reviewed": false
     },
-    "back_link": {
-      "val": "Back to Main Flagship",
-      "reviewed": false
-    },
+    "back_link": "Ana Sayfaya Geri Dön",
     "kicker": {
       "val": "Consultation Gateway",
       "reviewed": false
@@ -356,5 +353,16 @@
       "val": "All rights reserved.",
       "reviewed": false
     }
+  },
+  "actions": {
+    "request_tds": "TDS Talep Et",
+    "request_sds": "SDS Talep Et"
+  },
+  "sections": {
+    "technical_documentation": "Teknik Dokümantasyon",
+    "engineered_grade_specifications": "Mühendislik Derece Spesifikasyonları",
+    "chemical_formulation_matrices": "Kimyasal Formülasyon Matrisleri",
+    "catalyst_support_specifications": "Katalizör ve Destek Medya Spesifikasyonları",
+    "target_applications": "Hedef Uygulamalar"
   }
 }

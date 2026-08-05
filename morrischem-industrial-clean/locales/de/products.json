@@ -1,0 +1,218 @@
+{
+  "molecular": {
+    "title": {
+      "val": "Molekularsiebe und Adsorbentien",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Synthetische Zeolithe, aktivierte Aluminiumoxide und Silicagels, die für tiefe Entwässerung, Mercaptangentfernung und Gasstromreinigung entwickelt wurden.",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Capabilities Vertikale 01",
+      "reviewed": true
+    },
+    "process_title": {
+      "val": "Porengrößenpräzision und Selektivität",
+      "reviewed": true
+    },
+    "process_text": {
+      "val": "Molekularsiebe nutzen präzise kristalline Porenstrukturen, um Moleküle basierend auf kinetischem Durchmesser und Polarität zu adsorbieren.",
+      "reviewed": true
+    },
+    "grades_title": {
+      "val": "Kern-Adsorbentiengrade",
+      "reviewed": true
+    },
+    "grades": {
+      "3a_label": {
+        "val": "Grad 3A / Entwässerung",
+        "reviewed": true
+      },
+      "3a_title": {
+        "val": "3A Zeolithkugeln",
+        "reviewed": true
+      },
+      "3a_desc": {
+        "val": "Porengröße: ~3 Å. Optimiert für selektive Wasseraufnahme ohne Co-Adsorption ungesättigter Kohlenwasserstoffe.",
+        "reviewed": true
+      },
+      "4a_label": {
+        "val": "Grad 4A / Gasverarbeitung",
+        "reviewed": true
+      },
+      "4a_title": {
+        "val": "4A Zeolithextrudate",
+        "reviewed": true
+      },
+      "4a_desc": {
+        "val": "Porengröße: ~4 Å. Standardwahl für statische und dynamische Gasentwässerungsbetten.",
+        "reviewed": true
+      },
+      "13x_label": {
+        "val": "Grad 13X / Reinigung",
+        "reviewed": true
+      },
+      "13x_title": {
+        "val": "13X Hohe Kapazität",
+        "reviewed": true
+      },
+      "13x_desc": {
+        "val": "Porengröße: ~10 Å. Hohe Oberfläche für tiefe CO2-, H2S- und Schwefelverbindungenentfernung.",
+        "reviewed": true
+      },
+      "list_3a": {
+        "val": "Typ 3A: Entwässerung von Crackgas, Ethanol und ungesättigten Kohlenwasserstoffen.",
+        "reviewed": true
+      },
+      "list_4a": {
+        "val": "Typ 4A: Entwässerung von Erdgas, Lufttrocknung und Kältemittelkreisläufe.",
+        "reviewed": true
+      },
+      "list_5a": {
+        "val": "Typ 5A: Iso/Normalparaffin-Trennung und Erdgasentschwefelung.",
+        "reviewed": true
+      },
+      "list_13x": {
+        "val": "Typ 13X: APG-Entschwefelung, CO2-Entfernung aus Luftzufuhren und H2S/Mercaptan-Fallen.",
+        "reviewed": true
+      }
+    },
+    "compliance_title": {
+      "val": "Qualitätssicherung und Compliance",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Alle gelieferten Adsorbentien erfüllen strenge internationale Qualitätsstandards, mit ISO 9001-Fertigungstraceability und EU-REACH-Compliance für den industriellen Chemikalienumgang.",
+      "reviewed": true
+    },
+    "support_kicker": {
+      "val": "Ingenieur-Support",
+      "reviewed": true
+    },
+    "bed_title": {
+      "val": "Anfrage zur Bettgrößen- und Designanalyse",
+      "reviewed": true
+    },
+    "bed_desc": {
+      "val": "Senden Sie Ihren Gasdurchsatz, Eintrittsdruck, Temperatur und Zieltaupunkt für die kundenspezifische Berechnung des Bettvolumens.",
+      "reviewed": true
+    },
+    "cta_inquire": {
+      "val": "Kontaktieren Sie das Ingenieurteam",
+      "reviewed": true
+    }
+  },
+  "water": {
+    "title": {
+      "val": "Wasseraufbereitungschemikalien",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Capabilities Vertikale 02",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Spezialisierte chemische Formulierungen entwickelt für Kalkhemie, Korrosionsschutz und Biofouling-Kontrolle in schweren Versorgungsanlagen.",
+      "reviewed": true
+    },
+    "compliance_title": {
+      "val": "Umwelt- und Regulatorische Compliance",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Formuliert in Übereinstimmung mit internationalen Umweltleitlinien, zur Unterstützung von Null-Abwasser-Initiativen, sicheren biologischen Toxizitätsschwellen und EU-REACH-Compliance-Standards.",
+      "reviewed": true
+    },
+    "specs": {
+      "cooling_title": {
+        "val": "Inhibitoren für Kalk und Korrosion",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "Phosphonat- und organische Polymermischungen entwickelt für Hochtemperatur-Wärmetauscher.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "Sauerstoffscavenger und Amine",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "DEHA- und filmbildende Aminchemie-Kombinationen für vollständige Kondensatsystempassivierung.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "RO-Anti-Kalkmittel für Hohe Rückgewinnung",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "Breitbandige Silizium- und Sulfatskalenschutzmittel für Umkehrosmoseanlagen mit hoher Rückgewinnung.",
+        "reviewed": true
+      }
+    },
+    "cta_support": {
+      "val": "Anforderung Chemische Auswahlunterstützung",
+      "reviewed": true
+    }
+  },
+  "catalysts": {
+    "title": {
+      "val": "Katalysatoren und Prozesstechnologien",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Capabilities Vertikale 03",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "Aktivkatalysatorsysteme, Trägermedien und Schutzbetten entwickelt, um Ausbeute, Selektivität und Laufzeit der Anlage zu maximieren.",
+      "reviewed": true
+    },
+    "compliance_title": {
+      "val": "Rückverfolgbarkeit und Sicherheits-Compliance",
+      "reviewed": true
+    },
+    "compliance_text": {
+      "val": "Hergestellt unter strengen ISO-Qualitätssystemen mit vollständiger Metallchargenrückverfolgbarkeit, sicheren Handhabungsprotokollen und vollständiger Dokumentation gemäß globaler Chemikalien-Compliance-Vorschriften.",
+      "reviewed": true
+    },
+    "specs": {
+      "hydro_title": {
+        "val": "CoMo / NiMo Hydroprocessing",
+        "reviewed": true
+      },
+      "hydro_desc": {
+        "val": "Hochaktivität Aluminiumoxid-unterstützte Katalysatoren entwickelt für tiefe HDS/HDN-Feedverarbeitung.",
+        "reviewed": true
+      },
+      "guard_title": {
+        "val": "Schutzbetten",
+        "reviewed": true
+      },
+      "guard_desc": {
+        "val": "Makroporöse Aluminiumoxid-Schutzmedien für Arsen, Silizium und Eisenentfernung vor Hauptreaktoren.",
+        "reviewed": true
+      },
+      "support_title": {
+        "val": "Inerte Keramikmedienkugeln",
+        "reviewed": true
+      },
+      "support_desc": {
+        "val": "Hochreine, thermisch schockbeständige Trägerkugeln für gleichmäßige Strömungsverteilung.",
+        "reviewed": true
+      }
+    },
+    "cta_title": {
+      "val": "Bewerten Sie Ihren Katalysenbettzyklus",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "Unsere Spezialisten prüfen die Charakterisierung der Zuführung, die Raumgeschwindigkeit und die Temperaturprofile, um die Bettleistung zu optimieren.",
+      "reviewed": true
+    },
+    "cta_evaluate": {
+      "val": "Katalysatorbewertung anfordern",
+      "reviewed": true
+    }
+  }
+}
