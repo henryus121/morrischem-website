@@ -1,0 +1,212 @@
+<?php
+/*
+Template Name: Water Treatment Page
+*/
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Morrischem supplies industrial water treatment chemicals, ion exchange resins, scale inhibitors, and biocides for cooling, boiler, and membrane systems.">
+  <link rel="canonical" href="https://www.morrischem.com/wp-content/themes/morrischem-industrial-clean/water-treatment.html">
+  <meta property="og:title" content="Industrial Water Treatment Chemicals & Biocides — Morrischem LLC">
+  <meta property="og:description" content="Reliable water treatment formulations and specialty chemistry for B2B industrial water treatment engineers, plant operators, and procurement teams.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.morrischem.com/wp-content/themes/morrischem-industrial-clean/water-treatment.html">
+  <title>Water Treatment Chemistries — Morrischem LLC</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  
+  <!-- Master Design System CSS -->
+  <link rel="stylesheet" href="style-guide.css">
+  
+  <style>
+    .page-header {
+      padding: 120px 0 60px 0;
+      border-bottom: 1px solid var(--border-steel);
+      background-color: var(--bg-dark-secondary);
+    }
+
+    .container {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    .section-padding {
+      padding: 80px 0;
+      border-bottom: 1px solid var(--border-steel);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .kicker {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .back-link {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 24px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .spec-card {
+      background-color: var(--bg-card-surface);
+      border: 1px solid var(--border-steel);
+      border-radius: var(--radius-interactive);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .compliance-box {
+      background-color: var(--bg-card-surface);
+      border-left: 3px solid var(--accent-cyan);
+      padding: 24px;
+      margin-top: 32px;
+    }
+
+    .footer-wrapper {
+      background-color: #03060D;
+      padding: 60px 0 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Banner -->
+  <header class="page-header">
+    <div class="container">
+      <a href="/" class="back-link">&larr; Back to Main Flagship</a>
+      <div class="kicker">Capability Vertical 02</div>
+      <h1>Industrial Water Treatment Chemistries</h1>
+      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">
+        Specialized chemical formulations engineered for scale inhibition, corrosion mitigation, and bio-fouling control in heavy utility circuits.
+      </p>
+    </div>
+  </header>
+
+  <!-- Technical Overview & Applications -->
+  <section class="section-padding">
+    <div class="container grid-2">
+      <div>
+        <div class="kicker">Process Physics</div>
+        <h2>Primary Industrial Applications</h2>
+        <p style="margin-top: 16px;">
+          Industrial cooling loops and boiler systems require tailored chemical regimes to prevent thermal efficiency losses, unscheduled downtime, and premature equipment replacement.
+        </p>
+
+        <div class="compliance-box">
+          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">Environmental &amp; Regulatory Compliance</h4>
+          <p style="font-size: 14px; margin-bottom: 0;">Formulated in compliance with international environmental guidelines, supporting zero-discharge initiatives, safe biological toxicity thresholds, and EU REACH compliance standards.</p>
+        </div>
+      </div>
+
+      <div class="card-surface">
+        <h3 style="margin-bottom: 16px;">Target Applications</h3>
+        <ul style="list-style: none; color: var(--text-muted); font-size: 15px; line-height: 2;">
+          <li>• <strong>Cooling Water Circuits:</strong> High-efficiency scale and corrosion inhibitors for recirculating towers.</li>
+          <li>• <strong>Boiler Feedwater Treatment:</strong> Oxygen scavengers, alkalinity builders, and condensate line protection.</li>
+          <li>• <strong>Membrane Protection:</strong> Reverse Osmosis (RO) antiscalants and bio-dispersants.</li>
+          <li>• <strong>Effluent Clarification:</strong> High-molecular-weight coagulants and flocculants for industrial wastewater.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Specification Downloads -->
+  <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
+    <div class="container">
+      <div class="kicker">Technical Documentation</div>
+      <h2>Chemical Formulation Matrices</h2>
+      <p style="max-width: 640px; margin-bottom: 32px;">
+        Review technical documentation and performance thresholds for core water treatment chemistry formulations.
+      </p>
+
+      <div class="grid-3">
+        <div class="spec-card">
+          <div>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Cooling Towers</div>
+            <h3 style="margin: 8px 0;">Scale &amp; Corrosion Inhibitors</h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">Phosphonate and organic polymer blends engineered for high-skin-temperature heat exchangers.</p>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="contact.html?doc=TDS&product=Scale%20%26%20Corrosion%20Inhibitors" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="contact.html?doc=SDS&product=Scale%20%26%20Corrosion%20Inhibitors" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+          </div>
+        </div>
+
+        <div class="spec-card">
+          <div>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Boiler Circuits</div>
+            <h3 style="margin: 8px 0;">Oxygen Scavengers &amp; Amines</h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">DEHA and filming amine chemistry combinations for complete condensate system passivation.</p>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="contact.html?doc=TDS&product=Oxygen%20Scavengers%20%26%20Amines" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="contact.html?doc=SDS&product=Oxygen%20Scavengers%20%26%20Amines" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+          </div>
+        </div>
+
+        <div class="spec-card">
+          <div>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Membrane Systems</div>
+            <h3 style="margin: 8px 0;">High-Recovery RO Antiscalants</h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">Broad-spectrum silica and sulfate scale control for reverse osmosis units operating under high recovery rates.</p>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="contact.html?doc=TDS&product=High-Recovery%20RO%20Antiscalants" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
+            <a href="contact.html?doc=SDS&product=High-Recovery%20RO%20Antiscalants" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Gateway -->
+  <section class="section-padding" style="text-align: center;">
+    <div class="container" style="max-width: 700px;">
+      <div class="kicker">Technical Consultation</div>
+      <h2>Discuss Your Water Quality Profile</h2>
+      <p style="margin: 16px 0 32px 0;">Our engineering team analyzes water chemistry and system design to specify the optimal treatment regime.</p>
+      <a href="contact.html" class="btn-primary">Request Chemical Selection Support</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div style="font-family: var(--font-serif); font-size: 20px; color: var(--text-main);">MORRISCHEM LLC</div>
+      <p style="font-size: 13px; margin-top: 8px;">&copy; 2026 Morrischem LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Contact Page
+*/
+?>
 <?php require_once __DIR__ . '/includes/i18n.php'; ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

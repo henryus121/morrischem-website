@@ -236,7 +236,7 @@
           <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
           <h3><?php echo htmlspecialchars(__t('divisions.v1_title', 'common', 'Molecular Sieves & Adsorbents')); ?></h3>
           <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v1_body', 'common', 'Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.')); ?></p>
-          <a href="<?php echo get_template_directory_uri(); ?>/molecular-sieves.html" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?> &rarr;</a>
+          <a href="/molecular-sieves/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?> &rarr;</a>
         </div>
         <!-- Vertical 02 -->
         <div class="card-surface">
