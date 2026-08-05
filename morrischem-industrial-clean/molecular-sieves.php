@@ -137,7 +137,7 @@ Template Name: Molecular Sieves Page
       <a href="/" class="back-link">&larr; <?php echo __t('contact_page.back_link', 'common'); ?></a>
 
       <div class="kicker">
-        Capability Vertical 01
+        <?php echo htmlspecialchars(__t('molecular.kicker', 'products', 'Capability Vertical 01')); ?>
       </div>
 
       <h1>
@@ -162,18 +162,24 @@ Template Name: Molecular Sieves Page
         </p>
 
         <div class="compliance-box">
-          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">Quality Assurance &amp; Compliance</h4>
-          <p style="font-size: 14px; margin-bottom: 0;">All supplied adsorbent media comply with strict international quality standards, meeting ISO 9001 manufacturing traceability and EU REACH compliance requirements for industrial chemical handling.</p>
+        <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">
+          <?php echo htmlspecialchars(__t('molecular.compliance_title', 'products', 'Quality Assurance & Compliance')); ?>
+        </h4>
+        <p style="font-size: 14px; margin-bottom: 0;">
+          <?php echo htmlspecialchars(__t('molecular.compliance_text', 'products', 'All supplied adsorbent media comply with strict international quality standards, meeting ISO 9001 manufacturing traceability and EU REACH compliance requirements for industrial chemical handling.')) ; ?>
+        </p>
         </div>
       </div>
 
       <div class="card-surface">
-        <h3 style="margin-bottom: 16px;">Core Adsorbent Grades</h3>
+        <h3 style="margin-bottom: 16px;">
+          <?php echo htmlspecialchars(__t('molecular.grades_title', 'products', 'Core Adsorbent Grades')); ?>
+        </h3>
         <ul style="list-style: none; color: var(--text-muted); font-size: 15px; line-height: 2;">
-          <li>• <strong>Type 3A:</strong> Cracked gas, ethanol, and unsaturated hydrocarbon dehydration.</li>
-          <li>• <strong>Type 4A:</strong> Natural gas dehydration, air drying, and refrigerant loops.</li>
-          <li>• <strong>Type 5A:</strong> Iso/normal paraffin separation and natural gas sweetening.</li>
-          <li>• <strong>Type 13X:</strong> APG sweetening, CO2 removal from air feeds, and H2S/mercaptan traps.</li>
+          <li>• <strong><?php echo htmlspecialchars(__t('molecular.grades.3a_title', 'products', 'Type 3A')); ?>:</strong> <?php echo htmlspecialchars(__t('molecular.grades.list_3a', 'products', 'Cracked gas, ethanol, and unsaturated hydrocarbon dehydration.')); ?></li>
+          <li>• <strong><?php echo htmlspecialchars(__t('molecular.grades.4a_title', 'products', 'Type 4A')); ?>:</strong> <?php echo htmlspecialchars(__t('molecular.grades.list_4a', 'products', 'Natural gas dehydration, air drying, and refrigerant loops.')); ?></li>
+          <li>• <strong><?php echo htmlspecialchars(__t('molecular.grades.5a_title', 'products', 'Type 5A')); ?>:</strong> <?php echo htmlspecialchars(__t('molecular.grades.list_5a', 'products', 'Iso/normal paraffin separation and natural gas sweetening.')); ?></li>
+          <li>• <strong><?php echo htmlspecialchars(__t('molecular.grades.13x_title', 'products', 'Type 13X')); ?>:</strong> <?php echo htmlspecialchars(__t('molecular.grades.list_13x', 'products', 'APG sweetening, CO2 removal from air feeds, and H2S/mercaptan traps.')); ?></li>
         </ul>
       </div>
     </div>
@@ -182,8 +188,8 @@ Template Name: Molecular Sieves Page
   <!-- Technical Specification Downloads -->
   <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
     <div class="container">
-      <div class="kicker">Technical Documentation</div>
-      <h2>Engineered Grade Specifications</h2>
+      <div class="kicker"><?php echo htmlspecialchars(__t('sections.technical_documentation', 'common', 'Technical Documentation')); ?></div>
+      <h2><?php echo htmlspecialchars(__t('sections.engineered_grade_specifications', 'common', 'Engineered Grade Specifications')); ?></h2>
       <p style="max-width: 640px; margin-bottom: 32px;">
         Review technical parameters and operational guidelines for standard adsorbent media inventory.
       </p>
@@ -191,37 +197,67 @@ Template Name: Molecular Sieves Page
       <div class="grid-3">
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Grade 3A / Dehydration</div>
-            <h3 style="margin: 8px 0;">3A Zeolite Spheres</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~3 Å. Optimized for selective water uptake without unsaturated hydrocarbon co-adsorption.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('molecular.grades.3a_label', 'products', 'Grade 3A / Dehydration')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('molecular.grades.3a_title', 'products', '3A Zeolite Spheres')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('molecular.grades.3a_desc', 'products', 'Pore Size: ~3 Å. Optimized for selective water uptake without unsaturated hydrocarbon co-adsorption.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
 
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Grade 4A / Gas Processing</div>
-            <h3 style="margin: 8px 0;">4A Zeolite Extrudates</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~4 Å. Standard choice for static and dynamic natural gas drying beds.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('molecular.grades.4a_label', 'products', 'Grade 4A / Gas Processing')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('molecular.grades.4a_title', 'products', '4A Zeolite Extrudates')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('molecular.grades.4a_desc', 'products', 'Pore Size: ~4 Å. Standard choice for static and dynamic natural gas drying beds.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
 
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Grade 13X / Purification</div>
-            <h3 style="margin: 8px 0;">13X High Capacity</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">Pore Size: ~10 Å. High surface area for deep CO2, H2S, and sulfur compound removal.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('molecular.grades.13x_label', 'products', 'Grade 13X / Purification')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('molecular.grades.13x_title', 'products', '13X High Capacity')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('molecular.grades.13x_desc', 'products', 'Pore Size: ~10 Å. High surface area for deep CO2, H2S, and sulfur compound removal.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
       </div>
@@ -231,10 +267,10 @@ Template Name: Molecular Sieves Page
   <!-- CTA Gateway -->
   <section class="section-padding" style="text-align: center;">
     <div class="container" style="max-width: 700px;">
-      <div class="kicker">Engineering Support</div>
-      <h2>Request Bed Sizing &amp; Design Analysis</h2>
-      <p style="margin: 16px 0 32px 0;">Submit your gas flow rate, inlet pressure, temperature, and target dew point for custom bed volume calculation.</p>
-      <a href="/contact/?subject=Consultation" class="btn-primary">Inquire with Engineering Team</a>
+      <div class="kicker"><?php echo htmlspecialchars(__t('molecular.support_kicker', 'products', 'Engineering Support')); ?></div>
+      <h2><?php echo htmlspecialchars(__t('molecular.bed_title', 'products', 'Request Bed Sizing & Design Analysis')); ?></h2>
+      <p style="margin: 16px 0 32px 0;"><?php echo htmlspecialchars(__t('molecular.bed_desc', 'products', 'Submit your gas flow rate, inlet pressure, temperature, and target dew point for custom bed volume calculation.')); ?></p>
+      <a href="/contact/?subject=Consultation" class="btn-primary"><?php echo htmlspecialchars(__t('molecular.cta_inquire', 'products', 'Inquire with Engineering Team')); ?></a>
     </div>
   </section>
 

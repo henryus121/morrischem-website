@@ -2,12 +2,64 @@
   "molecular": {
     "title": "Molecular Sieves & Adsorbent Media",
     "subtitle": "Synthetic zeolites, activated aluminas, and silica gels engineered for deep dehydration, mercaptan removal, and gas stream purification.",
+    "kicker": "Capability Vertical 01",
     "process_title": "Pore Size Precision & Selectivity",
     "process_text": "Molecular sieves utilize precise crystalline pore structures to adsorb molecules based on kinetic diameter and polarity.",
-    "grades_title": "Core Adsorbent Grades"
+    "grades_title": "Core Adsorbent Grades",
+    "grades": {
+      "3a_label": "Grade 3A / Dehydration",
+      "3a_title": "3A Zeolite Spheres",
+      "3a_desc": "Pore Size: ~3 Å. Optimized for selective water uptake without unsaturated hydrocarbon co-adsorption.",
+      "4a_label": "Grade 4A / Gas Processing",
+      "4a_title": "4A Zeolite Extrudates",
+      "4a_desc": "Pore Size: ~4 Å. Standard choice for static and dynamic natural gas drying beds.",
+      "13x_label": "Grade 13X / Purification",
+      "13x_title": "13X High Capacity",
+      "13x_desc": "Pore Size: ~10 Å. High surface area for deep CO2, H2S, and sulfur compound removal.",
+      "list_3a": "Type 3A: Cracked gas, ethanol, and unsaturated hydrocarbon dehydration.",
+      "list_4a": "Type 4A: Natural gas dehydration, air drying, and refrigerant loops.",
+      "list_5a": "Type 5A: Iso/normal paraffin separation and natural gas sweetening.",
+      "list_13x": "Type 13X: APG sweetening, CO2 removal from air feeds, and H2S/mercaptan traps."
+    },
+    "compliance_title": "Quality Assurance & Compliance",
+    "compliance_text": "All supplied adsorbent media comply with strict international quality standards, meeting ISO 9001 manufacturing traceability and EU REACH compliance requirements for industrial chemical handling.",
+    "support_kicker": "Engineering Support",
+    "bed_title": "Request Bed Sizing & Design Analysis",
+    "bed_desc": "Submit your gas flow rate, inlet pressure, temperature, and target dew point for custom bed volume calculation.",
+    "cta_inquire": "Inquire with Engineering Team"
   },
   "water": {
     "title": "Water Treatment Chemicals",
-    "subtitle": "Industrial water treatment solutions engineered for scale control, corrosion protection, and operational reliability."
+    "kicker": "Capability Vertical 02",
+    "subtitle": "Industrial water treatment solutions engineered for scale control, corrosion protection, and operational reliability.",
+    "compliance_title": "Environmental & Regulatory Compliance",
+    "compliance_text": "Formulated in compliance with international environmental guidelines, supporting zero-discharge initiatives, safe biological toxicity thresholds, and EU REACH compliance standards.",
+    "specs": {
+      "cooling_title": "Scale & Corrosion Inhibitors",
+      "cooling_desc": "Phosphonate and organic polymer blends engineered for high-skin-temperature heat exchangers.",
+      "boiler_title": "Oxygen Scavengers & Amines",
+      "boiler_desc": "DEHA and filming amine chemistry combinations for complete condensate system passivation.",
+      "membrane_title": "High-Recovery RO Antiscalants",
+      "membrane_desc": "Broad-spectrum silica and sulfate scale control for reverse osmosis units operating under high recovery rates."
+    },
+    "cta_support": "Request Chemical Selection Support"
+  },
+  "catalysts": {
+    "title": "Catalysts & Process Technologies",
+    "kicker": "Capability Vertical 03",
+    "subtitle": "High-activity catalyst systems, support media, and guard beds engineered to maximize unit yield, selectivity, and run length.",
+    "compliance_title": "Traceability & Safety Compliance",
+    "compliance_text": "Manufactured under strict ISO quality systems with complete metal lot traceability, safe handling protocols, and comprehensive documentation aligned with global chemical compliance regulations.",
+    "specs": {
+      "hydro_title": "CoMo / NiMo Hydroprocessing",
+      "hydro_desc": "High-activity alumina-supported catalysts engineered for deep HDS/HDN feed processing.",
+      "guard_title": "Contaminant & Metal Traps",
+      "guard_desc": "Macroporous alumina guard media for arsenic, silica, and iron removal upstream of main reactors.",
+      "support_title": "Inert Ceramic Media Spheres",
+      "support_desc": "High-purity, thermal-shock resistant support balls designed for uniform flow distribution."
+    },
+    "cta_evaluate": "Request Catalyst Evaluation",
+    "cta_title": "Evaluate Your Catalyst Bed Cycle",
+    "cta_desc": "Our specialists review feed characterization, space velocity, and temperature profiles to optimize bed performance."
   }
 }

@@ -130,11 +130,11 @@ Template Name: Catalysts Process Tech Page
   <!-- Header Banner -->
   <header class="page-header">
     <div class="container">
-      <a href="/" class="back-link">&larr; Back to Main Flagship</a>
-      <div class="kicker">Capability Vertical 03</div>
-      <h1>Catalysts &amp; Process Technologies</h1>
+      <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
+      <div class="kicker"><?php echo htmlspecialchars(__t('catalysts.kicker', 'products', 'Capability Vertical 03')); ?></div>
+      <h1><?php echo htmlspecialchars(__t('catalysts.title', 'products', 'Catalysts & Process Technologies')); ?></h1>
       <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">
-        High-activity catalyst systems, support media, and guard beds engineered to maximize unit yield, selectivity, and run length across hydroprocessing and chemical synthesis units.
+        <?php echo htmlspecialchars(__t('catalysts.subtitle', 'products', 'High-activity catalyst systems, support media, and guard beds engineered to maximize unit yield, selectivity, and run length across hydroprocessing and chemical synthesis units.')); ?>
       </p>
     </div>
   </header>
@@ -150,13 +150,19 @@ Template Name: Catalysts Process Tech Page
         </p>
 
         <div class="compliance-box">
-          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">Traceability &amp; Safety Compliance</h4>
-          <p style="font-size: 14px; margin-bottom: 0;">Manufactured under strict ISO quality systems with complete metal lot traceability, safe handling protocols, and comprehensive documentation aligned with global chemical compliance regulations.</p>
+          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">
+            <?php echo htmlspecialchars(__t('catalysts.compliance_title', 'products', 'Traceability & Safety Compliance')); ?>
+          </h4>
+          <p style="font-size: 14px; margin-bottom: 0;">
+            <?php echo htmlspecialchars(__t('catalysts.compliance_text', 'products', 'Manufactured under strict ISO quality systems with complete metal lot traceability, safe handling protocols, and comprehensive documentation aligned with global chemical compliance regulations.')); ?>
+          </p>
         </div>
       </div>
 
       <div class="card-surface">
-        <h3 style="margin-bottom: 16px;">Target Applications</h3>
+        <h3 style="margin-bottom: 16px;">
+          <?php echo htmlspecialchars(__t('sections.target_applications', 'common', 'Target Applications')); ?>
+        </h3>
         <ul style="list-style: none; color: var(--text-muted); font-size: 15px; line-height: 2;">
           <li>• <strong>Hydrotreating &amp; Hydrodesulfurization:</strong> Deep sulfur and nitrogen removal (ULSD feed preparation).</li>
           <li>• <strong>Guard Beds &amp; Contaminant Traps:</strong> Demetallization and particulate filtering upstream of main catalyst beds.</li>
@@ -170,8 +176,8 @@ Template Name: Catalysts Process Tech Page
   <!-- Technical Specification Downloads -->
   <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
     <div class="container">
-      <div class="kicker">Technical Documentation</div>
-      <h2>Catalyst &amp; Support Media Specifications</h2>
+      <div class="kicker"><?php echo htmlspecialchars(__t('sections.technical_documentation', 'common', 'Technical Documentation')); ?></div>
+      <h2><?php echo htmlspecialchars(__t('sections.catalyst_support_specifications', 'common', 'Catalyst & Support Media Specifications')); ?></h2>
       <p style="max-width: 640px; margin-bottom: 32px;">
         Access specification matrices and operating parameters for active catalyst systems and ceramic bed support media.
       </p>
@@ -179,37 +185,67 @@ Template Name: Catalysts Process Tech Page
       <div class="grid-3">
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Hydrotreating</div>
-            <h3 style="margin: 8px 0;">CoMo / NiMo Hydroprocessing</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">High-activity alumina-supported catalysts engineered for deep HDS/HDN feed processing.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.hydro_title', 'products', 'Hydrotreating')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.hydro_title', 'products', 'CoMo / NiMo Hydroprocessing')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.hydro_desc', 'products', 'High-activity alumina-supported catalysts engineered for deep HDS/HDN feed processing.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
 
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Guard Beds</div>
-            <h3 style="margin: 8px 0;">Contaminant &amp; Metal Traps</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">Macroporous alumina guard media for arsenic, silica, and iron removal upstream of main reactors.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.guard_title', 'products', 'Guard Beds')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.guard_title', 'products', 'Contaminant & Metal Traps')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.guard_desc', 'products', 'Macroporous alumina guard media for arsenic, silica, and iron removal upstream of main reactors.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
 
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Bed Support</div>
-            <h3 style="margin: 8px 0;">Inert Ceramic Media Spheres</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">High-purity, thermal-shock resistant support balls designed for uniform flow distribution.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.support_title', 'products', 'Bed Support')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.support_title', 'products', 'Inert Ceramic Media Spheres')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('catalysts.specs.support_desc', 'products', 'High-purity, thermal-shock resistant support balls designed for uniform flow distribution.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
       </div>
@@ -219,10 +255,12 @@ Template Name: Catalysts Process Tech Page
   <!-- CTA Gateway -->
   <section class="section-padding" style="text-align: center;">
     <div class="container" style="max-width: 700px;">
-      <div class="kicker">Technical Consultation</div>
-      <h2>Evaluate Your Catalyst Bed Cycle</h2>
-      <p style="margin: 16px 0 32px 0;">Our specialists review feed characterization, space velocity, and temperature profiles to optimize bed performance.</p>
-      <a href="/contact/?subject=Consultation" class="btn-primary">Request Catalyst Evaluation</a>
+      <div class="kicker"><?php echo htmlspecialchars(__t('catalysts.kicker', 'products', 'Technical Consultation')); ?></div>
+      <h2><?php echo htmlspecialchars(__t('catalysts.cta_title', 'products', 'Evaluate Your Catalyst Bed Cycle')); ?></h2>
+      <p style="margin: 16px 0 32px 0;">
+        <?php echo htmlspecialchars(__t('catalysts.cta_desc', 'products', 'Our specialists review feed characterization, space velocity, and temperature profiles to optimize bed performance.')); ?>
+      </p>
+      <a href="/contact/?subject=Consultation" class="btn-primary"><?php echo htmlspecialchars(__t('catalysts.cta_evaluate', 'products', 'Request Catalyst Evaluation')); ?></a>
     </div>
   </section>
 

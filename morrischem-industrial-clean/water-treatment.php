@@ -130,11 +130,11 @@ Template Name: Water Treatment Page
   <!-- Header Banner -->
   <header class="page-header">
     <div class="container">
-      <a href="/" class="back-link">&larr; Back to Main Flagship</a>
-      <div class="kicker">Capability Vertical 02</div>
-      <h1>Industrial Water Treatment Chemistries</h1>
+      <a href="/" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
+      <div class="kicker"><?php echo htmlspecialchars(__t('water.kicker', 'products', 'Capability Vertical 02')); ?></div>
+      <h1><?php echo htmlspecialchars(__t('water.title', 'products', 'Industrial Water Treatment Chemistries')); ?></h1>
       <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">
-        Specialized chemical formulations engineered for scale inhibition, corrosion mitigation, and bio-fouling control in heavy utility circuits.
+        <?php echo htmlspecialchars(__t('water.subtitle', 'products', 'Specialized chemical formulations engineered for scale inhibition, corrosion mitigation, and bio-fouling control in heavy utility circuits.')) ; ?>
       </p>
     </div>
   </header>
@@ -150,13 +150,17 @@ Template Name: Water Treatment Page
         </p>
 
         <div class="compliance-box">
-          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">Environmental &amp; Regulatory Compliance</h4>
-          <p style="font-size: 14px; margin-bottom: 0;">Formulated in compliance with international environmental guidelines, supporting zero-discharge initiatives, safe biological toxicity thresholds, and EU REACH compliance standards.</p>
+          <h4 style="color: var(--accent-cyan); font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">
+            <?php echo htmlspecialchars(__t('water.compliance_title', 'products', 'Environmental & Regulatory Compliance')); ?>
+          </h4>
+          <p style="font-size: 14px; margin-bottom: 0;">
+            <?php echo htmlspecialchars(__t('water.compliance_text', 'products', 'Formulated in compliance with international environmental guidelines, supporting zero-discharge initiatives, safe biological toxicity thresholds, and EU REACH compliance standards.')); ?>
+          </p>
         </div>
       </div>
 
       <div class="card-surface">
-        <h3 style="margin-bottom: 16px;">Target Applications</h3>
+        <h3 style="margin-bottom: 16px;"><?php echo htmlspecialchars(__t('sections.target_applications', 'common', 'Target Applications')); ?></h3>
         <ul style="list-style: none; color: var(--text-muted); font-size: 15px; line-height: 2;">
           <li>• <strong>Cooling Water Circuits:</strong> High-efficiency scale and corrosion inhibitors for recirculating towers.</li>
           <li>• <strong>Boiler Feedwater Treatment:</strong> Oxygen scavengers, alkalinity builders, and condensate line protection.</li>
@@ -170,8 +174,8 @@ Template Name: Water Treatment Page
   <!-- Technical Specification Downloads -->
   <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
     <div class="container">
-      <div class="kicker">Technical Documentation</div>
-      <h2>Chemical Formulation Matrices</h2>
+      <div class="kicker"><?php echo htmlspecialchars(__t('sections.technical_documentation', 'common', 'Technical Documentation')); ?></div>
+      <h2><?php echo htmlspecialchars(__t('sections.chemical_formulation_matrices', 'common', 'Chemical Formulation Matrices')); ?></h2>
       <p style="max-width: 640px; margin-bottom: 32px;">
         Review technical documentation and performance thresholds for core water treatment chemistry formulations.
       </p>
@@ -179,37 +183,67 @@ Template Name: Water Treatment Page
       <div class="grid-3">
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Cooling Towers</div>
-            <h3 style="margin: 8px 0;">Scale &amp; Corrosion Inhibitors</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">Phosphonate and organic polymer blends engineered for high-skin-temperature heat exchangers.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('water.specs.cooling_title', 'products', 'Cooling Towers')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('water.specs.cooling_title', 'products', 'Scale & Corrosion Inhibitors')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('water.specs.cooling_desc', 'products', 'Phosphonate and organic polymer blends engineered for high-skin-temperature heat exchangers.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
 
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Boiler Circuits</div>
-            <h3 style="margin: 8px 0;">Oxygen Scavengers &amp; Amines</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">DEHA and filming amine chemistry combinations for complete condensate system passivation.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('water.specs.boiler_title', 'products', 'Boiler Circuits')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('water.specs.boiler_title', 'products', 'Oxygen Scavengers & Amines')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('water.specs.boiler_desc', 'products', 'DEHA and filming amine chemistry combinations for complete condensate system passivation.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
 
         <div class="spec-card">
           <div>
-            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">Membrane Systems</div>
-            <h3 style="margin: 8px 0;">High-Recovery RO Antiscalants</h3>
-            <p style="font-size: 13px; margin-bottom: 16px;">Broad-spectrum silica and sulfate scale control for reverse osmosis units operating under high recovery rates.</p>
+            <div style="font-size: 11px; color: var(--accent-cyan); font-weight: 600; text-transform: uppercase;">
+              <?php echo htmlspecialchars(__t('water.specs.membrane_title', 'products', 'Membrane Systems')); ?>
+            </div>
+            <h3 style="margin: 8px 0;">
+              <?php echo htmlspecialchars(__t('water.specs.membrane_title', 'products', 'High-Recovery RO Antiscalants')); ?>
+            </h3>
+            <p style="font-size: 13px; margin-bottom: 16px;">
+              <?php echo htmlspecialchars(__t('water.specs.membrane_desc', 'products', 'Broad-spectrum silica and sulfate scale control for reverse osmosis units operating under high recovery rates.')); ?>
+            </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request TDS</a>
-            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">Request SDS</a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=TDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_tds', 'common', 'Request TDS')); ?>
+            </a>
+            <a href="<?php echo home_url('/contact/'); ?>?subject=SDS-Request" target="_self" class="btn-secondary" style="flex: 1; text-align: center; font-size: 11px; padding: 10px 16px;">
+              <?php echo htmlspecialchars(__t('actions.request_sds', 'common', 'Request SDS')); ?>
+            </a>
           </div>
         </div>
       </div>
@@ -222,7 +256,7 @@ Template Name: Water Treatment Page
       <div class="kicker">Technical Consultation</div>
       <h2>Discuss Your Water Quality Profile</h2>
       <p style="margin: 16px 0 32px 0;">Our engineering team analyzes water chemistry and system design to specify the optimal treatment regime.</p>
-      <a href="/contact/?subject=Consultation" class="btn-primary">Request Chemical Selection Support</a>
+      <a href="/contact/?subject=Consultation" class="btn-primary"><?php echo htmlspecialchars(__t('water.cta_support', 'products', 'Request Chemical Selection Support')); ?></a>
     </div>
   </section>
 

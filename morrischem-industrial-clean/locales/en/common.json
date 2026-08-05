@@ -68,6 +68,12 @@
     "body": "Let's discuss your specific process challenges and technical requirements.",
     "cta": "Start the Conversation"
   },
+  "actions": {
+    "request_tds": "Request TDS",
+    "request_sds": "Request SDS",
+    "discuss_inquiry": "Discuss Your Requirements",
+    "start_conversation": "Start the Conversation"
+  },
   "contact_page": {
     "meta_title": "Technical Inquiry & Consultation — Morrischem LLC",
     "back_link": "Back to Main Flagship",
@@ -101,5 +107,13 @@
     "placeholder_requirements": "Specify operating temperatures, flow rates, contaminants, or targeted product specs...",
     "submit_button": "Submit Inquiry",
     "footer_rights": "All rights reserved."
+  },
+  "sections": {
+    "technical_documentation": "Technical Documentation",
+    "engineered_grade_specifications": "Engineered Grade Specifications",
+    "chemical_formulation_matrices": "Chemical Formulation Matrices",
+    "catalyst_support_specifications": "Catalyst & Support Media Specifications",
+    "target_applications": "Target Applications",
+    "technical_consultation": "Technical Consultation"
   }
 }
