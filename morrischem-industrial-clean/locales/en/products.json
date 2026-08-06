@@ -3,8 +3,10 @@
     "title": "Molecular Sieves & Adsorbent Media",
     "subtitle": "Synthetic zeolites, activated aluminas, and silica gels engineered for deep dehydration, mercaptan removal, and gas stream purification.",
     "kicker": "Capability Vertical 01",
+    "process_kicker": "Process Physics",
     "process_title": "Pore Size Precision & Selectivity",
     "process_text": "Molecular sieves utilize precise crystalline pore structures to adsorb molecules based on kinetic diameter and polarity.",
+    "process_text_long": "Molecular sieves utilize precise crystalline pore structures to adsorb molecules based on kinetic diameter and polarity. Selecting the proper pore size (3A, 4A, 5A, or 13X) prevents co-adsorption of hydrocarbons while maximizing water capacity.",
     "grades_title": "Core Adsorbent Grades",
     "grades": {
       "3a_label": "Grade 3A / Dehydration",
@@ -25,6 +27,7 @@
     },
     "compliance_title": "Quality Assurance & Compliance",
     "compliance_text": "All supplied adsorbent media comply with strict international quality standards, meeting ISO 9001 manufacturing traceability and EU REACH compliance requirements for industrial chemical handling.",
+    "documentation_intro": "Review technical parameters and operational guidelines for standard adsorbent media inventory.",
     "support_kicker": "Engineering Support",
     "bed_title": "Request Bed Sizing & Design Analysis",
     "bed_desc": "Submit your gas flow rate, inlet pressure, temperature, and target dew point for custom bed volume calculation.",
@@ -33,6 +36,19 @@
   "water": {
     "title": "Water Treatment Chemicals",
     "kicker": "Capability Vertical 02",
+    "process_kicker": "Process Physics",
+    "applications_title": "Primary Industrial Applications",
+    "applications_text": "Industrial cooling loops and boiler systems require tailored chemical regimes to prevent thermal efficiency losses, unscheduled downtime, and premature equipment replacement.",
+    "applications": {
+      "cooling_title": "Cooling Water Circuits",
+      "cooling_desc": "High-efficiency scale and corrosion inhibitors for recirculating towers.",
+      "boiler_title": "Boiler Feedwater Treatment",
+      "boiler_desc": "Oxygen scavengers, alkalinity builders, and condensate line protection.",
+      "membrane_title": "Membrane Protection",
+      "membrane_desc": "Reverse Osmosis (RO) antiscalants and bio-dispersants.",
+      "effluent_title": "Effluent Clarification",
+      "effluent_desc": "High-molecular-weight coagulants and flocculants for industrial wastewater."
+    },
     "subtitle": "Industrial water treatment solutions engineered for scale control, corrosion protection, and operational reliability.",
     "compliance_title": "Environmental & Regulatory Compliance",
     "compliance_text": "Formulated in compliance with international environmental guidelines, supporting zero-discharge initiatives, safe biological toxicity thresholds, and EU REACH compliance standards.",
@@ -44,11 +60,28 @@
       "membrane_title": "High-Recovery RO Antiscalants",
       "membrane_desc": "Broad-spectrum silica and sulfate scale control for reverse osmosis units operating under high recovery rates."
     },
+    "documentation_intro": "Review technical documentation and performance thresholds for core water treatment chemistry formulations.",
+    "cta_kicker": "Technical Consultation",
+    "cta_title": "Discuss Your Water Quality Profile",
+    "cta_desc": "Our engineering team analyzes water chemistry and system design to specify the optimal treatment regime.",
     "cta_support": "Request Chemical Selection Support"
   },
   "catalysts": {
     "title": "Catalysts & Process Technologies",
     "kicker": "Capability Vertical 03",
+    "process_kicker": "Reaction Kinetics",
+    "applications_title": "Primary Industrial Applications",
+    "applications_text": "Optimizing catalytic reaction pathways requires precise matching of metal loading, pore size distribution, and acid-site density to process operating conditions.",
+    "applications": {
+      "hydrotreating_title": "Hydrotreating & Hydrodesulfurization",
+      "hydrotreating_desc": "Deep sulfur and nitrogen removal (ULSD feed preparation).",
+      "guardbeds_title": "Guard Beds & Contaminant Traps",
+      "guardbeds_desc": "Demetallization and particulate filtering upstream of main catalyst beds.",
+      "hydrogen_title": "Hydrogen Production & Syngas",
+      "hydrogen_desc": "Shift catalysts and reforming support media.",
+      "petrochem_title": "Petrochemical Synthesis",
+      "petrochem_desc": "Selective hydrogenation and oxidation catalyst media."
+    },
     "subtitle": "High-activity catalyst systems, support media, and guard beds engineered to maximize unit yield, selectivity, and run length.",
     "compliance_title": "Traceability & Safety Compliance",
     "compliance_text": "Manufactured under strict ISO quality systems with complete metal lot traceability, safe handling protocols, and comprehensive documentation aligned with global chemical compliance regulations.",
@@ -60,6 +93,8 @@
       "support_title": "Inert Ceramic Media Spheres",
       "support_desc": "High-purity, thermal-shock resistant support balls designed for uniform flow distribution."
     },
+    "documentation_intro": "Access specification matrices and operating parameters for active catalyst systems and ceramic bed support media.",
+    "cta_kicker": "Technical Consultation",
     "cta_evaluate": "Request Catalyst Evaluation",
     "cta_title": "Evaluate Your Catalyst Bed Cycle",
     "cta_desc": "Our specialists review feed characterization, space velocity, and temperature profiles to optimize bed performance."

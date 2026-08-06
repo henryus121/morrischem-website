@@ -105,6 +105,18 @@
     "cta_inquire": {
       "val": "Contacter l'Équipe d'Ingénierie",
       "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Physique du Procédé",
+      "reviewed": true
+    },
+    "process_text_long": {
+      "val": "Les tamis moléculaires utilisent des structures de pores cristallins précises pour adsorber les molécules selon leur diamètre cinétique et leur polarité. Le choix de la bonne taille de pore (3A, 4A, 5A ou 13X) évite la co-adsorption des hydrocarbures tout en maximisant la capacité en eau.",
+      "reviewed": true
+    },
+    "documentation_intro": {
+      "val": "Consultez les paramètres techniques et les directives d’exploitation pour l’inventaire standard des médias adsorbants.",
+      "reviewed": true
     }
   },
   "water": {
@@ -156,6 +168,68 @@
     },
     "cta_support": {
       "val": "Demander un Support de Sélection Chimique",
+      "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Physique du Procédé",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "Applications Industrielles Principales",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "Les boucles de refroidissement industrielles et les systèmes de chaudière exigent des régimes chimiques adaptés pour éviter les pertes d’efficacité thermique, les arrêts non planifiés et le remplacement prématuré des équipements.",
+      "reviewed": true
+    },
+    "applications": {
+      "cooling_title": {
+        "val": "Circuits d’Eau de Refroidissement",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "Inhibiteurs de tartre et de corrosion à haute efficacité pour tours de recirculation.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "Traitement de l’Eau d’Alimentation Chaudière",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "Piégeurs d’oxygène, renforçateurs d’alcalinité et protection des lignes de condensat.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "Protection des Membranes",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "Antitartres d’osmose inverse (RO) et biodispersants.",
+        "reviewed": true
+      },
+      "effluent_title": {
+        "val": "Clarification des Effluents",
+        "reviewed": true
+      },
+      "effluent_desc": {
+        "val": "Coagulants et floculants à haut poids moléculaire pour les eaux usées industrielles.",
+        "reviewed": true
+      }
+    },
+    "documentation_intro": {
+      "val": "Consultez la documentation technique et les seuils de performance pour les formulations clés de traitement de l’eau.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "Consultation Technique",
+      "reviewed": true
+    },
+    "cta_title": {
+      "val": "Discutez de Votre Profil de Qualité d’Eau",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "Notre équipe d’ingénierie analyse la chimie de l’eau et la conception du système pour définir le régime de traitement optimal.",
       "reviewed": true
     }
   },
@@ -216,6 +290,60 @@
     },
     "cta_evaluate": {
       "val": "Demander une Évaluation de Catalyseur",
+      "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Cinétique de Réaction",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "Applications Industrielles Principales",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "L’optimisation des voies de réaction catalytique nécessite un ajustement précis de la charge métallique, de la distribution de taille des pores et de la densité des sites acides aux conditions opératoires du procédé.",
+      "reviewed": true
+    },
+    "applications": {
+      "hydrotreating_title": {
+        "val": "Hydrotraitement et Hydro-désulfuration",
+        "reviewed": true
+      },
+      "hydrotreating_desc": {
+        "val": "Élimination poussée du soufre et de l’azote (préparation de charge ULSD).",
+        "reviewed": true
+      },
+      "guardbeds_title": {
+        "val": "Lits de Garde et Pièges à Contaminants",
+        "reviewed": true
+      },
+      "guardbeds_desc": {
+        "val": "Démétallisation et filtration particulaire en amont des principaux lits catalytiques.",
+        "reviewed": true
+      },
+      "hydrogen_title": {
+        "val": "Production d’Hydrogène et Syngas",
+        "reviewed": true
+      },
+      "hydrogen_desc": {
+        "val": "Catalyseurs shift et médias de support de reformage.",
+        "reviewed": true
+      },
+      "petrochem_title": {
+        "val": "Synthèse Pétrochimique",
+        "reviewed": true
+      },
+      "petrochem_desc": {
+        "val": "Médias catalytiques pour hydrogénation sélective et oxydation.",
+        "reviewed": true
+      }
+    },
+    "documentation_intro": {
+      "val": "Accédez aux matrices de spécifications et paramètres de fonctionnement des systèmes catalytiques actifs et des supports céramiques de lit.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "Consultation Technique",
       "reviewed": true
     }
   }

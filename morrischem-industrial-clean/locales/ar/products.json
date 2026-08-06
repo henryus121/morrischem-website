@@ -12,12 +12,20 @@
       "val": "Capability Vertical 01",
       "reviewed": true
     },
+    "process_kicker": {
+      "val": "فيزياء العملية",
+      "reviewed": true
+    },
     "process_title": {
       "val": "دقة حجم المسام والانتقائية",
       "reviewed": true
     },
     "process_text": {
       "val": "تستخدم المناخل الجزيئية هياكل مسام بلورية دقيقة لامتصاص الجزيئات بناءً على القطر الحركي والقطبية.",
+      "reviewed": true
+    },
+    "process_text_long": {
+      "val": "تستخدم المناخل الجزيئية هياكل مسامية بلورية دقيقة لامتصاص الجزيئات وفق القطر الحركي والقطبية. اختيار حجم المسام المناسب (3A أو 4A أو 5A أو 13X) يمنع الامتصاص المشترك للهيدروكربونات مع تعظيم سعة امتصاص الماء.",
       "reviewed": true
     },
     "grades_title": {
@@ -90,6 +98,10 @@
       "val": "جميع وسائل الامتصاص الموردة تتوافق مع معايير جودة دولية صارمة، مع تتبع تصنيع ISO 9001 ومتطلبات امتثال REACH الأوروبية للتعامل مع المواد الكيميائية الصناعية.",
       "reviewed": true
     },
+    "documentation_intro": {
+      "val": "راجع المعلمات الفنية وإرشادات التشغيل لمخزون وسائط الامتصاص القياسية.",
+      "reviewed": true
+    },
     "support_kicker": {
       "val": "دعم هندسي",
       "reviewed": true
@@ -115,6 +127,52 @@
     "kicker": {
       "val": "Capability Vertical 02",
       "reviewed": true
+    },
+    "process_kicker": {
+      "val": "فيزياء العملية",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "التطبيقات الصناعية الأساسية",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "تتطلب دوائر التبريد الصناعية وأنظمة الغلايات برامج كيميائية مصممة خصيصًا لمنع خسائر الكفاءة الحرارية وتقليل التوقفات غير المجدولة وتفادي الاستبدال المبكر للمعدات.",
+      "reviewed": true
+    },
+    "applications": {
+      "cooling_title": {
+        "val": "دوائر مياه التبريد",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "مثبطات عالية الكفاءة للترسبات والتآكل لأبراج التدوير.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "معالجة مياه تغذية الغلايات",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "مواد نزع الأكسجين ومعززات القلوية وحماية خطوط المكثفات.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "حماية الأغشية",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "مانعات ترسب للتناضح العكسي (RO) ومشتتات حيوية.",
+        "reviewed": true
+      },
+      "effluent_title": {
+        "val": "توضيح مياه الصرف",
+        "reviewed": true
+      },
+      "effluent_desc": {
+        "val": "مخثرات ومندفات عالية الوزن الجزيئي لمياه الصرف الصناعية.",
+        "reviewed": true
+      }
     },
     "subtitle": {
       "val": "تركيبات كيميائية متخصصة مصممة لمنع التكلس وتقليل التآكل والسيطرة على التلوث الحيوي في دوائر المرافق الثقيلة.",
@@ -154,6 +212,22 @@
         "reviewed": true
       }
     },
+    "documentation_intro": {
+      "val": "راجع الوثائق الفنية وحدود الأداء لتركيبات كيمياء معالجة المياه الأساسية.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "الاستشارة التقنية",
+      "reviewed": true
+    },
+    "cta_title": {
+      "val": "ناقش ملف جودة المياه لديك",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "يقوم فريقنا الهندسي بتحليل كيمياء المياه وتصميم النظام لتحديد برنامج المعالجة الأمثل.",
+      "reviewed": true
+    },
     "cta_support": {
       "val": "طلب دعم اختيار الكيمياء",
       "reviewed": true
@@ -167,6 +241,52 @@
     "kicker": {
       "val": "Capability Vertical 03",
       "reviewed": true
+    },
+    "process_kicker": {
+      "val": "حركية التفاعل",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "التطبيقات الصناعية الأساسية",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "يتطلب تحسين مسارات التفاعل التحفيزي مواءمة دقيقة لتحميل المعادن وتوزيع حجم المسام وكثافة المواقع الحمضية مع ظروف تشغيل العملية.",
+      "reviewed": true
+    },
+    "applications": {
+      "hydrotreating_title": {
+        "val": "المعالجة الهيدروجينية ونزع الكبريت الهيدروجيني",
+        "reviewed": true
+      },
+      "hydrotreating_desc": {
+        "val": "إزالة عميقة للكبريت والنيتروجين (تهيئة لقيم ULSD).",
+        "reviewed": true
+      },
+      "guardbeds_title": {
+        "val": "أسرّة الحماية ومصائد الملوثات",
+        "reviewed": true
+      },
+      "guardbeds_desc": {
+        "val": "إزالة المعادن والترشيح الجسيمي قبل أسرّة المحفز الرئيسية.",
+        "reviewed": true
+      },
+      "hydrogen_title": {
+        "val": "إنتاج الهيدروجين والغاز التخليقي",
+        "reviewed": true
+      },
+      "hydrogen_desc": {
+        "val": "محفزات التحويل ووسائط دعم الإصلاح.",
+        "reviewed": true
+      },
+      "petrochem_title": {
+        "val": "التخليق البتروكيميائي",
+        "reviewed": true
+      },
+      "petrochem_desc": {
+        "val": "وسائط محفزة للهدرجة الانتقائية والأكسدة.",
+        "reviewed": true
+      }
     },
     "subtitle": {
       "val": "أنظمة محفزات عالية النشاط ووسائط دعم وأسِرّة حماية مصممة لزيادة العائد والانتقائية وطول عمر التشغيل.",
@@ -205,6 +325,14 @@
         "val": "كرات دعم عالية النقاء مقاومة للصدمات الحرارية مصممة لتوزيع تدفق موحد.",
         "reviewed": true
       }
+    },
+    "documentation_intro": {
+      "val": "اطلع على مصفوفات المواصفات ومعلمات التشغيل لأنظمة المحفز النشط ووسائط دعم الأسرّة الخزفية.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "الاستشارة التقنية",
+      "reviewed": true
     },
     "cta_title": {
       "val": "تقييم دورة سرير المحفز",

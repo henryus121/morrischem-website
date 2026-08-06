@@ -105,6 +105,18 @@
     "cta_inquire": {
       "val": "Kontaktieren Sie das Ingenieurteam",
       "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Prozessphysik",
+      "reviewed": true
+    },
+    "process_text_long": {
+      "val": "Molekularsiebe nutzen präzise kristalline Porenstrukturen, um Moleküle anhand von kinetischem Durchmesser und Polarität zu adsorbieren. Die richtige Porengröße (3A, 4A, 5A oder 13X) verhindert die Co-Adsorption von Kohlenwasserstoffen und maximiert gleichzeitig die Wasseraufnahmekapazität.",
+      "reviewed": true
+    },
+    "documentation_intro": {
+      "val": "Prüfen Sie technische Parameter und Betriebsrichtlinien für das Standard-Adsorbentienlager.",
+      "reviewed": true
     }
   },
   "water": {
@@ -156,6 +168,68 @@
     },
     "cta_support": {
       "val": "Anforderung Chemische Auswahlunterstützung",
+      "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Prozessphysik",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "Primäre Industrielle Anwendungen",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "Industrielle Kühlkreisläufe und Kesselsysteme erfordern maßgeschneiderte Chemieprogramme, um thermische Effizienzverluste, ungeplante Stillstände und vorzeitigen Anlagenersatz zu vermeiden.",
+      "reviewed": true
+    },
+    "applications": {
+      "cooling_title": {
+        "val": "Kühlwasserkreisläufe",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "Hocheffiziente Inhibitoren gegen Ablagerung und Korrosion für Umlauftürme.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "Kesselspeisewasserbehandlung",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "Sauerstofffänger, Alkalitätsaufbauer und Schutz der Kondensatleitungen.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "Membranschutz",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "Umkehrosmose-(RO)-Antiscalants und Bio-Dispergatoren.",
+        "reviewed": true
+      },
+      "effluent_title": {
+        "val": "Abwasserklärung",
+        "reviewed": true
+      },
+      "effluent_desc": {
+        "val": "Hochmolekulare Koagulantien und Flockungsmittel für industrielles Abwasser.",
+        "reviewed": true
+      }
+    },
+    "documentation_intro": {
+      "val": "Prüfen Sie technische Dokumentation und Leistungsgrenzen für Kernformulierungen der Wasseraufbereitung.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "Technische Beratung",
+      "reviewed": true
+    },
+    "cta_title": {
+      "val": "Besprechen Sie Ihr Wasserqualitätsprofil",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "Unser Engineering-Team analysiert Wasserchemie und Systemauslegung, um das optimale Behandlungsregime festzulegen.",
       "reviewed": true
     }
   },
@@ -216,6 +290,60 @@
     },
     "cta_evaluate": {
       "val": "Katalysatorbewertung anfordern",
+      "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Reaktionskinetik",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "Primäre Industrielle Anwendungen",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "Die Optimierung katalytischer Reaktionspfade erfordert eine präzise Abstimmung von Metallbeladung, Porengrößenverteilung und Säurestellendichte auf die Betriebsbedingungen.",
+      "reviewed": true
+    },
+    "applications": {
+      "hydrotreating_title": {
+        "val": "Hydrotreating & Hydrodesulfurierung",
+        "reviewed": true
+      },
+      "hydrotreating_desc": {
+        "val": "Tiefe Entfernung von Schwefel und Stickstoff (ULSD-Feed-Vorbereitung).",
+        "reviewed": true
+      },
+      "guardbeds_title": {
+        "val": "Schutzbetten & Schadstofffallen",
+        "reviewed": true
+      },
+      "guardbeds_desc": {
+        "val": "Demetallisierung und Partikelfiltration vor den Hauptkatalysatorbetten.",
+        "reviewed": true
+      },
+      "hydrogen_title": {
+        "val": "Wasserstoffproduktion & Synthesegas",
+        "reviewed": true
+      },
+      "hydrogen_desc": {
+        "val": "Shift-Katalysatoren und Reforming-Trägermedien.",
+        "reviewed": true
+      },
+      "petrochem_title": {
+        "val": "Petrochemische Synthese",
+        "reviewed": true
+      },
+      "petrochem_desc": {
+        "val": "Selektive Hydrierungs- und Oxidationskatalysatormedien.",
+        "reviewed": true
+      }
+    },
+    "documentation_intro": {
+      "val": "Greifen Sie auf Spezifikationsmatrizen und Betriebsparameter für aktive Katalysatorsysteme und keramische Bettstützmedien zu.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "Technische Beratung",
       "reviewed": true
     }
   }

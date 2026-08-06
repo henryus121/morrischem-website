@@ -1,7 +1,7 @@
 <?php if (function_exists("add_action") === false) { require_once __DIR__ . "/wp-stubs.php"; } ?>
 <?php require_once __DIR__ . '/includes/i18n.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" dir="<?php echo htmlspecialchars($dir, ENT_QUOTES, 'UTF-8'); ?>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,6 +54,11 @@
       letter-spacing: 0.25em;
       text-transform: uppercase;
       margin-bottom: 24px;
+      background: none;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0;
     }
 
     .hero-title {

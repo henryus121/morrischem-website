@@ -105,6 +105,18 @@
     "cta_inquire": {
       "val": "Mühəndislik Komandası ilə Müraciət Edin",
       "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Proses Fizikası",
+      "reviewed": true
+    },
+    "process_text_long": {
+      "val": "Molekulyar ələklər molekulları kinetik diametr və polaritəyə görə adsorbsiya etmək üçün dəqiq kristal məsamə strukturlarından istifadə edir. Düzgün məsamə ölçüsünün (3A, 4A, 5A və ya 13X) seçilməsi su tutumunu artırarkən karbohidrogenlərin birgə adsorbsiyasının qarşısını alır.",
+      "reviewed": true
+    },
+    "documentation_intro": {
+      "val": "Standart adsorbent media ehtiyatı üçün texniki parametrləri və əməliyyat təlimatlarını nəzərdən keçirin.",
+      "reviewed": true
     }
   },
   "water": {
@@ -156,6 +168,68 @@
     },
     "cta_support": {
       "val": "Kimyəvi Seçim Dəstəyi Tələb Edin",
+      "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Proses Fizikası",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "Əsas Sənaye Tətbiqləri",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "Sənaye soyutma dövrləri və qazan sistemləri istilik səmərəliliyi itkilərinin, plansız dayanmanın və avadanlığın vaxtından əvvəl dəyişdirilməsinin qarşısını almaq üçün uyğunlaşdırılmış kimyəvi rejimlər tələb edir.",
+      "reviewed": true
+    },
+    "applications": {
+      "cooling_title": {
+        "val": "Soyutma Su Dövrləri",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "Resirkulyasiya qüllələri üçün yüksək səmərəli çöküntü və korroziya inhibitorları.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "Qazan Qidalandırıcı Suyun Emalı",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "Oksigen uducular, qələvilik tənzimləyiciləri və kondensat xətti qorunması.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "Membran Qorunması",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "Tərs osmoz (RO) antiskalantları və biodispersantlar.",
+        "reviewed": true
+      },
+      "effluent_title": {
+        "val": "Tullantı Suyunun Aydınlaşdırılması",
+        "reviewed": true
+      },
+      "effluent_desc": {
+        "val": "Sənaye tullantı suları üçün yüksək molekulyar çəkili koaqulyantlar və flokulyantlar.",
+        "reviewed": true
+      }
+    },
+    "documentation_intro": {
+      "val": "Əsas su təmizləmə kimyası formulaları üçün texniki sənədləri və performans hədlərini nəzərdən keçirin.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "Texniki Məsləhət",
+      "reviewed": true
+    },
+    "cta_title": {
+      "val": "Su Keyfiyyəti Profilinizi Müzakirə Edin",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "Mühəndis komandamız optimal emal rejimini müəyyən etmək üçün su kimyasını və sistem dizaynını təhlil edir.",
       "reviewed": true
     }
   },
@@ -216,6 +290,60 @@
     },
     "cta_evaluate": {
       "val": "Katalizator Qiymətləndirilməsi Tələb Edin",
+      "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Reaksiya Kinetikası",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "Əsas Sənaye Tətbiqləri",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "Katalitik reaksiya yollarının optimallaşdırılması metal yüklənməsinin, məsamə ölçüsü paylanmasının və turşu mərkəzi sıxlığının proses şərtlərinə dəqiq uyğunlaşdırılmasını tələb edir.",
+      "reviewed": true
+    },
+    "applications": {
+      "hydrotreating_title": {
+        "val": "Hidrotəmizləmə və Hidrodesulfurizasiya",
+        "reviewed": true
+      },
+      "hydrotreating_desc": {
+        "val": "Dərin kükürd və azot çıxarılması (ULSD yeminin hazırlanması).",
+        "reviewed": true
+      },
+      "guardbeds_title": {
+        "val": "Qoruyucu Yataqlar və Çirkləndirici Tələləri",
+        "reviewed": true
+      },
+      "guardbeds_desc": {
+        "val": "Əsas katalizator yataqlarından əvvəl demetallaşdırma və hissəcik filtrasiyası.",
+        "reviewed": true
+      },
+      "hydrogen_title": {
+        "val": "Hidrogen İstehsalı və Sinqaz",
+        "reviewed": true
+      },
+      "hydrogen_desc": {
+        "val": "Shift katalizatorları və reforminq dəstək mediası.",
+        "reviewed": true
+      },
+      "petrochem_title": {
+        "val": "Neft-Kimya Sintezi",
+        "reviewed": true
+      },
+      "petrochem_desc": {
+        "val": "Seçici hidrogenləşdirmə və oksidləşmə katalizator mediası.",
+        "reviewed": true
+      }
+    },
+    "documentation_intro": {
+      "val": "Aktiv katalizator sistemləri və keramika yataq dəstək mediası üçün spesifikasiya matrislərinə və iş parametrlərinə çıxış əldə edin.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "Texniki Məsləhət",
       "reviewed": true
     }
   }

@@ -27,10 +27,17 @@ Template Name: Molecular Sieves Page
   <link rel="stylesheet" href="style-guide.css">
   
   <style>
+    .product-page {
+      background:
+        radial-gradient(1200px 500px at 10% -10%, rgba(0, 210, 255, 0.12), transparent 60%),
+        radial-gradient(1000px 500px at 90% 0%, rgba(15, 23, 42, 0.45), transparent 55%),
+        var(--bg-dark-primary);
+    }
+
     .page-header {
       padding: 120px 0 60px 0;
       border-bottom: 1px solid var(--border-steel);
-      background-color: var(--bg-dark-secondary);
+      background: linear-gradient(180deg, rgba(10, 17, 32, 0.94) 0%, rgba(6, 11, 24, 1) 100%);
     }
 
     .container {
@@ -42,6 +49,10 @@ Template Name: Molecular Sieves Page
     .section-padding {
       padding: 80px 0;
       border-bottom: 1px solid var(--border-steel);
+    }
+
+    .section-emphasis {
+      background: linear-gradient(180deg, rgba(10, 17, 32, 0.92) 0%, rgba(6, 11, 24, 1) 100%);
     }
 
     .grid-2 {
@@ -99,9 +110,13 @@ Template Name: Molecular Sieves Page
       background-color: #03060D;
       padding: 60px 0 40px 0;
     }
+
+    html[dir="rtl"] .product-page {
+      text-align: right;
+    }
   </style>
 </head>
-<body>
+<body class="product-page">
 <div style="position: fixed; top: 16px; right: 16px; z-index: 999;">
   <form action="" method="GET" style="margin:0;">
     <select name="lang" onchange="this.form.submit()" style="padding: 6px 10px; border-radius: 4px; border: 1px solid #ccc; font-weight: bold; cursor: pointer;">
@@ -156,10 +171,10 @@ Template Name: Molecular Sieves Page
   <section class="section-padding">
     <div class="container grid-2">
       <div>
-        <div class="kicker">Process Physics</div>
+        <div class="kicker"><?php echo htmlspecialchars(__t('molecular.process_kicker', 'products', 'Process Physics')); ?></div>
         <h2>Pore Size Precision &amp; Selectivity</h2>
         <p style="margin-top: 16px;">
-          Molecular sieves utilize precise crystalline pore structures to adsorb molecules based on kinetic diameter and polarity. Selecting the proper pore size (3A, 4A, 5A, or 13X) prevents co-adsorption of hydrocarbons while maximizing water capacity.
+          <?php echo htmlspecialchars(__t('molecular.process_text_long', 'products', 'Molecular sieves utilize precise crystalline pore structures to adsorb molecules based on kinetic diameter and polarity. Selecting the proper pore size (3A, 4A, 5A, or 13X) prevents co-adsorption of hydrocarbons while maximizing water capacity.')); ?>
         </p>
 
         <div class="compliance-box">
@@ -187,12 +202,12 @@ Template Name: Molecular Sieves Page
   </section>
 
   <!-- Technical Specification Downloads -->
-  <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
+  <section class="section-padding section-emphasis">
     <div class="container">
       <div class="kicker"><?php echo htmlspecialchars(__t('sections.technical_documentation', 'common', 'Technical Documentation')); ?></div>
       <h2><?php echo htmlspecialchars(__t('sections.engineered_grade_specifications', 'common', 'Engineered Grade Specifications')); ?></h2>
       <p style="max-width: 640px; margin-bottom: 32px;">
-        Review technical parameters and operational guidelines for standard adsorbent media inventory.
+        <?php echo htmlspecialchars(__t('molecular.documentation_intro', 'products', 'Review technical parameters and operational guidelines for standard adsorbent media inventory.')); ?>
       </p>
 
       <div class="grid-3">
@@ -278,8 +293,8 @@ Template Name: Molecular Sieves Page
   <!-- Footer -->
   <footer class="footer-wrapper">
     <div class="container">
-      <div style="font-family: var(--font-serif); font-size: 20px; color: var(--text-main);">MORRISCHEM LLC</div>
-      <p style="font-size: 13px; margin-top: 8px;">&copy; 2026 Morrischem LLC. All rights reserved.</p>
+      <div style="font-family: var(--font-serif); font-size: 20px; color: var(--text-main);"><?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?></div>
+      <p style="font-size: 13px; margin-top: 8px;">&copy; 2026 <?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?>. <?php echo htmlspecialchars(__t('footer.rights', 'common', 'All rights reserved.')); ?></p>
     </div>
   </footer>
 

@@ -27,10 +27,17 @@ Template Name: Catalysts Process Tech Page
   <link rel="stylesheet" href="style-guide.css">
   
   <style>
+    .product-page {
+      background:
+        radial-gradient(1200px 500px at 10% -10%, rgba(0, 210, 255, 0.12), transparent 60%),
+        radial-gradient(1000px 500px at 90% 0%, rgba(15, 23, 42, 0.45), transparent 55%),
+        var(--bg-dark-primary);
+    }
+
     .page-header {
       padding: 120px 0 60px 0;
       border-bottom: 1px solid var(--border-steel);
-      background-color: var(--bg-dark-secondary);
+      background: linear-gradient(180deg, rgba(10, 17, 32, 0.94) 0%, rgba(6, 11, 24, 1) 100%);
     }
 
     .container {
@@ -42,6 +49,10 @@ Template Name: Catalysts Process Tech Page
     .section-padding {
       padding: 80px 0;
       border-bottom: 1px solid var(--border-steel);
+    }
+
+    .section-emphasis {
+      background: linear-gradient(180deg, rgba(10, 17, 32, 0.92) 0%, rgba(6, 11, 24, 1) 100%);
     }
 
     .grid-2 {
@@ -99,9 +110,13 @@ Template Name: Catalysts Process Tech Page
       background-color: #03060D;
       padding: 60px 0 40px 0;
     }
+
+    html[dir="rtl"] .product-page {
+      text-align: right;
+    }
   </style>
 </head>
-<body>
+<body class="product-page">
 <div style="position: fixed; top: 16px; right: 16px; z-index: 999;">
   <form action="" method="GET" style="margin:0;">
     <select name="lang" onchange="this.form.submit()" style="padding: 6px 10px; border-radius: 4px; font-weight: bold; cursor: pointer;">
@@ -144,10 +159,10 @@ Template Name: Catalysts Process Tech Page
   <section class="section-padding">
     <div class="container grid-2">
       <div>
-        <div class="kicker">Reaction Kinetics</div>
-        <h2>Primary Industrial Applications</h2>
+        <div class="kicker"><?php echo htmlspecialchars(__t('catalysts.process_kicker', 'products', 'Reaction Kinetics')); ?></div>
+        <h2><?php echo htmlspecialchars(__t('catalysts.applications_title', 'products', 'Primary Industrial Applications')); ?></h2>
         <p style="margin-top: 16px;">
-          Optimizing catalytic reaction pathways requires precise matching of metal loading, pore size distribution, and acid-site density to process operating conditions.
+          <?php echo htmlspecialchars(__t('catalysts.applications_text', 'products', 'Optimizing catalytic reaction pathways requires precise matching of metal loading, pore size distribution, and acid-site density to process operating conditions.')); ?>
         </p>
 
         <div class="compliance-box">
@@ -165,22 +180,22 @@ Template Name: Catalysts Process Tech Page
           <?php echo htmlspecialchars(__t('sections.target_applications', 'common', 'Target Applications')); ?>
         </h3>
         <ul style="list-style: none; color: var(--text-muted); font-size: 15px; line-height: 2;">
-          <li>• <strong>Hydrotreating &amp; Hydrodesulfurization:</strong> Deep sulfur and nitrogen removal (ULSD feed preparation).</li>
-          <li>• <strong>Guard Beds &amp; Contaminant Traps:</strong> Demetallization and particulate filtering upstream of main catalyst beds.</li>
-          <li>• <strong>Hydrogen Production &amp; Syngas:</strong> Shift catalysts and reforming support media.</li>
-          <li>• <strong>Petrochemical Synthesis:</strong> Selective hydrogenation and oxidation catalyst media.</li>
+          <li>• <strong><?php echo htmlspecialchars(__t('catalysts.applications.hydrotreating_title', 'products', 'Hydrotreating & Hydrodesulfurization')); ?>:</strong> <?php echo htmlspecialchars(__t('catalysts.applications.hydrotreating_desc', 'products', 'Deep sulfur and nitrogen removal (ULSD feed preparation).')); ?></li>
+          <li>• <strong><?php echo htmlspecialchars(__t('catalysts.applications.guardbeds_title', 'products', 'Guard Beds & Contaminant Traps')); ?>:</strong> <?php echo htmlspecialchars(__t('catalysts.applications.guardbeds_desc', 'products', 'Demetallization and particulate filtering upstream of main catalyst beds.')); ?></li>
+          <li>• <strong><?php echo htmlspecialchars(__t('catalysts.applications.hydrogen_title', 'products', 'Hydrogen Production & Syngas')); ?>:</strong> <?php echo htmlspecialchars(__t('catalysts.applications.hydrogen_desc', 'products', 'Shift catalysts and reforming support media.')); ?></li>
+          <li>• <strong><?php echo htmlspecialchars(__t('catalysts.applications.petrochem_title', 'products', 'Petrochemical Synthesis')); ?>:</strong> <?php echo htmlspecialchars(__t('catalysts.applications.petrochem_desc', 'products', 'Selective hydrogenation and oxidation catalyst media.')); ?></li>
         </ul>
       </div>
     </div>
   </section>
 
   <!-- Technical Specification Downloads -->
-  <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
+  <section class="section-padding section-emphasis">
     <div class="container">
       <div class="kicker"><?php echo htmlspecialchars(__t('sections.technical_documentation', 'common', 'Technical Documentation')); ?></div>
       <h2><?php echo htmlspecialchars(__t('sections.catalyst_support_specifications', 'common', 'Catalyst & Support Media Specifications')); ?></h2>
       <p style="max-width: 640px; margin-bottom: 32px;">
-        Access specification matrices and operating parameters for active catalyst systems and ceramic bed support media.
+        <?php echo htmlspecialchars(__t('catalysts.documentation_intro', 'products', 'Access specification matrices and operating parameters for active catalyst systems and ceramic bed support media.')); ?>
       </p>
 
       <div class="grid-3">
@@ -256,7 +271,7 @@ Template Name: Catalysts Process Tech Page
   <!-- CTA Gateway -->
   <section class="section-padding" style="text-align: center;">
     <div class="container" style="max-width: 700px;">
-      <div class="kicker"><?php echo htmlspecialchars(__t('catalysts.kicker', 'products', 'Technical Consultation')); ?></div>
+      <div class="kicker"><?php echo htmlspecialchars(__t('catalysts.cta_kicker', 'products', 'Technical Consultation')); ?></div>
       <h2><?php echo htmlspecialchars(__t('catalysts.cta_title', 'products', 'Evaluate Your Catalyst Bed Cycle')); ?></h2>
       <p style="margin: 16px 0 32px 0;">
         <?php echo htmlspecialchars(__t('catalysts.cta_desc', 'products', 'Our specialists review feed characterization, space velocity, and temperature profiles to optimize bed performance.')); ?>
@@ -268,8 +283,8 @@ Template Name: Catalysts Process Tech Page
   <!-- Footer -->
   <footer class="footer-wrapper">
     <div class="container">
-      <div style="font-family: var(--font-serif); font-size: 20px; color: var(--text-main);">MORRISCHEM LLC</div>
-      <p style="font-size: 13px; margin-top: 8px;">&copy; 2026 Morrischem LLC. All rights reserved.</p>
+      <div style="font-family: var(--font-serif); font-size: 20px; color: var(--text-main);"><?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?></div>
+      <p style="font-size: 13px; margin-top: 8px;">&copy; 2026 <?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?>. <?php echo htmlspecialchars(__t('footer.rights', 'common', 'All rights reserved.')); ?></p>
     </div>
   </footer>
 

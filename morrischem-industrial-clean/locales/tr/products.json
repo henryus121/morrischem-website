@@ -105,6 +105,18 @@
     "cta_inquire": {
       "val": "Mühendislik Ekibi ile İletişime Geçin",
       "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Proses Fiziği",
+      "reviewed": true
+    },
+    "process_text_long": {
+      "val": "Moleküler elekler, molekülleri kinetik çap ve polariteye göre adsorbe etmek için hassas kristal gözenek yapıları kullanır. Doğru gözenek boyutunun (3A, 4A, 5A veya 13X) seçilmesi, su kapasitesini artırırken hidrokarbonların birlikte adsorpsiyonunu önler.",
+      "reviewed": true
+    },
+    "documentation_intro": {
+      "val": "Standart adsorbent medya envanteri için teknik parametreleri ve işletme kılavuzlarını inceleyin.",
+      "reviewed": true
     }
   },
   "water": {
@@ -156,6 +168,68 @@
     },
     "cta_support": {
       "val": "Kimyasal Seçim Desteği İste",
+      "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Proses Fiziği",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "Birincil Endüstriyel Uygulamalar",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "Endüstriyel soğutma devreleri ve kazan sistemleri, termal verim kayıplarını, plansız duruşları ve ekipmanın erken değişimini önlemek için uyarlanmış kimyasal rejimler gerektirir.",
+      "reviewed": true
+    },
+    "applications": {
+      "cooling_title": {
+        "val": "Soğutma Suyu Devreleri",
+        "reviewed": true
+      },
+      "cooling_desc": {
+        "val": "Devir daim kuleleri için yüksek verimli kireç ve korozyon inhibitörleri.",
+        "reviewed": true
+      },
+      "boiler_title": {
+        "val": "Kazan Besi Suyu Arıtımı",
+        "reviewed": true
+      },
+      "boiler_desc": {
+        "val": "Oksijen tutucular, alkalinite artırıcılar ve kondens hattı koruması.",
+        "reviewed": true
+      },
+      "membrane_title": {
+        "val": "Membran Koruması",
+        "reviewed": true
+      },
+      "membrane_desc": {
+        "val": "Ters ozmoz (RO) antiskalantları ve biyo-dispergantlar.",
+        "reviewed": true
+      },
+      "effluent_title": {
+        "val": "Atıksu Berraklaştırma",
+        "reviewed": true
+      },
+      "effluent_desc": {
+        "val": "Endüstriyel atıksu için yüksek molekül ağırlıklı koagülantlar ve flokülantlar.",
+        "reviewed": true
+      }
+    },
+    "documentation_intro": {
+      "val": "Temel su arıtma kimyası formülasyonları için teknik dokümantasyonu ve performans eşiklerini inceleyin.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "Teknik Danışmanlık",
+      "reviewed": true
+    },
+    "cta_title": {
+      "val": "Su Kalitesi Profilinizi Görüşün",
+      "reviewed": true
+    },
+    "cta_desc": {
+      "val": "Mühendislik ekibimiz, optimum arıtma rejimini belirlemek için su kimyasını ve sistem tasarımını analiz eder.",
       "reviewed": true
     }
   },
@@ -216,6 +290,60 @@
     },
     "cta_evaluate": {
       "val": "Katalizör Değerlendirmesi Talep Et",
+      "reviewed": true
+    },
+    "process_kicker": {
+      "val": "Reaksiyon Kinetiği",
+      "reviewed": true
+    },
+    "applications_title": {
+      "val": "Birincil Endüstriyel Uygulamalar",
+      "reviewed": true
+    },
+    "applications_text": {
+      "val": "Katalitik reaksiyon yollarını optimize etmek, metal yüklemesi, gözenek boyutu dağılımı ve asit saha yoğunluğunun proses çalışma koşullarıyla hassas şekilde eşleştirilmesini gerektirir.",
+      "reviewed": true
+    },
+    "applications": {
+      "hydrotreating_title": {
+        "val": "Hidrotretman ve Hidrodesülfürizasyon",
+        "reviewed": true
+      },
+      "hydrotreating_desc": {
+        "val": "Derin kükürt ve azot giderimi (ULSD besleme hazırlığı).",
+        "reviewed": true
+      },
+      "guardbeds_title": {
+        "val": "Koruyucu Yataklar ve Kirletici Tuzakları",
+        "reviewed": true
+      },
+      "guardbeds_desc": {
+        "val": "Ana katalizör yatakları öncesinde demetalizasyon ve partikül filtrasyonu.",
+        "reviewed": true
+      },
+      "hydrogen_title": {
+        "val": "Hidrojen Üretimi ve Sentez Gazı",
+        "reviewed": true
+      },
+      "hydrogen_desc": {
+        "val": "Shift katalizörleri ve reforming destek medyaları.",
+        "reviewed": true
+      },
+      "petrochem_title": {
+        "val": "Petrokimyasal Sentez",
+        "reviewed": true
+      },
+      "petrochem_desc": {
+        "val": "Seçici hidrojenasyon ve oksidasyon katalizör medyaları.",
+        "reviewed": true
+      }
+    },
+    "documentation_intro": {
+      "val": "Aktif katalizör sistemleri ve seramik yatak destek medyaları için spesifikasyon matrislerine ve işletme parametrelerine erişin.",
+      "reviewed": true
+    },
+    "cta_kicker": {
+      "val": "Teknik Danışmanlık",
       "reviewed": true
     }
   }

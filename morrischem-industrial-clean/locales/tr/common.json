@@ -79,6 +79,154 @@
       "reviewed": true
     }
   },
+  "focus": {
+    "kicker": {
+      "val": "Operasyonel Odak",
+      "reviewed": true
+    },
+    "title": {
+      "val": "Sürecinize Göre Tasarlandı.",
+      "reviewed": true
+    },
+    "body": {
+      "val": "Her rafineri, gaz tesisi ve endüstriyel tesis farklı termal, kimyasal ve basınç parametreleri altında çalışır. Güvenilir performans, sizin çalışma ortamınıza özel olarak tasarlanmış teknolojinin seçilmesiyle başlar.",
+      "reviewed": true
+    },
+    "approach_title": {
+      "val": "Morrischem Yaklaşımı",
+      "reviewed": true
+    },
+    "approach_body": {
+      "val": "Önce işletme koşullarını değerlendiriyor, ardından doğru moleküler elekleri, katalizörleri, su arıtma kimyasallarını ve performans katkılarını eşleştirip tedarik ediyoruz.",
+      "reviewed": true
+    }
+  },
+  "plant_map": {
+    "kicker": {
+      "val": "Etkileşimli Tesis Haritası",
+      "reviewed": true
+    },
+    "title": {
+      "val": "Bir Endüstriyel Sürecin İçinde",
+      "reviewed": true
+    },
+    "body": {
+      "val": "Özel kimyasalların ve adsorbent medyaların kritik işletme ünitelerine nasıl entegre olduğunu keşfedin.",
+      "reviewed": true
+    },
+    "unit1_label": {
+      "val": "Ünite: Gaz Kurutma Hattı",
+      "reviewed": true
+    },
+    "unit1_title": {
+      "val": "Moleküler Elekler",
+      "reviewed": true
+    },
+    "unit1_body": {
+      "val": "Kriyojenik eşanjörlerde hidrat oluşumunu önlemek için nemin &lt; 0,1 ppmv seviyesine kadar derin giderimi.",
+      "reviewed": true
+    },
+    "unit2_label": {
+      "val": "Ünite: Soğutma Kulesi Devresi",
+      "reviewed": true
+    },
+    "unit2_title": {
+      "val": "Su Arıtma Kimyasalları",
+      "reviewed": true
+    },
+    "unit2_body": {
+      "val": "Isı transfer verimini korumak için gelişmiş kireç, korozyon ve biyolojik kontrol formülasyonları.",
+      "reviewed": true
+    },
+    "unit3_label": {
+      "val": "Ünite: Hidroişlem Reaktörü",
+      "reviewed": true
+    },
+    "unit3_title": {
+      "val": "Katalizörler ve Koruyucu Yataklar",
+      "reviewed": true
+    },
+    "unit3_body": {
+      "val": "Maksimum çevrim süresi için tasarlanmış yüksek aktiviteli katalizör medyaları ve kirletici tutucular.",
+      "reviewed": true
+    }
+  },
+  "divisions": {
+    "kicker": {
+      "val": "Temel Bölümler",
+      "reviewed": true
+    },
+    "title": {
+      "val": "Endüstriyel Yetkinlikler",
+      "reviewed": true
+    },
+    "v1_label": {
+      "val": "01 / ADSORPSİYON",
+      "reviewed": true
+    },
+    "v1_title": {
+      "val": "Moleküler Elekler ve Adsorbentler",
+      "reviewed": true
+    },
+    "v1_body": {
+      "val": "Gaz kurutma, LNG işleme ve arıtma için sentetik zeolitler ve aktive alüminalar.",
+      "reviewed": true
+    },
+    "v1_link": {
+      "val": "Adsorbentleri Keşfedin",
+      "reviewed": true
+    },
+    "v2_label": {
+      "val": "02 / YARDIMCI SİSTEMLER",
+      "reviewed": true
+    },
+    "v2_title": {
+      "val": "Su Arıtma Kimyasalları",
+      "reviewed": true
+    },
+    "v2_body": {
+      "val": "Endüstriyel soğutma için kireç inhibitörleri, korozyon kontrolü, biyositler ve membran kimyasalları.",
+      "reviewed": true
+    },
+    "v2_link": {
+      "val": "Su Arıtmayı Keşfedin",
+      "reviewed": true
+    },
+    "v3_label": {
+      "val": "03 / REAKSİYON",
+      "reviewed": true
+    },
+    "v3_title": {
+      "val": "Katalizörler ve Proses Teknolojisi",
+      "reviewed": true
+    },
+    "v3_body": {
+      "val": "Verimi artırmak ve çevrim süresini uzatmak için tasarlanmış rafinaj ve sentez katalizörleri.",
+      "reviewed": true
+    },
+    "v3_link": {
+      "val": "Katalizörleri Keşfedin",
+      "reviewed": true
+    }
+  },
+  "contact_cta": {
+    "kicker": {
+      "val": "Sınır Tanımayan Mühendislik Çözümleri",
+      "reviewed": true
+    },
+    "title": {
+      "val": "Güvenilir Teknolojiler. Güvenilen Ortaklıklar. Kalıcı Performans.",
+      "reviewed": true
+    },
+    "body": {
+      "val": "Sürecinize özel zorlukları ve teknik gereksinimleri birlikte değerlendirelim.",
+      "reviewed": true
+    },
+    "cta": {
+      "val": "Görüşmeyi Başlatın",
+      "reviewed": true
+    }
+  },
   "contact_page": {
     "meta_title": {
       "val": "Teknik Talep ve Danışmanlık — Morrischem LLC",
