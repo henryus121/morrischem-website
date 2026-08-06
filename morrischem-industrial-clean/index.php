@@ -13,7 +13,7 @@
   <meta property="og:description" content="<?php echo htmlspecialchars(__t('meta.og_description', 'common', 'Engineering solutions for critical industrial processes, refining, and gas processing.')); ?>">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://morrischem.com">
-  <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/refinery_imge.png">
+  <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/includes/refinery_imge.png?v=2.0">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,7 @@
       padding: 0 24px;
       border-bottom: 1px solid var(--border-steel);
       background-image: linear-gradient(180deg, rgba(6, 11, 24, 0.4) 0%, rgba(6, 11, 24, 0.9) 100%), 
-                        url('<?php echo get_template_directory_uri(); ?>/refinery_imge.png');
+            url('<?php echo get_template_directory_uri(); ?>/includes/refinery_imge.png?v=2.0');
       background-size: cover;
       background-position: center;
     }
@@ -186,7 +186,7 @@
   <!-- Act II: Operational Focus -->
   <section class="section-padding" style="background-color: var(--bg-dark-secondary);">
     <div class="container grid-2">
-      <div class="card-surface" style="height: 350px; display: flex; align-items: center; justify-content: center; background-image: url('<?php echo get_template_directory_uri(); ?>/refinery_imge.png'); background-size: cover; background-position: center;">
+      <div class="card-surface" style="height: 350px; display: flex; align-items: center; justify-content: center; background-image: url('<?php echo get_template_directory_uri(); ?>/includes/refinery_imge.png?v=2.0'); background-size: cover; background-position: center;">
       </div>
       <div class="conduit-border">
         <div class="section-kicker"><?php echo htmlspecialchars(__t('focus.kicker', 'common', 'Operational Focus')); ?></div>
