@@ -111,6 +111,78 @@ Template Name: Water Treatment Page
       padding: 60px 0 40px 0;
     }
 
+    /* Page-scoped contrast enforcement for dark sections. */
+    .product-page .page-header,
+    .product-page .section-emphasis,
+    .product-page section.section-padding[style*="text-align: center"],
+    .product-page .footer-wrapper {
+      color: #E2E8F0 !important;
+    }
+
+    .product-page .page-header h1,
+    .product-page .page-header h2,
+    .product-page .page-header h3,
+    .product-page .page-header h4,
+    .product-page .page-header h5,
+    .product-page .page-header h6,
+    .product-page .section-emphasis h1,
+    .product-page .section-emphasis h2,
+    .product-page .section-emphasis h3,
+    .product-page .section-emphasis h4,
+    .product-page .section-emphasis h5,
+    .product-page .section-emphasis h6,
+    .product-page section.section-padding[style*="text-align: center"] h1,
+    .product-page section.section-padding[style*="text-align: center"] h2,
+    .product-page section.section-padding[style*="text-align: center"] h3,
+    .product-page section.section-padding[style*="text-align: center"] h4,
+    .product-page section.section-padding[style*="text-align: center"] h5,
+    .product-page section.section-padding[style*="text-align: center"] h6,
+    .product-page .footer-wrapper h1,
+    .product-page .footer-wrapper h2,
+    .product-page .footer-wrapper h3,
+    .product-page .footer-wrapper h4,
+    .product-page .footer-wrapper h5,
+    .product-page .footer-wrapper h6 {
+      color: #FFFFFF !important;
+    }
+
+    .product-page .page-header p,
+    .product-page .page-header li,
+    .product-page .page-header span,
+    .product-page .page-header label,
+    .product-page .section-emphasis p,
+    .product-page .section-emphasis li,
+    .product-page .section-emphasis span,
+    .product-page .section-emphasis label,
+    .product-page .spec-card p,
+    .product-page .spec-card li,
+    .product-page .spec-card span,
+    .product-page .spec-card label,
+    .product-page section.section-padding[style*="text-align: center"] p,
+    .product-page section.section-padding[style*="text-align: center"] li,
+    .product-page section.section-padding[style*="text-align: center"] span,
+    .product-page section.section-padding[style*="text-align: center"] label,
+    .product-page .footer-wrapper p,
+    .product-page .footer-wrapper li,
+    .product-page .footer-wrapper span,
+    .product-page .footer-wrapper label {
+      color: #E2E8F0 !important;
+    }
+
+    .product-page .page-header .back-link,
+    .product-page .section-emphasis a,
+    .product-page section.section-padding[style*="text-align: center"] a,
+    .product-page .footer-wrapper a {
+      color: #93C5FD !important;
+    }
+
+    .product-page .page-header .back-link:hover,
+    .product-page .section-emphasis a:hover,
+    .product-page section.section-padding[style*="text-align: center"] a:hover,
+    .product-page .footer-wrapper a:hover {
+      color: #FFFFFF !important;
+    }
+
     html[dir="rtl"] .product-page {
       text-align: right;
     }
