@@ -117,32 +117,6 @@ Template Name: Catalysts Process Tech Page
   </style>
 </head>
 <body class="product-page">
-<div style="position: fixed; top: 16px; right: 16px; z-index: 999;">
-  <form action="" method="GET" style="margin:0;">
-    <select name="lang" onchange="this.form.submit()" style="padding: 6px 10px; border-radius: 4px; font-weight: bold; cursor: pointer;">
-      <?php
-      global $allowed_langs, $lang;
-      $lang_names = [
-          "en" => "EN",
-          "es" => "ES",
-          "fr" => "FR",
-          "de" => "DE",
-          "ru" => "RU",
-          "tr" => "TR",
-          "uk" => "UK",
-          "ar" => "AR",
-          "az" => "AZ"
-      ];
-      foreach ($allowed_langs as $code) {
-          $selected = ($lang === $code) ? "selected" : "";
-          $name = $lang_names[$code] ?? strtoupper($code);
-          echo '<option value="' . $code . '" ' . $selected . '>' . $name . '</option>';
-      }
-      ?>
-    </select>
-  </form>
-</div>
-
   <!-- Header Banner -->
   <header class="page-header">
     <div class="container">

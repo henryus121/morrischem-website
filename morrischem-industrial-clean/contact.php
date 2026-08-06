@@ -118,27 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     .alert-error { background-color: rgba(255, 87, 87, 0.14); color: #FFFFFF; border: 1px solid rgba(255, 87, 87, 0.25); }
   </style>
 </head>
-<body>
-<div style="position: fixed; top: 16px; right: 16px; z-index: 999;">
-  <form action="" method="GET" style="margin:0;">
-    <select name="lang" onchange="this.form.submit()" style="padding: 6px 10px; border-radius: 4px; font-weight: bold; cursor: pointer;">
-      <?php
-      global $allowed_langs, $lang;
-      $lang_names = [
-          "en" => "EN", "es" => "ES", "fr" => "FR",
-          "de" => "DE", "ru" => "RU", "tr" => "TR",
-          "uk" => "UK", "ar" => "AR", "az" => "AZ"
-      ];
-      foreach ($allowed_langs as $code) {
-          $selected = ($lang === $code) ? "selected" : "";
-          $name = $lang_names[$code] ?? strtoupper($code);
-          echo '<option value="' . $code . '" ' . $selected . '>' . $name . '</option>';
-      }
-      ?>
-    </select>
-  </form>
-</div>
-
+<body class="contact-page">
   <header class="page-header">
     <div class="container">
       <a href="<?php echo htmlspecialchars('/' . $lang_query, ENT_QUOTES, 'UTF-8'); ?>" class="back-link">&larr; <?php echo htmlspecialchars(__t('contact_page.back_link', 'common')); ?></a>
