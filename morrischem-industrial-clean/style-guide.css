@@ -173,6 +173,56 @@ p {
   color: #64748B !important;
 }
 
+/* Dark Section Contrast Guards */
+.section-emphasis,
+.page-header,
+.footer-wrapper,
+.card-surface,
+.spec-card,
+.compliance-box,
+body.product-page {
+  color: var(--text-main) !important;
+}
+
+.section-emphasis h1,
+.section-emphasis h2,
+.section-emphasis h3,
+.section-emphasis h4,
+.page-header h1,
+.page-header h2,
+.page-header h3,
+.page-header h4,
+.footer-wrapper h1,
+.footer-wrapper h2,
+.footer-wrapper h3,
+.footer-wrapper h4,
+body.product-page h1,
+body.product-page h2,
+body.product-page h3,
+body.product-page h4 {
+  color: #FFFFFF !important;
+}
+
+.section-emphasis p,
+.section-emphasis li,
+.section-emphasis label,
+.page-header p,
+.page-header li,
+.page-header label,
+.footer-wrapper p,
+.footer-wrapper li,
+.footer-wrapper label,
+.card-surface p,
+.card-surface li,
+.spec-card p,
+.spec-card li,
+.compliance-box p,
+body.product-page p,
+body.product-page li,
+body.product-page label {
+  color: #E2E8F0 !important;
+}
+
 /* Isolated Mobile Spec Grid Fix */
 @media screen and (max-width: 768px) {
   .spec-grid, 

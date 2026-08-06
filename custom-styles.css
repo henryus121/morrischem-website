@@ -78,6 +78,80 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Keep text legible on dark process sections and subpage wrappers. */
+body.product-page,
+.hero-viewport,
+.page-header,
+.section-emphasis,
+.footer-wrapper,
+.card-surface,
+.spec-card,
+.compliance-box {
+  color: #E2E8F0 !important;
+}
+
+body.product-page h1,
+body.product-page h2,
+body.product-page h3,
+body.product-page h4,
+.hero-viewport h1,
+.hero-viewport h2,
+.hero-viewport h3,
+.hero-viewport h4,
+.page-header h1,
+.page-header h2,
+.page-header h3,
+.page-header h4,
+.section-emphasis h1,
+.section-emphasis h2,
+.section-emphasis h3,
+.section-emphasis h4,
+.footer-wrapper h1,
+.footer-wrapper h2,
+.footer-wrapper h3,
+.footer-wrapper h4,
+.card-surface h1,
+.card-surface h2,
+.card-surface h3,
+.card-surface h4,
+.spec-card h1,
+.spec-card h2,
+.spec-card h3,
+.spec-card h4,
+.compliance-box h1,
+.compliance-box h2,
+.compliance-box h3,
+.compliance-box h4 {
+  color: #FFFFFF !important;
+}
+
+body.product-page p,
+body.product-page li,
+body.product-page label,
+.hero-viewport p,
+.hero-viewport li,
+.hero-viewport label,
+.page-header p,
+.page-header li,
+.page-header label,
+.section-emphasis p,
+.section-emphasis li,
+.section-emphasis label,
+.footer-wrapper p,
+.footer-wrapper li,
+.footer-wrapper label,
+.card-surface p,
+.card-surface li,
+.card-surface label,
+.spec-card p,
+.spec-card li,
+.spec-card label,
+.compliance-box p,
+.compliance-box li,
+.compliance-box label {
+  color: #E2E8F0 !important;
+}
+
 @media (max-width: 768px) {
   .grid-3,
   .grid-2 {
