@@ -341,7 +341,7 @@ Template Name: Catalysts Process Tech Page
   </section>
 
   <!-- CTA Gateway -->
-  <section class="section-padding" style="text-align: center;">
+  <section class="section-padding consultation-cta" style="text-align: center; background: linear-gradient(180deg, rgba(10, 17, 32, 0.94) 0%, rgba(6, 11, 24, 1) 100%);">
     <div class="container" style="max-width: 700px;">
       <div class="kicker"><?php echo htmlspecialchars(__t('catalysts.cta_kicker', 'products', 'Technical Consultation')); ?></div>
       <h2><?php echo htmlspecialchars(__t('catalysts.cta_title', 'products', 'Evaluate Your Catalyst Bed Cycle')); ?></h2>

@@ -353,7 +353,7 @@ Template Name: Molecular Sieves Page
   </section>
 
   <!-- CTA Gateway -->
-  <section class="section-padding" style="text-align: center;">
+  <section class="section-padding consultation-cta" style="text-align: center; background: linear-gradient(180deg, rgba(10, 17, 32, 0.94) 0%, rgba(6, 11, 24, 1) 100%);">
     <div class="container" style="max-width: 700px;">
       <div class="kicker"><?php echo htmlspecialchars(__t('molecular.support_kicker', 'products', 'Engineering Support')); ?></div>
       <h2><?php echo htmlspecialchars(__t('molecular.bed_title', 'products', 'Request Bed Sizing & Design Analysis')); ?></h2>
