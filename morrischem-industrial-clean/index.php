@@ -284,6 +284,27 @@
             <a href="/catalysts-process-tech/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?> &rarr;</a>
           </div>
         </div>
+
+        <!-- Vertical 05: Specialty Additives -->
+        <div class="card-surface solutions-card">
+          <?php 
+            $img_relative_path = '/assets/images/solutions/specialty-additives.webp';
+            $img_fs_path = (function_exists('get_template_directory') ? get_template_directory() : __DIR__) . $img_relative_path;
+            $img_url = (function_exists('get_template_directory_uri') ? get_template_directory_uri() : '') . $img_relative_path;
+            $has_image = file_exists($img_fs_path);
+          ?>
+          <div class="solutions-card-media<?php echo $has_image ? '' : ' is-missing'; ?>">
+            <?php if ($has_image) : ?>
+              <img class="solutions-card-image" src="<?php echo $img_url; ?>" alt="Advanced Surfactant &amp; Polymer Systems" loading="lazy" decoding="async">
+            <?php endif; ?>
+          </div>
+          <div class="solutions-card-content">
+            <div class="solutions-card-label">05 / SPECIALTY ADDITIVES</div>
+            <h3 class="solutions-card-title">Advanced Surfactant &amp; Polymer Systems</h3>
+            <p class="solutions-card-description">High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.</p>
+            <a href="/solutions/specialty-additives-surfactants" class="solutions-card-link">Explore Specialty Solutions &rarr;</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
