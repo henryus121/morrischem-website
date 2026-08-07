@@ -234,28 +234,55 @@
     <div class="container">
       <div class="section-kicker"><?php echo htmlspecialchars(__t('divisions.kicker', 'common', 'Core Divisions')); ?></div>
       <h2 class="section-title"><?php echo htmlspecialchars(__t('divisions.title', 'common', 'Industrial Capabilities')); ?></h2>
+
+      <?php
+      $industry_adsorption_image_exists = file_exists(__DIR__ . '/includes/industry-cards/industry-adsorption.webp');
+      $industry_water_treatment_image_exists = file_exists(__DIR__ . '/includes/industry-cards/industry-water-treatment.webp');
+      $industry_catalysts_image_exists = file_exists(__DIR__ . '/includes/industry-cards/industry-catalysts-process-tech.webp');
+      ?>
       
       <div class="grid-3" style="margin-top: 48px;">
         <!-- Vertical 01 -->
         <div class="card-surface">
-          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
-          <h3><?php echo htmlspecialchars(__t('divisions.v1_title', 'common', 'Molecular Sieves & Adsorbents')); ?></h3>
-          <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v1_body', 'common', 'Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.')); ?></p>
-          <a href="/molecular-sieves/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?> &rarr;</a>
+          <div class="solutions-card-media<?php echo $industry_adsorption_image_exists ? '' : ' is-missing'; ?>">
+            <?php if ($industry_adsorption_image_exists) : ?>
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/includes/industry-cards/industry-adsorption.webp" alt="" loading="lazy" decoding="async">
+            <?php endif; ?>
+          </div>
+          <div class="solutions-card-content">
+            <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
+            <h3><?php echo htmlspecialchars(__t('divisions.v1_title', 'common', 'Molecular Sieves & Adsorbents')); ?></h3>
+            <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v1_body', 'common', 'Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.')); ?></p>
+            <a href="/molecular-sieves/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?> &rarr;</a>
+          </div>
         </div>
         <!-- Vertical 02 -->
         <div class="card-surface">
-          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v2_label', 'common', '02 / UTILITIES')); ?></div>
-          <h3><?php echo htmlspecialchars(__t('divisions.v2_title', 'common', 'Water Treatment Chemicals')); ?></h3>
-          <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v2_body', 'common', 'Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.')); ?></p>
-          <a href="/water-treatment/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v2_link', 'common', 'Explore Water Treatment')); ?> &rarr;</a>
+          <div class="solutions-card-media<?php echo $industry_water_treatment_image_exists ? '' : ' is-missing'; ?>">
+            <?php if ($industry_water_treatment_image_exists) : ?>
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/includes/industry-cards/industry-water-treatment.webp" alt="" loading="lazy" decoding="async">
+            <?php endif; ?>
+          </div>
+          <div class="solutions-card-content">
+            <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v2_label', 'common', '02 / UTILITIES')); ?></div>
+            <h3><?php echo htmlspecialchars(__t('divisions.v2_title', 'common', 'Water Treatment Chemicals')); ?></h3>
+            <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v2_body', 'common', 'Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.')); ?></p>
+            <a href="/water-treatment/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v2_link', 'common', 'Explore Water Treatment')); ?> &rarr;</a>
+          </div>
         </div>
         <!-- Vertical 03 -->
         <div class="card-surface">
-          <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
-          <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalysts & Process Tech')); ?></h3>
-          <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
-          <a href="/catalysts-process-tech/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?> &rarr;</a>
+          <div class="solutions-card-media<?php echo $industry_catalysts_image_exists ? '' : ' is-missing'; ?>">
+            <?php if ($industry_catalysts_image_exists) : ?>
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/includes/industry-cards/industry-catalysts-process-tech.webp" alt="" loading="lazy" decoding="async">
+            <?php endif; ?>
+          </div>
+          <div class="solutions-card-content">
+            <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
+            <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalysts & Process Tech')); ?></h3>
+            <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
+            <a href="/catalysts-process-tech/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?> &rarr;</a>
+          </div>
         </div>
       </div>
     </div>
