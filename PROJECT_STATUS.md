@@ -108,7 +108,7 @@ Summary:
 - No regressions detected.
 - Component approved for production.
 
-## Specialty Additives Card 05 (v1.2.0)
+## Specialty Additives Card 04 (v1.2.0)
 
 Status:
 
@@ -116,9 +116,11 @@ Completed and Frozen
 
 Summary:
 
-- Card 05 (Specialty Additives) integrated into homepage #solutions grid.
+- Card 04 (Specialty Additives) integrated into homepage #solutions grid.
 - Dedicated asset integrated: assets/images/solutions/specialty-additives.webp (1200x900 WebP).
 - Existing cards 01-03 preserved with no content changes.
+- Card label re-sequenced from 05 to 04.
+- CTA routing updated to #contact.
 - Global CSS and shared grid rules left unchanged.
 - Milestone frozen under v1.2.0-specialty-additives-card.
 

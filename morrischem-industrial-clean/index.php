@@ -285,7 +285,7 @@
           </div>
         </div>
 
-        <!-- Vertical 05: Specialty Additives -->
+        <!-- Vertical 04: Specialty Additives -->
         <div class="card-surface solutions-card">
           <?php 
             $img_relative_path = '/assets/images/solutions/specialty-additives.webp';
@@ -299,10 +299,10 @@
             <?php endif; ?>
           </div>
           <div class="solutions-card-content">
-            <div class="solutions-card-label">05 / SPECIALTY ADDITIVES</div>
+            <div class="solutions-card-label">04 / SPECIALTY ADDITIVES</div>
             <h3 class="solutions-card-title">Advanced Surfactant &amp; Polymer Systems</h3>
             <p class="solutions-card-description">High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.</p>
-            <a href="/solutions/specialty-additives-surfactants" class="solutions-card-link">Explore Specialty Solutions &rarr;</a>
+            <a href="#contact" class="solutions-card-link">Explore Specialty Solutions &rarr;</a>
           </div>
         </div>
       </div>

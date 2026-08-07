@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v1.2.0-specialty-additives-card (hotfix)
+
+### Fixed
+- Specialty Additives card re-sequenced from 05 to 04.
+- Specialty Additives CTA href updated to #contact.
+
+### Scope
+- Homepage #solutions card block only.
+
 ## v1.2.0-specialty-additives-card
 
 ### Added
