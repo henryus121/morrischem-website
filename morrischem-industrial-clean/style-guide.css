@@ -200,6 +200,34 @@ p {
   display: block;
 }
 
+#solutions .solutions-card-label {
+  color: var(--accent-cyan, #00c8ff);
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+#solutions .solutions-card-title {
+  margin: 0;
+}
+
+#solutions .solutions-card-description {
+  font-size: 14px;
+  margin: 12px 0 24px 0;
+}
+
+#solutions .solutions-card-link {
+  color: var(--accent-cyan, #00c8ff) !important;
+  font-size: 12px;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+#solutions .solutions-card-link:hover {
+  color: #0284C7 !important;
+  text-decoration: none !important;
+}
+
 /* Solutions Grid Layout (Section Scoped) */
 #solutions .grid-3 {
   display: grid;

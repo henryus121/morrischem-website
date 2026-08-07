@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## v1.3.0-specialty-additives-page
+
+### Added
+- Dedicated Specialty Additives technical page: morrischem-industrial-clean/solutions-specialty-additives.php.
+- New technical sections covering functional monomers, reactive surfactants, sustainable solvent/coalescent direction, performance additives, and application matrix.
+
+### Changed
+- Homepage Card 04 CTA target updated from #contact to /solutions-specialty-additives.php.
+- #solutions scoped CTA class styles aligned to cyan/no-underline behavior for visual consistency.
+
+### Verified
+- Homepage #solutions desktop rendering (Card 04 visible and styled).
+- Homepage #solutions mobile rendering.
+- Dedicated specialty page route and rendering.
+
 ## v1.2.0-specialty-additives-card (hotfix)
 
 ### Fixed

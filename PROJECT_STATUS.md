@@ -16,7 +16,7 @@ Morrischem Website
 
 # Current Stable Version
 
-v4.0-contact-debug
+v1.3.0-specialty-additives-page
 
 ---
 
@@ -24,15 +24,15 @@ v4.0-contact-debug
 
 Version:
 
-v4.0-contact-debug
+v1.3.0-specialty-additives-page
 
 Date:
 
-YYYY-MM-DD
+2026-08-07
 
 Description:
 
-Latest fully tested, verified, and recoverable version of the project.
+Dedicated Specialty Additives technical page released with homepage Card 04 routing and color harmony fix.
 
 ---
 
@@ -88,6 +88,7 @@ Describe the next planned task.
 | Version | Description | Date | Status |
 |----------|-------------|------------|--------|
 | v4.0-contact-debug | Latest verified recovery point | YYYY-MM-DD | ✅ |
+| v1.3.0-specialty-additives-page | Dedicated specialty page + Card 04 CTA link and color fix | 2026-08-07 | ✅ |
 
 ## Industry / Solutions Component
 
@@ -124,18 +125,32 @@ Summary:
 - Global CSS and shared grid rules left unchanged.
 - Milestone frozen under v1.2.0-specialty-additives-card.
 
+## Specialty Additives Dedicated Page (v1.3.0)
+
+Status:
+
+Completed and Released
+
+Summary:
+
+- Dedicated specialty technical page added: morrischem-industrial-clean/solutions-specialty-additives.php.
+- Card 04 CTA routing updated from #contact to /solutions-specialty-additives.php.
+- Card 04 CTA style aligned to cyan and no-underline behavior inside #solutions.
+- Desktop and mobile visual QA completed for homepage cards and specialty page navigation.
+- Milestone released under v1.3.0-specialty-additives-page.
+
 ---
 
 # Recovery Point
 
 Latest Recovery Version:
 
-v4.0-contact-debug
+v1.3.0-specialty-additives-page
 
 Rollback Command:
 
 ```bash
-git reset --hard v4.0-contact-debug
+git reset --hard v1.3.0-specialty-additives-page
 git push origin main --force
 ```
 

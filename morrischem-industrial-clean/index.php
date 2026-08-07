@@ -302,7 +302,7 @@
             <div class="solutions-card-label">04 / SPECIALTY ADDITIVES</div>
             <h3 class="solutions-card-title">Advanced Surfactant &amp; Polymer Systems</h3>
             <p class="solutions-card-description">High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.</p>
-            <a href="#contact" class="solutions-card-link">Explore Specialty Solutions &rarr;</a>
+            <a href="/solutions-specialty-additives.php" class="solutions-card-link">Explore Specialty Solutions &rarr;</a>
           </div>
         </div>
       </div>
