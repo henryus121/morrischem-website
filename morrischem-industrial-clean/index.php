@@ -36,7 +36,7 @@
       text-align: center;
       padding: 0 24px;
       border-bottom: 1px solid var(--border-steel);
-      background-image: linear-gradient(180deg, rgba(6, 11, 24, 0.4) 0%, rgba(6, 11, 24, 0.9) 100%), 
+      background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.25) 0%, rgba(15, 23, 42, 0.5) 100%), 
             url('<?php echo get_template_directory_uri(); ?>/includes/refinery_imge.png?v=2.0');
       background-size: cover;
       background-position: center;
