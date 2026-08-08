@@ -310,3 +310,10 @@ Build a premium, enterprise-grade industrial website for Morrischem that is:
 - Fully recoverable
 - Professionally documented
 - Optimized for long-term scalability
+
+## Milestone v1.4.0-plant-map-media-i18n (2026-08-08)
+- **Status:** COMPLETED & FROZEN
+- **Scope:**
+  1. Interactive Plant Map 4th process card added with BEM class parity and dynamic i18n keys.
+  2. Core Divisions WebP assets generated (200 	imes 900$) and integrated with fallback-safe resolution.
+  3. Locale dictionaries updated across 9 languages for `plant_map`, `divisions`, and `specialty_page`.
