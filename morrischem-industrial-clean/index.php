@@ -279,13 +279,15 @@
       $division_img_v1_rel = '/assets/images/divisions/molecular-sieves-adsorbents.webp';
       $division_img_v2_rel = '/assets/images/divisions/water-treatment-chemicals.webp';
       $division_img_v3_rel = '/assets/images/divisions/catalyst-process-tech.webp';
+      $division_img_v4_rel = '/assets/images/solutions/specialty-additives.webp';
 
       $industry_adsorption_image_exists = file_exists($template_dir . $division_img_v1_rel);
       $industry_water_treatment_image_exists = file_exists($template_dir . $division_img_v2_rel);
       $industry_catalysts_image_exists = file_exists($template_dir . $division_img_v3_rel);
+      $industry_specialty_image_exists = file_exists($template_dir . $division_img_v4_rel);
       ?>
       
-      <div class="grid-3 core-divisions-grid">
+      <div class="grid-4 core-divisions-grid">
         <?php if ($industry_adsorption_image_exists) : ?>
           <div class="card-surface">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
@@ -307,19 +309,21 @@
         <?php if ($industry_catalysts_image_exists) : ?>
           <div class="card-surface">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
-            <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalysts & Process Tech')); ?></h3>
+            <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalyst and Process Technology')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
             <a href="/catalysts-process-tech/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?></a>
           </div>
         <?php endif; ?>
         
-        <div class="card-surface">
+        <?php if ($industry_specialty_image_exists) : ?>
+          <div class="card-surface">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v4_label', 'common', '04 / SPECIALTY ADDITIVES')); ?></div>
             <h3><?php echo htmlspecialchars(__t('divisions.v4_title', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v4_body', 'common', 'High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.')); ?></p>
             <a href="/solutions-specialty-additives/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v4_link', 'common', 'Explore Specialty Solutions')); ?></a>
           </div>
-      </div>
+        <?php endif; ?>
+
     </div>
   </section>
 
