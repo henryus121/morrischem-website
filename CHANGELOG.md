@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## v1.4.0-plant-map-media-i18n
+
+### Added
+- Plant Map Card 04 on homepage with interaction-ready BEM/data attributes for unit mapping.
+- Three new Core Divisions media assets (1200x900 WebP):
+	- morrischem-industrial-clean/assets/images/divisions/molecular-sieves-adsorbents.webp
+	- morrischem-industrial-clean/assets/images/divisions/water-treatment-chemicals.webp
+	- morrischem-industrial-clean/assets/images/divisions/catalyst-process-tech.webp
+- New translation keys for Plant Map Unit 04, Core Divisions Card 04, and Specialty Additives page copy in all supported locale common dictionaries.
+
+### Changed
+- Homepage Plant Map layout updated to a responsive 4-card grid for desktop/tablet/mobile symmetry.
+- Homepage Core Divisions cards 01-03 now load media from assets/images/divisions via fallback-safe function_exists() + file_exists() path checks.
+- Specialty Additives page content migrated from hardcoded strings to i18n lookups through __t().
+
+### Verified
+- PHP syntax checks passed for homepage and specialty page templates.
+- Required WebP assets confirmed at 1200x900.
+- Multi-locale render smoke test passed for homepage Plant Map Card 04.
+
 ## v1.3.0-specialty-additives-page
 
 ### Added

@@ -10,8 +10,8 @@ Template Name: Specialty Additives Solutions Page
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Advanced specialty surfactant and polymer systems for industrial coatings, DTM adhesion, sustainable low-VOC formulation, and high-durability performance design.">
-  <title>Advanced Surfactant & Polymer Systems — Morrischem LLC</title>
+  <meta name="description" content="<?php echo htmlspecialchars(__t('specialty_page.meta_description', 'common', 'Advanced specialty surfactant and polymer systems for industrial coatings, DTM adhesion, sustainable low-VOC formulation, and high-durability performance design.')); ?>">
+  <title><?php echo htmlspecialchars(__t('specialty_page.meta_title', 'common', 'Advanced Surfactant and Polymer Systems — Morrischem LLC')); ?></title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -202,24 +202,24 @@ Template Name: Specialty Additives Solutions Page
 
   <header class="page-header">
     <div class="container">
-      <a href="/<?php echo $lang_query; ?>" class="back-link">&larr; Back to Main Flagship</a>
-      <div class="kicker">Specialty Solutions Vertical</div>
-      <h1 style="margin-bottom: 14px;">Advanced Surfactant &amp; Polymer Systems</h1>
-      <p style="max-width: 820px; font-size: 18px;">High-Performance Functional Monomers, Reactive Emulsifiers, and PFAS-Free Specialty Additives</p>
+      <a href="/<?php echo $lang_query; ?>" class="back-link">&larr; <?php echo htmlspecialchars(__t('specialty_page.back_link', 'common', 'Back to Main Flagship')); ?></a>
+      <div class="kicker"><?php echo htmlspecialchars(__t('specialty_page.kicker', 'common', 'Specialty Solutions Vertical')); ?></div>
+      <h1 style="margin-bottom: 14px;"><?php echo htmlspecialchars(__t('specialty_page.h1', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h1>
+      <p style="max-width: 820px; font-size: 18px;"><?php echo htmlspecialchars(__t('specialty_page.subtitle', 'common', 'High-Performance Functional Monomers, Reactive Emulsifiers, and PFAS-Free Specialty Additives')); ?></p>
     </div>
   </header>
 
   <section class="section-padding section-emphasis">
     <div class="container grid-2">
       <article class="spec-card">
-        <div class="kicker">Section A</div>
-        <h3>Specialty Functional Monomers</h3>
-        <p>Direct-to-Metal adhesion promoters engineered for C1-C4 corrosivity classes, wet-adhesion retention, and high-PVC scrub endurance where mechanical durability and anti-corrosion persistence must coexist.</p>
+        <div class="kicker"><?php echo htmlspecialchars(__t('specialty_page.section_a.kicker', 'common', 'Section A')); ?></div>
+        <h3><?php echo htmlspecialchars(__t('specialty_page.section_a.title', 'common', 'Specialty Functional Monomers')); ?></h3>
+        <p><?php echo htmlspecialchars(__t('specialty_page.section_a.body', 'common', 'Direct-to-Metal adhesion promoters engineered for C1-C4 corrosivity classes, wet-adhesion retention, and high-PVC scrub endurance where mechanical durability and anti-corrosion persistence must coexist.')); ?></p>
       </article>
       <article class="spec-card">
-        <div class="kicker">Section B</div>
-        <h3>Reactive &amp; Polymerizable Surfactants</h3>
-        <p>Zero-leaching emulsifier systems, including ether sulfate and phosphate ester chemistries, designed to covalently integrate into polymer backbones and reduce water whitening under severe humidity cycles.</p>
+        <div class="kicker"><?php echo htmlspecialchars(__t('specialty_page.section_b.kicker', 'common', 'Section B')); ?></div>
+        <h3><?php echo htmlspecialchars(__t('specialty_page.section_b.title', 'common', 'Reactive and Polymerizable Surfactants')); ?></h3>
+        <p><?php echo htmlspecialchars(__t('specialty_page.section_b.body', 'common', 'Zero-leaching emulsifier systems, including ether sulfate and phosphate ester chemistries, designed to covalently integrate into polymer backbones and reduce water whitening under severe humidity cycles.')); ?></p>
       </article>
     </div>
   </section>
@@ -227,56 +227,56 @@ Template Name: Specialty Additives Solutions Page
   <section class="section-padding">
     <div class="container grid-2">
       <article class="spec-card">
-        <div class="kicker">Section C</div>
-        <h3>Sustainable Green Solvents &amp; Coalescents</h3>
-        <p>Low-VOC, bio-based dibasic ester solvent systems and coalescing aids supporting replacement pathways for NMP and DMF while preserving film formation, workability, and process throughput.</p>
+        <div class="kicker"><?php echo htmlspecialchars(__t('specialty_page.section_c.kicker', 'common', 'Section C')); ?></div>
+        <h3><?php echo htmlspecialchars(__t('specialty_page.section_c.title', 'common', 'Sustainable Green Solvents and Coalescents')); ?></h3>
+        <p><?php echo htmlspecialchars(__t('specialty_page.section_c.body', 'common', 'Low-VOC, bio-based dibasic ester solvent systems and coalescing aids supporting replacement pathways for NMP and DMF while preserving film formation, workability, and process throughput.')); ?></p>
       </article>
       <article class="spec-card">
-        <div class="kicker">Section D</div>
-        <h3>Performance Additives &amp; Defoamers</h3>
-        <p>PFAS-free hot-block resistance additives, bio-based defoamer technologies, and open-time extenders calibrated for premium finish quality, anti-foam persistence, and robust line performance.</p>
+        <div class="kicker"><?php echo htmlspecialchars(__t('specialty_page.section_d.kicker', 'common', 'Section D')); ?></div>
+        <h3><?php echo htmlspecialchars(__t('specialty_page.section_d.title', 'common', 'Performance Additives and Defoamers')); ?></h3>
+        <p><?php echo htmlspecialchars(__t('specialty_page.section_d.body', 'common', 'PFAS-free hot-block resistance additives, bio-based defoamer technologies, and open-time extenders calibrated for premium finish quality, anti-foam persistence, and robust line performance.')); ?></p>
       </article>
     </div>
   </section>
 
   <section class="section-padding section-emphasis">
     <div class="container">
-      <div class="kicker">Section E</div>
-      <h2 style="margin-bottom: 20px;">Application Matrix</h2>
+      <div class="kicker"><?php echo htmlspecialchars(__t('specialty_page.section_e.kicker', 'common', 'Section E')); ?></div>
+      <h2 style="margin-bottom: 20px;"><?php echo htmlspecialchars(__t('specialty_page.section_e.title', 'common', 'Application Matrix')); ?></h2>
       <div class="application-table-wrap">
-        <table class="application-table" aria-label="Specialty Additives Application Matrix">
+        <table class="application-table" aria-label="<?php echo htmlspecialchars(__t('specialty_page.section_e.aria_label', 'common', 'Specialty Additives Application Matrix')); ?>">
           <thead>
             <tr>
-              <th>Application</th>
-              <th>Primary Chemistry Direction</th>
-              <th>Performance Target</th>
-              <th>Technical Notes</th>
+              <th><?php echo htmlspecialchars(__t('specialty_page.section_e.table_headers.application', 'common', 'Application')); ?></th>
+              <th><?php echo htmlspecialchars(__t('specialty_page.section_e.table_headers.chemistry', 'common', 'Primary Chemistry Direction')); ?></th>
+              <th><?php echo htmlspecialchars(__t('specialty_page.section_e.table_headers.target', 'common', 'Performance Target')); ?></th>
+              <th><?php echo htmlspecialchars(__t('specialty_page.section_e.table_headers.notes', 'common', 'Technical Notes')); ?></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Industrial Maintenance</td>
-              <td>DTM monomer + PFAS-free additive stack</td>
-              <td>Corrosion protection, adhesion retention</td>
-              <td>Designed for harsh cyclic humidity and contact environment.</td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.maintenance.application', 'common', 'Industrial Maintenance')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.maintenance.chemistry', 'common', 'DTM monomer + PFAS-free additive stack')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.maintenance.target', 'common', 'Corrosion protection, adhesion retention')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.maintenance.notes', 'common', 'Designed for harsh cyclic humidity and contact environment.')); ?></td>
             </tr>
             <tr>
-              <td>Pressure-Sensitive Adhesives (PSA)</td>
-              <td>Reactive surfactant system</td>
-              <td>Lower migration, stable tack profile</td>
-              <td>Backbone-bonding emulsifier strategy for durability.</td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.psa.application', 'common', 'Pressure-Sensitive Adhesives (PSA)')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.psa.chemistry', 'common', 'Reactive surfactant system')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.psa.target', 'common', 'Lower migration, stable tack profile')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.psa.notes', 'common', 'Backbone-bonding emulsifier strategy for durability.')); ?></td>
             </tr>
             <tr>
-              <td>Automotive DTM</td>
-              <td>Adhesion promoter + coalescent tuning</td>
-              <td>Wet adhesion and chip resistance</td>
-              <td>Supports high durability under thermal and chemical stress.</td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.automotive.application', 'common', 'Automotive DTM')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.automotive.chemistry', 'common', 'Adhesion promoter + coalescent tuning')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.automotive.target', 'common', 'Wet adhesion and chip resistance')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.automotive.notes', 'common', 'Supports high durability under thermal and chemical stress.')); ?></td>
             </tr>
             <tr>
-              <td>Architectural Coatings</td>
-              <td>Low-VOC green solvent + open-time extender</td>
-              <td>Application window and finish quality</td>
-              <td>Optimizes flow, leveling, and sustained coating integrity.</td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.architectural.application', 'common', 'Architectural Coatings')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.architectural.chemistry', 'common', 'Low-VOC green solvent + open-time extender')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.architectural.target', 'common', 'Application window and finish quality')); ?></td>
+              <td><?php echo htmlspecialchars(__t('specialty_page.section_e.rows.architectural.notes', 'common', 'Optimizes flow, leveling, and sustained coating integrity.')); ?></td>
             </tr>
           </tbody>
         </table>
@@ -286,23 +286,23 @@ Template Name: Specialty Additives Solutions Page
 
   <section class="section-padding" id="contact">
     <div class="container cta-block">
-      <div class="kicker">Technical Data Request</div>
-      <h2>Request TDS and Formulation Guidance</h2>
-      <p>Share your substrate type, binder family, corrosion class target, and VOC constraints for a focused technical recommendation and document package.</p>
+      <div class="kicker"><?php echo htmlspecialchars(__t('specialty_page.cta.kicker', 'common', 'Technical Data Request')); ?></div>
+      <h2><?php echo htmlspecialchars(__t('specialty_page.cta.title', 'common', 'Request TDS and Formulation Guidance')); ?></h2>
+      <p><?php echo htmlspecialchars(__t('specialty_page.cta.body', 'common', 'Share your substrate type, binder family, corrosion class target, and VOC constraints for a focused technical recommendation and document package.')); ?></p>
       <div class="cta-actions">
-        <a href="/contact/?subject=TDS%20Request" class="btn-primary">Request TDS</a>
-        <a href="/contact/?subject=Specialty%20Additives%20Consultation" class="btn-secondary">Consult a Specialist</a>
+        <a href="/contact/?subject=TDS%20Request" class="btn-primary"><?php echo htmlspecialchars(__t('specialty_page.cta.primary', 'common', 'Request TDS')); ?></a>
+        <a href="/contact/?subject=Specialty%20Additives%20Consultation" class="btn-secondary"><?php echo htmlspecialchars(__t('specialty_page.cta.secondary', 'common', 'Consult a Specialist')); ?></a>
       </div>
     </div>
   </section>
 
   <footer class="footer-wrapper">
     <div class="container">
-      <div style="font-family: var(--font-serif); font-size: 24px; color: var(--text-main);">MORRISCHEM LLC</div>
-      <p style="font-size: 14px; margin-top: 8px;">Engineering Industrial Performance.</p>
+      <div style="font-family: var(--font-serif); font-size: 24px; color: var(--text-main);"><?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?></div>
+      <p style="font-size: 14px; margin-top: 8px;"><?php echo htmlspecialchars(__t('footer.tagline', 'common', 'Engineering Industrial Performance.')); ?></p>
       <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(255,255,255,0.05); padding-top:24px; margin-top:40px; font-size:13px; color:var(--text-muted);">
-        <div>&copy; 2026 Morrischem LLC. All rights reserved.</div>
-        <div>Registered Office: Georgia. International Business Operations.</div>
+        <div>&copy; 2026 Morrischem LLC. <?php echo htmlspecialchars(__t('footer.rights', 'common', 'All rights reserved.')); ?></div>
+        <div><?php echo htmlspecialchars(__t('footer.office', 'common', 'Registered Office: Georgia. International Business Operations.')); ?></div>
       </div>
     </div>
   </footer>
