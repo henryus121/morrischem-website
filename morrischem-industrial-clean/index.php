@@ -288,41 +288,61 @@
       ?>
       
       <div class="grid-4 core-divisions-grid">
-        <?php if ($industry_adsorption_image_exists) : ?>
-          <div class="card-surface">
+        <div class="card-surface">
+          <div class="solutions-card-media<?php echo $industry_adsorption_image_exists ? '' : ' is-missing'; ?>">
+            <?php if ($industry_adsorption_image_exists) : ?>
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/molecular-sieves-adsorbents.webp" alt="" loading="lazy" decoding="async">
+            <?php endif; ?>
+          </div>
+          <div class="solutions-card-content">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
             <h3><?php echo htmlspecialchars(__t('divisions.v1_title', 'common', 'Molecular Sieves & Adsorbents')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v1_body', 'common', 'Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.')); ?></p>
             <a href="/molecular-sieves/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?></a>
           </div>
-        <?php endif; ?>
+        </div>
 
-        <?php if ($industry_water_treatment_image_exists) : ?>
-          <div class="card-surface">
+        <div class="card-surface">
+          <div class="solutions-card-media<?php echo $industry_water_treatment_image_exists ? '' : ' is-missing'; ?>">
+            <?php if ($industry_water_treatment_image_exists) : ?>
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/water-treatment-chemicals.webp" alt="" loading="lazy" decoding="async">
+            <?php endif; ?>
+          </div>
+          <div class="solutions-card-content">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v2_label', 'common', '02 / UTILITIES')); ?></div>
             <h3><?php echo htmlspecialchars(__t('divisions.v2_title', 'common', 'Water Treatment Chemicals')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v2_body', 'common', 'Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.')); ?></p>
             <a href="/water-treatment/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v2_link', 'common', 'Explore Water Treatment')); ?></a>
           </div>
-        <?php endif; ?>
+        </div>
 
-        <?php if ($industry_catalysts_image_exists) : ?>
-          <div class="card-surface">
+        <div class="card-surface">
+          <div class="solutions-card-media<?php echo $industry_catalysts_image_exists ? '' : ' is-missing'; ?>">
+            <?php if ($industry_catalysts_image_exists) : ?>
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/catalyst-process-tech.webp" alt="" loading="lazy" decoding="async">
+            <?php endif; ?>
+          </div>
+          <div class="solutions-card-content">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
             <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalyst and Process Technology')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
             <a href="/catalysts-process-tech/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?></a>
           </div>
-        <?php endif; ?>
+        </div>
         
-        <?php if ($industry_specialty_image_exists) : ?>
-          <div class="card-surface">
+        <div class="card-surface">
+          <div class="solutions-card-media<?php echo $industry_specialty_image_exists ? '' : ' is-missing'; ?>">
+            <?php if ($industry_specialty_image_exists) : ?>
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/solutions/specialty-additives.webp" alt="" loading="lazy" decoding="async">
+            <?php endif; ?>
+          </div>
+          <div class="solutions-card-content">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v4_label', 'common', '04 / SPECIALTY ADDITIVES')); ?></div>
             <h3><?php echo htmlspecialchars(__t('divisions.v4_title', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v4_body', 'common', 'High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.')); ?></p>
             <a href="/solutions-specialty-additives/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v4_link', 'common', 'Explore Specialty Solutions')); ?></a>
           </div>
-        <?php endif; ?>
+        </div>
 
     </div>
   </section>
