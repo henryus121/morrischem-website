@@ -254,7 +254,7 @@
         </div>
         <div class="card-surface plant-map__card plant-map__card--unit-03" data-map-node="unit-03" data-map-target="hydrotreating-reactor" data-map-title-key="plant_map.unit3_title">
           <div class="plant-map__unit-label" style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit3_label', 'common', 'Unit: Hydrotreating Reactor')); ?></div>
-          <h3 class="plant-map__unit-title"><?php echo htmlspecialchars(__t('plant_map.unit3_title', 'common', 'Catalysts & Guard Beds')); ?></h3>
+          <h3 class="plant-map__unit-title"><?php echo htmlspecialchars(__t('plant_map.unit3_title', 'common', 'Catalysts and Guard Beds')); ?></h3>
           <p class="plant-map__unit-description" style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit3_body', 'common', 'High-activity catalyst media and contaminant traps designed for maximum cycle length.')); ?></p>
         </div>
         <div class="card-surface plant-map__card plant-map__card--unit-04" data-map-node="unit-04" data-map-target="specialty-additives-system" data-map-title-key="plant_map.unit4_title">
