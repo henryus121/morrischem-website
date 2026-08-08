@@ -296,7 +296,7 @@
           </div>
           <div class="solutions-card-content">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
-            <h3><?php echo htmlspecialchars(__t('divisions.v1_title', 'common', 'Molecular Sieves & Adsorbents')); ?></h3>
+            <h3><?php echo htmlspecialchars(__t('divisions.v1_title', 'common', 'Molecular Sieves and Adsorbents')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v1_body', 'common', 'Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.')); ?></p>
             <a href="/molecular-sieves/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?></a>
           </div>
@@ -324,7 +324,7 @@
           </div>
           <div class="solutions-card-content">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
-            <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalyst and Process Technology')); ?></h3>
+            <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalysts and Process Tech')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
             <a href="/catalysts-process-tech/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?></a>
           </div>
