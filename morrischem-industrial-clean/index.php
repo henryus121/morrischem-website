@@ -244,7 +244,7 @@
       <div class="grid-3 plant-map__grid" data-map-group="unit-cards">
         <div class="card-surface plant-map__card plant-map__card--unit-01" data-map-node="unit-01" data-map-target="gas-dehydration-train" data-map-title-key="plant_map.unit1_title">
           <div class="plant-map__unit-label" style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit1_label', 'common', 'Unit: Gas Dehydration Train')); ?></div>
-          <h3 class="plant-map__unit-title"><?php echo htmlspecialchars(__t('plant_map.unit1_title', 'common', 'Molecular Sieves')); ?></h3>
+          <h3 class="plant-map__unit-title"><?php echo htmlspecialchars(__t('plant_map.unit1_title', 'common', 'Molecular Sieves and Adsorbents')); ?></h3>
           <p class="plant-map__unit-description" style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit1_body', 'common', 'Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.')); ?></p>
         </div>
         <div class="card-surface plant-map__card plant-map__card--unit-02" data-map-node="unit-02" data-map-target="cooling-tower-loop" data-map-title-key="plant_map.unit2_title">
