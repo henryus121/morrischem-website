@@ -220,10 +220,15 @@
           <h3><?php echo htmlspecialchars(__t('plant_map.unit2_title', 'common', 'Water Treatment Chemicals')); ?></h3>
           <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit2_body', 'common', 'Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.')); ?></p>
         </div>
-        <div class="card-surface">
+        <div class="card-surface plant-map__card" data-plant-unit="3">
           <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit3_label', 'common', 'Unit: Hydrotreating Reactor')); ?></div>
           <h3><?php echo htmlspecialchars(__t('plant_map.unit3_title', 'common', 'Catalysts & Guard Beds')); ?></h3>
           <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit3_body', 'common', 'High-activity catalyst media and contaminant traps designed for maximum cycle length.')); ?></p>
+        </div>
+        <div class="card-surface plant-map__card" data-plant-unit="4">
+          <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit4_label', 'common', 'Unit: Performance Coatings Train')); ?></div>
+          <h3><?php echo htmlspecialchars(__t('plant_map.unit4_title', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h3>
+          <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit4_body', 'common', 'Reactive surfactant and polymer additive chemistries for enhanced adhesion, wet durability, and long-cycle coating protection.')); ?></p>
         </div>
       </div>
     </div>
@@ -236,9 +241,9 @@
       <h2 class="section-title"><?php echo htmlspecialchars(__t('divisions.title', 'common', 'Industrial Capabilities')); ?></h2>
 
       <?php
-      $industry_adsorption_image_exists = file_exists(__DIR__ . '/includes/industry-cards/industry-adsorption.webp');
-      $industry_water_treatment_image_exists = file_exists(__DIR__ . '/includes/industry-cards/industry-water-treatment.webp');
-      $industry_catalysts_image_exists = file_exists(__DIR__ . '/includes/industry-cards/industry-catalysts-process-tech.webp');
+      $industry_adsorption_image_exists = file_exists(__DIR__ . '/assets/images/divisions/molecular-sieves-adsorbents.webp');
+      $industry_water_treatment_image_exists = file_exists(__DIR__ . '/assets/images/divisions/water-treatment-chemicals.webp');
+      $industry_catalysts_image_exists = file_exists(__DIR__ . '/assets/images/divisions/catalyst-process-tech.webp');
       ?>
       
       <div class="grid-3" style="margin-top: 48px;">
@@ -246,7 +251,7 @@
         <div class="card-surface">
           <div class="solutions-card-media<?php echo $industry_adsorption_image_exists ? '' : ' is-missing'; ?>">
             <?php if ($industry_adsorption_image_exists) : ?>
-              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/includes/industry-cards/industry-adsorption.webp" alt="" loading="lazy" decoding="async">
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/molecular-sieves-adsorbents.webp" alt="" loading="lazy" decoding="async">
             <?php endif; ?>
           </div>
           <div class="solutions-card-content">
@@ -260,7 +265,7 @@
         <div class="card-surface">
           <div class="solutions-card-media<?php echo $industry_water_treatment_image_exists ? '' : ' is-missing'; ?>">
             <?php if ($industry_water_treatment_image_exists) : ?>
-              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/includes/industry-cards/industry-water-treatment.webp" alt="" loading="lazy" decoding="async">
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/water-treatment-chemicals.webp" alt="" loading="lazy" decoding="async">
             <?php endif; ?>
           </div>
           <div class="solutions-card-content">
@@ -274,7 +279,7 @@
         <div class="card-surface">
           <div class="solutions-card-media<?php echo $industry_catalysts_image_exists ? '' : ' is-missing'; ?>">
             <?php if ($industry_catalysts_image_exists) : ?>
-              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/includes/industry-cards/industry-catalysts-process-tech.webp" alt="" loading="lazy" decoding="async">
+              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/catalyst-process-tech.webp" alt="" loading="lazy" decoding="async">
             <?php endif; ?>
           </div>
           <div class="solutions-card-content">
@@ -299,10 +304,10 @@
             <?php endif; ?>
           </div>
           <div class="solutions-card-content">
-            <div class="solutions-card-label">04 / SPECIALTY ADDITIVES</div>
-            <h3 class="solutions-card-title">Advanced Surfactant &amp; Polymer Systems</h3>
-            <p class="solutions-card-description">High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.</p>
-            <a href="/solutions-specialty-additives.php" class="solutions-card-link">Explore Specialty Solutions &rarr;</a>
+            <div class="solutions-card-label"><?php echo htmlspecialchars(__t('divisions.v4_label', 'common', '04 / SPECIALTY ADDITIVES')); ?></div>
+            <h3 class="solutions-card-title"><?php echo htmlspecialchars(__t('divisions.v4_title', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h3>
+            <p class="solutions-card-description"><?php echo htmlspecialchars(__t('divisions.v4_body', 'common', 'High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.')); ?></p>
+            <a href="/solutions-specialty-additives.php" class="solutions-card-link"><?php echo htmlspecialchars(__t('divisions.v4_link', 'common', 'Explore Specialty Solutions')); ?> &rarr;</a>
           </div>
         </div>
       </div>

@@ -44,7 +44,10 @@
     "unit2_body": "Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.",
     "unit3_label": "Unit: Hydrotreating Reactor",
     "unit3_title": "Catalysts & Guard Beds",
-    "unit3_body": "High-activity catalyst media and contaminant traps designed for maximum cycle length."
+    "unit3_body": "High-activity catalyst media and contaminant traps designed for maximum cycle length.",
+    "unit4_label": "Unit: Performance Coatings Train",
+    "unit4_title": "Advanced Surfactant and Polymer Systems",
+    "unit4_body": "Reactive surfactant and polymer additive chemistries for enhanced adhesion, wet durability, and long-cycle coating protection."
   },
   "divisions": {
     "kicker": "Core Divisions",
@@ -60,7 +63,11 @@
     "v3_label": "03 / REACTION",
     "v3_title": "Catalysts & Process Tech",
     "v3_body": "Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.",
-    "v3_link": "Explore Catalysts"
+    "v3_link": "Explore Catalysts",
+    "v4_label": "04 / SPECIALTY ADDITIVES",
+    "v4_title": "Advanced Surfactant and Polymer Systems",
+    "v4_body": "High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.",
+    "v4_link": "Explore Specialty Solutions"
   },
   "contact_cta": {
     "kicker": "Engineering Solutions Without Borders",
@@ -124,5 +131,13 @@
     "catalyst_support_specifications": "Catalyst & Support Media Specifications",
     "target_applications": "Target Applications",
     "technical_consultation": "Technical Consultation"
+  },
+  "specialty_page": {
+    "meta_description": "Advanced specialty surfactant and polymer systems for industrial coatings, DTM adhesion, sustainable low-VOC formulation, and high-durability performance design.",
+    "meta_title": "Advanced Surfactant and Polymer Systems — Morrischem LLC",
+    "back_link": "Back to Main Flagship",
+    "kicker": "Specialty Solutions Vertical",
+    "h1": "Advanced Surfactant and Polymer Systems",
+    "subtitle": "High-Performance Functional Monomers, Reactive Emulsifiers, and PFAS-Free Specialty Additives"
   }
 }

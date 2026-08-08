@@ -1,3 +1,9 @@
+## [1.4.0] - 2026-08-08
+### Added
+- **Interactive Plant Map Expansion:** Integrated 4th process card (`04 / Advanced Surfactant and Polymer Systems`) with full BEM parity and dynamic translation keys.
+- **Core Divisions Asset Integration:** Added three enterprise-grade 200 	imes 900$ WebP division photographs (`molecular-sieves-adsorbents.webp`, `water-treatment-chemicals.webp`, `catalyst-process-tech.webp`) with fallback-safe loading paths.
+- **i18n Key Architecture:** Registered structured JSON translation trees for `plant_map`, `divisions`, and `specialty_page` across all 9 supported locales.
+
 # CHANGELOG
 
 ## v1.3.0-specialty-additives-page

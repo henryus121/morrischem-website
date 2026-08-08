@@ -149,6 +149,18 @@
     "unit3_body": {
       "val": "Medios catalíticos de alta actividad y trampas de contaminantes diseñados para maximizar la duración del ciclo.",
       "reviewed": true
+    },
+    "unit4_label": {
+      "val": "Unit: Performance Coatings Train",
+      "reviewed": true
+    },
+    "unit4_title": {
+      "val": "Advanced Surfactant and Polymer Systems",
+      "reviewed": true
+    },
+    "unit4_body": {
+      "val": "Reactive surfactant and polymer additive chemistries for enhanced adhesion, wet durability, and long-cycle coating protection.",
+      "reviewed": true
     }
   },
   "divisions": {
@@ -206,6 +218,22 @@
     },
     "v3_link": {
       "val": "Explorar Catalizadores",
+      "reviewed": true
+    },
+    "v4_label": {
+      "val": "04 / SPECIALTY ADDITIVES",
+      "reviewed": true
+    },
+    "v4_title": {
+      "val": "Advanced Surfactant and Polymer Systems",
+      "reviewed": true
+    },
+    "v4_body": {
+      "val": "High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.",
+      "reviewed": true
+    },
+    "v4_link": {
+      "val": "Explore Specialty Solutions",
       "reviewed": true
     }
   },
@@ -422,6 +450,32 @@
     },
     "target_applications": {
       "val": "Aplicaciones Objetivo",
+      "reviewed": true
+    }
+  },
+  "specialty_page": {
+    "meta_description": {
+      "val": "Advanced specialty surfactant and polymer systems for industrial coatings, DTM adhesion, sustainable low-VOC formulation, and high-durability performance design.",
+      "reviewed": true
+    },
+    "meta_title": {
+      "val": "Advanced Surfactant and Polymer Systems — Morrischem LLC",
+      "reviewed": true
+    },
+    "back_link": {
+      "val": "Back to Main Flagship",
+      "reviewed": true
+    },
+    "kicker": {
+      "val": "Specialty Solutions Vertical",
+      "reviewed": true
+    },
+    "h1": {
+      "val": "Advanced Surfactant and Polymer Systems",
+      "reviewed": true
+    },
+    "subtitle": {
+      "val": "High-Performance Functional Monomers, Reactive Emulsifiers, and PFAS-Free Specialty Additives",
       "reviewed": true
     }
   }
