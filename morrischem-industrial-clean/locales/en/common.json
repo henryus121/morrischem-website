@@ -138,6 +138,70 @@
     "back_link": "Back to Main Flagship",
     "kicker": "Specialty Solutions Vertical",
     "h1": "Advanced Surfactant and Polymer Systems",
-    "subtitle": "High-Performance Functional Monomers, Reactive Emulsifiers, and PFAS-Free Specialty Additives"
+    "subtitle": "High-Performance Functional Monomers, Reactive Emulsifiers, and PFAS-Free Specialty Additives",
+    "section_a": {
+      "kicker": "Section A",
+      "title": "Specialty Functional Monomers",
+      "body": "Direct-to-Metal adhesion promoters engineered for C1-C4 corrosivity classes, wet-adhesion retention, and high-PVC scrub endurance where mechanical durability and anti-corrosion persistence must coexist."
+    },
+    "section_b": {
+      "kicker": "Section B",
+      "title": "Reactive and Polymerizable Surfactants",
+      "body": "Zero-leaching emulsifier systems, including ether sulfate and phosphate ester chemistries, designed to covalently integrate into polymer backbones and reduce water whitening under severe humidity cycles."
+    },
+    "section_c": {
+      "kicker": "Section C",
+      "title": "Sustainable Green Solvents and Coalescents",
+      "body": "Low-VOC, bio-based dibasic ester solvent systems and coalescing aids supporting replacement pathways for NMP and DMF while preserving film formation, workability, and process throughput."
+    },
+    "section_d": {
+      "kicker": "Section D",
+      "title": "Performance Additives and Defoamers",
+      "body": "PFAS-free hot-block resistance additives, bio-based defoamer technologies, and open-time extenders calibrated for premium finish quality, anti-foam persistence, and robust line performance."
+    },
+    "section_e": {
+      "kicker": "Section E",
+      "title": "Application Matrix",
+      "aria_label": "Specialty Additives Application Matrix",
+      "table_headers": {
+        "application": "Application",
+        "chemistry": "Primary Chemistry Direction",
+        "target": "Performance Target",
+        "notes": "Technical Notes"
+      },
+      "rows": {
+        "maintenance": {
+          "application": "Industrial Maintenance",
+          "chemistry": "DTM monomer + PFAS-free additive stack",
+          "target": "Corrosion protection, adhesion retention",
+          "notes": "Designed for harsh cyclic humidity and contact environment."
+        },
+        "psa": {
+          "application": "Pressure-Sensitive Adhesives (PSA)",
+          "chemistry": "Reactive surfactant system",
+          "target": "Lower migration, stable tack profile",
+          "notes": "Backbone-bonding emulsifier strategy for durability."
+        },
+        "automotive": {
+          "application": "Automotive DTM",
+          "chemistry": "Adhesion promoter + coalescent tuning",
+          "target": "Wet adhesion and chip resistance",
+          "notes": "Supports high durability under thermal and chemical stress."
+        },
+        "architectural": {
+          "application": "Architectural Coatings",
+          "chemistry": "Low-VOC green solvent + open-time extender",
+          "target": "Application window and finish quality",
+          "notes": "Optimizes flow, leveling, and sustained coating integrity."
+        }
+      }
+    },
+    "cta": {
+      "kicker": "Technical Data Request",
+      "title": "Request TDS and Formulation Guidance",
+      "body": "Share your substrate type, binder family, corrosion class target, and VOC constraints for a focused technical recommendation and document package.",
+      "primary": "Request TDS",
+      "secondary": "Consult a Specialist"
+    }
   }
 }

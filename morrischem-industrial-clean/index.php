@@ -102,6 +102,38 @@
       gap: 24px;
     }
 
+    #plant-map .plant-map__grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    #plant-map .plant-map__card {
+      height: 100%;
+    }
+
+    #solutions .core-divisions-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    @media screen and (max-width: 1199px) {
+      #plant-map .plant-map__grid,
+      #solutions .core-divisions-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #plant-map .plant-map__grid,
+      #solutions .core-divisions-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
     .section-kicker {
       font-size: 12px;
       font-weight: 600;
@@ -203,32 +235,32 @@
   </section>
 
   <!-- Act III: Interactive Plant Map -->
-  <section class="section-padding">
+  <section class="section-padding" id="plant-map" data-controller="plant-map" data-map-scope="process-units">
     <div class="container">
       <div class="section-kicker"><?php echo htmlspecialchars(__t('plant_map.kicker', 'common', 'Interactive Plant Map')); ?></div>
       <h2 class="section-title"><?php echo htmlspecialchars(__t('plant_map.title', 'common', 'Inside an Industrial Process')); ?></h2>
       <p style="max-width: 600px; margin-bottom: 48px;"><?php echo htmlspecialchars(__t('plant_map.body', 'common', 'Explore how specialized chemistries and adsorbent media integrate across critical operating units.')); ?></p>
       
-      <div class="grid-3">
-        <div class="card-surface">
-          <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit1_label', 'common', 'Unit: Gas Dehydration Train')); ?></div>
-          <h3><?php echo htmlspecialchars(__t('plant_map.unit1_title', 'common', 'Molecular Sieves')); ?></h3>
-          <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit1_body', 'common', 'Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.')); ?></p>
+      <div class="grid-3 plant-map__grid" data-map-group="unit-cards">
+        <div class="card-surface plant-map__card plant-map__card--unit-01" data-map-node="unit-01" data-map-target="gas-dehydration-train" data-map-title-key="plant_map.unit1_title">
+          <div class="plant-map__unit-label" style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit1_label', 'common', 'Unit: Gas Dehydration Train')); ?></div>
+          <h3 class="plant-map__unit-title"><?php echo htmlspecialchars(__t('plant_map.unit1_title', 'common', 'Molecular Sieves')); ?></h3>
+          <p class="plant-map__unit-description" style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit1_body', 'common', 'Deep moisture removal down to < 0.1 ppmv to prevent hydrate formation in cryogenic exchangers.')); ?></p>
         </div>
-        <div class="card-surface">
-          <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit2_label', 'common', 'Unit: Cooling Tower Loop')); ?></div>
-          <h3><?php echo htmlspecialchars(__t('plant_map.unit2_title', 'common', 'Water Treatment Chemicals')); ?></h3>
-          <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit2_body', 'common', 'Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.')); ?></p>
+        <div class="card-surface plant-map__card plant-map__card--unit-02" data-map-node="unit-02" data-map-target="cooling-tower-loop" data-map-title-key="plant_map.unit2_title">
+          <div class="plant-map__unit-label" style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit2_label', 'common', 'Unit: Cooling Tower Loop')); ?></div>
+          <h3 class="plant-map__unit-title"><?php echo htmlspecialchars(__t('plant_map.unit2_title', 'common', 'Water Treatment Chemicals')); ?></h3>
+          <p class="plant-map__unit-description" style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit2_body', 'common', 'Advanced scale, corrosion, and biological control formulations to maintain optimal heat transfer efficiency.')); ?></p>
         </div>
-        <div class="card-surface plant-map__card" data-plant-unit="3">
-          <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit3_label', 'common', 'Unit: Hydrotreating Reactor')); ?></div>
-          <h3><?php echo htmlspecialchars(__t('plant_map.unit3_title', 'common', 'Catalysts & Guard Beds')); ?></h3>
-          <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit3_body', 'common', 'High-activity catalyst media and contaminant traps designed for maximum cycle length.')); ?></p>
+        <div class="card-surface plant-map__card plant-map__card--unit-03" data-map-node="unit-03" data-map-target="hydrotreating-reactor" data-map-title-key="plant_map.unit3_title">
+          <div class="plant-map__unit-label" style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit3_label', 'common', 'Unit: Hydrotreating Reactor')); ?></div>
+          <h3 class="plant-map__unit-title"><?php echo htmlspecialchars(__t('plant_map.unit3_title', 'common', 'Catalysts & Guard Beds')); ?></h3>
+          <p class="plant-map__unit-description" style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit3_body', 'common', 'High-activity catalyst media and contaminant traps designed for maximum cycle length.')); ?></p>
         </div>
-        <div class="card-surface plant-map__card" data-plant-unit="4">
-          <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit4_label', 'common', 'Unit: Performance Coatings Train')); ?></div>
-          <h3><?php echo htmlspecialchars(__t('plant_map.unit4_title', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h3>
-          <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit4_body', 'common', 'Reactive surfactant and polymer additive chemistries for enhanced adhesion, wet durability, and long-cycle coating protection.')); ?></p>
+        <div class="card-surface plant-map__card plant-map__card--unit-04" data-map-node="unit-04" data-map-target="specialty-additives-system" data-map-title-key="plant_map.unit4_title">
+          <div class="plant-map__unit-label" style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('plant_map.unit4_label', 'common', 'Unit: Performance Coatings Train')); ?></div>
+          <h3 class="plant-map__unit-title"><?php echo htmlspecialchars(__t('plant_map.unit4_title', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h3>
+          <p class="plant-map__unit-description" style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('plant_map.unit4_body', 'common', 'Reactive surfactant and polymer additive chemistries for enhanced adhesion, wet durability, and long-cycle coating protection.')); ?></p>
         </div>
       </div>
     </div>
@@ -241,99 +273,63 @@
       <h2 class="section-title"><?php echo htmlspecialchars(__t('divisions.title', 'common', 'Industrial Capabilities')); ?></h2>
 
       <?php
-      $industry_adsorption_image_exists = file_exists(__DIR__ . '/assets/images/divisions/molecular-sieves-adsorbents.webp');
-      $industry_water_treatment_image_exists = file_exists(__DIR__ . '/assets/images/divisions/water-treatment-chemicals.webp');
-      $industry_catalysts_image_exists = file_exists(__DIR__ . '/assets/images/divisions/catalyst-process-tech.webp');
+      $template_dir = function_exists('get_template_directory') ? get_template_directory() : __DIR__;
+      $template_uri = function_exists('get_template_directory_uri') ? get_template_directory_uri() : '';
+
+      $division_img_v1_rel = '/assets/images/divisions/molecular-sieves-adsorbents.webp';
+      $division_img_v2_rel = '/assets/images/divisions/water-treatment-chemicals.webp';
+      $division_img_v3_rel = '/assets/images/divisions/catalyst-process-tech.webp';
+
+      $industry_adsorption_image_exists = file_exists($template_dir . $division_img_v1_rel);
+      $industry_water_treatment_image_exists = file_exists($template_dir . $division_img_v2_rel);
+      $industry_catalysts_image_exists = file_exists($template_dir . $division_img_v3_rel);
       ?>
       
-      <div class="grid-3" style="margin-top: 48px;">
-        <!-- Vertical 01 -->
-        <div class="card-surface">
-          <div class="solutions-card-media<?php echo $industry_adsorption_image_exists ? '' : ' is-missing'; ?>">
-            <?php if ($industry_adsorption_image_exists) : ?>
-              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/molecular-sieves-adsorbents.webp" alt="" loading="lazy" decoding="async">
-            <?php endif; ?>
-          </div>
-          <div class="solutions-card-content">
-            <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
+      <div class="grid-3 core-divisions-grid">
+        <?php if ($industry_adsorption_image_exists) : ?>
+          <div class="card-surface">
+            <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v1_label', 'common', '01 / ADSORPTION')); ?></div>
             <h3><?php echo htmlspecialchars(__t('divisions.v1_title', 'common', 'Molecular Sieves & Adsorbents')); ?></h3>
-            <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v1_body', 'common', 'Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.')); ?></p>
-            <a href="/molecular-sieves/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?> &rarr;</a>
+            <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v1_body', 'common', 'Synthetic zeolites and activated aluminas for gas dehydration, LNG processing, and purification.')); ?></p>
+            <a href="/molecular-sieves/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v1_link', 'common', 'Explore Adsorbents')); ?></a>
           </div>
-        </div>
-        <!-- Vertical 02 -->
-        <div class="card-surface">
-          <div class="solutions-card-media<?php echo $industry_water_treatment_image_exists ? '' : ' is-missing'; ?>">
-            <?php if ($industry_water_treatment_image_exists) : ?>
-              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/water-treatment-chemicals.webp" alt="" loading="lazy" decoding="async">
-            <?php endif; ?>
-          </div>
-          <div class="solutions-card-content">
-            <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v2_label', 'common', '02 / UTILITIES')); ?></div>
+        <?php endif; ?>
+
+        <?php if ($industry_water_treatment_image_exists) : ?>
+          <div class="card-surface">
+            <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v2_label', 'common', '02 / UTILITIES')); ?></div>
             <h3><?php echo htmlspecialchars(__t('divisions.v2_title', 'common', 'Water Treatment Chemicals')); ?></h3>
-            <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v2_body', 'common', 'Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.')); ?></p>
-            <a href="/water-treatment/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v2_link', 'common', 'Explore Water Treatment')); ?> &rarr;</a>
+            <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v2_body', 'common', 'Scale inhibitors, corrosion control, biocides, and membrane chemistries for industrial cooling.')); ?></p>
+            <a href="/water-treatment/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v2_link', 'common', 'Explore Water Treatment')); ?></a>
           </div>
-        </div>
-        <!-- Vertical 03 -->
-        <div class="card-surface">
-          <div class="solutions-card-media<?php echo $industry_catalysts_image_exists ? '' : ' is-missing'; ?>">
-            <?php if ($industry_catalysts_image_exists) : ?>
-              <img class="solutions-card-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/divisions/catalyst-process-tech.webp" alt="" loading="lazy" decoding="async">
-            <?php endif; ?>
-          </div>
-          <div class="solutions-card-content">
-            <div style="color: var(--accent-cyan); font-size: 12px; font-weight: 600; margin-bottom: 16px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
+        <?php endif; ?>
+
+        <?php if ($industry_catalysts_image_exists) : ?>
+          <div class="card-surface">
+            <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
             <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalysts & Process Tech')); ?></h3>
-            <p style="font-size: 14px; margin: 12px 0 24px 0;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
-            <a href="/catalysts-process-tech/" style="color: var(--accent-cyan); font-size: 12px; text-decoration: none; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?> &rarr;</a>
+            <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
+            <a href="/catalysts-process-tech/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?></a>
           </div>
-        </div>
-
-        <!-- Vertical 04: Specialty Additives -->
-        <div class="card-surface solutions-card">
-          <?php 
-            $img_relative_path = '/assets/images/solutions/specialty-additives.webp';
-            $img_fs_path = (function_exists('get_template_directory') ? get_template_directory() : __DIR__) . $img_relative_path;
-            $img_url = (function_exists('get_template_directory_uri') ? get_template_directory_uri() : '') . $img_relative_path;
-            $has_image = file_exists($img_fs_path);
-          ?>
-          <div class="solutions-card-media<?php echo $has_image ? '' : ' is-missing'; ?>">
-            <?php if ($has_image) : ?>
-              <img class="solutions-card-image" src="<?php echo $img_url; ?>" alt="Advanced Surfactant &amp; Polymer Systems" loading="lazy" decoding="async">
-            <?php endif; ?>
+        <?php endif; ?>
+        
+        <div class="card-surface">
+            <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v4_label', 'common', '04 / SPECIALTY ADDITIVES')); ?></div>
+            <h3><?php echo htmlspecialchars(__t('divisions.v4_title', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h3>
+            <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v4_body', 'common', 'High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.')); ?></p>
+            <a href="/solutions-specialty-additives/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v4_link', 'common', 'Explore Specialty Solutions')); ?></a>
           </div>
-          <div class="solutions-card-content">
-            <div class="solutions-card-label"><?php echo htmlspecialchars(__t('divisions.v4_label', 'common', '04 / SPECIALTY ADDITIVES')); ?></div>
-            <h3 class="solutions-card-title"><?php echo htmlspecialchars(__t('divisions.v4_title', 'common', 'Advanced Surfactant and Polymer Systems')); ?></h3>
-            <p class="solutions-card-description"><?php echo htmlspecialchars(__t('divisions.v4_body', 'common', 'High-performance functional monomers, reactive emulsifiers, and PFAS-free additives engineered for direct-to-metal protection, enhanced film adhesion, and extreme-durability industrial coatings.')); ?></p>
-            <a href="/solutions-specialty-additives.php" class="solutions-card-link"><?php echo htmlspecialchars(__t('divisions.v4_link', 'common', 'Explore Specialty Solutions')); ?> &rarr;</a>
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Act VII: Conversion Gateway & Footer -->
-  <section class="section-padding" id="contact" style="text-align: center;">
-    <div class="container" style="max-width: 800px;">
-      <div class="section-kicker"><?php echo htmlspecialchars(__t('contact_cta.kicker', 'common', 'Engineering Solutions Without Borders')); ?></div>
-      <h2 class="section-title"><?php echo htmlspecialchars(__t('contact_cta.title', 'common', 'Reliable Technologies. Trusted Partnerships. Lasting Performance.')); ?></h2>
-      <p style="margin-bottom: 40px;"><?php echo htmlspecialchars(__t('contact_cta.body', 'common', 'Let\'s discuss your specific process challenges and technical requirements.')); ?></p>
-      <a href="/contact/?subject=Inquiry" class="btn-primary"><?php echo htmlspecialchars(__t('contact_cta.cta', 'common', 'Start the Conversation')); ?></a>
     </div>
   </section>
 
   <footer class="footer-wrapper">
     <div class="container">
-      <div style="font-family: var(--font-serif); font-size: 24px; color: var(--text-main);"><?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?></div>
-      <p style="font-size: 14px; margin-top: 8px;"><?php echo htmlspecialchars(__t('footer.tagline', 'common', 'Engineering Industrial Performance.')); ?></p>
       <div class="footer-flex">
-        <div>&copy; 2026 Morrischem LLC. <?php echo htmlspecialchars(__t('footer.rights', 'common', 'All rights reserved.')); ?></div>
-        <div><?php echo htmlspecialchars(__t('footer.office', 'common', 'Registered Office: Georgia. International Business Operations.')); ?></div>
+        <div><?php echo htmlspecialchars(__t('footer.name', 'common', 'MORRISCHEM LLC')); ?></div>
+        <div><?php echo htmlspecialchars(__t('footer.rights', 'common', 'All rights reserved.')); ?></div>
       </div>
     </div>
   </footer>
-
 </body>
 </html>
