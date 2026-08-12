@@ -173,12 +173,20 @@ Template Name: Specialty Additives Solutions Page
       <article class="spec-card">
         <div class="kicker">Section A</div>
         <h3>Specialty Functional Monomers</h3>
-        <p>Direct-to-Metal adhesion promoters engineered for C1-C4 corrosivity classes, wet-adhesion retention, and high-PVC scrub endurance where mechanical durability and anti-corrosion persistence must coexist.</p>
+        <p style="color: var(--text-muted) !important;">Direct-to-Metal adhesion promoters engineered for C1-C4 corrosivity classes, wet-adhesion retention, and high-PVC scrub endurance where mechanical durability and anti-corrosion persistence must coexist.</p>
+        <div style="margin-top: 20px; display: flex; gap: 10px;">
+          <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="font-size: 11px; padding: 8px 12px; text-decoration: none;">Request TDS</a>
+          <a href="/contact/?subject=SDS-Request" class="btn-secondary" style="font-size: 11px; padding: 8px 12px; text-decoration: none;">Request SDS</a>
+        </div>
       </article>
       <article class="spec-card">
         <div class="kicker">Section B</div>
         <h3>Reactive and Polymerizable Surfactants</h3>
-        <p>Zero-leaching emulsifier systems, including ether sulfate and phosphate ester chemistries, designed to covalently integrate into polymer backbones and reduce water whitening under severe humidity cycles.</p>
+        <p style="color: var(--text-muted) !important;">Zero-leaching emulsifier systems, including ether sulfate and phosphate ester chemistries, designed to covalently integrate into polymer backbones and reduce water whitening under severe humidity cycles.</p>
+        <div style="margin-top: 20px; display: flex; gap: 10px;">
+          <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="font-size: 11px; padding: 8px 12px; text-decoration: none;">Request TDS</a>
+          <a href="/contact/?subject=SDS-Request" class="btn-secondary" style="font-size: 11px; padding: 8px 12px; text-decoration: none;">Request SDS</a>
+        </div>
       </article>
     </div>
   </section>
@@ -188,12 +196,20 @@ Template Name: Specialty Additives Solutions Page
       <article class="spec-card">
         <div class="kicker">Section C</div>
         <h3>Sustainable Green Solvents and Coalescents</h3>
-        <p>Low-VOC, bio-based dibasic ester solvent systems and coalescing aids supporting replacement pathways for NMP and DMF while preserving film formation, workability, and process throughput.</p>
+        <p style="color: var(--text-muted) !important;">Low-VOC, bio-based dibasic ester solvent systems and coalescing aids supporting replacement pathways for NMP and DMF while preserving film formation, workability, and process throughput.</p>
+        <div style="margin-top: 20px; display: flex; gap: 10px;">
+          <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="font-size: 11px; padding: 8px 12px; text-decoration: none;">Request TDS</a>
+          <a href="/contact/?subject=SDS-Request" class="btn-secondary" style="font-size: 11px; padding: 8px 12px; text-decoration: none;">Request SDS</a>
+        </div>
       </article>
       <article class="spec-card">
         <div class="kicker">Section D</div>
         <h3>Performance Additives and Defoamers</h3>
-        <p>PFAS-free hot-block resistance additives, bio-based defoamer technologies, and open-time extenders calibrated for premium finish quality, anti-foam persistence, and robust line performance.</p>
+        <p style="color: var(--text-muted) !important;">PFAS-free hot-block resistance additives, bio-based defoamer technologies, and open-time extenders calibrated for premium finish quality, anti-foam persistence, and robust line performance.</p>
+        <div style="margin-top: 20px; display: flex; gap: 10px;">
+          <a href="/contact/?subject=TDS-Request" class="btn-secondary" style="font-size: 11px; padding: 8px 12px; text-decoration: none;">Request TDS</a>
+          <a href="/contact/?subject=SDS-Request" class="btn-secondary" style="font-size: 11px; padding: 8px 12px; text-decoration: none;">Request SDS</a>
+        </div>
       </article>
     </div>
   </section>
