@@ -82,7 +82,7 @@
     "start_conversation": "Start the Conversation"
   },
   "contact_page": {
-    "meta_title": "Technical Inquiry & Consultation — Morrischem LLC",
+    "meta_title": "Technical Inquiry and Consultation — Morrischem LLC",
     "back_link": "Back to Main Flagship",
     "kicker": "Consultation Gateway",
     "h1": "Engineering Technical Inquiry",
@@ -107,9 +107,9 @@
     "placeholder_product_name": "e.g. 3A Zeolite Spheres",
     "label_engineering_focus": "Primary Engineering Focus",
     "option_select_process": "Select process area...",
-    "option_molecular_sieves": "Molecular Sieves & Adsorbents",
+    "option_molecular_sieves": "Molecular Sieves and Adsorbents",
     "option_water_treatment": "Water Treatment Chemistries",
-    "option_catalysts": "Catalysts & Process Tech",
+    "option_catalysts": "Catalysts and Process Tech",
     "option_other": "Other Specialty Chemical Inquiry",
     "error_message": "Unable to submit your inquiry right now. Please try again later.",
     "label_requirements": "Technical Requirements / Stream Parameters",
@@ -128,7 +128,7 @@
     "technical_documentation": "Technical Documentation",
     "engineered_grade_specifications": "Engineered Grade Specifications",
     "chemical_formulation_matrices": "Chemical Formulation Matrices",
-    "catalyst_support_specifications": "Catalyst & Support Media Specifications",
+    "catalyst_support_specifications": "Catalyst and Support Media Specifications",
     "target_applications": "Target Applications",
     "technical_consultation": "Technical Consultation"
   },
