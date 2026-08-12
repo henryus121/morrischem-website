@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo htmlspecialchars(__t('meta.title', 'common', 'Morrischem LLC — Engineering Industrial Performance')); ?></title>
   
-  <!-- Technical SEO & Open Graph Metadata -->
+  <!-- Technical SEO and Open Graph Metadata -->
   <meta name="description" content="<?php echo htmlspecialchars(__t('meta.description', 'common', 'Morrischem supplies high-performance molecular sieves, process catalysts, and industrial water treatment chemistries for global energy and refinery operations.')); ?>">
   <meta property="og:title" content="<?php echo htmlspecialchars(__t('meta.og_title', 'common', 'Morrischem LLC — Critical Infrastructure. Uncompromising Precision.')); ?>">
   <meta property="og:description" content="<?php echo htmlspecialchars(__t('meta.og_description', 'common', 'Engineering solutions for critical industrial processes, refining, and gas processing.')); ?>">
@@ -324,7 +324,7 @@
           </div>
           <div class="solutions-card-content">
             <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;"><?php echo htmlspecialchars(__t('divisions.v3_label', 'common', '03 / REACTION')); ?></div>
-            <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalysts & Process Tech')); ?></h3>
+            <h3><?php echo htmlspecialchars(__t('divisions.v3_title', 'common', 'Catalysts and Process Tech')); ?></h3>
             <p style="font-size: 14px; margin-top: 12px;"><?php echo htmlspecialchars(__t('divisions.v3_body', 'common', 'Refining and synthesis catalysts designed to maximize yield and extend unit cycle lengths.')); ?></p>
             <a href="/catalysts-process-tech/" style="display: inline-block; margin-top: 16px; color: var(--accent-cyan); text-decoration: none; font-size: 14px; font-weight: 600;"><?php echo htmlspecialchars(__t('divisions.v3_link', 'common', 'Explore Catalysts')); ?></a>
           </div>
