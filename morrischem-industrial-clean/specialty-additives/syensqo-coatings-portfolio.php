@@ -12,95 +12,210 @@ Template Name: Specialty Additives Solutions Page
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Advanced specialty surfactant and polymer systems for industrial coatings, DTM adhesion, sustainable low-VOC formulation, and high-durability performance design.">
   <title>Advanced Surfactant and Polymer Systems — Morrischem LLC</title>
-
+  
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style-guide.css">
-
+  
+  <!-- Master Design System CSS -->
+  <link rel="stylesheet" href="../style-guide.css">
+  
   <style>
-    .solution-page { background: var(--bg-dark-primary); color: #E2E8F0; }
-    .container { max-width: 1320px; margin: 0 auto; padding: 0 32px; }
-    .page-header { padding: 80px 0; border-bottom: 1px solid var(--border-steel); background: #060B18; }
-    .section-padding { padding: 60px 0; border-bottom: 1px solid var(--border-steel); }
-    .kicker { font-size: 12px; font-weight: 600; color: var(--accent-cyan); letter-spacing: 0.25em; text-transform: uppercase; margin-bottom: 16px; }
-    .application-table-wrap { overflow-x: auto; border: 1px solid var(--border-steel); border-radius: 8px; background: #0A1120; }
-    .application-table { width: 100%; border-collapse: collapse; min-width: 720px; }
-    .application-table th, .application-table td { padding: 14px 16px; border-bottom: 1px solid var(--border-steel); text-align: left; font-size: 14px; }
-    .application-table th { background: rgba(255,255,255,0.05); }
-    h1, h2, h3 { color: #FFFFFF; }
-    li { margin-bottom: 8px; }
-    .footer-wrapper { background-color: #03060D; padding: 60px 0 40px 0; }
+    .product-page {
+      background:
+        radial-gradient(1200px 500px at 10% -10%, rgba(0, 210, 255, 0.12), transparent 60%),
+        radial-gradient(1000px 500px at 90% 0%, rgba(15, 23, 42, 0.45), transparent 55%),
+        var(--bg-dark-primary);
+    }
+
+    .page-header {
+      padding: 120px 0 60px 0;
+      border-bottom: 1px solid var(--border-steel);
+      background: linear-gradient(180deg, rgba(10, 17, 32, 0.94) 0%, rgba(6, 11, 24, 1) 100%);
+    }
+
+    .container {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    .section-padding {
+      padding: 80px 0;
+      border-bottom: 1px solid var(--border-steel);
+    }
+
+    .section-emphasis {
+      background: linear-gradient(180deg, rgba(10, 17, 32, 0.92) 0%, rgba(6, 11, 24, 1) 100%);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    .kicker {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .back-link {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 24px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .spec-card {
+      background-color: var(--bg-card-surface);
+      border: 1px solid var(--border-steel);
+      border-radius: var(--radius-interactive);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .application-table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border-steel);
+      border-radius: var(--radius-interactive);
+      background: var(--bg-card-surface);
+      margin-top: 32px;
+    }
+
+    .application-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 720px;
+    }
+
+    .application-table th,
+    .application-table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border-steel);
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+
+    .application-table th {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.03);
+      font-weight: 600;
+    }
+
+    .footer-wrapper {
+      background-color: #03060D;
+      padding: 60px 0 40px 0;
+    }
+
+    /* Page-scoped contrast enforcement for dark sections. */
+    .product-page .page-header,
+    .product-page .section-emphasis,
+    .product-page section.section-padding[style*="text-align: center"],
+    .product-page .footer-wrapper {
+      color: #E2E8F0 !important;
+    }
+
+    .product-page .page-header h1,
+    .product-page .page-header h2,
+    .product-page .page-header h3,
+    .product-page .section-emphasis h1,
+    .product-page .section-emphasis h2,
+    .product-page .section-emphasis h3,
+    .product-page .footer-wrapper h1,
+    .product-page .footer-wrapper h2,
+    .product-page .footer-wrapper h3 {
+      color: #FFFFFF !important;
+    }
+
+    .product-page .page-header p,
+    .product-page .section-emphasis p,
+    .product-page .spec-card p,
+    .product-page .footer-wrapper p {
+      color: #E2E8F0 !important;
+    }
+
+    .product-page .page-header .back-link,
+    .product-page .section-emphasis a,
+    .product-page .footer-wrapper a {
+      color: #93C5FD !important;
+    }
   </style>
 </head>
-<body class="solution-page">
+<body class="product-page">
   <header class="page-header">
     <div class="container">
-      <div class="kicker">Advanced Surfactant and Polymer Systems</div>
-      <h1>High-Performance Specialty Additives, Functional Monomers, and Sustainable Formulation Chemistries</h1>
+      <a href="<?php echo htmlspecialchars('/' . $lang_query, ENT_QUOTES, 'UTF-8'); ?>" class="back-link">&larr; Back to Main Flagship</a>
+      <div class="kicker">Specialty Solutions Vertical</div>
+      <h1>Advanced Surfactant and Polymer Systems</h1>
+      <p style="font-size: 18px; max-width: 720px; margin-top: 16px;">
+        High-Performance Functional Monomers, Reactive Emulsifiers, and PFAS-Free Specialty Additives
+      </p>
     </div>
   </header>
 
   <section class="section-padding">
-    <div class="container">
-      <h2>1. Overview and Core Capabilities</h2>
-      <p>We offer an extensive portfolio of advanced surface chemistry, specialty functional monomers, performance formulation additives, and eco-friendly coalescing solvents. Tailored for architectural coatings, industrial finishes, direct-to-metal (DTM) systems, adhesives, and sealants, our solutions optimize durability, mechanical stability, water barrier properties, and regulatory compliance.</p>
+    <div class="container grid-2">
+      <article class="spec-card">
+        <div class="kicker">Section A</div>
+        <h3>Specialty Functional Monomers</h3>
+        <p>Direct-to-Metal adhesion promoters engineered for C1-C4 corrosivity classes, wet-adhesion retention, and high-PVC scrub endurance where mechanical durability and anti-corrosion persistence must coexist.</p>
+      </article>
+      <article class="spec-card">
+        <div class="kicker">Section B</div>
+        <h3>Reactive and Polymerizable Surfactants</h3>
+        <p>Zero-leaching emulsifier systems, including ether sulfate and phosphate ester chemistries, designed to covalently integrate into polymer backbones and reduce water whitening under severe humidity cycles.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-padding section-emphasis">
+    <div class="container grid-2">
+      <article class="spec-card">
+        <div class="kicker">Section C</div>
+        <h3>Sustainable Green Solvents and Coalescents</h3>
+        <p>Low-VOC, bio-based dibasic ester solvent systems and coalescing aids supporting replacement pathways for NMP and DMF while preserving film formation, workability, and process throughput.</p>
+      </article>
+      <article class="spec-card">
+        <div class="kicker">Section D</div>
+        <h3>Performance Additives and Defoamers</h3>
+        <p>PFAS-free hot-block resistance additives, bio-based defoamer technologies, and open-time extenders calibrated for premium finish quality, anti-foam persistence, and robust line performance.</p>
+      </article>
     </div>
   </section>
 
   <section class="section-padding">
     <div class="container">
-      <h2>2. Emulsion Polymerization and Specialty Monomers</h2>
-      <h3>A. Specialty Functional Monomers</h3>
-      <ul>
-        <li><strong>Corrosion Resistance and Direct-to-Metal (DTM) Adhesion:</strong> Phosphate-functional specialty monomers (such as the Sipomer® PAM series) copolymerize directly into the acrylic or styrene-acrylic backbone.</li>
-        <li><strong>Wet Adhesion and Scrub Resistance:</strong> Ureido and heterocyclic functional monomers (such as Sipomer® WAM series) provide high wet scrub resistance.</li>
-        <li><strong>Flexibility, Glass Transition (Tg) Tuning, and Hardness:</strong> Specialty acrylate monomers (such as Sipomer® IBOA, HEMA, and B-CEA) deliver an optimal balance of film hardness and flexibility.</li>
-      </ul>
-
-      <h3>B. Reactive and Polymerizable Surfactants</h3>
-      <ul>
-        <li><strong>Non-Migrating Surfactants (Reactsurf® Series):</strong> Reactive surfactants (such as Reactsurf® 2490) copolymerize onto the latex particle surface. Zero surfactant leaching, water whitening resistance, and freeze-thaw stability.</li>
-      </ul>
-      
-      <h3>C. Advanced Emulsifiers and Primary Surfactants</h3>
-      <ul>
-        <li>Phosphate Ester Surfactants (Rhodafac®, Dextrol®, Strodex® Series) and APEO-Free Non-Ionic and Anionic Surfactants (Rhodasurf®, Abex®, Aerosol® Series).</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="section-padding">
-    <div class="container">
-      <h2>3. Formulation Additives and Surface Solutions</h2>
-      <h3>A. Polymeric Dispersants and Wetting Agents</h3>
-      <p>Low-VOC, high-molecular-weight polymeric dispersants (such as Rhodoline® 7500, 675, and 226/35) for universal colorant compatibility.</p>
-      <h3>B. High-Performance Defoamers and Deaerators</h3>
-      <p>Silicone-free, mineral oil, and specialty polymer deaerators (Rhodoline® Defoamer Line).</p>
-      <h3>C. Sustainable, Low-VOC Coalescents and Bio-Solvents</h3>
-      <p>Eco-Friendly Solvents (Rhodiasolv® Series — IRIS, Strip, DIB, and Polarclean).</p>
-      <h3>D. Fluoropolymer and Surface Modifiers</h3>
-      <p>Micronized PTFE and specialized fluoropolymer dispersions (Algoflon®, Polymist®, Halar® ECTFE, and Hylar® PVDF) for scratch resistance and weatherability.</p>
-    </div>
-  </section>
-
-  <section class="section-padding">
-    <div class="container">
-      <h2>4. Comprehensive Product Reference Matrix</h2>
+      <h2>Application Matrix</h2>
       <div class="application-table-wrap">
         <table class="application-table">
           <thead>
             <tr>
-              <th>Product Family</th>
-              <th>Chemistry / Technology</th>
-              <th>Key Performance Benefits</th>
-              <th>Recommended Applications</th>
+              <th>Application</th>
+              <th>Primary Chemistry Direction</th>
+              <th>Performance Target</th>
+              <th>Technical Notes</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td>Sipomer® PAM</td><td>Specialty Phosphate Monomers</td><td>DTM Adhesion, Corrosion resistance</td><td>Industrial metal coatings</td></tr>
-            <tr><td>Sipomer® WAM</td><td>Ureido Functional Monomers</td><td>Wet adhesion, wet scrub resistance</td><td>Architectural paints</td></tr>
-            <tr><td>Reactsurf®</td><td>Reactive Surfactants</td><td>Zero surfactant leaching</td><td>Waterborne architectural</td></tr>
+            <tr><td>Industrial Maintenance</td><td>DTM monomer + PFAS-free additive stack</td><td>Corrosion protection, adhesion retention</td><td>Designed for harsh cyclic humidity and contact environment.</td></tr>
+            <tr><td>Pressure-Sensitive Adhesives (PSA)</td><td>Reactive surfactant system</td><td>Lower migration, stable tack profile</td><td>Backbone-bonding emulsifier strategy for durability.</td></tr>
+            <tr><td>Automotive DTM</td><td>Adhesion promoter + coalescent tuning</td><td>Wet adhesion and chip resistance</td><td>Supports high durability under thermal and chemical stress.</td></tr>
+            <tr><td>Architectural Coatings</td><td>Low-VOC green solvent + open-time extender</td><td>Application window and finish quality</td><td>Optimizes flow, leveling, and sustained coating integrity.</td></tr>
           </tbody>
         </table>
       </div>
@@ -109,7 +224,8 @@ Template Name: Specialty Additives Solutions Page
 
   <footer class="footer-wrapper">
     <div class="container">
-      <div style="font-size: 24px; color: #FFFFFF;">MORRISCHEM LLC</div>
+      <div style="font-family: var(--font-serif); font-size: 20px; color: #FFFFFF;">MORRISCHEM LLC</div>
+      <p style="font-size: 13px; margin-top: 8px;">&copy; 2026 MORRISCHEM LLC. All rights reserved.</p>
     </div>
   </footer>
 </body>
