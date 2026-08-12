@@ -306,7 +306,7 @@
     },
     "applications": {
       "hydrotreating_title": {
-        "val": "Hydrotreating and Hydrodesulfurierung",
+        "val": "Hydrotreating & Hydrodesulfurierung",
         "reviewed": true
       },
       "hydrotreating_desc": {
@@ -314,7 +314,7 @@
         "reviewed": true
       },
       "guardbeds_title": {
-        "val": "Schutzbetten and Schadstofffallen",
+        "val": "Schutzbetten & Schadstofffallen",
         "reviewed": true
       },
       "guardbeds_desc": {
@@ -322,7 +322,7 @@
         "reviewed": true
       },
       "hydrogen_title": {
-        "val": "Wasserstoffproduktion and Synthesegas",
+        "val": "Wasserstoffproduktion & Synthesegas",
         "reviewed": true
       },
       "hydrogen_desc": {
