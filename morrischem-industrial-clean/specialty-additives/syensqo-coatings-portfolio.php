@@ -3,7 +3,7 @@
 Template Name: Specialty Additives Solutions Page
 */
 ?>
-<?php require_once __DIR__ . '/includes/i18n.php'; ?>
+<?php require_once __DIR__ . '/../includes/i18n.php'; ?>
 <?php $lang_query = $lang === DEFAULT_LANG ? '' : '?lang=' . rawurlencode($lang); ?>
 <!DOCTYPE html>
 <html lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" dir="<?php echo htmlspecialchars($dir, ENT_QUOTES, 'UTF-8'); ?>">
