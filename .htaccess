@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^specialty-additives/syensqo-coatings-portfolio$ morrischem-industrial-clean/specialty-additives/syensqo-coatings-portfolio.php [L]
